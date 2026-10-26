@@ -261,9 +261,12 @@ while true; do
   echo "$ITERATIONS,$RC,$SPENT" >> "$OUT/adge/iterations.csv"
   if [ "$RC" -eq 0 ]; then COMPLETED_RUNS=$((COMPLETED_RUNS + 1)); fi
   log "ADGE run $ITERATIONS: exit code $RC after $SPENT s ($((RUN_SECONDS - ($(date -u +%s) - T0))) s left)"
-  if [ "$SPENT" -lt 30 ]; then FAST=$((FAST + 1)); sleep 5; else FAST=0; fi
+  # A short run that ends by itself (exit 0: every action tried, or the app was left) is normal for apps with a gate
+  # screen; it is restarted like run.bat does. Only quick failures (crash, app not starting) count towards giving up.
+  if [ "$SPENT" -lt 30 ]; then sleep 5; fi
+  if [ "$SPENT" -lt 30 ] && [ "$RC" -ne 0 ]; then FAST=$((FAST + 1)); else FAST=0; fi
   if [ "$FAST" -ge 10 ]; then
-    log "ADGE ended within seconds 10 times in a row; stopping (see adge/logs.tar.gz)"
+    log "ADGE failed within seconds 10 times in a row; stopping (see adge/logs.tar.gz)"
     STATUS=tool_failing
     break
   fi
