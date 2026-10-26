@@ -1,0 +1,14 @@
+app,package,receiver,apk,classes,min_sdk,setup
+Currency,org.billthefarmer.currency,org.billthefarmer.currency.JacocoInstrument.SMSInstrumentedReceiver,apks/Currency.apk,classes/Currency/0,21,network (ECB); cert issue on API<=27 images
+Diary,org.billthefarmer.diary,org.billthefarmer.diary.JacocoInstrument.SMSInstrumentedReceiver,apks/Diary.apk,classes/Diary/0,21,
+hash-checker,com.smlnskgmail.jaman.hashchecker.thirdparty,com.smlnskgmail.jaman.hashchecker.JacocoInstrument.SMSInstrumentedReceiver,apks/hash-checker.apk,classes/hash-checker/0,21,any file as input (fixtures)
+openlauncher,com.benny.openlauncher,com.benny.openlauncher.JacocoInstrument.SMSInstrumentedReceiver,apks/openlauncher.apk,classes/openlauncher/0,16,
+Omni-Notes,it.feio.android.omninotes,it.feio.android.omninotes.JacocoInstrument.SMSInstrumentedReceiver,apks/Omni-Notes.apk,classes/Omni-Notes/0,19,push fixtures/Pictures
+Vanilla-Music,ch.blinkenlights.android.vanilla,ch.blinkenlights.android.vanilla.JacocoInstrument.SMSInstrumentedReceiver,apks/Vanilla-Music.apk,classes/Vanilla-Music/0,26,push fixtures/Music + media scan
+AnyMemo,org.liberty.android.fantastischmemopro,org.liberty.android.fantastischmemo.JacocoInstrument.SMSInstrumentedReceiver,apks/AnyMemo.apk,classes/AnyMemo/0,23,
+Markor,net.gsantner.markor_test,net.gsantner.markor.JacocoInstrument.SMSInstrumentedReceiver,apks/Markor.apk,classes/Markor/0,18,push fixtures/Documents; first-run tutorial can trap a tool
+Aegis,com.beemdevelopment.aegis.debug,com.beemdevelopment.aegis.JacocoInstrument.SMSInstrumentedReceiver,apks/Aegis.apk,classes/Aegis/0,23,first-run vault creation
+AmazeFileManager,com.amaze.filemanager.debug,com.amaze.filemanager.JacocoInstrument.SMSInstrumentedReceiver,apks/AmazeFileManager.apk,classes/AmazeFileManager/0;classes/AmazeFileManager/1,14,push fixtures (Download/Documents/Pictures)
+AnkiDroid,com.ichi2.anki,com.ichi2.anki.JacocoInstrument.SMSInstrumentedReceiver,apks/AnkiDroid.apk,classes/AnkiDroid/0;classes/AnkiDroid/1,10,import fixtures/Download/sample_deck.apkg (VIEW intent; tap ADD); collection is in /sdcard/AnkiDroid
+MMEX,com.money.manager.ex,com.money.manager.ex.JacocoInstrument.SMSInstrumentedReceiver,apks/MMEX.apk,classes/MMEX/0,22,none (minSdk 22)
+LibreTorrent,org.proninyaroslav.libretorrent.debug,org.proninyaroslav.libretorrent.JacocoInstrument.SMSInstrumentedReceiver,apks/LibreTorrent.apk,classes/LibreTorrent/0,24,

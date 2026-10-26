@@ -1,0 +1,10 @@
+{
+    "hook_api": [
+        {
+            "component_name": "android.app.Activity",
+            "func_name": "onCreate",
+            "args_fmt": ["android.os.Bundle"],
+            "args_name": ["bundle"]
+        }
+    ]
+}

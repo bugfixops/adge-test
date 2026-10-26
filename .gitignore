@@ -1,0 +1,10 @@
+out/
+.cache/
+__pycache__/
+.DS_Store
+adge/target/
+adge/configures/
+adge/results/
+adge/window_dump.xml
+adge/log4j.log*
+adge/frida-hook/hook.js

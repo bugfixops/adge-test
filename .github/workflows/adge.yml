@@ -1,0 +1,144 @@
+name: ADGE run
+
+on:
+  workflow_dispatch:
+    inputs:
+      apps:
+        description: 'App names from ci/apps.csv, comma separated, or "all"'
+        default: 'all'
+      minutes:
+        description: 'Exploration minutes per app (the Monkey/APE baselines used 60)'
+        default: '60'
+      db:
+        description: 'Static-analysis database: analysis (built from the APK with ADGE''s GUI analysis) or empty (unguided)'
+        type: choice
+        options: [analysis, empty]
+        default: analysis
+  push:
+    branches: [main]
+    paths: [ci/run.conf]
+
+permissions:
+  contents: read
+
+env:
+  FRIDA_VERSION: '16.7.19'
+  FRIDA_SERVER_SHA256: 4bc938db27cbe1fec859e28f6bd34d269995a719de2f10e97e28c1bdcd9416c7
+  UIAUTOMATOR2_VERSION: '3.7.1'
+
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      apps: ${{ steps.plan.outputs.apps }}
+      count: ${{ steps.plan.outputs.count }}
+      minutes: ${{ steps.plan.outputs.minutes }}
+      db: ${{ steps.plan.outputs.db }}
+    steps:
+      - uses: actions/checkout@v6
+      - id: plan
+        env:
+          EVENT: ${{ github.event_name }}
+          IN_APPS: ${{ inputs.apps }}
+          IN_MINUTES: ${{ inputs.minutes }}
+          IN_DB: ${{ inputs.db }}
+        run: python3 -I ci/plan.py
+
+  run:
+    name: ${{ matrix.app }}
+    needs: plan
+    if: ${{ needs.plan.outputs.count != '0' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Build ADGE
+        working-directory: adge
+        run: |
+          java -version
+          if ! command -v mvn >/dev/null; then
+            curl -fsSL https://archive.apache.org/dist/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.tar.gz | tar xz -C "$RUNNER_TEMP"
+            echo "$RUNNER_TEMP/apache-maven-3.9.9/bin" >> "$GITHUB_PATH"
+            export PATH="$RUNNER_TEMP/apache-maven-3.9.9/bin:$PATH"
+          fi
+          mvn -v
+          mvn -B -q -DskipTests package
+
+      - name: Python packages (Frida 16 keeps the Java bridge ADGE's hook uses; Frida 17 removed it)
+        run: |
+          python3 -m venv "$RUNNER_TEMP/venv"
+          "$RUNNER_TEMP/venv/bin/pip" install --quiet "frida==$FRIDA_VERSION" "uiautomator2==$UIAUTOMATOR2_VERSION"
+          "$RUNNER_TEMP/venv/bin/python" -c 'import frida, uiautomator2; print("frida", frida.__version__)'
+
+      - name: frida-server for the emulator (android-x86_64)
+        run: |
+          curl -fsSL --retry 3 -o "$RUNNER_TEMP/frida-server.xz" \
+            "https://github.com/frida/frida/releases/download/$FRIDA_VERSION/frida-server-$FRIDA_VERSION-android-x86_64.xz"
+          echo "$FRIDA_SERVER_SHA256  $RUNNER_TEMP/frida-server.xz" | sha256sum -c -
+          xz -d "$RUNNER_TEMP/frida-server.xz"
+
+      - name: JaCoCo command line tool
+        run: bash ci/get_jacoco.sh
+
+      - name: Static-analysis database
+        run: bash ci/build_db.sh "${{ matrix.app }}" "${{ needs.plan.outputs.db }}" "out/${{ matrix.app }}"
+
+      - name: Emulator (Android 8.1, API 27) and ADGE run
+        uses: reactivecircus/android-emulator-runner@v2
+        env:
+          PY: ${{ runner.temp }}/venv/bin/python
+          FRIDA_SERVER: ${{ runner.temp }}/frida-server
+        with:
+          api-level: 27
+          target: default
+          arch: x86_64
+          profile: pixel_2
+          cores: 3
+          ram-size: 3072M
+          heap-size: 512M
+          disk-size: 4096M
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none -camera-front none
+          disable-animations: true
+          script: bash ci/run_app.sh "${{ matrix.app }}" "${{ needs.plan.outputs.minutes }}" "out/${{ matrix.app }}"
+
+      - name: Upload results
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: results-${{ matrix.app }}
+          path: out/${{ matrix.app }}
+          retention-days: 30
+          if-no-files-found: warn
+
+  collect:
+    needs: [plan, run]
+    if: ${{ !cancelled() && needs.plan.result == 'success' && needs.plan.outputs.count != '0' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/download-artifact@v8
+        continue-on-error: true
+        with:
+          pattern: results-*
+          path: collected
+      - name: Summarise
+        run: python3 -I ci/collect.py collected "$RUNNER_TEMP/summary" "${{ needs.plan.outputs.apps }}"
+      - name: Upload summary
+        uses: actions/upload-artifact@v7
+        with:
+          name: summary
+          path: ${{ runner.temp }}/summary
+          retention-days: 30

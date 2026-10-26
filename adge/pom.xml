@@ -1,0 +1,137 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+    http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- ADGE-Explorer (github.com/ADGE-ICST/ADGE), made buildable from the command line:
+         sources stay in src/ (not src/main/java), the FlowDroid jars shipped with ADGE in dependency/ are referenced
+         directly, and `mvn package` copies the runtime dependencies to target/lib.
+         Run:  java -cp "target/classes:target/lib/*:dependency/*" Main      (exploration)
+               java -cp "target/classes:target/lib/*:dependency/*" BuildDB   (static-analysis database) -->
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>IIE.AC-SRG</groupId>
+    <artifactId>UIAutoWeb</artifactId>
+    <version>1.0</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+
+        <slf4j.version>2.0.6</slf4j.version>
+        <jsoup.version>1.16.1</jsoup.version>
+        <sqlite.version>3.46.0.0</sqlite.version>
+        <gson.version>2.11.0</gson.version>
+        <soot.version>4.4.1</soot.version>
+        <flowdroid.version>2.12.0-SNAPSHOT</flowdroid.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.soot-oss</groupId>
+            <artifactId>soot</artifactId>
+            <version>${soot.version}</version>
+        </dependency>
+        <!-- FlowDroid snapshot jars bundled with ADGE (the versions ADGE was developed against) -->
+        <dependency>
+            <groupId>de.fraunhofer.sit.sse.flowdroid</groupId>
+            <artifactId>soot-infoflow</artifactId>
+            <version>${flowdroid.version}</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/dependency/soot-infoflow-2.12.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>de.fraunhofer.sit.sse.flowdroid</groupId>
+            <artifactId>soot-infoflow-android</artifactId>
+            <version>${flowdroid.version}</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/dependency/soot-infoflow-android-2.12.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>de.fraunhofer.sit.sse.flowdroid</groupId>
+            <artifactId>soot-infoflow-summaries</artifactId>
+            <version>${flowdroid.version}</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/dependency/soot-infoflow-summaries-2.12.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>${sqlite.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>${jsoup.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.upb.cs.swt</groupId>
+            <artifactId>axml</artifactId>
+            <version>2.1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>net.sf.trove4j</groupId>
+            <artifactId>trove4j</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gson.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>src</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>src/resources</directory>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.3.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.2</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.8.1</version>
+                <executions>
+                    <execution>
+                        <id>copy-runtime-dependencies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                            <includeScope>runtime</includeScope>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

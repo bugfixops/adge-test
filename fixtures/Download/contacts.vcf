@@ -1,0 +1,56 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Anderson;Alice;;;
+FN:Alice Anderson
+TEL;TYPE=CELL:555-0101
+EMAIL:alice@example.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Brown;Bob;;;
+FN:Bob Brown
+TEL;TYPE=CELL:555-0102
+EMAIL:bob@example.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Clark;Carol;;;
+FN:Carol Clark
+TEL;TYPE=CELL:555-0103
+EMAIL:carol@example.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Davis;David;;;
+FN:David Davis
+TEL;TYPE=CELL:555-0104
+EMAIL:david@example.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Evans;Eve;;;
+FN:Eve Evans
+TEL;TYPE=CELL:555-0105
+EMAIL:eve@example.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Foster;Frank;;;
+FN:Frank Foster
+TEL;TYPE=CELL:555-0106
+EMAIL:frank@example.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Green;Grace;;;
+FN:Grace Green
+TEL;TYPE=CELL:555-0107
+EMAIL:grace@example.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Hill;Henry;;;
+FN:Henry Hill
+TEL;TYPE=CELL:555-0108
+EMAIL:henry@example.com
+END:VCARD

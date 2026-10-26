@@ -1,0 +1,8 @@
+* TODO Write report
+  SCHEDULED: <2026-11-01 Sun>
+** DONE Outline
+* TODO Buy groceries
+  :PROPERTIES:
+  :CREATED: [2026-10-17]
+  :END:
+* NEXT Call plumber
