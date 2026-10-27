@@ -1,0 +1,503 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,SettingDaoImpl,29,5,0,0,9,2,2,1,2,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CategoryDaoImpl.new Callable() {...},29,0,2,0,5,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,LearningDataDaoImpl,38,50,0,0,12,14,3,3,3,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CardDaoImpl,938,751,49,27,223,176,52,27,20,21
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,FilterDaoImpl,34,5,2,0,12,2,3,1,2,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CategoryDaoImpl,80,25,3,1,22,8,5,3,3,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CardDaoImpl.new Callable() {...},39,0,2,0,8,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CardDaoImpl.new Callable() {...},64,0,2,0,14,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CardDaoImpl.new Callable() {...},24,0,2,0,5,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CardDaoImpl.new Callable() {...},122,0,12,0,18,0,9,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CardDaoImpl.new Callable() {...},16,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CardDaoImpl.new Callable() {...},2,63,1,3,1,13,1,3,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CardDaoImpl.new Callable() {...},60,0,4,0,11,0,5,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CardDaoImpl.new Callable() {...},8,77,1,3,1,14,1,3,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,CardDaoImpl.new Callable() {...},43,0,2,0,9,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,AbstractHelperDaoImpl,106,97,2,6,28,23,3,14,1,12
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,StatDaoImpl,10,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,DeckDaoImpl,5,5,0,0,2,2,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.dao,LearningDataDaoImpl.new Callable() {...},24,0,2,0,5,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo,DataBinderMapperImpl.InnerLayoutIdLookup,24,0,0,0,5,0,1,0,1,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo,DataBindingTriggerClass,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo,BuildConfig,7,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo,BR,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo,DataBinderMapperImpl,115,57,22,4,24,16,17,4,3,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo,DataBinderMapperImpl.InnerBrLookup,10,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxOauth2AccountActivity,23,24,0,0,6,5,2,3,2,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxListFragment,55,0,0,0,14,0,8,0,8,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxListActivity,135,0,8,0,36,0,11,0,7,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,UploadDropboxActivity,160,0,0,0,41,0,8,0,8,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxApiHelper,132,22,4,0,23,8,9,2,7,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxApiHelper.new SingleOnSubscribe() {...},46,0,0,0,9,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxApiHelper.new CompletableOnSubscribe() {...},56,0,0,0,9,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxApiHelper.1.new Callback() {...},72,0,2,0,17,0,4,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxListActivity.new CardFragment.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,UploadDropboxActivity.new DialogInterface.OnClickListener() {...},19,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,UploadDropboxActivity.new Action() {...},27,0,0,0,8,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,UploadDropboxActivity.new Consumer() {...},25,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxApiHelper.new ObservableOnSubscribe() {...},173,0,6,0,35,0,5,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxApiHelper.new Callable() {...},125,0,2,0,24,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxApiHelper.new Callable() {...},90,0,4,0,14,0,4,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxListFragment.new Consumer() {...},15,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox,DropboxApiHelper.2.new Callback() {...},18,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,DaggerAppComponents.Builder,0,17,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,DaggerAppComponents.AppComponentsImpl,45,306,0,0,15,49,8,8,8,8
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,AppModules_ProvidesTabTxtExporterFactory.InstanceHolder,0,5,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,AppModules_ProvidesQATxtExporterFactory.InstanceHolder,0,5,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,ActivityModules,3,16,0,0,1,3,1,3,1,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,AppModules_ProvidesCSVExporterFactory.InstanceHolder,0,5,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,AppModules_ProvidesZipImporterFactory.InstanceHolder,0,5,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,AppModules_ProvidesMnemosyneXMLExporterFactory.InstanceHolder,0,5,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,AppModules_ProvidesSupermemo2008XMLImporterFactory.InstanceHolder,0,5,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,AppModules_ProvideExecutorServiceFactory.InstanceHolder,5,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,DaggerAppComponents.FragmentComponentsImpl,60,289,0,0,15,65,7,22,7,22
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,DaggerAppComponents.AppComponentsImpl.new Provider() {...},0,13,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,DaggerAppComponents.ActivityComponentsImpl,73,425,0,0,18,84,7,23,7,23
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,AppModules_ProvidesZipExporterFactory.InstanceHolder,0,5,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,DaggerAppComponents.ActivityComponentsBuilder,0,25,0,0,0,7,0,3,0,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,AppModules_ProvidesOkHttpClientFactory.InstanceHolder,0,5,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,AppModules,6,70,0,0,2,16,2,16,2,16
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,DaggerAppComponents.ActivityComponentsImpl.new Provider() {...},0,16,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.modules,DaggerAppComponents.FragmentComponentsBuilder,0,30,0,0,0,8,0,3,0,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.2.new DialogInterface.OnClickListener() {...},16,9,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.2.new DialogInterface.OnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.2.new DialogInterface.OnCancelListener() {...},4,9,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,ShareUtil,79,6,0,0,14,3,2,1,2,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMDateUtil,2,140,1,5,1,17,1,5,0,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.new MaybeOnSubscribe() {...},0,60,0,0,0,12,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.new MaybeOnSubscribe() {...},0,62,0,0,0,11,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseUtil.new Callable() {...},44,0,2,0,7,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.new MaybeOnSubscribe() {...},0,64,0,0,0,11,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,ErrorUtil,121,0,8,0,33,0,8,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.new MaybeOnSubscribe() {...},40,35,0,0,8,7,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.new MaybeOnSubscribe() {...},0,58,0,0,0,10,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseImportUtil,107,9,6,0,20,4,5,1,2,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMPrefUtil,66,69,4,0,13,10,5,5,3,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.4.new DialogInterface.OnClickListener() {...},60,25,3,1,10,4,2,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.4.new DialogInterface.OnCancelListener() {...},4,9,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DictionaryUtil.new AdapterView.OnItemClickListener() {...},23,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,FolderImportExportUtil,52,6,0,0,10,3,2,1,2,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.5.new DialogInterface.OnClickListener() {...},4,9,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.5.new DialogInterface.OnCancelListener() {...},4,9,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,ErrorUtil.new DialogInterface.OnCancelListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMZipUtils,401,0,24,0,77,0,18,0,6,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,ErrorUtil.new DialogInterface.OnClickListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMStringUtils,82,166,7,17,18,34,11,10,4,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,ErrorUtil.new DialogInterface.OnClickListener() {...},7,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,FolderImportExportUtil.new Consumer() {...},25,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,FolderImportExportUtil.new Callable() {...},102,0,12,0,15,0,8,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,FolderImportExportUtil.new Consumer() {...},24,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.5.new DialogInterface.OnClickListener() {...},0,42,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,FolderImportExportUtil.new Consumer() {...},44,0,2,0,6,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMGUIUtility.4.new Runnable() {...},36,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMGUIUtility.4.new Runnable() {...},15,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMGUIUtility.4.new Runnable() {...},0,22,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,NotificationUtil.DatabaseInfo,63,0,2,0,16,0,5,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AnyMemoExecutor,52,42,1,3,14,14,3,4,2,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,FolderImportExportUtil.new Callable() {...},92,0,14,0,19,0,9,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,FolderImportExportUtil.new Consumer() {...},24,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,RecentListActionModeUtil.ActionModeCallback,51,10,2,0,14,2,5,1,4,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,CardTTSUtil,16,246,7,7,4,60,7,10,0,10
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DictionaryUtil,335,10,18,0,56,5,11,2,2,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMGUIUtility,120,37,0,0,23,10,4,3,4,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseImportUtil.new DialogInterface.OnClickListener() {...},35,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,NotificationUtil,99,22,5,1,25,8,5,3,2,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseImportUtil.new Consumer() {...},21,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseImportUtil.new Consumer() {...},31,0,2,0,6,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseImportUtil.new Callable() {...},29,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,RecentListActionModeUtil,24,97,0,0,6,19,2,4,2,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMFileUtil,193,33,26,2,38,12,18,3,4,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,CardTextUtil,24,22,5,1,4,6,3,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,NotificationChannelUtil,0,101,2,2,0,27,2,6,0,6
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AboutUtil.new DialogInterface.OnClickListener() {...},27,6,0,0,6,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMGUIUtility.new DialogInterface.OnClickListener() {...},4,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMGUIUtility.new Thread() {...},22,26,0,0,4,5,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMGUIUtility.new DialogInterface.OnCancelListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMGUIUtility.new DialogInterface.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMGUIUtility.new DialogInterface.OnClickListener() {...},25,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMGUIUtility.new DialogInterface.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,RecentListActionModeUtil.new BroadcastReceiver() {...},11,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,RecentListActionModeUtil.new BroadcastReceiver() {...},16,24,3,3,4,5,3,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,RecentListActionModeUtil.new BroadcastReceiver() {...},25,6,2,0,6,1,2,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AMUiUtil,26,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseUtil,91,41,3,3,23,12,4,3,1,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil,0,58,0,0,0,12,0,7,0,7
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.1.new DialogInterface.OnClickListener() {...},63,9,4,0,12,1,3,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.1.new DialogInterface.OnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,DatabaseOperationDialogUtil.1.new DialogInterface.OnCancelListener() {...},4,9,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,AboutUtil,3,79,0,0,2,18,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,RecentListUtil,8,160,0,12,1,35,1,12,1,6
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.utils,CardTextUtil.new Html.TagHandler() {...},1,6,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Option.ButtonStyle,4,31,2,2,2,7,2,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Option.SpeakingType,6,41,3,3,3,9,3,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Setting.CardStyle,0,15,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Setting,56,296,7,7,22,106,22,49,15,49
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Option.ShuffleType,0,15,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Deck,38,0,0,0,16,0,11,0,11,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Category,27,24,2,0,10,10,6,5,5,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Filter,38,0,0,0,16,0,11,0,11,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,ReviewOrdering,0,15,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,LearningData,48,199,0,0,14,53,3,25,3,25
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Setting.Align,0,33,0,0,0,6,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Option,74,124,2,2,19,27,9,16,7,16
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Stat,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Option.DictApp,35,0,4,0,9,0,4,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Setting.CardField,0,21,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Option.CopyToClipboard,20,27,6,0,7,5,4,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,Card,43,105,6,6,16,40,13,17,7,17
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.entity,SchedulingAlgorithmParameters,157,143,7,1,18,18,8,7,4,7
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.scheduler,DefaultScheduler,277,187,51,9,54,44,32,8,4,6
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.provider,DatabasesProvider,67,5,2,0,12,2,7,2,6,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.provider,CardProvider,293,44,18,0,58,11,20,3,8,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.provider,DatabasesProvider.new FilenameFilter() {...},10,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity,436,664,67,47,113,169,59,27,3,22
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StatisticsScreen.GradeStatisticsTask,147,0,4,0,24,0,5,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen,250,433,37,23,64,84,32,11,4,9
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QACardActivity.CardTTSUtilLoaderCallbacks,1,28,0,0,1,7,1,3,1,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,OptionScreen.1.new DialogInterface.OnClickListener() {...},0,20,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardFragment,74,189,15,11,20,45,14,7,0,6
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.FileBrowserAdapter.new View.OnClickListener() {...},0,16,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.FileBrowserAdapter.new View.OnLongClickListener() {...},25,85,5,8,3,16,5,4,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.FileBrowserAdapter.ViewHolder,0,26,0,0,0,8,0,3,0,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.FileBrowserAdapter.new Comparator() {...},14,30,7,5,3,7,5,3,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardFragment.new View.OnClickListener() {...},0,22,2,2,0,4,2,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity,237,319,19,2,64,74,21,14,9,14
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StudyActivity.LearnQueueManagerLoader,14,60,2,2,2,18,2,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.DISPLAYMODE,0,15,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GestureSelectionDialogFragment.GesturesAdapter,102,0,2,0,20,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QACardActivity.SettingLoaderCallbacks,1,28,0,0,1,7,1,3,1,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GradeButtonsFragment,56,420,11,8,10,58,11,13,2,12
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,DownloadTabFragment,0,61,0,4,0,15,0,6,0,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StatisticsScreen.NewCardTask,162,0,2,0,27,0,4,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.SortMethod,0,27,0,0,0,5,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,OpenActionsFragment.new View.OnClickListener() {...},188,106,7,11,34,21,7,4,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.FileBrowserAdapter.2.1.new Consumer() {...},9,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new AdapterView.OnItemSelectedListener() {...},28,6,2,0,7,1,3,1,2,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new DialogInterface.OnClickListener() {...},0,26,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new View.OnClickListener() {...},0,14,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new DialogInterface.OnClickListener() {...},31,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new View.OnClickListener() {...},0,14,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.FileBrowserAdapter.2.1.new Consumer() {...},0,15,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new Runnable() {...},0,375,3,3,0,52,3,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new View.OnTouchListener() {...},0,16,0,2,0,4,0,3,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.FileBrowserAdapter.2.1.new Consumer() {...},9,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new View.OnClickListener() {...},37,6,2,0,7,1,2,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new DialogInterface.OnMultiChoiceClickListener() {...},8,19,1,1,1,4,1,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new DialogInterface.OnClickListener() {...},0,7,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GestureName,70,0,4,0,13,0,6,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new DialogInterface.OnClickListener() {...},19,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new DialogInterface.OnClickListener() {...},23,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new DialogInterface.OnClickListener() {...},32,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StatisticsScreen.AccumulativeCardsToReviewTask,165,0,2,0,27,0,4,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FlipableCardFragment.new FragmentStatePagerAdapter() {...},19,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.new DialogInterface.OnClickListener() {...},33,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.new PopupMenu.OnMenuItemClickListener() {...},6,34,2,4,1,8,2,3,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.new PopupMenu.OnMenuItemClickListener() {...},12,37,3,5,2,9,3,3,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new AMGUIUtility.ProgressTask() {...},13,0,0,0,4,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new DialogInterface.OnClickListener() {...},16,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new DialogInterface.OnClickListener() {...},16,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new AMGUIUtility.ProgressTask() {...},16,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,DetailScreen.new DialogInterface.OnClickListener() {...},27,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new AMGUIUtility.ProgressTask() {...},16,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,OpenActionsFragment,0,139,0,0,0,32,0,4,0,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GestureSelectionDialogFragment.new CompoundButton.OnCheckedChangeListener() {...},16,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GradeButtonsFragment.new View.OnClickListener() {...},6,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GradeButtonsFragment.new View.OnTouchListener() {...},7,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GradeButtonsFragment.new View.OnClickListener() {...},7,9,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GradeButtonsFragment.new View.OnLongClickListener() {...},39,9,0,0,4,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GradeButtonsFragment.new GradeButtonsFragment.OnGradeButtonClickListener() {...},17,6,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GradeButtonsFragment.new Runnable() {...},0,19,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GestureSelectionDialogFragment.NamedGesture,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AlgorithmCustomizationScreen.new Preference.OnPreferenceClickListener() {...},0,28,0,0,0,8,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.new Comparator() {...},16,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.RecentListAdapter.ViewHolder,0,38,0,0,0,9,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.new Comparator() {...},14,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,ConverterFragment,137,112,13,5,27,27,10,5,1,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.new Comparator() {...},14,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.new Comparator() {...},0,16,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StatisticsScreen.CardToReviewTask,166,0,2,0,27,0,4,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.new AdapterView.OnItemClickListener() {...},8,26,1,1,2,5,1,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.new SearchView.OnQueryTextListener() {...},19,6,2,0,5,1,3,1,2,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.CardWrapper,4,15,0,0,2,6,1,3,1,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StatisticsScreen.ChartYAxisValueFormatter,11,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,TwoFieldsCardFragment.new FragmentStatePagerAdapter() {...},0,19,0,0,0,3,0,3,0,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardPlayerFragment,2,242,3,3,1,63,3,13,0,13
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StatisticsScreen.ChartValueFormatter,11,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,OptionScreen,7,32,1,1,3,9,2,2,1,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.RecentListLoaderCallbacks.new AsyncTaskLoader() {...},0,20,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AnyMemo.new DialogInterface.OnClickListener() {...},22,6,0,0,6,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AnyMemo.new NavigationView.OnNavigationItemSelectedListener() {...},47,33,10,2,9,8,6,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AnyMemo.new BottomNavigationView.OnNavigationItemSelectedListener() {...},0,66,2,8,0,19,2,5,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AnyMemo.new DialogInterface.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AnyMemo.new ClickableSpan() {...},11,6,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.DeleteCardTask,4,81,3,3,3,22,3,4,0,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QACardActivity.new CardFragment.OnClickListener() {...},0,11,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QACardActivity.new CardFragment.OnClickListener() {...},5,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QACardActivity.new GestureOverlayView.OnGesturePerformedListener() {...},29,6,4,0,5,1,3,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QACardActivity.new Runnable() {...},0,10,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QACardActivity.new CardFragment.OnLongClickListener() {...},71,55,3,1,11,5,2,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QACardActivity.new CardFragment.OnClickListener() {...},0,11,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QACardActivity.new CardFragment.OnClickListener() {...},0,11,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AudioRecorderFragment.new MediaPlayer.OnCompletionListener() {...},35,0,2,0,7,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new SearchView.OnQueryTextListener() {...},6,8,0,0,2,2,1,2,1,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new CategoryEditorFragment.CategoryEditorResultListener() {...},0,16,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AudioRecorderFragment.new View.OnClickListener() {...},131,0,14,0,25,0,9,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.new View.OnClickListener() {...},0,43,1,1,0,8,1,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CategoryEditorFragment.InitTask,15,122,4,4,0,23,4,5,0,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AlgorithmCustomizationScreen,7,32,1,1,3,9,2,2,1,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QACardActivity.new View.OnClickListener() {...},0,12,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,OpenTabFragment,0,20,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AlgorithmCustomizationScreen.1.new DialogInterface.OnClickListener() {...},14,6,0,0,4,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new FileBrowserFragment.OnFileClickListener() {...},7,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.CardListAdapter.new Filter() {...},118,0,14,0,26,0,10,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new FileBrowserFragment.OnFileClickListener() {...},7,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.new View.OnClickListener() {...},190,103,20,16,39,20,15,5,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,DetailScreen,227,293,4,0,43,44,5,6,3,6
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment.InitTask,162,0,0,0,16,0,4,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizActivity.ChangeCardTask,86,0,6,0,20,0,6,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.SaveButtonTask,65,280,6,6,10,42,6,4,0,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardPlayerActivity.new ServiceConnection() {...},5,15,0,0,2,4,1,2,1,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardPlayerActivity.new DialogInterface.OnCancelListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardImageGetter,245,27,16,0,45,9,10,2,2,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardPlayerActivity.new DialogInterface.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizActivity,606,0,42,0,137,0,41,0,20,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,OpenTabFragment.new FileBrowserFragment.OnFileClickListener() {...},0,31,0,0,0,7,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StudyActivity,717,388,75,25,205,90,77,12,25,12
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.RecentListDetailLoaderCallbacks,0,36,1,1,0,8,1,4,0,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StudyActivity.LearnQueueManagerLoaderCallbacks,1,41,0,0,1,7,1,3,1,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,EditTabFragment,24,0,0,0,8,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.new Runnable() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.new BroadcastReceiver() {...},5,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.new View.OnClickListener() {...},0,25,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.new BroadcastReceiver() {...},5,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment,233,551,40,44,50,127,32,30,3,16
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment.new TextWatcher() {...},52,0,8,0,15,0,8,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment.new TextWatcher() {...},44,0,6,0,13,0,7,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment.new TextWatcher() {...},80,0,8,0,15,0,8,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment.new TextWatcher() {...},93,0,10,0,17,0,9,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment.new View.OnFocusChangeListener() {...},37,0,2,0,5,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment.new View.OnFocusChangeListener() {...},37,0,2,0,5,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CategoryEditorFragment.EditCategoryTask,68,93,6,6,14,19,6,6,2,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment.new CategoryEditorFragment.CategoryEditorResultListener() {...},38,0,4,0,7,0,5,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CategoryEditorFragment.DeleteCategoryTask,101,0,8,0,24,0,10,0,6,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment.new CompoundButton.OnCheckedChangeListener() {...},23,0,2,0,6,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment.new View.OnClickListener() {...},205,0,4,0,30,0,4,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment.new View.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardEditor.SaveCardTask,40,132,6,4,6,26,5,5,0,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardPlayerFragment.new BroadcastReceiver() {...},10,51,3,9,2,13,3,6,0,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardPlayerActivity,63,273,8,6,17,68,9,15,2,15
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardPlayerFragment.new View.OnClickListener() {...},9,121,3,15,3,27,3,8,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment,49,343,15,13,13,76,12,16,1,13
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,ConverterFragment.new DialogInterface.OnClickListener() {...},21,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,ConverterFragment.new FileBrowserFragment.OnFileClickListener() {...},0,11,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.SettingLoaderCallbacks,1,28,0,0,1,7,1,3,1,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,ConverterFragment.new DialogInterface.OnClickListener() {...},62,0,0,0,10,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,EditTabFragment.new FileBrowserFragment.OnFileClickListener() {...},32,0,0,0,7,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.2.new AMGUIUtility.ProgressTask() {...},18,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,DatabaseMerger.new AMGUIUtility.ProgressTask() {...},29,18,0,0,8,3,1,2,1,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,MiscTabFragment.new DialogInterface.OnClickListener() {...},25,0,0,0,7,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,MiscTabFragment.new DialogInterface.OnClickListener() {...},20,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,MiscTabFragment.new DialogInterface.OnClickListener() {...},61,0,0,0,8,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,MiscTabFragment.new DialogInterface.OnClickListener() {...},31,0,0,0,7,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardPlayerSettingDialogFragment.new SeekBar.OnSeekBarChangeListener() {...},19,6,0,0,4,1,3,1,3,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardPlayerSettingDialogFragment.new SeekBar.OnSeekBarChangeListener() {...},19,6,0,0,4,1,3,1,3,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserActivity,5,86,1,1,0,24,1,4,0,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,ShareScreen,268,0,16,0,67,0,12,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardEditor,688,249,80,19,154,64,61,13,13,11
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.FileBrowserAdapter,17,168,13,19,5,32,13,8,0,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AnyMemo.HandleOpenIntentLoaderCallbacks,68,0,2,0,19,0,5,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,OpenActionsFragment.1.new DialogInterface.OnClickListener() {...},30,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,DetailScreen.InitTask,10,161,3,3,0,27,3,5,0,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizActivity.new DialogInterface.OnCancelListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizActivity.new DialogInterface.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizActivity.new DialogInterface.OnClickListener() {...},12,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizActivity.new GradeButtonsFragment.OnCardChangedListener() {...},26,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,TwoFieldsCardFragment,46,185,2,6,10,34,2,5,0,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FlipableCardFragment,77,0,2,0,17,0,5,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StatisticsScreen,131,0,6,0,31,0,9,0,6,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StudyActivity.new GradeButtonsFragment.OnCardChangedListener() {...},89,6,8,0,17,1,5,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.new Consumer() {...},28,0,4,0,5,0,4,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.new DialogInterface.OnClickListener() {...},20,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StudyActivity.new CategoryEditorFragment.CategoryEditorResultListener() {...},22,7,2,0,5,1,2,2,1,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.new Callable() {...},27,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StudyActivity.new DialogInterface.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.new Consumer() {...},19,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StudyActivity.new DialogInterface.OnClickListener() {...},27,0,2,0,6,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.new CardFragment.OnClickListener() {...},18,6,0,0,4,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StudyActivity.new DialogInterface.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StudyActivity.new DialogInterface.OnCancelListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.new Consumer() {...},0,11,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.new Consumer() {...},6,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.3.new AMGUIUtility.ProgressTask() {...},18,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,OptionScreen.new Preference.OnPreferenceClickListener() {...},0,28,0,0,0,8,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GradeButtonsFragment.GradeTask,114,0,2,0,18,0,6,0,5,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AudioRecorderFragment,221,0,4,0,69,0,13,0,11,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.FileBrowserAdapter.2.new DialogInterface.OnClickListener() {...},0,86,1,5,0,14,1,4,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserFragment.7.new Consumer() {...},14,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizLauncherDialogFragment,482,0,10,0,91,0,14,0,9,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CategoryEditorFragment,0,168,0,0,0,40,0,8,0,8
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,TwoFieldsCardFragment.new FragmentStatePagerAdapter() {...},0,19,0,0,0,3,0,3,0,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,GestureSelectionDialogFragment,176,0,10,0,41,0,11,0,6,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AnyMemo,134,420,34,24,40,103,25,17,2,11
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,SettingsScreen.LoadDefaultTask,70,0,0,0,15,0,4,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,DatabaseMerger,31,143,4,11,8,39,4,9,0,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,PreviewEditActivity.SearchCardTask,141,0,12,0,30,0,11,0,5,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,ExportAnyMemoDbFragment.new Callable() {...},35,0,2,0,5,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,ExportAnyMemoDbFragment.new Consumer() {...},22,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.DividerItemDecoration,0,73,0,2,0,19,0,5,0,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,ExportAnyMemoDbFragment.new Consumer() {...},28,0,2,0,6,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,ExportAnyMemoDbFragment.new FileBrowserFragment.OnFileClickListener() {...},5,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StatisticsScreen.ChartTask,56,0,0,0,13,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardEditor.new CategoryEditorFragment.CategoryEditorResultListener() {...},0,15,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardEditor.new RadioGroup.OnCheckedChangeListener() {...},42,0,2,0,10,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardEditor.new View.OnClickListener() {...},0,44,0,0,0,9,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardEditor.new DialogInterface.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QACardActivity,251,796,56,40,57,198,48,36,4,31
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardEditor.new AudioRecorderFragment.AudioRecorderResultListener() {...},56,0,4,0,7,0,4,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizActivity.QuizQueueManagerLoaderCallbacks,46,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.new Runnable() {...},0,74,0,0,0,11,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,AnyMemo.FileAsyncTaskLoader,119,0,8,0,29,0,7,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.new AdapterView.OnItemLongClickListener() {...},0,17,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,QuizActivity.QuizQueueManagerLoader,83,0,4,0,24,0,4,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CategoryEditorFragment.CategoryAdapter,3,101,2,10,1,23,2,10,0,6
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardEditor.InitTask,45,209,5,5,7,39,5,5,0,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.CardListAdapter,28,145,2,8,6,32,6,7,4,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardEditor.new DialogInterface.OnClickListener() {...},23,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardEditor.new DialogInterface.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardEditor.new DialogInterface.OnClickListener() {...},19,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CategoryEditorFragment.CategoryAdapter.new Comparator() {...},8,24,5,3,2,4,4,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardPlayerSettingDialogFragment,17,152,0,0,5,28,1,4,1,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.RecentListLoaderCallbacks,0,32,1,1,0,8,1,4,0,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CategoryEditorFragment.NewCategoryTask,16,81,3,3,2,18,4,5,1,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardFragment.Builder,17,189,8,10,5,61,9,14,1,13
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,FileBrowserActivity.new FileBrowserFragment.OnFileClickListener() {...},0,11,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CategoryEditorFragment.new AdapterView.OnItemClickListener() {...},5,24,1,1,0,5,1,3,0,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,DetailScreen.SaveCardTask,89,0,2,0,21,0,5,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CategoryEditorFragment.new View.OnClickListener() {...},19,91,3,9,3,17,3,5,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,MiscTabFragment,278,794,35,71,51,188,24,39,1,9
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.RecentListAdapter.new View.OnClickListener() {...},5,56,1,1,1,11,1,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.RecentListAdapter.new View.OnClickListener() {...},28,9,0,0,7,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.RecentListAdapter.new View.OnLongClickListener() {...},23,9,2,0,5,1,2,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.RecentListAdapter,54,92,3,1,13,21,5,5,3,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,RecentListFragment.RecentListDetailLoaderCallbacks.new AsyncTaskLoader() {...},0,20,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,StatisticsScreen.new NavigationView.OnNavigationItemSelectedListener() {...},106,0,8,0,20,0,6,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,CardListActivity.CardWrapperLoaderCallbacks,1,43,0,0,1,8,1,3,1,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui,ExportAnyMemoDbFragment,76,31,11,1,18,10,8,4,2,4
+JaCoCo Coverage Report,androidx.databinding.library.baseAdapters,BR,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,DownloadItem.ItemType,0,33,0,0,0,6,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,DownloadItem,33,74,0,0,6,25,3,10,3,10
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,AbstractDownloaderFragment,4,218,0,0,1,43,1,10,1,10
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,AbstractDownloaderFragment.RetrieveTask,24,108,2,4,5,22,2,5,0,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,AbstractDownloaderFragment.DownloadListAdapter,27,92,4,10,6,24,4,7,1,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,AbstractDownloaderFragment.LoadMoreTask,77,0,4,0,18,0,6,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,AbstractDownloaderFragment.DownloadListAdapter.1.new Callable() {...},0,17,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,AbstractDownloaderFragment.DownloadListAdapter.1.new Callable() {...},0,12,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,AbstractDownloaderFragment.FetchDatabaseTask,22,95,1,1,5,22,1,4,0,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,AbstractDownloaderFragment.DownloadListAdapter.new View.OnClickListener() {...},5,73,1,5,2,12,1,4,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,DownloaderUtils,17,112,0,2,5,30,2,6,2,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,AbstractDownloaderFragment.new DialogInterface.OnClickListener() {...},0,15,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,AbstractDownloaderFragment.new Callable() {...},0,10,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.common,AbstractDownloaderFragment.new View.OnClickListener() {...},12,6,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui.widgets,IntegerEditTextPreference,16,58,2,2,6,15,4,3,2,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui.widgets,AMSpinner,17,74,5,5,2,19,6,4,1,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui.widgets,DoubleClickButton.new View.OnClickListener() {...},9,41,2,2,2,7,2,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui.widgets,FloatEditTextPreference,15,11,0,0,5,3,3,2,3,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui.widgets,DoubleClickButton,55,58,0,0,7,17,2,3,2,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,OauthAccessCodeRetrievalFragment.RequestTokenTask.new View.OnTouchListener() {...},17,0,4,0,5,0,4,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,OauthAccessCodeRetrievalFragment.RequestTokenTask.new WebViewClient() {...},45,0,4,0,11,0,4,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,OauthAccountActivity,119,0,4,0,29,0,7,0,5,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,Oauth2AccountActivity.new DisposableCompletableObserver() {...},34,0,0,0,8,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,Oauth2AccountActivity.new DisposableSingleObserver() {...},29,0,0,0,8,0,3,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,OauthAccessCodeRetrievalFragment,111,0,0,0,27,0,7,0,7,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,OauthAccountActivity.ValidateAccessTokenAndRunCallbackTask,102,0,4,0,25,0,6,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,OauthAccessCodeRetrievalFragment.RequestTokenTask,85,0,2,0,18,0,5,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,Oauth2TokenUtil,13,29,0,0,6,6,2,2,2,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,OauthAccountActivity.GetAccessTokenTask,104,0,4,0,24,0,6,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,Oauth2AccountActivity,118,50,7,1,28,17,8,4,4,4
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,OauthAccountActivity.new DialogInterface.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.oauth,OauthAccountActivity.new OauthAccessCodeRetrievalFragment.AuthCodeReceiveListener() {...},26,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.widget,WidgetRemoteViewsFactory,152,0,6,0,34,0,13,0,10,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.widget,AnyMemoWidgetProvider,88,29,4,0,18,7,7,1,5,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.widget,UpdateWidgetService,10,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.dropbox.entity,UserInfo,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.tts,SpeakWord.new Thread() {...},52,0,4,0,14,0,4,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.tts,SpeakWord.new MediaPlayer.OnCompletionListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.tts,SpeakWord.new SpeakWord.OnCompletedListener() {...},5,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.tts,SpeakWord,86,263,15,21,25,54,14,16,1,11
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.tts,NullAnyMemoTTS,11,0,2,0,6,0,5,0,4,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.tts,AnyMemoTTSImpl,102,204,15,13,21,50,13,8,0,7
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.tts,AnyMemoTTSImpl.new TextToSpeech.OnUtteranceCompletedListener() {...},9,12,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.tts,AnyMemoTTSImpl.new SpeakWord.OnCompletedListener() {...},21,0,2,0,4,0,3,0,2,0
+JaCoCo Coverage Report,androidx.databinding,DataBinderMapperImpl,0,8,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service.cardplayer,CardPlayerMessage,0,39,0,0,0,7,0,1,0,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service.cardplayer,CardPlayerState,69,133,9,7,7,27,8,6,1,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service.cardplayer,CardPlayerContext,9,59,0,0,3,22,3,10,3,10
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service.cardplayer,CardPlayerState.new CardPlayerState() {...},2,45,2,6,2,16,2,5,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service.cardplayer,CardPlayerState.new CardPlayerState() {...},82,6,12,0,32,1,9,2,1,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service.cardplayer,CardPlayerState.new CardPlayerState() {...},62,15,9,1,23,5,7,3,0,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service.cardplayer,CardPlayerState.new AnyMemoTTS.OnTextToSpeechCompletedListener() {...},23,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service.cardplayer,CardPlayerState.new AnyMemoTTS.OnTextToSpeechCompletedListener() {...},17,6,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service.cardplayer,CardPlayerState.4.new Runnable() {...},43,0,2,0,5,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service.cardplayer,CardPlayerState.5.new Runnable() {...},43,0,2,0,5,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui.loader,CardTTSUtilLoader,0,15,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui.loader,MultipleLoaderManager,0,189,2,12,0,44,2,13,0,8
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui.loader,SettingLoader,0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui.loader,DBLoader,0,22,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui.loader,CardWrapperListLoader,0,43,0,2,0,9,0,3,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.receiver,SetAlarmReceiver,89,125,6,8,21,31,10,4,4,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.receiver,AlarmReceiver,73,0,8,0,19,0,7,0,3,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,Mnemosyne2CardsImporter,551,6,58,0,122,3,33,1,4,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,ZipImporter,17,3,0,0,5,1,3,1,3,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,Mnemosyne2CardsImporter.ValueType,21,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,CSVImporter,177,21,16,0,38,8,11,3,3,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,TabTxtImporter,2,8,0,0,1,3,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,Supermemo2008XMLImporter,150,6,8,0,38,2,13,1,9,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,CSVExporter.new Callable() {...},32,0,2,0,5,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,ZipExporter,13,5,0,0,3,2,2,2,2,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,Mnemosyne2CardsExporter,483,13,22,0,101,5,16,2,5,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,QATxtImporter,231,6,20,0,54,3,13,1,3,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,MnemosyneXMLImporter,368,12,48,0,84,5,33,1,9,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,CSVExporter,113,22,6,0,23,8,5,3,2,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,SupermemoXMLImporter,310,15,30,0,67,5,24,1,9,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,QATxtExporter,106,3,8,0,18,1,7,1,3,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,TabTxtExporter,2,4,0,0,1,2,1,1,1,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,MnemosyneXMLExporter,469,3,24,0,79,1,15,1,3,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.converter,MnemosyneXMLExporter.new Callable() {...},44,0,2,0,7,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.JacocoInstrument,SMSInstrumentedReceiver,0,24,1,1,0,7,1,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.JacocoInstrument,JacocoInstrumentation,72,112,12,6,16,28,11,6,2,6
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.ui.helper,SelectableAdapter,52,38,5,1,12,9,5,5,2,5
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.databinding,MainTabsBinding,36,27,0,0,6,9,6,1,6,1
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.databinding,UploadDropboxScreenBinding,51,0,0,0,11,0,7,0,7,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.databinding,DropboxListActivityBinding,54,0,0,0,12,0,7,0,7,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.databinding,UploadDropboxScreenBindingImpl,121,0,2,0,35,0,9,0,8,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.databinding,DropboxListActivityBindingImpl,129,0,2,0,36,0,9,0,8,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.databinding,MainTabsBindingImpl,13,130,1,1,6,31,3,6,2,6
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.anymemo,AnyMemoDownloaderFragment,57,245,3,9,7,47,3,13,1,9
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.anymemo,AnyMemoDownloaderActivity,0,10,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.anymemo,AnyMemoDownloaderFragment.new Comparator() {...},0,12,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.downloader.anymemo,AnyMemoDownloaderFragment.new Comparator() {...},0,12,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service,CardPlayerService,20,240,3,7,5,65,5,16,2,14
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service,CardPlayerService.new CardPlayerEventHandler() {...},0,50,0,0,0,12,0,3,0,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service,CardPlayerService.LocalBinder,11,9,2,0,3,2,2,2,1,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.service,ConvertIntentService,361,0,18,0,90,0,17,0,8,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.queue,LearnQueueManager.new Runnable() {...},0,32,0,0,0,7,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.queue,LearnQueueManager,226,289,26,14,56,65,21,11,3,9
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.queue,LearnQueueManager.1.new Callable() {...},94,39,5,1,9,5,3,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.queue,QuizQueueManager.Builder,92,0,8,0,28,0,12,0,8,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.queue,QuizQueueManager,127,0,8,0,32,0,15,0,11,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.queue,LearnQueueManager.Builder,0,57,0,0,0,22,0,8,0,8
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,AnyMemoDBOpenHelper,116,328,12,16,26,80,13,15,3,11
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,BaseFragment,10,30,2,4,3,7,3,4,1,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,BaseService,0,8,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,BaseDialogFragment,10,30,2,4,3,7,3,4,1,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,BaseActivity.1.new Runnable() {...},14,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,BaseActivity.new View.OnSystemUiVisibilityChangeListener() {...},21,0,2,0,4,0,3,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,AMEnv,26,96,1,3,7,16,2,3,1,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,BaseIntentService,9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,AMSecrets,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,AnyMemoDBOpenHelperManager.new Comparator() {...},0,13,0,2,0,4,0,3,0,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,AnyMemoDBOpenHelperManager,87,175,6,6,20,30,7,5,3,3
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,AMPrefKeys,21,18,0,0,3,2,3,2,3,2
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,BaseActivity,122,175,17,21,30,50,21,12,5,9
+JaCoCo Coverage Report,org.liberty.android.fantastischmemo.common,AMApplication,9,49,2,0,3,20,2,7,1,7

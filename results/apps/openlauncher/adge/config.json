@@ -1,0 +1,9 @@
+{
+ "DB_PATH": "/home/runner/work/adge-test/adge-test/out/openlauncher/db/openlauncher.db",
+ "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/openlauncher.apk",
+ "PACKAGE_NAME": "com.benny.openlauncher",
+ "SLEEP_TIME": 1000,
+ "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms",
+ "SKIP_INSTALL": true,
+ "HOME_PACKAGE": "com.android.launcher3"
+}

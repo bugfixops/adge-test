@@ -1,0 +1,13 @@
+{
+  "mode": "analysis",
+  "resource_package": "it.feio.android.omninotes",
+  "soot_seconds": 2,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "resource_ids": 40,
+  "mappings": 55,
+  "methods": 37,
+  "icc_methods": 3,
+  "seconds": 14
+}

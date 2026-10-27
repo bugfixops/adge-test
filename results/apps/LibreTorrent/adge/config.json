@@ -1,0 +1,9 @@
+{
+ "DB_PATH": "/home/runner/work/adge-test/adge-test/out/LibreTorrent/db/LibreTorrent.db",
+ "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/LibreTorrent.apk",
+ "PACKAGE_NAME": "org.proninyaroslav.libretorrent.debug",
+ "SLEEP_TIME": 1000,
+ "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms",
+ "SKIP_INSTALL": true,
+ "HOME_PACKAGE": "com.android.launcher3"
+}

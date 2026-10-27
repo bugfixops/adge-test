@@ -1,0 +1,612 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.collections,FixedRingBuffer.FixedRingBufferIterator,0,27,0,2,0,3,0,4,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.collections,FixedRingBuffer,275,164,45,19,44,39,35,14,8,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.service,FeedDownloaderWorker,318,0,28,0,83,0,20,0,6,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.service,Scheduler,10,186,6,4,3,51,6,8,1,8
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.service,SaveLogWorker,45,111,3,3,10,26,5,6,2,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.service,TorrentService,266,736,39,41,57,193,34,44,5,30
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.service,TorrentService.new TorrentEngineListener() {...},0,14,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.service,FeedFetcherWorker,432,98,73,7,91,23,49,5,8,5
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,TagsAdapter.AbstractViewHolder,0,4,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,DrawerExpandableAdapter.ItemViewHolder,0,73,2,4,0,15,2,3,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,DrawerExpandableAdapter,25,184,13,13,9,46,13,14,0,14
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,EmptyTagItem,2,11,1,1,0,3,1,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,DrawerGroupItem,0,12,0,0,0,5,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,TagItem,61,0,10,0,10,0,10,0,5,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,TagsAdapter.ItemViewHolder,128,0,10,0,30,0,11,0,6,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,TagsAdapter.new DiffUtil.ItemCallback() {...},0,11,0,0,0,3,0,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,NoTagsItem,2,11,1,1,0,3,1,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,AbstractTagItem,0,3,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,DrawerGroup,0,39,0,2,0,12,0,6,0,5
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,TagsAdapter,45,87,6,8,8,24,7,8,1,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,TagsAdapter.NoTagsItemViewHolder,12,68,5,3,4,15,5,3,1,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,TagsAdapter.EmptyItemViewHolder,11,69,5,3,4,15,5,3,1,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main.drawer,DrawerExpandableAdapter.GroupViewHolder,0,27,1,1,0,8,1,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.metainfo,BencodeFileItem.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.metainfo,BencodeFileItem,98,0,0,0,27,0,13,0,13,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.metainfo,TorrentMetaInfo,443,59,22,0,65,18,21,2,10,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.metainfo,TorrentMetaInfo.new Parcelable.Creator() {...},8,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedChannelListAdapter,117,35,19,1,30,13,16,4,6,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedFragment,360,402,37,12,93,101,41,23,19,20
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,MsgFeedViewModel,17,21,0,0,6,7,3,4,3,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedFragment.new SelectionTracker.SelectionObserver() {...},94,6,12,0,17,1,8,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedFragment.new DefaultItemAnimator() {...},2,6,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedFragment.new ActionMode.Callback() {...},114,6,14,0,32,1,11,1,4,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedChannelItem,130,0,30,0,18,0,20,0,5,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedChannelListAdapter.KeyProvider,11,7,0,0,2,3,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedChannelListAdapter.new DiffUtil.ItemCallback() {...},8,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedActivity,229,489,50,27,67,126,41,29,8,23
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedViewModel,89,106,2,4,24,32,8,11,7,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedChannelListAdapter.ViewHolder,186,0,18,0,42,0,14,0,5,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedChannelListAdapter.ItemLookup,24,6,4,0,6,3,3,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeds,FeedChannelListAdapter.ItemDetails,15,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,DetailPagerAdapter,24,0,7,0,11,0,9,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,BlankFragment,34,0,0,0,9,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,DetailTorrentViewModel.new Observable.OnPropertyChangedCallback() {...},24,0,4,0,6,0,4,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,DetailTorrentViewModel.new Observable.OnPropertyChangedCallback() {...},60,0,4,0,16,0,5,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,DetailTorrentFragment.new TextWatcher() {...},56,0,4,0,11,0,6,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,DetailTorrentFragment.new ViewPager2.OnPageChangeCallback() {...},13,0,0,0,5,0,4,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,DetailTorrentViewModel,1134,0,132,0,265,0,127,0,59,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,MsgDetailTorrentViewModel,15,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,TorrentDetailsInfo,105,0,0,0,27,0,14,0,14,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,DetailTorrentFragment,1586,0,212,0,411,0,160,0,50,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,TorrentDetailsMutableParams,96,0,0,0,25,0,12,0,12,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent,DetailTorrentActivity,116,0,12,0,39,0,14,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent,DataBindingTriggerClass,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent,DataBinderMapperImpl,729,367,97,39,99,85,72,21,3,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent,MainApplication,25,76,1,1,4,26,2,4,1,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent,BR,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent,BuildConfig,3,4,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent,DataBinderMapperImpl.InnerLayoutIdLookup,252,0,0,0,43,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent,DataBinderMapperImpl.InnerBrLookup,162,0,0,0,41,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addfeed,AddFeedViewModel.Mode,0,15,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addfeed,AddFeedMutableParams,28,54,0,0,12,20,5,10,5,10
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addfeed,AddFeedDialog,285,408,47,10,82,102,42,24,13,24
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addfeed,AddFeedDialog.new TextWatcher() {...},15,6,0,0,5,1,3,1,3,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addfeed,AddFeedDialog.new TextWatcher() {...},15,6,0,0,5,1,3,1,3,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addfeed,AddFeedViewModel,294,43,27,1,85,14,25,4,11,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addfeed,AddFeedActivity,23,62,6,6,8,19,7,4,1,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeditems,FeedItemsViewModel,188,0,8,0,52,0,20,0,16,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeditems,FeedItemsFragment,514,0,30,0,132,0,46,0,31,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeditems,FeedItemsListItem,107,0,24,0,16,0,17,0,5,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeditems,FeedItemsAdapter.ViewHolder,148,0,14,0,35,0,12,0,5,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeditems,FeedItemsActivity,43,0,4,0,15,0,6,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeditems,FeedItemsAdapter.new DiffUtil.ItemCallback() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.feeditems,FeedItemsAdapter,67,0,6,0,18,0,10,0,7,0
+JaCoCo Coverage Report,androidx.databinding.library.baseAdapters,BR,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.utils,Utils.new HttpConnection.Listener() {...},46,16,2,0,11,4,4,3,3,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.utils,Utils.new X509TrustManager() {...},16,6,0,0,5,1,3,1,3,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.utils,BencodeFileTreeUtils,157,0,16,0,30,0,11,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.utils,Utils,717,1386,142,108,137,279,117,63,14,41
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.utils,TorrentContentFileTreeUtils,157,0,16,0,30,0,11,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.utils,DateUtils,426,0,14,0,101,0,22,0,15,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.utils,BindingAdapterUtils,136,36,7,3,20,9,11,3,7,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.tag,TorrentTagsList,79,56,4,2,18,19,6,6,3,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.tag,SelectTagActivity,8,44,2,2,3,13,3,3,1,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.tag,TagsAdapter,29,12,2,0,7,4,3,2,2,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.tag,SelectTagViewModel,30,30,6,2,3,8,5,3,1,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.tag,TagItem,57,0,8,0,10,0,9,0,5,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.tag,TagsAdapter.new DiffUtil.ItemCallback() {...},8,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.tag,AddTagButton,17,85,0,0,6,13,2,2,2,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.tag,TagsAdapter.ViewHolder,36,0,2,0,10,0,4,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.tag,SelectTagDialog,22,263,5,5,6,71,6,18,1,18
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.receiver,PowerReceiver,1,55,2,2,1,18,2,4,0,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.receiver,NotificationReceiver,118,0,8,0,30,0,8,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.receiver,ConnectionReceiver,0,23,2,2,0,7,2,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.receiver,SchedulerReceiver,111,0,21,0,37,0,15,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.receiver,BootReceiver,79,0,22,0,22,0,15,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.filter,TorrentFilterCollection,163,14,34,0,26,7,35,7,18,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemTrackersListBindingImpl,121,0,2,0,35,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentAddTorrentInfoBindingImpl,53,170,7,7,18,44,8,10,4,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentPiecesBinding,57,0,0,0,13,0,8,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogLogFilterBindingImpl.new InverseBindingListener() {...},48,0,8,0,14,0,6,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogLogFilterBindingImpl.new InverseBindingListener() {...},48,0,8,0,14,0,6,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogLogFilterBindingImpl.new InverseBindingListener() {...},48,0,8,0,14,0,6,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DetailTorrentAppbarBindingImpl,113,0,2,0,34,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemTorrentListBinding,72,0,0,0,18,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemPeersListBinding,66,0,0,0,16,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,AddTorrentInfoBinding,39,72,0,0,7,24,7,1,7,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogLogFilterBindingImpl.new InverseBindingListener() {...},48,0,8,0,14,0,6,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,TagsListItemBinding,48,0,0,0,10,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogLogFilterBindingImpl.new InverseBindingListener() {...},48,0,8,0,14,0,6,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentFeedBindingImpl,13,134,2,2,6,31,4,6,2,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemTorrentContentFileBindingImpl,137,0,2,0,37,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddLinkBindingImpl,48,283,16,21,16,74,16,14,2,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemTorrentDownloadableFileBindingImpl,129,0,2,0,36,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemTorrentContentFileBinding,57,0,0,0,13,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemFeedChannelListBinding,57,0,0,0,13,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddFeedChannelBinding,39,42,0,0,7,14,7,1,7,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DetailTorrentAppbarBinding,48,0,0,0,10,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemLogListBindingImpl,13,108,1,1,6,29,3,6,2,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ActivityFilemanagerDialogBindingImpl,23,342,12,26,9,79,13,15,2,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentMainBinding,36,21,0,0,6,7,6,1,6,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentMainBindingImpl,13,134,2,2,6,31,4,6,2,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogCreateTorrentBinding,39,57,0,0,7,19,7,1,7,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentInfoBindingImpl,957,0,115,0,237,0,69,0,11,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemTrackersListBinding,51,0,0,0,11,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogLogFilterBindingImpl,489,0,54,0,126,0,37,0,10,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentAddTorrentFilesBinding,39,21,0,0,7,7,7,1,7,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemFeedItemsListBindingImpl,121,0,2,0,35,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentTrackerListBindingImpl,133,0,4,0,36,0,10,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DrawerEmptyTagsListItemBindingImpl,13,100,1,1,6,28,3,6,2,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemTorrentListBindingImpl,177,0,2,0,42,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentFilesBinding,54,0,0,0,12,0,8,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DrawerNoTagsListItemBinding,36,12,0,0,6,4,6,1,6,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentAddTorrentInfoBinding,39,9,0,0,7,3,7,1,7,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogSelectTagBinding,36,12,0,0,6,4,6,1,6,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogLogFilterBinding,60,0,0,0,14,0,8,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentFeedItemsBinding,60,0,0,0,14,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DrawerTagsListItemBindingImpl,121,0,2,0,35,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogErrorBinding,39,27,0,0,7,9,7,1,7,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentTrackerListBinding,48,0,0,0,10,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ActivityLogBindingImpl,38,237,10,10,13,60,10,10,1,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddTagBinding,39,24,0,0,7,8,7,1,7,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentPiecesBindingImpl,383,0,40,0,104,0,30,0,10,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentInfoBinding,111,0,0,0,31,0,8,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ActivityLogBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddTagBindingImpl,53,275,13,17,17,69,13,12,1,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,TagsListItemBindingImpl,113,0,2,0,34,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DrawerTagsListItemBinding,51,0,0,0,11,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentPeerListBinding,48,0,0,0,10,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DetailTorrentAppbarBindingLargeLandNotouchImpl,113,0,2,0,34,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogGoToFolderBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogGoToFolderBindingImpl,23,209,9,9,9,56,9,10,1,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentAddTorrentFilesBindingImpl,75,311,21,22,22,83,21,12,2,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ActivityFilemanagerDialogBinding,39,36,0,0,7,12,7,1,7,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogCreateTorrentBindingImpl,171,733,36,72,46,172,36,31,3,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddFeedChannelBindingImpl,121,652,31,64,34,153,31,28,2,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddFeedChannelBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddFeedChannelBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentBinding,51,0,0,0,11,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemFeedChannelListBindingImpl,137,0,2,0,37,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddFeedChannelBindingImpl.new InverseBindingListener() {...},42,6,8,0,13,1,5,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogGoToFolderBinding,39,12,0,0,7,4,7,1,7,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddFeedChannelBindingImpl.new InverseBindingListener() {...},42,6,8,0,13,1,5,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddFeedChannelBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddFeedChannelBindingImpl.new InverseBindingListener() {...},42,6,8,0,13,1,5,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddTagBindingImpl.new InverseBindingListener() {...},42,6,8,0,13,1,5,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentInfoBindingImpl.new InverseBindingListener() {...},48,0,8,0,14,0,6,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentInfoBindingImpl.new InverseBindingListener() {...},48,0,8,0,14,0,6,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ActivityAddTorrentBindingImpl,13,122,1,1,6,30,3,6,2,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DrawerEmptyTagsListItemBinding,36,12,0,0,6,4,6,1,6,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemPeersListBindingImpl,161,0,2,0,40,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ActivityLogBinding,39,27,0,0,7,9,7,1,7,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,AddTorrentInfoBindingImpl,114,921,42,83,32,217,41,33,2,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentAddTorrentInfoBindingSw600dpLandImpl,233,0,14,0,64,0,18,0,11,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemTorrentDownloadableFileBinding,54,0,0,0,12,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentFeedBinding,36,21,0,0,6,7,6,1,6,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogCreateTorrentBindingImpl.new InverseBindingListener() {...},42,6,8,0,13,1,5,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogCreateTorrentBindingImpl.new InverseBindingListener() {...},42,6,8,0,13,1,5,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentAddTorrentInfoBindingLargeLandNotouchImpl,233,0,14,0,64,0,18,0,11,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ActivityAddTorrentBinding,36,24,0,0,6,8,6,1,6,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogCreateTorrentBindingImpl.new InverseBindingListener() {...},42,6,8,0,13,1,5,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogCreateTorrentBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogCreateTorrentBindingImpl.new InverseBindingListener() {...},42,6,8,0,13,1,5,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogCreateTorrentBindingImpl.new InverseBindingListener() {...},42,6,8,0,13,1,5,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddLinkBinding,39,15,0,0,7,5,7,1,7,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentBindingImpl,180,0,8,0,48,0,14,0,10,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemFeedItemsListBinding,51,0,0,0,11,0,7,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DetailTorrentAppbarBindingSw600dpLandImpl,113,0,2,0,34,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentPeerListBindingImpl,133,0,4,0,36,0,10,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogSelectTagBindingImpl,13,100,1,1,6,28,3,6,2,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentStateBindingImpl,629,0,44,0,164,0,32,0,10,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentStateBinding,78,0,0,0,20,0,8,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DrawerNoTagsListItemBindingImpl,13,100,1,1,6,28,3,6,2,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,AddTorrentInfoBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,AddTorrentInfoBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,AddTorrentInfoBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,AddTorrentInfoBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,AddTorrentInfoBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogAddLinkBindingImpl.new InverseBindingListener() {...},2,46,4,4,0,14,4,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentDetailTorrentFilesBindingImpl,314,0,32,0,86,0,26,0,10,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,DialogErrorBindingImpl,23,181,5,3,9,44,6,7,2,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,ItemLogListBinding,36,15,0,0,6,5,6,1,6,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.databinding,FragmentFeedItemsBindingImpl,135,0,2,0,36,0,9,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.urlnormalizer,PercentEncoder,283,0,40,0,61,0,25,0,5,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.urlnormalizer,NormalizeUrl,442,221,105,29,89,61,72,6,5,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.urlnormalizer,PathResolver,183,0,33,0,36,0,21,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.urlnormalizer,NormalizeUrl.Options,0,48,0,0,0,14,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogAdapter.new DiffUtil.ItemCallback() {...},6,10,1,1,1,2,2,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogDataSource,22,116,4,12,3,36,4,9,0,5
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogSourceFactory,0,12,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogActivity.new RecyclerView.OnScrollListener() {...},133,22,30,2,34,7,17,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogActivity.new Observable.OnPropertyChangedCallback() {...},0,13,1,1,0,4,1,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogSettingsFragment,113,0,6,0,32,0,11,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,SessionLogFilterDialog,122,0,8,0,35,0,14,0,10,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogViewModel.new Observable.OnPropertyChangedCallback() {...},44,30,6,3,9,9,6,3,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogAdapter,0,41,1,1,0,11,1,4,0,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogSettingsActivity,48,0,2,0,12,0,5,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogAdapter.ViewHolder,0,39,1,1,0,11,1,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogViewModel,30,231,3,7,12,55,7,14,4,12
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogActivity,178,517,25,21,50,131,29,24,9,21
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.log,LogMutableParams,52,48,0,0,6,20,6,8,6,8
+JaCoCo Coverage Report,com.ernieyu.feedparser,FeedUtils,176,0,12,0,31,0,12,0,6,0
+JaCoCo Coverage Report,com.ernieyu.feedparser,Enclosure,140,0,22,0,20,0,18,0,7,0
+JaCoCo Coverage Report,com.ernieyu.feedparser,FeedParserFactory,7,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.ernieyu.feedparser,EzRssTorrentItem,260,0,38,0,37,0,30,0,11,0
+JaCoCo Coverage Report,com.ernieyu.feedparser,FeedException,16,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,com.ernieyu.feedparser,FeedType,21,0,0,0,2,0,1,0,1,0
+JaCoCo Coverage Report,com.ernieyu.feedparser,XMLInputStream,269,0,42,0,58,0,31,0,10,0
+JaCoCo Coverage Report,com.ernieyu.feedparser,XML,1550,0,2,0,261,0,4,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtag,AddTagDialog.new TextWatcher() {...},15,6,0,0,5,1,3,1,3,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtag,AddTagDialog,94,249,14,8,27,64,15,16,4,16
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtag,AddTagViewModel,77,19,6,0,17,6,6,2,3,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtag,AddTagState,14,22,0,0,6,8,2,5,2,5
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtag,AddTagActivity,4,60,1,1,2,17,2,5,1,5
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtag,AddTagViewModel.TagAlreadyExistsException,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.stream,TorrentStream.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.stream,TorrentInputStream.new TorrentEngineListener() {...},31,0,4,0,9,0,5,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.stream,TorrentInputStream.Piece,28,0,6,0,6,0,6,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.stream,TorrentStreamServer,430,78,54,0,85,15,30,4,3,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.stream,TorrentInputStream.ReadSession,6,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.stream,TorrentStream,208,0,6,0,38,0,12,0,9,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.stream,TorrentInputStream,919,0,104,0,194,0,68,0,16,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.stream,TorrentStreamServer.DLNAFileType,23,15,0,0,6,6,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages,DetailTorrentInfoFragment,438,0,44,0,119,0,42,0,19,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages,DetailTorrentInfoFragment.new TextWatcher() {...},19,0,0,0,5,0,4,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages,DetailTorrentInfoFragment.new TorrentTagsList.Listener() {...},73,0,0,0,18,0,6,0,6,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages,DetailTorrentStateFragment,71,0,4,0,18,0,8,0,6,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.settings,SessionSettings.EncryptMode,5,61,1,3,1,12,1,5,0,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.settings,SessionSettings,0,451,0,0,0,91,0,4,0,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.settings,SettingsRepositoryImpl,431,1607,4,4,142,377,44,144,40,144
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.settings,SessionSettings.ProxyType,2,68,1,3,1,13,1,5,0,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.settings,SettingsRepositoryImpl.Default,4,79,0,0,1,13,1,10,1,10
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addlink,AddLinkDialog,58,413,11,15,16,111,11,30,0,28
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addlink,AddLinkActivity,4,35,1,1,2,11,2,3,1,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addlink,AddLinkViewModel,8,64,5,7,2,19,5,4,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addlink,AddLinkDialog.new TextWatcher() {...},0,21,0,0,0,6,0,4,0,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,AdvancedPeerInfo,32,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,TorrentSessionImpl.new TorrentEngineListener() {...},7,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,TorrentCriticalWork.Type,15,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,TorrentDownloadImpl,3001,0,479,0,743,0,355,0,112,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,TorrentSessionImpl.LoadTorrentTask,111,0,6,0,29,0,7,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,TorrentDownloadImpl.new AlertListener() {...},82,0,10,0,17,0,8,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,SessionErrors.Error,0,9,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,PriorityConverter,196,0,16,0,52,0,14,0,6,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,IPFilterParser,505,0,58,0,126,0,37,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,SessionLogger.SessionLogEntryType,0,33,0,0,0,6,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,TorrentSessionImpl.InnerListener,84,33,9,4,20,9,8,5,2,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,IPFilterImpl,86,0,10,0,19,0,8,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,TorrentDownloadImpl.InnerListener,165,0,19,0,47,0,22,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,SessionErrors,15,61,5,5,4,6,5,4,1,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,TorrentCriticalWork,87,0,6,0,20,0,11,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,SessionLogger,78,162,7,11,15,38,7,8,0,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,SessionLogger.SessionLogFilter,14,100,10,10,0,10,9,9,1,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,TorrentCriticalWork.State,22,0,4,0,6,0,4,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,SessionLogger.SessionFilterParams,0,18,0,0,0,7,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.session,TorrentSessionImpl,1820,1348,308,75,456,322,213,80,36,63
+JaCoCo Coverage Report,com.ernieyu.feedparser.mediarss,Hash,119,0,22,0,20,0,18,0,7,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.mediarss,MediaRss,38,0,0,0,9,0,5,0,5,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.mediarss,Content,108,0,20,0,16,0,16,0,6,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.mediarss,PeerLink,108,0,20,0,16,0,16,0,6,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.converter,UriConverter,9,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,AtomItem,201,0,26,0,47,0,25,0,12,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,MediaRssParser,171,0,20,0,44,0,16,0,6,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,Rss2Feed,207,0,36,0,46,0,29,0,11,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,EzRss01Parser,195,0,34,0,53,0,28,0,11,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,BaseItem,64,0,12,0,20,0,11,0,5,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,AtomFeed,127,0,16,0,28,0,19,0,11,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,Rss1Feed,167,0,30,0,35,0,26,0,11,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,BaseElement,110,0,4,0,27,0,13,0,11,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,Rss2Item,180,0,18,0,40,0,21,0,12,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,DefaultFeedParser,48,0,2,0,14,0,3,0,2,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,FeedHandler,206,0,17,0,51,0,16,0,7,0
+JaCoCo Coverage Report,com.ernieyu.feedparser.impl,Rss1Item,148,0,16,0,35,0,20,0,12,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.system,SystemFacadeHelper,3,22,0,4,1,6,1,4,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.system,SafFileSystem.FakePath,127,0,16,0,24,0,17,0,9,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.system,SystemFacadeImpl,5,51,1,1,3,13,1,5,0,5
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.system,SafFileSystem,643,42,118,4,155,14,80,5,20,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.system,DefaultFsModule,112,31,12,0,18,10,14,5,8,5
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.system,SafFsModule,170,6,18,0,34,3,22,1,13,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.system,FsModuleResolverImpl,15,29,2,2,2,8,2,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.system,FileDescriptorWrapperImpl,2,32,2,2,0,9,2,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.system,SafFileSystem.Stat,15,0,0,0,6,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.system,FileSystemFacadeImpl,239,253,38,26,57,65,41,22,13,18
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,TorrentSorting.SortingColumns.new TorrentSorting.SortingColumns() {...},15,5,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,TorrentSorting.SortingColumns.new TorrentSorting.SortingColumns() {...},15,5,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,TorrentSorting.SortingColumns.new TorrentSorting.SortingColumns() {...},15,5,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,TorrentSorting.SortingColumns.new TorrentSorting.SortingColumns() {...},15,5,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,TorrentSorting.SortingColumns.new TorrentSorting.SortingColumns() {...},15,5,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,TorrentSorting.SortingColumns.new TorrentSorting.SortingColumns() {...},15,5,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,TorrentSorting.SortingColumns.new TorrentSorting.SortingColumns() {...},2,5,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,TorrentSorting,0,6,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,BaseSorting,25,9,0,0,3,4,3,1,3,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,BaseSorting.Direction,27,15,4,0,4,2,3,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,TorrentSorting.SortingColumns,27,45,4,0,4,8,3,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.sorting,TorrentSortingComparator,14,6,0,0,3,3,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.trackers,TrackerListAdapter.ViewHolder,173,0,15,0,37,0,13,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.trackers,TrackerListAdapter.ItemLookup,30,0,4,0,9,0,4,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.trackers,TrackerListAdapter.new DiffUtil.ItemCallback() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.trackers,TrackerListAdapter.KeyProvider,18,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.trackers,TrackerListAdapter,77,0,8,0,22,0,12,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.trackers,DetailTorrentTrackersFragment,510,0,33,0,131,0,43,0,26,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.trackers,TrackerListAdapter.ItemDetails,15,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.trackers,DetailTorrentTrackersFragment.new DefaultItemAnimator() {...},8,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.trackers,DetailTorrentTrackersFragment.new ActionMode.Callback() {...},68,0,6,0,19,0,8,0,5,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.trackers,DetailTorrentTrackersFragment.new SelectionTracker.SelectionObserver() {...},100,0,12,0,18,0,9,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.trackers,TrackerItem,36,0,4,0,9,0,6,0,4,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.Response,494,0,62,0,117,0,52,0,21,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD,503,143,53,7,120,46,55,12,26,11
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.SecureServerSocketFactory,39,0,2,0,13,0,3,0,2,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.DefaultServerSocketFactory,0,7,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.Response.Status,200,0,0,0,28,0,4,0,4,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.ResponseException,18,0,0,0,7,0,3,0,3,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.DefaultTempFileManager,61,0,4,0,17,0,5,0,3,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.CookieHandler,115,0,8,0,23,0,11,0,7,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.DefaultTempFileManagerFactory,4,6,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.HTTPSession,1377,0,158,0,297,0,100,0,21,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.DefaultAsyncRunner,51,20,1,1,12,4,4,2,3,2
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.Cookie,74,0,0,0,19,0,5,0,5,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.Response.ChunkedOutputStream,59,0,2,0,15,0,6,0,5,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.Method,82,0,4,0,14,0,4,0,2,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.ClientHandler,81,0,8,0,21,0,7,0,3,0
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.ServerRunnable,36,46,4,2,9,11,3,2,0,2
+JaCoCo Coverage Report,org.nanohttpd,NanoHTTPD.DefaultTempFile,36,0,2,0,10,0,5,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.JacocoInstrument,SMSInstrumentedReceiver,0,24,1,1,0,7,1,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.JacocoInstrument,JacocoInstrumentation,72,112,12,6,16,28,11,6,2,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,TorrentListItem,64,0,4,0,9,0,6,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,TorrentListAdapter.new DiffUtil.ItemCallback() {...},8,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,MainViewModel,84,147,14,6,17,51,16,23,8,21
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,TorrentListAdapter.ItemDetails,15,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,TorrentListAdapter.ItemLookup,24,6,4,0,6,3,3,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,TorrentListAdapter.ViewHolder,414,0,44,0,83,0,32,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,MainActivity.new LinearLayoutManager() {...},0,9,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,MainActivity.new PermissionManager.Callback() {...},30,23,8,2,7,5,6,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,MainActivity.new SearchView.OnQueryTextListener() {...},11,13,0,0,3,3,1,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,MainActivity.new TagsAdapter.OnClickListener() {...},140,6,16,0,35,1,12,1,4,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,TorrentListAdapter.KeyProvider,11,7,0,0,2,3,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,TorrentListAdapter,113,24,16,0,30,8,14,3,6,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,MainActivity,455,1095,82,53,134,271,67,49,14,34
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,MainFragment.new DefaultItemAnimator() {...},2,6,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,MainFragment.new ActionMode.Callback() {...},61,6,8,0,19,1,8,1,4,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,MainFragment.new SelectionTracker.SelectionObserver() {...},78,6,8,0,14,1,6,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,MainFragment,409,548,53,16,115,139,58,30,26,27
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.main,MsgMainViewModel,11,15,0,0,4,5,2,3,2,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,AdvancedTorrentInfo,538,0,32,0,84,0,26,0,10,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,AbstractInfoParcel,18,7,0,0,8,3,3,1,3,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,TrackerInfo.Status,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,SessionStats.new Parcelable.Creator() {...},8,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,TrackerInfo,478,0,73,0,107,0,51,0,13,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,PeerInfo,492,0,44,0,90,0,34,0,12,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,TrackerInfo.Result,12,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,AdvancedTorrentInfo.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,ReadPieceInfo,42,0,0,0,7,0,2,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,TorrentInfo.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,TorrentInfo,823,0,64,0,117,0,42,0,10,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,PeerInfo.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,Priority,101,0,4,0,18,0,6,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,TrackerInfo.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,MagnetInfo.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,TorrentStateCode,103,0,4,0,18,0,6,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,SessionStats,183,76,2,14,28,14,8,9,6,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,MagnetInfo,109,0,0,0,25,0,11,0,11,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data,PeerInfo.ConnectionType,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,DownloadableFilesAdapter,25,15,0,0,5,5,2,2,2,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,DownloadableFilesAdapter.new DiffUtil.ItemCallback() {...},8,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,DownloadableFileItem,65,0,4,0,13,0,8,0,6,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentPagerAdapter,4,12,1,2,1,6,1,4,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,DownloadableFilesAdapter.ViewHolder,143,0,12,0,32,0,10,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentInfoFragment.new TorrentTagsList.Listener() {...},10,47,0,0,2,11,2,3,2,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentInfoFragment.new TextWatcher() {...},0,13,0,0,0,5,0,4,0,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentActivity.new Observable.OnPropertyChangedCallback() {...},0,82,0,8,0,26,0,6,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentActivity.new PermissionManager.Callback() {...},32,20,8,2,8,5,6,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentViewModel.new Observable.OnPropertyChangedCallback() {...},16,6,2,0,5,1,2,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentViewModel.new Observable.OnPropertyChangedCallback() {...},7,48,1,1,3,11,1,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,DownloadableFileItem.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentInfoFragment,72,231,14,6,21,54,11,14,1,14
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentViewModel.Status,0,51,0,0,0,9,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentViewModel,516,204,89,5,125,53,64,13,17,13
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentViewModel.TorrentDecodeTask,166,126,30,13,39,30,22,6,0,5
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentViewModel.DecodeState,0,14,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentFilesFragment,92,150,10,4,25,44,12,12,5,12
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentMutableParams,67,94,0,0,3,36,2,19,2,19
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.addtorrent,AddTorrentActivity,362,454,70,28,112,127,49,27,4,21
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FastResumeDao_Impl,108,2,8,0,33,1,7,1,3,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TagInfoDao_Impl.new EntityDeletionOrUpdateAdapter() {...},8,7,0,0,3,1,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TagInfoDao_Impl.new EntityDeletionOrUpdateAdapter() {...},31,7,2,0,8,1,3,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TagInfoDao_Impl.new EntityInsertionAdapter() {...},26,7,2,0,7,1,3,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new Callable() {...},168,0,14,0,38,0,10,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new Callable() {...},152,0,12,0,36,0,9,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new Callable() {...},103,71,14,2,22,17,8,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TagInfoDao_Impl.new Callable() {...},96,0,6,0,21,0,6,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TagInfoDao_Impl.new Callable() {...},31,49,3,1,8,11,2,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TagInfoDao_Impl.new Callable() {...},80,0,4,0,19,0,5,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FastResumeDao_Impl.new EntityInsertionAdapter() {...},34,0,4,0,9,0,5,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl,941,187,75,1,254,44,54,6,16,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new Callable() {...},166,0,16,0,38,0,11,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new Callable() {...},89,69,13,1,21,16,7,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new SharedSQLiteStatement() {...},4,7,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new SharedSQLiteStatement() {...},4,7,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new EntityDeletionOrUpdateAdapter() {...},90,7,12,0,21,1,8,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new SharedSQLiteStatement() {...},0,11,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new EntityInsertionAdapter() {...},78,7,10,0,19,1,7,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new EntityDeletionOrUpdateAdapter() {...},8,7,0,0,3,1,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,FeedDao_Impl.new EntityInsertionAdapter() {...},85,7,12,0,20,1,8,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TagInfoDao_Impl,284,51,16,0,79,10,15,3,7,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TorrentDao_Impl.new EntityInsertionAdapter() {...},124,7,18,0,28,1,11,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TorrentDao_Impl.new EntityInsertionAdapter() {...},20,7,2,0,6,1,3,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TorrentDao_Impl.new EntityDeletionOrUpdateAdapter() {...},15,7,2,0,5,1,3,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TorrentDao_Impl.new Callable() {...},200,0,20,0,47,0,13,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TorrentDao_Impl.new EntityDeletionOrUpdateAdapter() {...},20,7,2,0,6,1,3,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TorrentDao_Impl.new EntityDeletionOrUpdateAdapter() {...},136,7,20,0,31,1,12,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TorrentDao_Impl.new SharedSQLiteStatement() {...},4,7,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TorrentDao_Impl.new Callable() {...},216,0,22,0,49,0,14,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TorrentDao_Impl,549,127,47,1,148,30,35,3,11,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage.dao,TorrentDao,7,3,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.pieces,DetailTorrentPiecesFragment,177,0,12,0,42,0,18,0,12,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.pieces,PiecesView,317,0,20,0,55,0,16,0,6,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.peers,PeerListAdapter.new DiffUtil.ItemCallback() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.peers,PeerListAdapter,67,0,6,0,18,0,10,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.peers,DetailTorrentPeersFragment,245,0,8,0,62,0,20,0,16,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.peers,DetailTorrentPeersFragment.new DefaultItemAnimator() {...},8,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.peers,PeerListAdapter.ViewHolder,177,0,6,0,29,0,7,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.peers,PeerItem,48,0,4,0,9,0,6,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.errorreport,ErrorReportDialog,0,100,0,0,0,26,0,6,0,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.errorreport,ErrorReportActivity,165,0,19,0,49,0,19,0,9,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.exception,NormalizeUrlException,12,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.exception,UnknownUriException,4,0,0,0,2,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.exception,TorrentAlreadyExistsException,7,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.exception,NoFilesSelectedException,7,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.exception,FetchLinkException,7,4,0,0,3,2,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.exception,FileAlreadyExistsException,7,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.exception,IPFilterException,11,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.exception,DecodeException,7,9,0,0,3,3,2,1,2,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.exception,FreeSpaceException,16,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core,FeedParser,339,0,76,0,102,0,50,0,12,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core,RepositoryHelper,3,41,1,7,1,14,2,7,1,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core,HttpConnection,53,61,15,5,13,22,10,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core,InputFilterRange,8,79,4,10,3,20,6,7,2,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core,TorrentFileObserver,0,5,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core,TorrentBuilder.new TorrentBuilder.Listener() {...},33,0,4,0,6,0,5,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core,InputFilterRange.Builder,5,36,2,4,1,7,2,5,0,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core,TorrentBuilder.Progress,9,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core,TorrentBuilder,139,0,2,0,33,0,15,0,14,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core,TorrentBuilder.Tracker,9,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core,TorrentBuilder.TorrentVersion,36,0,0,0,8,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,FeedRepositoryImpl.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,DatabaseMigration.RoomDatabaseMigration.OldDataModel,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,DatabaseMigration.RoomDatabaseMigration,259,8,24,0,80,3,21,1,9,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,AppDatabase,0,29,1,3,0,10,1,4,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,TagRepositoryImpl,42,11,0,0,10,4,7,2,7,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,FeedRepositoryImpl,107,77,0,0,27,19,19,8,19,8
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,DatabaseMigration,3,84,0,0,1,9,1,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,DatabaseMigration.new Migration() {...},13,5,0,0,5,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,DatabaseMigration.new Migration() {...},4,5,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,DatabaseMigration.new Migration() {...},4,5,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,DatabaseMigration.new Migration() {...},7,5,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,DatabaseMigration.new Migration() {...},7,5,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,DatabaseMigration.new Migration() {...},4,5,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,DatabaseMigration.new Migration() {...},4,5,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,TorrentRepositoryImpl,151,59,11,3,33,16,19,6,13,5
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,AppDatabase_Impl.new RoomOpenHelper.Delegate() {...},975,82,20,4,104,25,16,4,4,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.storage,AppDatabase_Impl,87,185,17,9,28,36,12,12,2,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.logger,Logger.DataSetChange,0,14,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.logger,Logger,114,609,24,64,25,169,24,52,3,29
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.logger,Logger.NewFilter,0,9,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.logger,LogEntry,81,66,14,0,14,14,10,7,3,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.logger,Logger.DataSetChange.Reason,0,21,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,AddTorrentParams,237,0,16,0,40,0,15,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentInfoProvider.new TorrentEngineListener() {...},91,0,10,0,31,0,11,0,6,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentInfoProvider.new TorrentEngineListener() {...},20,13,0,0,10,3,5,2,5,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentInfoProvider.new TorrentEngineListener() {...},9,9,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentInfoProvider.new TorrentEngineListener() {...},0,34,1,3,0,7,1,3,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentInfoProvider,585,244,76,12,142,65,75,23,32,22
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,SessionErrorFilter,0,16,0,0,0,5,0,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,DownloadsCompletedListener.new TorrentEngineListener() {...},27,12,6,0,9,1,6,1,3,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,AddTorrentParams.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentEngine,1537,1388,222,146,459,335,200,99,67,48
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentEngineListener,16,8,0,0,16,6,16,6,16,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentEngine.new TorrentEngineListener() {...},504,34,46,2,116,8,46,4,22,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentEngine.new TorrentFileObserver() {...},65,13,9,1,17,3,6,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentEngine.new TorrentEngineListener() {...},49,0,8,0,11,0,6,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentEngine.new TorrentEngineListener() {...},42,0,6,0,8,0,5,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,TorrentEngine.new TorrentEngineListener() {...},10,19,3,1,3,4,3,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model,DownloadsCompletedListener,9,44,5,1,3,12,4,4,1,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.customprefs,TimePreferenceDialogFragmentCompat,5,112,5,7,1,31,5,5,0,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.customprefs,SummaryPreference,21,49,0,0,8,14,3,4,3,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.customprefs,SwitchBarPreference,5,49,0,0,2,13,1,4,1,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.customprefs,TimePreference,33,75,3,1,6,16,5,8,3,8
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.customprefs,SwitchBarPreference.new CompoundButton.OnCheckedChangeListener() {...},10,17,3,1,2,4,2,2,0,2
+JaCoCo Coverage Report,androidx.databinding,DataBinderMapperImpl,0,8,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings,SettingsViewModel,0,8,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings,SettingsActivity,18,64,7,1,6,14,6,3,2,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings,PreferenceActivity,16,159,11,27,8,47,11,14,1,5
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings,PreferenceActivityConfig.new Parcelable.Creator() {...},3,8,0,0,1,2,1,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings,SettingsFragment,107,262,24,27,32,79,24,15,2,8
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings,PreferenceActivityConfig,10,40,0,0,5,14,3,6,3,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.customviews,FixHintTextInputEditText,12,11,1,1,5,4,3,2,2,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.customviews,EmptyRecyclerView.new RecyclerView.AdapterDataObserver() {...},4,14,0,0,2,5,1,3,1,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.customviews,ThemedSwipeRefreshLayout,0,41,0,0,0,6,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.customviews,ThemedSpeedDialView,10,90,0,0,4,20,2,2,2,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.customviews,EmptyRecyclerView,26,64,3,11,5,18,5,8,2,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.customviews,SwitchBar,26,45,2,4,6,12,4,4,2,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.customviews,ColorView,4,131,0,0,1,28,1,4,1,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.customviews,RecyclerViewDividerDecoration,8,57,0,2,3,14,1,3,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.customviews,ExpansionHeader,54,183,8,12,17,50,11,12,4,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.filetree,FilePriority.Type,27,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.filetree,FileTree,300,0,30,0,59,0,41,0,26,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.filetree,FileNode.Type,3,5,0,0,1,2,1,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.filetree,BencodeFileTree,211,0,36,0,42,0,27,0,9,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.filetree,TorrentContentFileTree,371,0,54,0,74,0,40,0,13,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.filetree,FilePriority,102,0,16,0,27,0,18,0,8,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,FragmentCallback.ResultCode,0,21,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,FragmentCallback,4,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,TorrentNotifier,463,109,16,4,116,29,18,4,9,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,ClipboardDialog.SharedViewModel,0,14,0,0,0,5,0,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,ManageAllFilesWarningDialog,70,0,0,0,15,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,ClipboardDialog.Item,0,9,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,BaseAlertDialog.Event,0,9,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,PermissionManager,114,101,34,12,23,28,25,7,2,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,BaseAlertDialog.EventType,0,27,0,0,0,5,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,FileItem,167,0,20,0,33,0,19,0,9,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,FileItem.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,BaseAlertDialog,18,230,8,18,6,61,8,15,1,9
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,ClipboardDialog,8,101,3,3,1,24,4,6,1,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,SendTextToClipboard,43,0,2,0,13,0,3,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,BaseAlertDialog.SharedViewModel,0,14,0,0,0,5,0,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui,PermissionDeniedDialog,53,0,2,0,13,0,4,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,GoToFolderDialog,50,157,8,2,14,42,9,11,4,11
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerSpinnerAdapter.StorageSpinnerItem,18,15,0,0,8,6,5,2,5,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerViewModelFactory,5,26,1,1,1,7,1,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerViewModel,322,487,68,58,68,111,59,27,5,17
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerAdapter.new DiffUtil.ItemCallback() {...},0,11,0,0,0,3,0,3,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerDialog.new TextWatcher() {...},15,6,0,0,5,1,3,1,3,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerDialog.new AdapterView.OnItemSelectedListener() {...},46,16,3,1,11,3,3,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerDialog.new Observable.OnPropertyChangedCallback() {...},0,17,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,GoToFolderDialog.new TextWatcher() {...},0,21,0,0,0,6,0,4,0,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerAdapter.ViewHolder,0,150,2,10,0,31,2,7,0,3
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerDialog.MediaReceiver,10,9,2,0,3,3,2,1,1,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,GoToFolderViewModel,0,9,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerConfig.new Parcelable.Creator() {...},3,8,0,0,1,2,1,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerConfig,11,87,2,2,3,24,4,4,2,4
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerAdapter,0,69,1,3,0,18,1,7,0,6
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerDialog,333,806,55,58,101,206,50,46,7,31
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerNode,40,67,5,9,9,14,9,9,4,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.filemanager,FileManagerSpinnerAdapter,25,152,8,8,5,34,10,11,3,10
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.entity,TagInfo.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.entity,FeedChannel.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.entity,FeedChannel,229,0,14,0,39,0,16,0,9,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.entity,Torrent,301,0,24,0,50,0,24,0,12,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.entity,FeedItem,215,0,10,0,37,0,14,0,9,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.entity,FeedItem.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.entity,FastResume,9,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.entity,TagInfo,144,0,10,0,31,0,14,0,9,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.entity,TorrentTagInfo,80,0,8,0,13,0,8,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.core.model.data.entity,Torrent.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.sections,StreamingSettingsFragment,17,161,7,7,5,41,6,9,0,8
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.sections,StorageSettingsFragment,89,475,26,32,24,123,28,16,2,13
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.sections,ProxySettingsFragment,44,446,18,26,10,115,19,17,2,12
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.sections,BehaviorSettingsFragment,11,581,21,43,4,143,21,26,0,15
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.sections,NetworkSettingsFragment,210,711,43,47,54,170,42,22,6,13
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.sections,AppearanceSettingsFragment,255,268,33,19,62,63,27,11,5,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.sections,FeedSettingsFragment,19,293,12,22,4,73,12,12,0,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.sections,LimitationsSettingsFragment,48,573,22,30,11,143,22,20,2,14
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.sections,SchedulingSettingsFragment,75,339,26,26,23,86,22,16,2,10
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.settings.sections,AnonymousModeSettingsFragment,0,71,2,2,0,20,2,7,0,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentViewModel,529,110,52,4,143,25,49,7,21,7
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentViewModel.InvalidTrackerException,6,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentActivity,39,98,13,3,14,25,11,5,3,5
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentMutableParams,117,75,0,0,20,27,9,14,9,14
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentViewModel.new Observable.OnPropertyChangedCallback() {...},7,26,1,1,3,6,1,2,0,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentActivity.new PermissionManager.Callback() {...},30,17,7,1,7,3,5,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentViewModel.InvalidWebSeedException,6,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentDialog.new TextWatcher() {...},15,6,0,0,5,1,3,1,3,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentDialog,597,360,89,8,156,85,67,16,18,16
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentViewModel.BuildState,0,9,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentViewModel.BuildState.Status,0,27,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentDialog.new AdapterView.OnItemSelectedListener() {...},1,16,0,0,1,3,1,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentDialog.new TextWatcher() {...},15,6,0,0,5,1,3,1,3,1
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.createtorrent,CreateTorrentDialog.new AdapterView.OnItemSelectedListener() {...},1,16,0,0,1,3,1,2,1,2
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,DetailTorrentFilesFragment.new SelectionTracker.SelectionPredicate() {...},19,0,2,0,4,0,5,0,4,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,DetailTorrentFilesFragment.new SelectionTracker.SelectionObserver() {...},100,0,12,0,18,0,9,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,DetailTorrentFilesFragment.new ActionMode.Callback() {...},101,0,10,0,26,0,10,0,5,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,DetailTorrentFilesFragment.new DefaultItemAnimator() {...},8,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,TorrentContentFilesAdapter.new DiffUtil.ItemCallback() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,TorrentContentFilesAdapter,74,0,6,0,19,0,10,0,7,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,TorrentContentFilesAdapter.ViewHolder,329,0,29,0,66,0,22,0,6,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,TorrentContentFilesAdapter.KeyProvider,18,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,TorrentContentFilesAdapter.ItemDetails,15,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,TorrentContentFileItem.new Parcelable.Creator() {...},11,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,DetailTorrentFilesFragment,694,0,62,0,193,0,65,0,32,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,TorrentContentFilesAdapter.ItemLookup,30,0,4,0,9,0,4,0,2,0
+JaCoCo Coverage Report,org.proninyaroslav.libretorrent.ui.detailtorrent.pages.files,TorrentContentFileItem,117,0,8,0,23,0,11,0,7,0

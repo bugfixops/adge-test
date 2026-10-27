@@ -1,0 +1,13 @@
+{
+  "mode": "analysis",
+  "resource_package": "com.ichi2.anki",
+  "soot_seconds": 2,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "resource_ids": 27,
+  "mappings": 43,
+  "methods": 43,
+  "icc_methods": 9,
+  "seconds": 12
+}

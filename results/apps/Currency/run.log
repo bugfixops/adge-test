@@ -1,0 +1,38 @@
+[20:52:59] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[20:52:59] home screen: com.android.launcher3
+[20:53:00] install apks/Currency.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[20:53:36] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/Currency/db/Currency.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/Currency.apk", "PACKAGE_NAME": "org.billthefarmer.currency", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[20:57:47] ADGE run 1: exit code 0 after 251 s (3349 s left)
+[21:01:16] ADGE run 2: exit code 0 after 209 s (3140 s left)
+[21:01:16] running for 460 s, 16 coverage dumps so far
+[21:05:50] ADGE run 3: exit code 0 after 274 s (2866 s left)
+[21:10:08] ADGE run 4: exit code 0 after 258 s (2608 s left)
+[21:10:08] running for 992 s, 33 coverage dumps so far
+[21:12:02] ADGE run 5: exit code 0 after 114 s (2494 s left)
+[21:14:18] ADGE run 6: exit code 0 after 136 s (2358 s left)
+[21:16:16] ADGE run 7: exit code 0 after 118 s (2240 s left)
+[21:16:16] running for 1360 s, 46 coverage dumps so far
+[21:19:35] ADGE run 8: exit code 0 after 199 s (2041 s left)
+[21:23:21] ADGE run 9: exit code 0 after 226 s (1815 s left)
+[21:23:21] running for 1785 s, 60 coverage dumps so far
+[21:24:28] ADGE run 10: exit code 0 after 67 s (1748 s left)
+[21:26:14] ADGE run 11: exit code 0 after 106 s (1642 s left)
+[21:30:07] ADGE run 12: exit code 0 after 233 s (1409 s left)
+[21:30:07] running for 2191 s, 73 coverage dumps so far
+[21:34:22] ADGE run 13: exit code 0 after 255 s (1154 s left)
+[21:35:46] ADGE run 14: exit code 0 after 84 s (1070 s left)
+[21:35:46] running for 2530 s, 84 coverage dumps so far
+[21:38:02] ADGE run 15: exit code 0 after 136 s (934 s left)
+[21:42:43] ADGE run 16: exit code 0 after 281 s (653 s left)
+[21:42:43] running for 2947 s, 98 coverage dumps so far
+[21:45:15] ADGE run 17: exit code 0 after 152 s (501 s left)
+[21:48:00] ADGE run 18: exit code 0 after 165 s (336 s left)
+[21:48:00] running for 3264 s, 109 coverage dumps so far
+[21:50:14] ADGE run 19: exit code 0 after 134 s (202 s left)
+[21:53:08] ADGE run 20: exit code 0 after 174 s (28 s left)
+[21:53:08] running for 3572 s, 119 coverage dumps so far
+[21:53:38] ADGE run 21: exit code 124 after 30 s (-2 s left)
+[21:53:38] ADGE runs finished after 3602 s: 21 run(s), 20 ended by themselves
+[21:53:39] result: Currency status=ok "actions":"1550","activities_total":7,"activities_triggered":5,"iterations":"21","line_pct":54.0,"methods_hit":94,"methods_total":145,

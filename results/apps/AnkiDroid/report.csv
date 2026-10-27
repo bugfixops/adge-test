@@ -1,0 +1,617 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Coverage Report,com.ichi2.libanki.sync,Syncer,2596,0,204,0,520,0,138,0,34,0
+JaCoCo Coverage Report,com.ichi2.libanki.sync,FullSyncer,340,0,24,0,72,0,16,0,4,0
+JaCoCo Coverage Report,com.ichi2.libanki.sync,RemoteMediaServer,334,0,12,0,61,0,14,0,8,0
+JaCoCo Coverage Report,com.ichi2.libanki.sync,RemoteServer,181,0,4,0,40,0,12,0,10,0
+JaCoCo Coverage Report,com.ichi2.libanki.sync,MediaSyncer,626,0,38,0,110,0,22,0,3,0
+JaCoCo Coverage Report,com.ichi2.libanki.sync,HttpSyncer.ProgressByteEntity,70,0,2,0,20,0,7,0,6,0
+JaCoCo Coverage Report,com.ichi2.libanki.sync,HttpSyncer,712,0,52,0,148,0,52,0,26,0
+JaCoCo Coverage Report,com.ichi2.libanki.template,Template.new Comparator() {...},14,0,2,0,4,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.libanki.template,Template,367,231,52,16,71,57,34,13,4,9
+JaCoCo Coverage Report,com.ichi2.libanki.importer,AnkiPackageImporter,283,0,18,0,58,0,12,0,3,0
+JaCoCo Coverage Report,com.ichi2.libanki.importer,TextImporter,8,0,0,0,5,0,4,0,4,0
+JaCoCo Coverage Report,com.ichi2.libanki.importer,Importer,54,0,0,0,17,0,6,0,6,0
+JaCoCo Coverage Report,com.ichi2.libanki.importer,Anki2Importer,2184,0,142,0,385,0,96,0,25,0
+JaCoCo Coverage Report,com.ichi2.libanki.importer,NoteImporter,9,0,0,0,4,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,FuriganaFilters.Kana,27,6,2,0,6,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.Deck,30,0,0,0,10,0,5,0,5,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.ReviewOutcome,42,0,0,0,10,0,5,0,5,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.Settings,141,0,0,0,24,0,11,0,11,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.NewCardSimulator,41,0,2,0,12,0,4,0,3,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,Leech,0,11,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,ExternalHookLoader,144,0,6,0,40,0,6,0,3,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,HebrewFixFilter,258,0,40,0,46,0,28,0,8,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,Leech.LeechHook.new Runnable() {...},20,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,HintFilter.Hint,55,6,2,0,7,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,FuriganaFilters,19,34,3,1,3,7,3,3,1,3
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.DeckFactory,116,6,2,0,17,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,FuriganaFilters.Kanji,27,6,2,0,6,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,Leech.LeechHook,41,6,4,0,11,1,3,1,1,1
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,Hook,31,36,7,7,10,11,8,4,3,2
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.EaseClassifier,598,0,20,0,84,0,20,0,9,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.ReviewSimulator,235,0,14,0,39,0,10,0,3,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,FuriganaFilters.Furigana,27,6,2,0,6,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,ChessFilter,72,43,9,1,11,12,6,5,1,5
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.Review,525,0,30,0,85,0,25,0,10,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,HintFilter,0,11,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.SimulationResult,288,0,20,0,47,0,19,0,9,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.ArrayUtils,344,6,38,0,67,1,29,1,10,1
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,Hooks,91,170,14,22,23,40,13,11,1,5
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,ExternalHookLoader.PrepareDexTask,25,0,0,0,7,0,4,0,4,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.CardIterator,97,0,8,0,17,0,8,0,4,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.Card,157,0,4,0,45,0,18,0,16,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.TodayStats,76,0,8,0,14,0,6,0,2,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics.PlottableSimulationResult,18,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.libanki.hooks,AdvancedStatistics,748,31,49,0,103,7,29,3,3,3
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.test,MockPronounciationPageFetcher,5,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.test,MockNoteFactory,64,0,0,0,16,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.test,MockTranslationFetcher,5,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.reviewer,ReviewerExtRegistry,0,35,0,2,0,6,0,3,0,2
+JaCoCo Coverage Report,com.ichi2.anki.reviewer,CustomFontsReviewerExt,36,182,11,13,3,43,10,10,0,8
+JaCoCo Coverage Report,org.apache.commons.httpclient.contrib.ssl,EasySSLSocketFactory,117,0,14,0,27,0,16,0,9,0
+JaCoCo Coverage Report,org.apache.commons.httpclient.contrib.ssl,EasyX509TrustManager,137,0,18,0,34,0,13,0,4,0
+JaCoCo Coverage Report,com.ichi2.libanki,Finder.SearchState,27,83,5,9,8,17,4,6,0,3
+JaCoCo Coverage Report,com.ichi2.libanki,Finder,2001,666,221,89,390,143,162,33,27,13
+JaCoCo Coverage Report,com.ichi2.libanki,Models.TransformFieldMove,40,0,0,0,9,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.libanki,LaTeX,85,74,3,3,10,19,5,4,2,4
+JaCoCo Coverage Report,com.ichi2.libanki,Stats.AxisType,0,51,0,0,0,8,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.libanki,Models.TransformFieldAdd,20,6,0,0,4,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.libanki,AnkiPackageExporter,87,157,15,9,22,38,11,6,0,5
+JaCoCo Coverage Report,com.ichi2.libanki,AnkiExporter,283,394,44,22,44,80,31,10,2,6
+JaCoCo Coverage Report,com.ichi2.libanki,Card,439,724,35,21,90,138,53,42,30,37
+JaCoCo Coverage Report,com.ichi2.libanki,ZipFile,3,93,0,2,2,23,0,6,0,5
+JaCoCo Coverage Report,com.ichi2.libanki,Stats.ChartType,0,94,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,com.ichi2.libanki,Sched.new Comparator() {...},16,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.libanki,Sched,4315,1947,417,92,854,356,311,83,71,63
+JaCoCo Coverage Report,com.ichi2.libanki,Media,1240,718,123,53,251,150,99,33,23,21
+JaCoCo Coverage Report,com.ichi2.libanki,Models,1827,1336,167,68,396,294,117,64,24,39
+JaCoCo Coverage Report,com.ichi2.libanki,Stats.new Comparator() {...},22,6,4,0,3,1,3,1,1,1
+JaCoCo Coverage Report,com.ichi2.libanki,Collection,2076,1869,193,99,358,375,171,85,43,62
+JaCoCo Coverage Report,com.ichi2.libanki,Models.TransformFieldDelete,27,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.libanki,Sched.DeckDueTreeNode,61,86,5,3,6,18,5,4,1,4
+JaCoCo Coverage Report,com.ichi2.libanki,Sound.new MediaPlayer.OnPreparedListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.libanki,Sound.new MediaPlayer.OnVideoSizeChangedListener() {...},15,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.libanki,Sound.new AudioManager.OnAudioFocusChangeListener() {...},1,3,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.libanki,Collection.DismissType,78,0,0,0,10,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.libanki,Decks,1066,871,103,55,232,187,86,55,25,37
+JaCoCo Coverage Report,com.ichi2.libanki,Exporter,9,9,0,0,4,4,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.libanki,Decks.new Comparator() {...},6,14,0,0,2,2,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.libanki,Sound.PlayAllCompletionListener,58,0,4,0,8,0,4,0,2,0
+JaCoCo Coverage Report,com.ichi2.libanki,Utils,1069,839,102,46,196,183,84,46,20,36
+JaCoCo Coverage Report,com.ichi2.libanki,CardStats,149,0,14,0,29,0,9,0,2,0
+JaCoCo Coverage Report,com.ichi2.libanki,Stats,636,3737,148,212,87,606,137,74,0,26
+JaCoCo Coverage Report,com.ichi2.libanki,Consts,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.ichi2.libanki,DB,154,357,23,27,34,86,18,28,1,20
+JaCoCo Coverage Report,com.ichi2.libanki,LaTeX.LaTeXFilter,0,14,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.libanki,Storage,667,239,65,9,145,69,38,12,4,9
+JaCoCo Coverage Report,com.ichi2.libanki,Note,238,487,28,16,36,97,31,26,12,23
+JaCoCo Coverage Report,com.ichi2.libanki,Utils.new FileFilter() {...},2,13,1,3,0,2,1,3,0,2
+JaCoCo Coverage Report,com.ichi2.libanki,Tags,418,347,45,29,83,76,38,22,11,12
+JaCoCo Coverage Report,com.ichi2.libanki,Sound,543,103,71,7,104,26,51,8,12,8
+JaCoCo Coverage Report,com.ichi2.libanki,DB.MyDbErrorHandler,17,6,0,0,5,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.upgrade,Upgrade,22,0,0,0,10,0,2,0,2,0
+JaCoCo Coverage Report,com.wildplot.android.parsing.AtomTypes,XVariableAtom,27,0,2,0,9,0,5,0,4,0
+JaCoCo Coverage Report,com.wildplot.android.parsing.AtomTypes,YVariableAtom,27,0,2,0,9,0,5,0,4,0
+JaCoCo Coverage Report,com.wildplot.android.parsing.AtomTypes,VariableAtom,50,0,6,0,14,0,7,0,4,0
+JaCoCo Coverage Report,com.wildplot.android.parsing.AtomTypes,MathFunctionAtom.MathType,124,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.wildplot.android.parsing.AtomTypes,NumberAtom,43,0,4,0,14,0,6,0,4,0
+JaCoCo Coverage Report,com.wildplot.android.parsing.AtomTypes,FunctionXAtom,128,0,18,0,32,0,14,0,5,0
+JaCoCo Coverage Report,com.wildplot.android.parsing.AtomTypes,MathFunctionAtom,273,0,54,0,66,0,37,0,5,0
+JaCoCo Coverage Report,com.wildplot.android.parsing.AtomTypes,FunctionXYAtom,192,0,34,0,40,0,22,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki.receiver,SdCardReceiver,53,0,6,0,15,0,5,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.services,NotificationService,128,0,6,0,29,0,7,0,4,0
+JaCoCo Coverage Report,com.ichi2.utils,DiffEngine.DiffAction,51,0,4,0,9,0,5,0,3,0
+JaCoCo Coverage Report,com.ichi2.utils,Base64,3860,0,118,0,362,0,88,0,28,0
+JaCoCo Coverage Report,com.ichi2.utils,VersionUtils,85,19,3,1,19,7,6,1,4,1
+JaCoCo Coverage Report,com.ichi2.utils,LanguageUtil,35,180,5,3,8,6,6,2,2,2
+JaCoCo Coverage Report,com.ichi2.utils,Threads,42,13,4,4,7,5,6,4,3,3
+JaCoCo Coverage Report,com.ichi2.utils,HttpUtility,72,0,2,0,14,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.utils,Threads.SingleThreadChecker,35,0,4,0,10,0,4,0,2,0
+JaCoCo Coverage Report,com.ichi2.utils,BitmapUtil,102,8,10,2,30,4,8,1,2,1
+JaCoCo Coverage Report,com.ichi2.utils,ExifUtil,58,0,6,0,16,0,5,0,2,0
+JaCoCo Coverage Report,com.ichi2.utils,Base64.new ObjectInputStream() {...},22,0,2,0,5,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.utils,DiffEngine.LinesToCharsResult,12,0,0,0,5,0,1,0,1,0
+JaCoCo Coverage Report,com.ichi2.utils,Base64.OutputStream,258,0,30,0,58,0,23,0,8,0
+JaCoCo Coverage Report,com.ichi2.utils,MethodLogger,90,0,10,0,20,0,8,0,3,0
+JaCoCo Coverage Report,com.ichi2.utils,DiffEngine,2806,39,344,0,518,7,196,3,21,3
+JaCoCo Coverage Report,com.ichi2.utils,DiffEngine.Operation,34,0,0,0,2,0,1,0,1,0
+JaCoCo Coverage Report,com.ichi2.utils,Base64.InputStream,252,0,46,0,61,0,27,0,4,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.impl,NoteFactory,64,0,0,0,16,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.impl,MultimediaEditableNote,56,78,11,9,16,21,11,10,3,8
+JaCoCo Coverage Report,com.wildplot.android.rendering,YAxis,539,1066,61,55,59,186,57,29,10,18
+JaCoCo Coverage Report,com.wildplot.android.rendering,Lines,39,236,3,5,6,53,6,12,3,11
+JaCoCo Coverage Report,com.wildplot.android.rendering,FunctionDrawer_y,638,0,48,0,119,0,40,0,16,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,PlotSheet,894,1022,36,54,104,173,58,37,32,18
+JaCoCo Coverage Report,com.wildplot.android.rendering,LinesPoints,134,0,2,0,24,0,8,0,7,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,YAxisBarGraph,421,0,20,0,82,0,27,0,17,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,ReliefDrawer,1523,0,92,0,201,0,64,0,18,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,RelativeColorGradient,176,0,12,0,33,0,9,0,3,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,ReliefDrawer.PartRenderer,157,0,8,0,26,0,6,0,2,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,XAxis,549,769,59,53,50,141,57,24,9,16
+JaCoCo Coverage Report,com.wildplot.android.rendering,YAxisHistoGram,508,0,32,0,107,0,35,0,19,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,XAxisHistoGram,495,0,32,0,108,0,35,0,19,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,MultiScreenPart,49,53,0,0,9,12,3,5,3,5
+JaCoCo Coverage Report,com.wildplot.android.rendering,XAxisBarGraph,380,0,20,0,77,0,27,0,17,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,XGrid,192,215,9,11,31,44,16,9,8,7
+JaCoCo Coverage Report,com.wildplot.android.rendering,PieChart,364,216,10,8,47,29,8,12,1,10
+JaCoCo Coverage Report,com.wildplot.android.rendering,YGrid,196,260,9,15,33,55,17,14,9,10
+JaCoCo Coverage Report,com.wildplot.android.rendering,BarGraph,219,205,10,8,27,50,11,14,3,13
+JaCoCo Coverage Report,com.wildplot.android.rendering,FunctionDrawer,606,0,46,0,114,0,39,0,16,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,DrawableContainer,13,70,3,3,6,22,4,7,2,6
+JaCoCo Coverage Report,com.wildplot.android.rendering,Integral,195,0,4,0,39,0,10,0,8,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,ReliefDrawer.ReliefLegend,341,0,20,0,58,0,17,0,7,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,PointDrawer2D,84,0,2,0,19,0,8,0,7,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,ReliefDrawer.DepthSearcher,203,0,24,0,33,0,16,0,4,0
+JaCoCo Coverage Report,com.wildplot.android.rendering,LegendDrawable,3,37,0,0,2,15,2,9,2,9
+JaCoCo Coverage Report,com.ichi2.anki.api,NoteInfo,86,0,0,0,23,0,7,0,7,0
+JaCoCo Coverage Report,com.ichi2.anki.api,Basic2Model,48,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.api,AddContentApi.CompatV2,189,0,16,0,31,0,12,0,4,0
+JaCoCo Coverage Report,com.ichi2.anki.api,AddContentApi.CompatV1,173,0,18,0,35,0,14,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki.api,Utils,176,0,14,0,41,0,17,0,10,0
+JaCoCo Coverage Report,com.ichi2.anki.api,AddContentApi,919,0,104,0,203,0,82,0,30,0
+JaCoCo Coverage Report,com.ichi2.anki.api,BuildConfig,7,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.api,BasicModel,36,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard,AudioView.RecordButton,4,32,1,1,2,9,1,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard,AudioView.StopButton,0,36,0,2,0,11,0,3,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard,AudioView.PlayPauseButton.new View.OnClickListener() {...},135,50,6,2,30,10,6,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard,AudioView.RecordButton.new View.OnClickListener() {...},74,115,5,4,15,27,5,3,0,3
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard,AudioView,60,196,12,8,20,53,13,12,5,10
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard,AudioView.Status,0,64,0,0,0,5,0,1,0,1
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard,AudioView.PlayPauseButton.1.new MediaPlayer.OnCompletionListener() {...},25,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard,AudioView.StopButton.new View.OnClickListener() {...},16,15,1,1,4,3,1,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard,AudioView.PlayPauseButton,3,42,1,2,1,13,1,3,0,2
+JaCoCo Coverage Report,com.ichi2.anki.provider,CardContentProvider,3593,116,446,4,732,25,276,5,29,3
+JaCoCo Coverage Report,com.ichi2.compat,CompatV10.new TextToSpeech.OnUtteranceCompletedListener() {...},22,0,2,0,5,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.compat,CompatV10.new MaterialDialog.ListCallback() {...},51,0,4,0,16,0,5,0,2,0
+JaCoCo Coverage Report,com.ichi2.compat,CompatV15NookHdOrHdPlus,6,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.compat,CompatV11,6,63,0,0,2,16,1,3,1,3
+JaCoCo Coverage Report,com.ichi2.compat,CompatV10,175,3,4,0,46,1,18,1,16,1
+JaCoCo Coverage Report,com.ichi2.compat,CompatV12,6,7,0,0,2,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.compat,CompatV19.new AnimatorListenerAdapter() {...},14,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.compat,CompatV19.new View.OnSystemUiVisibilityChangeListener() {...},81,0,14,0,17,0,9,0,2,0
+JaCoCo Coverage Report,com.ichi2.compat,CompatV15,8,3,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.compat,CompatV17,2,10,1,1,0,3,1,2,0,2
+JaCoCo Coverage Report,com.ichi2.compat,CompatV16,163,60,6,0,21,14,4,4,1,4
+JaCoCo Coverage Report,com.ichi2.compat,CompatV19,75,3,2,0,18,1,5,1,4,1
+JaCoCo Coverage Report,com.ichi2.compat,CompatV21,4,28,0,0,2,9,1,4,1,4
+JaCoCo Coverage Report,com.ichi2.compat,CompatHelper,128,122,49,19,17,29,36,14,3,13
+JaCoCo Coverage Report,com.ichi2.compat,CompatV10.2.new MaterialDialog.SingleButtonCallback() {...},32,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.compat,CompatV15.new UtteranceProgressListener() {...},24,0,2,0,7,0,5,0,4,0
+JaCoCo Coverage Report,com.ichi2.async,CollectionLoader,19,48,5,3,8,18,4,6,0,6
+JaCoCo Coverage Report,com.ichi2.async,DeckTask.new Comparator() {...},6,14,0,0,2,2,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.async,BaseAsyncTask,9,18,0,0,6,13,2,5,2,5
+JaCoCo Coverage Report,com.ichi2.async,DeckTask.TaskListener,4,10,0,0,2,5,1,3,1,3
+JaCoCo Coverage Report,com.ichi2.async,DeckTask,2057,776,113,29,452,161,99,40,27,22
+JaCoCo Coverage Report,com.ichi2.async,DeckTask.ProgressCallback,29,0,4,0,10,0,5,0,3,0
+JaCoCo Coverage Report,com.ichi2.async,Connection.Payload,42,0,0,0,18,0,4,0,4,0
+JaCoCo Coverage Report,com.ichi2.async,Connection.CancelCallback,33,0,4,0,10,0,5,0,3,0
+JaCoCo Coverage Report,com.ichi2.async,DeckTask.TaskData,185,82,0,0,63,29,22,11,22,11
+JaCoCo Coverage Report,com.ichi2.async,Connection,1003,19,112,3,252,5,77,1,19,1
+JaCoCo Coverage Report,com.ichi2.ui,SlidingTabStrip,83,302,4,8,17,50,8,7,4,5
+JaCoCo Coverage Report,com.ichi2.ui,SlidingTabLayout.InternalViewPagerListener,30,66,8,8,6,16,8,4,0,4
+JaCoCo Coverage Report,com.ichi2.ui,AppCompatPreferenceActivity,34,73,0,2,13,27,6,12,6,11
+JaCoCo Coverage Report,com.ichi2.ui,SeekBarPreference,85,210,11,5,19,40,11,7,4,6
+JaCoCo Coverage Report,com.ichi2.ui,DividerItemDecoration,0,72,0,2,0,17,0,3,0,2
+JaCoCo Coverage Report,com.ichi2.ui,SlidingTabLayout,48,216,11,19,16,55,17,11,6,7
+JaCoCo Coverage Report,com.ichi2.ui,SlidingTabStrip.SimpleTabColorizer,0,26,0,0,0,6,0,4,0,4
+JaCoCo Coverage Report,com.ichi2.ui,SlidingTabLayout.TabClickListener,1,29,1,3,1,5,1,3,0,2
+JaCoCo Coverage Report,com.ichi2.anki.JacocoInstrument,JacocoInstrumentation,72,113,12,6,16,28,11,6,2,6
+JaCoCo Coverage Report,com.ichi2.anki.JacocoInstrument,SMSInstrumentedReceiver,0,24,1,1,0,7,1,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.web,HttpFetcher,149,39,7,1,35,10,7,2,3,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.beolingus.parsing,BeolingusParser,164,0,24,0,44,0,16,0,4,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,Term.TermType,44,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,TopLevelParser,415,0,36,0,99,0,39,0,21,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,Expression,242,0,49,0,60,0,32,0,6,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,Expression.ExpressionType,44,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,Atom.AtomType,74,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,Factor,192,0,35,0,49,0,26,0,7,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,Factor.FactorType,44,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,ExpressionFormatException,7,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,Pow,275,0,51,0,65,0,34,0,7,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,Atom,334,0,58,0,87,0,42,0,12,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,Pow.PowType,44,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.wildplot.android.parsing,Term,241,0,47,0,60,0,31,0,6,0
+JaCoCo Coverage Report,com.wildplot.android.rendering.graphics.wrapper,RectangleWrap,24,32,0,0,3,9,3,2,3,2
+JaCoCo Coverage Report,com.wildplot.android.rendering.graphics.wrapper,StrokeWrap,0,12,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.wildplot.android.rendering.graphics.wrapper,ColorWrap,93,171,0,0,19,40,5,8,5,8
+JaCoCo Coverage Report,com.wildplot.android.rendering.graphics.wrapper,GraphicsWrap,154,157,0,0,32,41,9,20,9,20
+JaCoCo Coverage Report,com.wildplot.android.rendering.graphics.wrapper,FontMetricsWrap,0,22,0,0,0,6,0,4,0,4
+JaCoCo Coverage Report,com.wildplot.android.rendering.graphics.wrapper,BasicStrokeWrap,0,4,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,com.wildplot.android.rendering.graphics.wrapper,BufferedImageWrap,42,0,0,0,11,0,5,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki.widgets,DeckDropDownAdapter,31,137,3,7,10,34,3,8,1,5
+JaCoCo Coverage Report,com.ichi2.anki.widgets,DeckDropDownAdapter.DeckDropDownViewHolder,0,3,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.ichi2.anki.widgets,DeckAdapter.ViewHolder,0,55,0,0,0,11,0,1,0,1
+JaCoCo Coverage Report,com.ichi2.anki.widgets,FabBehavior,3,74,4,8,2,18,5,6,1,4
+JaCoCo Coverage Report,com.ichi2.anki.widgets,DeckAdapter,122,488,18,22,24,86,15,21,1,15
+JaCoCo Coverage Report,com.ichi2.anki.widgets,PopupMenuWithIcons,60,7,5,1,11,3,3,1,0,1
+JaCoCo Coverage Report,com.ichi2.anki.servicelayer,NoteService,74,178,16,18,22,46,15,9,2,4
+JaCoCo Coverage Report,com.ichi2.themes,Themes,30,149,8,14,9,38,10,11,2,6
+JaCoCo Coverage Report,com.ichi2.themes,StyledProgressDialog,39,24,2,0,16,8,8,2,7,2
+JaCoCo Coverage Report,com.ichi2.themes,HtmlColors,111,1362,15,11,16,36,11,6,1,3
+JaCoCo Coverage Report,com.ichi2.compat.customtabs,CustomTabsHelper,136,90,35,7,31,23,22,3,2,2
+JaCoCo Coverage Report,com.ichi2.compat.customtabs,ServiceConnection,30,0,4,0,9,0,5,0,3,0
+JaCoCo Coverage Report,com.ichi2.compat.customtabs,CustomTabsFallback,0,13,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.compat.customtabs,KeepAliveService,10,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.compat.customtabs,CustomTabActivityHelper,83,44,11,7,23,14,11,6,2,6
+JaCoCo Coverage Report,com.ichi2.widget,WidgetStatus,33,31,7,3,6,8,7,2,2,2
+JaCoCo Coverage Report,com.ichi2.widget,AnkiDroidWidgetSmall.UpdateService,187,0,16,0,46,0,12,0,4,0
+JaCoCo Coverage Report,com.ichi2.widget,AnkiDroidWidgetSmall,71,0,2,0,20,0,7,0,6,0
+JaCoCo Coverage Report,com.ichi2.widget,AnkiDroidWidgetSmall.UpdateService.new BroadcastReceiver() {...},37,0,6,0,11,0,5,0,2,0
+JaCoCo Coverage Report,com.ichi2.widget,WidgetStatus.UpdateDeckStatusAsyncTask,160,0,8,0,34,0,8,0,4,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicAudioFieldController.new AudioView.OnRecordingFinishEventListener() {...},0,20,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicTextFieldController.3.new DialogInterface.OnClickListener() {...},8,25,3,1,2,5,2,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicTextFieldController.new View.OnClickListener() {...},36,0,0,0,7,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicTextFieldController.new View.OnClickListener() {...},7,69,2,4,1,16,2,3,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicTextFieldController.new View.OnClickListener() {...},20,23,1,1,4,5,1,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicTextFieldController.new View.OnClickListener() {...},0,12,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicTextFieldController,202,263,21,13,56,66,18,15,3,13
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,ImageField,98,11,4,0,29,4,17,3,15,3
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,FieldBase,3,10,0,0,1,4,1,2,1,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicControllerFactory,2,24,1,3,1,6,1,4,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,EFieldType,0,34,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicImageFieldController.new View.OnClickListener() {...},3,57,0,0,2,11,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicImageFieldController.new View.OnClickListener() {...},0,19,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicImageFieldController,163,186,13,5,37,42,9,11,1,10
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,AudioField,65,44,3,1,20,13,13,7,11,7
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,FieldControllerBase,0,19,0,0,0,9,0,5,0,5
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,TextField,23,29,0,0,11,12,11,7,11,7
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.fields,BasicAudioFieldController,32,75,4,2,8,21,4,5,1,5
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,MultimediaEditFieldActivity.new View.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,MultimediaEditFieldActivity.new View.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,MultimediaEditFieldActivity.new View.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,MultimediaEditFieldActivity.new View.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,LoadPronounciationActivity.DownloadFileTask,23,0,0,0,6,0,4,0,4,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,LoadPronounciationActivity.BackgroundPost,24,0,0,0,7,0,5,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,PickStringDialogFragment,0,44,0,0,0,12,0,5,0,5
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,MultimediaEditFieldActivity,167,348,21,36,44,95,22,25,5,12
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,TranslationActivity,292,344,40,8,88,90,31,13,8,12
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,LoadPronounciationActivity,533,0,30,0,163,0,35,0,20,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,TranslationActivity.BackgroundPost,0,23,0,0,0,6,0,3,0,3
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,LoadPronounciationActivity.new View.OnClickListener() {...},7,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,LoadPronounciationActivity.new View.OnClickListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.activity,TranslationActivity.new View.OnClickListener() {...},0,41,0,0,0,7,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.preferences,NumberRangePreference,54,133,4,8,15,31,7,12,3,10
+JaCoCo Coverage Report,com.ichi2.preferences,CustomDialogPreference,28,67,5,5,7,15,4,3,0,2
+JaCoCo Coverage Report,com.ichi2.preferences,StepsPreference,63,163,7,17,19,40,8,13,2,7
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.language,LanguageListerBase,2,44,1,1,1,11,1,4,0,4
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.language,LanguagesLister.new Comparator() {...},10,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.language,LanguageListerBeolingus,27,0,0,0,5,0,1,0,1,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.language,LanguagesLister,81,0,2,0,17,0,4,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.language,LanguagesListerGlosbe,43,112,4,2,7,7,3,3,1,2
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.language,LanguageListerBase.new Comparator() {...},0,10,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SyncErrorDialog,258,86,22,3,61,22,24,5,4,5
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SimpleMessageDialog.new MaterialDialog.ButtonCallback() {...},0,17,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CardBrowserMySearchesDialog,203,0,8,0,45,0,9,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,NoteEditorRescheduleCard,38,0,0,0,11,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.4.new MaterialDialog.InputCallback() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerNoSpaceLeftDialog.new MaterialDialog.ButtonCallback() {...},12,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerBackupNoSpaceLeftDialog,62,0,0,0,14,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerNoSpaceLeftDialog.new DialogInterface.OnCancelListener() {...},12,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CustomStudyDialog,216,492,26,11,37,94,22,16,1,12
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,MediaCheckDialog.new MaterialDialog.ButtonCallback() {...},0,23,0,0,0,8,0,3,0,3
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.TagsArrayAdapter.TagsFilter,88,0,6,0,21,0,6,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,MediaCheckDialog.new MaterialDialog.ButtonCallback() {...},11,15,0,0,3,4,1,2,1,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,MediaCheckDialog.new MaterialDialog.ButtonCallback() {...},12,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerContextMenu.new MaterialDialog.ListCallback() {...},43,91,3,6,9,25,3,7,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,NoteEditorRescheduleCard.new MaterialDialog.InputCallback() {...},17,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.TagsArrayAdapter,51,31,0,0,10,8,3,3,3,3
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,AsyncDialogFragment,2,5,0,0,1,2,1,2,1,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerNoSpaceLeftDialog,46,0,0,0,13,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CardBrowserMySearchesDialog.MySearchesArrayAdapter,104,0,2,0,25,0,5,0,4,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerBackupNoSpaceLeftDialog.new MaterialDialog.ButtonCallback() {...},12,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerBackupNoSpaceLeftDialog.new DialogInterface.OnCancelListener() {...},12,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.TagsArrayAdapter.new View.OnClickListener() {...},51,0,8,0,9,0,6,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.TagsArrayAdapter.new Comparator() {...},27,6,4,0,3,1,3,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ImportDialog,130,118,6,3,23,28,6,5,1,4
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.new MenuItem.OnMenuItemClickListener() {...},59,6,8,0,12,1,5,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.new SearchView.OnQueryTextListener() {...},18,6,0,0,5,1,2,1,2,1
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.new MaterialDialog.ButtonCallback() {...},0,20,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.new RadioGroup.OnCheckedChangeListener() {...},6,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.new MenuItem.OnMenuItemClickListener() {...},69,9,4,0,15,1,3,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.new InputFilter() {...},16,6,4,0,4,1,3,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CardBrowserOrderDialog,107,0,8,0,22,0,7,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerExportCompleteDialog.new MaterialDialog.ButtonCallback() {...},6,22,0,0,2,4,1,2,1,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CardBrowserMySearchesDialog.ViewHolder,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ExportDialog,0,152,0,2,0,40,0,6,0,5
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ModelEditorContextMenu,0,74,0,0,0,19,0,3,0,3
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog.new MaterialDialog.ButtonCallback() {...},0,15,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog.new MaterialDialog.ListCallback() {...},53,0,7,0,19,0,8,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog.new MaterialDialog.ButtonCallback() {...},15,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog.new MaterialDialog.ButtonCallback() {...},19,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog.new MaterialDialog.ButtonCallback() {...},28,0,0,0,9,0,4,0,4,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog.new MaterialDialog.ButtonCallback() {...},0,10,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog.new MaterialDialog.ButtonCallback() {...},31,0,2,0,7,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog.new MaterialDialog.ButtonCallback() {...},13,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog,123,338,14,6,25,71,10,7,1,6
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog.new MaterialDialog.ListCallbackSingleChoice() {...},40,6,2,0,11,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,TagsDialog.TagsArrayAdapter.ViewHolder,10,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ImportDialog.new MaterialDialog.ButtonCallback() {...},20,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ImportDialog.new MaterialDialog.ListCallback() {...},35,0,2,0,6,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ImportDialog.new DialogInterface.OnShowListener() {...},0,9,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ImportDialog.new MaterialDialog.ButtonCallback() {...},0,17,0,0,0,5,0,3,0,3
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,AnkiDroidCrashReportDialog,174,0,16,0,46,0,14,0,6,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CardBrowserMySearchesDialog.new MaterialDialog.ListCallback() {...},17,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CardBrowserMySearchesDialog.new MaterialDialog.ButtonCallback() {...},42,0,2,0,9,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CardBrowserMySearchesDialog.new MaterialDialog.InputCallback() {...},14,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ImportDialog.new MaterialDialog.ButtonCallback() {...},20,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CardBrowserContextMenu,113,0,8,0,26,0,7,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog.new MaterialDialog.ButtonCallback() {...},16,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog.new MaterialDialog.ButtonCallback() {...},0,13,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,MediaCheckDialog,139,232,11,11,22,47,12,8,2,6
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerExportCompleteDialog,21,72,0,0,6,18,1,5,1,5
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DialogHandler.new ConfirmationDialog() {...},12,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SyncErrorDialog.new MaterialDialog.ButtonCallback() {...},15,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SyncErrorDialog.new MaterialDialog.ButtonCallback() {...},19,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SyncErrorDialog.new MaterialDialog.ButtonCallback() {...},0,12,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SyncErrorDialog.new MaterialDialog.ButtonCallback() {...},18,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SyncErrorDialog.new MaterialDialog.ButtonCallback() {...},24,0,0,0,9,0,4,0,4,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SyncErrorDialog.new MaterialDialog.ButtonCallback() {...},20,0,0,0,7,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SyncErrorDialog.new MaterialDialog.ButtonCallback() {...},18,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SyncErrorDialog.new MaterialDialog.ButtonCallback() {...},16,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SyncErrorDialog.new MaterialDialog.ButtonCallback() {...},16,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerConfirmDeleteDeckDialog,59,0,0,0,17,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ExportDialog.new MaterialDialog.ListCallbackMultiChoice() {...},0,48,1,4,0,9,1,4,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ExportDialog.new MaterialDialog.SingleButtonCallback() {...},0,35,0,2,0,5,0,3,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ExportDialog.new MaterialDialog.SingleButtonCallback() {...},0,10,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ConfirmationDialog,2,70,1,1,1,18,2,4,1,4
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CustomStudyDialog.new DeckTask.TaskListener() {...},2,21,0,0,2,6,2,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CustomStudyDialog.new View.OnKeyListener() {...},20,9,2,0,4,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CustomStudyDialog.new MaterialDialog.ButtonCallback() {...},198,65,6,1,31,10,6,3,0,3
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CustomStudyDialog.new MaterialDialog.ListCallback() {...},35,66,2,2,8,13,2,3,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DatabaseErrorDialog,444,236,35,14,99,52,33,14,3,7
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerContextMenu,5,208,1,5,1,44,1,7,0,5
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ConfirmationDialog.new MaterialDialog.ButtonCallback() {...},0,14,0,0,0,5,0,3,0,3
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,SimpleMessageDialog,2,77,1,1,1,20,1,6,0,6
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DialogHandler,241,18,31,1,45,7,18,2,2,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CardBrowserMySearchesDialog.MySearchesArrayAdapter.new Comparator() {...},10,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CardBrowserMySearchesDialog.MySearchesArrayAdapter.new View.OnClickListener() {...},20,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ModelBrowserContextMenu,0,65,0,0,0,17,0,3,0,3
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,ContextMenuHelper,3,46,0,4,1,8,1,4,1,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,CustomStudyDialog.1.new TagsDialog.TagsDialogListener() {...},42,46,5,2,8,8,4,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki.dialogs,DeckPickerConfirmDeleteDeckDialog.new MaterialDialog.ButtonCallback() {...},23,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new View.OnClickListener() {...},0,14,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new View.OnClickListener() {...},8,6,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new DeckTask.TaskListener() {...},22,66,5,5,5,14,7,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new DeckTask.TaskListener() {...},54,0,8,0,12,0,9,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new DeckTask.TaskListener() {...},28,0,2,0,10,0,6,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new MaterialDialog.ButtonCallback() {...},0,28,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new View.OnClickListener() {...},20,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new BroadcastReceiver() {...},18,6,4,0,5,1,3,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new Connection.CancellableTaskListener() {...},855,6,94,0,152,1,53,1,5,1
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new MaterialDialog.ListCallback() {...},160,0,9,0,30,0,8,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new DeckTask.TaskListener() {...},10,52,4,4,3,11,6,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new MaterialDialog.ListCallbackSingleChoice() {...},141,0,10,0,29,0,7,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new CardBrowserMySearchesDialog.MySearchesDialogListener() {...},174,0,16,0,43,0,12,0,4,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new AdapterView.OnItemSelectedListener() {...},12,0,0,0,4,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new AdapterView.OnItemSelectedListener() {...},47,0,2,0,10,0,4,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new AdapterView.OnItemSelectedListener() {...},47,0,2,0,10,0,4,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new AdapterView.OnItemClickListener() {...},55,0,0,0,9,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new AdapterView.OnItemLongClickListener() {...},63,0,8,0,10,0,6,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,StudyOptionsFragment.3.new Runnable() {...},55,0,4,0,12,0,4,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new MenuItemCompat.OnActionExpandListener() {...},26,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,CardTemplateEditor.CardTemplateFragment,186,636,15,26,42,141,16,26,2,18
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser,182,550,14,14,48,124,15,22,4,17
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new DeckTask.TaskListener() {...},24,131,6,8,9,25,8,4,2,3
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new View.OnClickListener() {...},20,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new View.OnClickListener() {...},0,15,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new Snackbar.Callback() {...},18,12,2,2,4,5,2,3,0,3
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new DeckTask.TaskListener() {...},6,19,1,1,3,6,3,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new DeckTask.TaskListener() {...},20,67,6,6,7,14,7,4,2,3
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new MaterialDialog.ButtonCallback() {...},60,19,6,0,13,3,4,2,1,2
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new DeckTask.Listener() {...},30,53,3,3,6,10,5,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki,Statistics.new AdapterView.OnItemSelectedListener() {...},1,11,0,0,1,3,1,2,1,2
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.MyGestureDetector,271,16,52,2,50,4,30,2,3,2
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker,1288,1397,168,77,291,331,140,64,29,48
+JaCoCo Coverage Report,com.ichi2.anki,FieldEditText,60,44,1,1,13,14,6,5,5,5
+JaCoCo Coverage Report,com.ichi2.anki,AnkiFont,129,264,18,22,31,52,18,12,3,7
+JaCoCo Coverage Report,com.ichi2.anki,Lookup.new MaterialDialog.ListCallback() {...},22,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,StudyOptionsFragment.new View.OnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,StudyOptionsFragment.new View.OnClickListener() {...},21,6,4,0,7,1,3,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer,2403,2086,344,98,541,455,268,48,37,42
+JaCoCo Coverage Report,com.ichi2.anki,StudyOptionsFragment.new DeckTask.TaskListener() {...},155,242,20,18,31,51,20,4,2,3
+JaCoCo Coverage Report,com.ichi2.anki,Reviewer,1244,0,207,0,286,0,133,0,22,0
+JaCoCo Coverage Report,com.ichi2.anki,DeckOptions.DeckPreferenceHack,28,380,1,3,9,48,5,10,4,9
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.MyWebView,60,24,4,0,12,6,4,1,2,1
+JaCoCo Coverage Report,com.ichi2.anki,CardTemplateEditor.new MaterialDialog.ButtonCallback() {...},32,0,0,0,7,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,CardTemplateEditor.new ViewPager.OnPageChangeListener() {...},0,23,1,1,0,7,1,4,0,4
+JaCoCo Coverage Report,com.ichi2.anki,CardTemplateEditor.new DeckTask.TaskListener() {...},38,32,5,1,11,8,5,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki,Preferences.new Preference.OnPreferenceClickListener() {...},18,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,Preferences.new Preference.OnPreferenceChangeListener() {...},30,0,4,0,7,0,4,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,Preferences.new Preference.OnPreferenceChangeListener() {...},26,6,0,0,7,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,Preferences.new Preference.OnPreferenceClickListener() {...},64,0,0,0,16,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,Preferences.new Preference.OnPreferenceClickListener() {...},0,18,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,Preferences.new Preference.OnPreferenceClickListener() {...},0,18,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,Preferences.new Preference.OnPreferenceClickListener() {...},0,23,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new Handler() {...},9,6,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,FlashCardsContract.Note,59,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new Chronometer.OnChronometerTickListener() {...},31,0,2,0,6,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,Preferences.new MaterialDialog.ButtonCallback() {...},22,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,ReadText.new MaterialDialog.ListCallback() {...},54,0,4,0,10,0,4,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,ReadText.new Runnable() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,Preferences.SettingsFragment,0,71,0,0,0,18,0,5,0,5
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new Runnable() {...},16,6,4,0,3,1,3,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new Runnable() {...},16,6,4,0,3,1,3,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new View.OnKeyListener() {...},17,6,6,0,4,1,4,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new BroadcastReceiver() {...},9,6,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new Runnable() {...},6,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new DeckTask.TaskListener() {...},143,6,12,0,33,1,10,1,4,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new TextView.OnEditorActionListener() {...},10,6,2,0,4,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new WebViewClient() {...},236,14,28,0,53,4,15,2,1,2
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new View.OnClickListener() {...},13,6,2,0,4,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,ReadText.new TextToSpeech.OnInitListener() {...},49,0,4,0,11,0,4,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new MaterialDialog.ButtonCallback() {...},23,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.AnkiDroidWebChromeClient,12,6,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,StudyOptionsActivity,57,102,10,4,23,29,14,7,7,7
+JaCoCo Coverage Report,com.ichi2.anki,CardTemplateEditor,59,250,8,12,19,57,9,11,1,9
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.JSONNameComparator,24,40,6,2,7,8,4,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,VideoPlayer,72,0,0,0,21,0,7,0,7,0
+JaCoCo Coverage Report,com.ichi2.anki,Statistics.SectionsPagerAdapter,2,94,2,10,1,21,2,13,0,5
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.MultiColumnListAdapter,248,0,22,0,55,0,22,0,10,0
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.17.new DialogInterface.OnKeyListener() {...},68,0,10,0,18,0,7,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.17.1.new MaterialDialog.ButtonCallback() {...},15,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new AdapterView.OnItemSelectedListener() {...},1,18,0,0,1,3,1,2,1,2
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new View.OnClickListener() {...},8,6,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new ConfirmationDialog() {...},20,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new ConfirmationDialog() {...},31,0,0,0,7,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new DeckTask.TaskListener() {...},249,9,36,0,54,2,22,1,4,1
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new View.OnClickListener() {...},0,14,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new ConfirmationDialog() {...},40,0,0,0,8,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new BroadcastReceiver() {...},9,6,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new MaterialDialog.ButtonCallback() {...},14,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,Statistics.OverviewStatisticsFragment,50,221,13,15,13,48,12,9,1,6
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.new MaterialDialog.ButtonCallback() {...},14,96,1,1,3,15,1,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,Statistics.StatisticFragment,2,46,1,2,1,15,1,4,0,3
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.new ConfirmationDialog() {...},24,0,0,0,9,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.new ConfirmationDialog() {...},5,19,0,0,3,6,1,2,1,2
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.new MaterialDialog.ButtonCallback() {...},16,89,1,1,1,15,1,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.new AdapterView.OnItemLongClickListener() {...},0,47,0,0,0,7,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.new AdapterView.OnItemClickListener() {...},0,49,0,0,0,8,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.new MaterialDialog.ListCallback() {...},0,20,1,3,0,8,1,4,0,2
+JaCoCo Coverage Report,com.ichi2.anki,StudyOptionsFragment,451,493,58,22,103,106,47,22,8,17
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.new DeckTask.TaskListener() {...},6,20,1,1,3,7,3,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.new DeckTask.TaskListener() {...},9,38,1,1,4,9,3,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki,Manifest,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.ichi2.anki,Info,382,0,9,0,69,0,10,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki,BackupManager.new Thread() {...},3,91,0,2,2,17,0,3,0,2
+JaCoCo Coverage Report,com.ichi2.anki,DeckOptions.new BroadcastReceiver() {...},9,6,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,FilteredDeckOptions,57,336,17,27,15,85,16,17,0,11
+JaCoCo Coverage Report,com.ichi2.anki,Manifest.permission,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.ichi2.anki,BackupManager,405,294,39,25,77,57,34,16,8,10
+JaCoCo Coverage Report,com.ichi2.anki,Info.new WebChromeClient() {...},19,0,2,0,4,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,Info.new View.OnClickListener() {...},56,0,6,0,16,0,5,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,Info.new View.OnClickListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,Previewer,7,71,1,1,3,24,2,7,1,7
+JaCoCo Coverage Report,com.ichi2.anki,DeckOptions.JSONNameComparator,19,6,0,0,6,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,FlashCardsContract.Deck,39,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,DeckOptions.DeckPreferenceHack.Editor,567,366,31,43,80,67,33,16,6,6
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.DisplayPair,3,18,0,0,1,6,1,3,1,3
+JaCoCo Coverage Report,com.ichi2.anki,DeckOptions.DeckPreferenceHack.Editor.new DeckTask.TaskListener() {...},2,53,0,0,2,11,2,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki,DeckOptions.DeckPreferenceHack.Editor.new MaterialDialog.ButtonCallback() {...},23,0,0,0,7,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,UIUtils,29,149,8,12,8,38,9,11,2,8
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor,1582,1044,211,63,347,237,156,35,26,22
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.9.new MaterialDialog.ButtonCallback() {...},31,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,Statistics.ChartFragment,53,425,16,29,13,75,15,19,1,7
+JaCoCo Coverage Report,com.ichi2.anki,NavigationDrawerActivity,99,311,21,27,28,79,21,21,4,11
+JaCoCo Coverage Report,com.ichi2.anki,CardTemplateEditor.TemplatePagerAdapter,12,57,0,0,4,13,0,8,0,8
+JaCoCo Coverage Report,com.ichi2.anki,FlashCardsContract.CardTemplate,31,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.11.new PopupMenu.OnMenuItemClickListener() {...},2,119,1,3,1,20,1,4,0,2
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new View.OnClickListener() {...},27,6,2,0,6,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new View.OnClickListener() {...},8,42,4,4,2,7,4,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new DeckTask.TaskListener() {...},64,6,8,0,13,1,8,1,4,1
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new DeckTask.TaskListener() {...},84,6,14,0,19,1,11,1,4,1
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new View.OnClickListener() {...},8,42,4,4,2,7,4,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new View.OnLongClickListener() {...},0,32,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new View.OnClickListener() {...},47,6,2,0,13,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new DeckTask.TaskListener() {...},11,46,3,3,3,10,5,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.new View.OnClickListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,FlashCardsContract.ReviewInfo,31,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,FilteredDeckOptions.new BroadcastReceiver() {...},9,6,2,0,3,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.6.new ConfirmationDialog() {...},81,0,0,0,14,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,FilteredDeckOptions.DeckPreferenceHack,35,163,1,3,9,29,6,9,5,8
+JaCoCo Coverage Report,com.ichi2.anki,DeckOptions,172,499,28,38,51,119,25,25,4,13
+JaCoCo Coverage Report,com.ichi2.anki,DeckPicker.27.new ConfirmationDialog() {...},37,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.SetNoteTypeListener,106,28,5,1,24,6,4,2,1,2
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.EditNoteTypeListener,182,0,10,0,33,0,8,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,Reviewer.SuspendProvider,54,0,5,0,16,0,8,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki,AnkiDroidApp,248,189,26,10,61,49,23,13,5,13
+JaCoCo Coverage Report,com.ichi2.anki,FlashCardsContract.Model,51,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,CustomExceptionHandler,515,0,18,0,103,0,19,0,10,0
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.6.new MaterialDialog.ButtonCallback() {...},17,6,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,CollectionHelper.LazyHolder,0,5,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.5.new ConfirmationDialog() {...},28,0,0,0,9,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,Reviewer.new View.OnTouchListener() {...},31,0,6,0,5,0,5,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,ModelBrowser.DisplayPairAdapter,0,59,0,2,0,12,0,3,0,2
+JaCoCo Coverage Report,com.ichi2.anki,ReadText,379,12,29,1,83,4,23,2,8,2
+JaCoCo Coverage Report,com.ichi2.anki,StudyOptionsFragment.3.1.new Runnable() {...},19,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor,132,405,10,13,34,111,12,23,2,21
+JaCoCo Coverage Report,com.ichi2.anki,Lookup,339,33,25,1,72,9,26,1,7,1
+JaCoCo Coverage Report,com.ichi2.anki,Whiteboard.UndoStack,143,0,9,0,31,0,12,0,7,0
+JaCoCo Coverage Report,com.ichi2.anki,CardTemplateEditor.CardTemplateFragment.new DeckTask.TaskListener() {...},49,6,2,0,12,1,5,1,4,1
+JaCoCo Coverage Report,com.ichi2.anki,CardTemplateEditor.CardTemplateFragment.new TextWatcher() {...},6,63,0,0,2,10,0,4,0,4
+JaCoCo Coverage Report,com.ichi2.anki,CardTemplateEditor.CardTemplateFragment.new ConfirmationDialog() {...},20,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,CardTemplateEditor.CardTemplateFragment.new ConfirmationDialog() {...},8,12,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,CardTemplateEditor.CardTemplateFragment.new ConfirmationDialog() {...},15,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.12.new PopupMenu.OnMenuItemClickListener() {...},149,0,18,0,17,0,11,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,BuildConfig,3,4,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,MyAccount.new View.OnClickListener() {...},0,10,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new SearchView.OnQueryTextListener() {...},28,0,2,0,6,0,4,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,MyAccount.new View.OnClickListener() {...},0,10,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new View.OnClickListener() {...},15,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,MyAccount.new View.OnClickListener() {...},0,16,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,MyAccount.new View.OnClickListener() {...},4,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new TagsDialog.TagsDialogListener() {...},101,0,9,0,24,0,7,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new DeckTask.TaskListener() {...},38,0,2,0,11,0,6,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki,MyAccount.new Connection.TaskListener() {...},127,6,14,0,25,1,11,1,4,1
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new DeckTask.TaskListener() {...},44,0,2,0,10,0,6,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new DeckTask.TaskListener() {...},16,0,0,0,7,0,5,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new DeckTask.TaskListener() {...},60,0,8,0,16,0,9,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new DeckTask.TaskListener() {...},39,0,2,0,13,0,6,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.new BroadcastReceiver() {...},15,0,2,0,4,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,FlashCardsContract,4,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.ichi2.anki,AnkiActivity,228,339,25,15,63,121,27,43,10,40
+JaCoCo Coverage Report,com.ichi2.anki,VideoPlayer.new MediaPlayer.OnCompletionListener() {...},20,0,2,0,6,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new View.OnClickListener() {...},25,61,1,1,5,10,1,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,MetaDB,909,0,72,0,205,0,57,0,21,0
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new TagsDialog.TagsDialogListener() {...},15,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new TextWatcher() {...},0,24,0,2,0,7,0,5,0,4
+JaCoCo Coverage Report,com.ichi2.anki,NoteEditor.new View.OnClickListener() {...},70,0,2,0,10,0,3,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,FilteredDeckOptions.DeckPreferenceHack.Editor,236,211,17,15,43,39,17,10,6,5
+JaCoCo Coverage Report,com.ichi2.anki,IntentHandler,414,69,42,2,109,19,26,3,4,3
+JaCoCo Coverage Report,com.ichi2.anki,NavigationDrawerActivity.new View.OnClickListener() {...},5,16,1,1,1,4,1,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,Whiteboard,416,0,32,0,101,0,31,0,14,0
+JaCoCo Coverage Report,com.ichi2.anki,AnkiDroidApp.ProductionCrashReportingTree,152,0,8,0,30,0,14,0,10,0
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.new DeckTask.TaskListener() {...},6,39,2,2,3,9,4,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.new MaterialDialog.ListCallback() {...},0,24,1,4,0,10,1,5,0,2
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.2.new ConfirmationDialog() {...},59,0,0,0,10,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,NavigationDrawerActivity.new CompoundButton.OnCheckedChangeListener() {...},0,41,0,2,0,8,0,3,0,2
+JaCoCo Coverage Report,com.ichi2.anki,NavigationDrawerActivity.new ActionBarDrawerToggle() {...},0,24,0,0,0,7,0,3,0,3
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.new MaterialDialog.ButtonCallback() {...},73,28,3,1,12,6,2,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.new ConfirmationDialog() {...},14,10,0,0,6,3,1,2,1,2
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser,1637,0,134,0,314,0,99,0,29,0
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.new AdapterView.OnItemClickListener() {...},0,32,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.new MaterialDialog.ButtonCallback() {...},91,22,4,0,16,5,2,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.new ConfirmationDialog() {...},47,0,0,0,8,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.new ConfirmationDialog() {...},24,0,0,0,9,0,3,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,ModelFieldEditor.new MaterialDialog.ButtonCallback() {...},30,33,2,2,7,7,2,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,Reviewer.BuryProvider,54,0,5,0,16,0,8,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new Handler() {...},13,6,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,UIUtils.new DeckTask.TaskListener() {...},2,13,0,0,2,5,2,3,2,3
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.RenderOnScroll,159,0,20,0,20,0,13,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki,CollectionHelper,57,143,6,16,23,32,10,18,4,13
+JaCoCo Coverage Report,com.ichi2.anki,FlashCardsContract.Card,31,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,CardBrowser.1.new MaterialDialog.SingleButtonCallback() {...},42,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki,Preferences,830,601,94,70,190,152,82,40,8,18
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.MyWebView.new Runnable() {...},7,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.MyWebView.new Runnable() {...},7,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new Runnable() {...},42,6,6,0,8,1,4,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,MyAccount,122,219,9,8,29,47,10,8,2,7
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new Runnable() {...},7,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new View.OnClickListener() {...},1,34,1,1,1,7,1,2,0,2
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new View.OnClickListener() {...},66,6,7,0,19,1,6,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new View.OnTouchListener() {...},42,66,7,8,9,14,6,4,0,2
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new View.OnLongClickListener() {...},30,6,2,0,7,1,2,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new DeckTask.TaskListener() {...},22,6,2,0,8,1,5,1,4,1
+JaCoCo Coverage Report,com.ichi2.anki,AbstractFlashcardViewer.new DeckTask.TaskListener() {...},104,6,16,0,32,1,12,1,4,1
+JaCoCo Coverage Report,com.ichi2.anki,Statistics,99,337,22,15,25,89,18,16,0,13
+JaCoCo Coverage Report,com.ichi2.anki,IntentHandler.new MaterialDialog.ButtonCallback() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.exception,UnknownHttpResponseException,11,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.exception,ConfirmModSchemaException,3,0,0,0,2,0,1,0,1,0
+JaCoCo Coverage Report,com.ichi2.anki.exception,MediaSyncException,4,0,0,0,2,0,1,0,1,0
+JaCoCo Coverage Report,com.ichi2.anki.exception,DeckRenameException,19,0,3,0,7,0,4,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.exception,StorageAccessException,7,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.glosbe.json,Phrase,17,0,0,0,7,0,5,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.glosbe.json,Meaning,17,0,0,0,7,0,5,0,5,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.glosbe.json,Response,38,0,0,0,16,0,11,0,11,0
+JaCoCo Coverage Report,com.ichi2.anki.multimediacard.glosbe.json,Tuc,31,0,0,0,13,0,9,0,9,0
+JaCoCo Coverage Report,com.ichi2.anim,ActivityTransitionAnimation,9,61,3,11,2,20,4,6,1,2
+JaCoCo Coverage Report,com.ichi2.anim,ViewAnimation,151,0,9,0,31,0,10,0,3,0
+JaCoCo Coverage Report,com.ichi2.anki.runtimetools,TaskOperations,7,7,2,2,2,3,3,1,1,1
+JaCoCo Coverage Report,com.ichi2.anki.stats,AnkiStatsTaskHandler.CreateChartTask,14,91,3,3,2,23,3,4,0,4
+JaCoCo Coverage Report,com.ichi2.anki.stats,AnkiStatsTaskHandler.CreateStatisticsOverview,15,94,3,3,6,22,4,3,1,3
+JaCoCo Coverage Report,com.ichi2.anki.stats,AnkiStatsTaskHandler.DeckPreviewStatistics,12,145,7,7,4,29,8,3,1,3
+JaCoCo Coverage Report,com.ichi2.anki.stats,ChartBuilder,20,1456,12,64,6,216,11,45,0,12
+JaCoCo Coverage Report,com.ichi2.anki.stats,OverviewStatsBuilder.OverviewStats,0,6,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.ichi2.anki.stats,OverviewStatsBuilder,180,835,14,18,12,123,14,12,0,9
+JaCoCo Coverage Report,com.ichi2.anki.stats,AnkiStatsTaskHandler,0,84,0,0,0,26,0,11,0,11
+JaCoCo Coverage Report,com.ichi2.anki.stats,StatsMetaInfo,123,31,0,0,53,10,35,2,35,2
+JaCoCo Coverage Report,com.ichi2.anki.stats,ChartView,22,79,3,3,8,25,5,5,2,5

@@ -1,0 +1,1 @@
+{"activitySet":["org.billthefarmer.diary.Settings","org.billthefarmer.diary.DiaryWidgetUpdate","org.billthefarmer.diary.Editor","org.billthefarmer.diary.Diary"],"coverage":25,"times":[28,391,2702,50,395],"averageTime":713,"triggerCnt":0,"averageActivityTriggerTime":2,"activityTriggerMap":{"org.billthefarmer.diary.Diary":2},"averageTriggerTime":-1}

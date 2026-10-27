@@ -1,0 +1,38 @@
+[01:06:37] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[01:06:37] home screen: com.android.launcher3
+[01:06:39] install apks/AnkiDroid.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[01:07:16] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/AnkiDroid/db/AnkiDroid.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/AnkiDroid.apk", "PACKAGE_NAME": "com.ichi2.anki", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[01:09:15] ADGE run 1: exit code 0 after 119 s (3481 s left)
+[01:11:22] ADGE run 2: exit code 0 after 127 s (3354 s left)
+[01:12:27] ADGE run 3: exit code 0 after 65 s (3289 s left)
+[01:12:27] running for 311 s, 14 coverage dumps so far
+[01:16:18] ADGE run 4: exit code 0 after 231 s (3058 s left)
+[01:20:38] ADGE run 5: exit code 0 after 260 s (2798 s left)
+[01:20:38] running for 802 s, 32 coverage dumps so far
+[01:22:27] ADGE run 6: exit code 0 after 109 s (2689 s left)
+[01:25:45] ADGE run 7: exit code 0 after 198 s (2491 s left)
+[01:25:45] running for 1109 s, 44 coverage dumps so far
+[01:28:49] ADGE run 8: exit code 0 after 184 s (2307 s left)
+[01:33:18] ADGE run 9: exit code 0 after 269 s (2038 s left)
+[01:33:18] running for 1562 s, 61 coverage dumps so far
+[01:37:17] ADGE run 10: exit code 0 after 239 s (1799 s left)
+[01:39:37] ADGE run 11: exit code 0 after 140 s (1659 s left)
+[01:39:37] running for 1941 s, 76 coverage dumps so far
+[01:41:20] ADGE run 12: exit code 0 after 103 s (1556 s left)
+[01:43:11] ADGE run 13: exit code 0 after 111 s (1445 s left)
+[01:47:31] ADGE run 14: exit code 0 after 260 s (1185 s left)
+[01:47:31] running for 2415 s, 95 coverage dumps so far
+[01:49:52] ADGE run 15: exit code 0 after 141 s (1044 s left)
+[01:51:30] ADGE run 16: exit code 0 after 98 s (946 s left)
+[01:54:02] ADGE run 17: exit code 0 after 152 s (794 s left)
+[01:54:02] running for 2806 s, 111 coverage dumps so far
+[01:59:58] ADGE run 18: exit code 0 after 356 s (438 s left)
+[01:59:58] running for 3162 s, 123 coverage dumps so far
+[02:02:35] ADGE run 19: exit code 0 after 157 s (281 s left)
+[02:05:58] ADGE run 20: exit code 0 after 203 s (78 s left)
+[02:05:58] running for 3522 s, 137 coverage dumps so far
+[02:07:18] ADGE run 21: exit code 124 after 80 s (-2 s left)
+[02:07:18] ADGE runs finished after 3602 s: 21 run(s), 20 ended by themselves
+[02:07:21] result: AnkiDroid status=ok "actions":"1339","activities_total":21,"activities_triggered":15,"iterations":"21","line_pct":35.9,"methods_hit":1826,"methods_total":4178,

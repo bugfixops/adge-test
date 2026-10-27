@@ -1,0 +1,101 @@
+[20:53:03] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[20:53:04] home screen: com.android.launcher3
+[20:53:06] install apks/Markor.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[20:53:42] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/Markor/db/Markor.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/Markor.apk", "PACKAGE_NAME": "net.gsantner.markor_test", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[20:54:31] ADGE run 1: exit code 0 after 49 s (3551 s left)
+[20:55:14] ADGE run 2: exit code 0 after 43 s (3508 s left)
+[20:55:58] ADGE run 3: exit code 0 after 44 s (3464 s left)
+[20:56:42] ADGE run 4: exit code 0 after 44 s (3420 s left)
+[20:57:26] ADGE run 5: exit code 0 after 44 s (3376 s left)
+[20:58:10] ADGE run 6: exit code 0 after 44 s (3332 s left)
+[20:58:53] ADGE run 7: exit code 0 after 43 s (3289 s left)
+[20:58:53] running for 311 s, 11 coverage dumps so far
+[20:59:38] ADGE run 8: exit code 0 after 45 s (3244 s left)
+[21:00:22] ADGE run 9: exit code 0 after 44 s (3200 s left)
+[21:01:05] ADGE run 10: exit code 0 after 43 s (3157 s left)
+[21:01:49] ADGE run 11: exit code 0 after 44 s (3113 s left)
+[21:02:32] ADGE run 12: exit code 0 after 43 s (3070 s left)
+[21:03:16] ADGE run 13: exit code 0 after 44 s (3026 s left)
+[21:04:00] ADGE run 14: exit code 0 after 44 s (2982 s left)
+[21:04:00] running for 618 s, 21 coverage dumps so far
+[21:04:44] ADGE run 15: exit code 0 after 44 s (2938 s left)
+[21:05:27] ADGE run 16: exit code 0 after 43 s (2895 s left)
+[21:06:11] ADGE run 17: exit code 0 after 44 s (2851 s left)
+[21:06:54] ADGE run 18: exit code 0 after 43 s (2808 s left)
+[21:07:38] ADGE run 19: exit code 0 after 44 s (2764 s left)
+[21:08:21] ADGE run 20: exit code 0 after 43 s (2721 s left)
+[21:09:05] ADGE run 21: exit code 0 after 44 s (2677 s left)
+[21:09:05] running for 923 s, 31 coverage dumps so far
+[21:09:49] ADGE run 22: exit code 0 after 44 s (2633 s left)
+[21:10:33] ADGE run 23: exit code 0 after 44 s (2589 s left)
+[21:11:17] ADGE run 24: exit code 0 after 44 s (2545 s left)
+[21:12:00] ADGE run 25: exit code 0 after 43 s (2502 s left)
+[21:12:44] ADGE run 26: exit code 0 after 44 s (2458 s left)
+[21:13:27] ADGE run 27: exit code 0 after 43 s (2415 s left)
+[21:14:11] ADGE run 28: exit code 0 after 44 s (2371 s left)
+[21:14:11] running for 1229 s, 41 coverage dumps so far
+[21:14:54] ADGE run 29: exit code 0 after 43 s (2328 s left)
+[21:15:38] ADGE run 30: exit code 0 after 44 s (2284 s left)
+[21:16:22] ADGE run 31: exit code 0 after 44 s (2240 s left)
+[21:17:06] ADGE run 32: exit code 0 after 44 s (2196 s left)
+[21:17:49] ADGE run 33: exit code 0 after 43 s (2153 s left)
+[21:18:33] ADGE run 34: exit code 0 after 44 s (2109 s left)
+[21:19:17] ADGE run 35: exit code 0 after 44 s (2065 s left)
+[21:19:17] running for 1535 s, 51 coverage dumps so far
+[21:20:01] ADGE run 36: exit code 0 after 44 s (2021 s left)
+[21:20:45] ADGE run 37: exit code 0 after 44 s (1977 s left)
+[21:21:28] ADGE run 38: exit code 0 after 43 s (1934 s left)
+[21:22:12] ADGE run 39: exit code 0 after 44 s (1890 s left)
+[21:22:56] ADGE run 40: exit code 0 after 44 s (1846 s left)
+[21:23:40] ADGE run 41: exit code 0 after 44 s (1802 s left)
+[21:24:23] ADGE run 42: exit code 0 after 43 s (1759 s left)
+[21:24:23] running for 1841 s, 62 coverage dumps so far
+[21:25:07] ADGE run 43: exit code 0 after 44 s (1715 s left)
+[21:25:50] ADGE run 44: exit code 0 after 43 s (1672 s left)
+[21:26:34] ADGE run 45: exit code 0 after 44 s (1628 s left)
+[21:27:18] ADGE run 46: exit code 0 after 44 s (1584 s left)
+[21:28:01] ADGE run 47: exit code 0 after 43 s (1541 s left)
+[21:28:45] ADGE run 48: exit code 0 after 44 s (1497 s left)
+[21:29:29] ADGE run 49: exit code 0 after 44 s (1453 s left)
+[21:29:29] running for 2147 s, 72 coverage dumps so far
+[21:30:12] ADGE run 50: exit code 0 after 43 s (1410 s left)
+[21:30:56] ADGE run 51: exit code 0 after 44 s (1366 s left)
+[21:31:39] ADGE run 52: exit code 0 after 43 s (1323 s left)
+[21:32:23] ADGE run 53: exit code 0 after 44 s (1279 s left)
+[21:33:07] ADGE run 54: exit code 0 after 44 s (1235 s left)
+[21:33:50] ADGE run 55: exit code 0 after 43 s (1192 s left)
+[21:34:34] ADGE run 56: exit code 0 after 44 s (1148 s left)
+[21:34:34] running for 2452 s, 82 coverage dumps so far
+[21:35:17] ADGE run 57: exit code 0 after 43 s (1105 s left)
+[21:36:01] ADGE run 58: exit code 0 after 44 s (1061 s left)
+[21:36:45] ADGE run 59: exit code 0 after 44 s (1017 s left)
+[21:37:28] ADGE run 60: exit code 0 after 43 s (974 s left)
+[21:38:12] ADGE run 61: exit code 0 after 44 s (930 s left)
+[21:38:56] ADGE run 62: exit code 0 after 44 s (886 s left)
+[21:39:40] ADGE run 63: exit code 0 after 44 s (842 s left)
+[21:39:40] running for 2758 s, 92 coverage dumps so far
+[21:40:23] ADGE run 64: exit code 0 after 43 s (799 s left)
+[21:41:07] ADGE run 65: exit code 0 after 43 s (755 s left)
+[21:41:51] ADGE run 66: exit code 0 after 44 s (711 s left)
+[21:42:34] ADGE run 67: exit code 0 after 43 s (668 s left)
+[21:43:18] ADGE run 68: exit code 0 after 44 s (624 s left)
+[21:44:02] ADGE run 69: exit code 0 after 44 s (580 s left)
+[21:44:46] ADGE run 70: exit code 0 after 44 s (536 s left)
+[21:44:46] running for 3064 s, 102 coverage dumps so far
+[21:45:29] ADGE run 71: exit code 0 after 43 s (493 s left)
+[21:46:12] ADGE run 72: exit code 0 after 43 s (450 s left)
+[21:46:56] ADGE run 73: exit code 0 after 44 s (406 s left)
+[21:47:39] ADGE run 74: exit code 0 after 43 s (363 s left)
+[21:48:23] ADGE run 75: exit code 0 after 44 s (319 s left)
+[21:49:07] ADGE run 76: exit code 0 after 44 s (275 s left)
+[21:49:51] ADGE run 77: exit code 0 after 44 s (231 s left)
+[21:49:51] running for 3369 s, 112 coverage dumps so far
+[21:50:34] ADGE run 78: exit code 0 after 43 s (188 s left)
+[21:51:18] ADGE run 79: exit code 0 after 44 s (144 s left)
+[21:52:01] ADGE run 80: exit code 0 after 43 s (101 s left)
+[21:52:45] ADGE run 81: exit code 0 after 44 s (57 s left)
+[21:53:28] ADGE run 82: exit code 0 after 43 s (14 s left)
+[21:53:28] ADGE runs finished after 3586 s: 82 run(s), 82 ended by themselves
+[21:53:30] result: Markor status=ok "actions":"1067","activities_total":11,"activities_triggered":2,"iterations":"82","line_pct":2.59,"methods_hit":110,"methods_total":2855,

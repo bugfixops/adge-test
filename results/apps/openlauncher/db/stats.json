@@ -1,0 +1,13 @@
+{
+  "mode": "analysis",
+  "resource_package": "com.benny.openlauncher",
+  "soot_seconds": 2,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "resource_ids": 28,
+  "mappings": 31,
+  "methods": 28,
+  "icc_methods": 3,
+  "seconds": 8
+}

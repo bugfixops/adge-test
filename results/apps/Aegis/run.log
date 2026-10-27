@@ -1,0 +1,18 @@
+[20:53:51] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[20:53:52] home screen: com.android.launcher3
+[20:53:57] install apks/Aegis.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[20:54:34] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/Aegis/db/Aegis.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/Aegis.apk", "PACKAGE_NAME": "com.beemdevelopment.aegis.debug", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[20:55:07] ADGE run 1: exit code 0 after 33 s (3567 s left)
+[20:56:00] ADGE run 2: exit code 0 after 53 s (3514 s left)
+[21:24:14] ADGE run 3: exit code 0 after 1694 s (1820 s left)
+[21:24:14] running for 1780 s, 60 coverage dumps so far
+[21:40:27] ADGE run 4: exit code 0 after 973 s (847 s left)
+[21:40:27] running for 2753 s, 92 coverage dumps so far
+[21:41:21] ADGE run 5: exit code 0 after 54 s (793 s left)
+[21:51:40] ADGE run 6: exit code 0 after 619 s (174 s left)
+[21:51:40] running for 3426 s, 114 coverage dumps so far
+[21:54:36] ADGE run 7: exit code 124 after 176 s (-2 s left)
+[21:54:36] ADGE runs finished after 3602 s: 7 run(s), 6 ended by themselves
+[21:54:38] result: Aegis status=ok "actions":"1562","activities_total":15,"activities_triggered":5,"iterations":"7","line_pct":25.93,"methods_hit":857,"methods_total":2957,

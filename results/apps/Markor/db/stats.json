@@ -1,0 +1,13 @@
+{
+  "mode": "analysis",
+  "resource_package": "net.gsantner.markor_test",
+  "soot_seconds": 3,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "resource_ids": 50,
+  "mappings": 58,
+  "methods": 54,
+  "icc_methods": 1,
+  "seconds": 15
+}

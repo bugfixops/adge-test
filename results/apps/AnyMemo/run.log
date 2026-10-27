@@ -1,0 +1,12 @@
+[22:05:53] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[22:05:54] home screen: com.android.launcher3
+[22:06:00] install apks/AnyMemo.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[22:06:37] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/AnyMemo/db/AnyMemo.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/AnyMemo.apk", "PACKAGE_NAME": "org.liberty.android.fantastischmemopro", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[22:19:43] ADGE run 1: exit code 0 after 786 s (2814 s left)
+[22:19:43] running for 786 s, 27 coverage dumps so far
+[23:06:39] ADGE run 2: exit code 124 after 2816 s (-2 s left)
+[23:06:39] running for 3602 s, 120 coverage dumps so far
+[23:06:39] ADGE runs finished after 3602 s: 2 run(s), 1 ended by themselves
+[23:06:40] result: AnyMemo status=ok "actions":"1419","activities_total":27,"activities_triggered":14,"iterations":"2","line_pct":46.6,"methods_hit":1158,"methods_total":2192,

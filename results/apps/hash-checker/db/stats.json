@@ -1,0 +1,13 @@
+{
+  "mode": "analysis",
+  "resource_package": "com.smlnskgmail.jaman.hashchecker.thirdparty",
+  "soot_seconds": 4,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "resource_ids": 9,
+  "mappings": 9,
+  "methods": 9,
+  "icc_methods": 0,
+  "seconds": 18
+}

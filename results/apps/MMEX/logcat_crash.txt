@@ -1,0 +1,14 @@
+10-26 21:48:19.205 E/AndroidRuntime( 3414): FATAL EXCEPTION: main
+10-26 21:48:19.205 E/AndroidRuntime( 3414): Process: com.android.documentsui, PID: 3414
+10-26 21:48:19.205 E/AndroidRuntime( 3414): java.lang.IllegalArgumentException: removeContentProvider: android.os.BinderProxy@e6b4dde not a ContentProviderConnection
+10-26 21:48:19.205 E/AndroidRuntime( 3414): 	at android.os.Parcel.readException(Parcel.java:2008)
+10-26 21:48:19.205 E/AndroidRuntime( 3414): 	at android.os.Parcel.readException(Parcel.java:1950)
+10-26 21:48:19.205 E/AndroidRuntime( 3414): 	at android.app.IActivityManager$Stub$Proxy.removeContentProvider(IActivityManager.java:5646)
+10-26 21:48:19.205 E/AndroidRuntime( 3414): 	at android.app.ActivityThread.completeRemoveProvider(ActivityThread.java:6076)
+10-26 21:48:19.205 E/AndroidRuntime( 3414): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1756)
+10-26 21:48:19.205 E/AndroidRuntime( 3414): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-26 21:48:19.205 E/AndroidRuntime( 3414): 	at android.os.Looper.loop(Looper.java:164)
+10-26 21:48:19.205 E/AndroidRuntime( 3414): 	at android.app.ActivityThread.main(ActivityThread.java:6494)
+10-26 21:48:19.205 E/AndroidRuntime( 3414): 	at java.lang.reflect.Method.invoke(Native Method)
+10-26 21:48:19.205 E/AndroidRuntime( 3414): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+10-26 21:48:19.205 E/AndroidRuntime( 3414): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
