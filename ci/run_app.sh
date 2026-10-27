@@ -247,6 +247,12 @@ while true; do
   if [ "$LEFT" -le 15 ]; then break; fi
   ITERATIONS=$((ITERATIONS + 1))
   i=$(printf '%03d' "$ITERATIONS")
+  # Clear the app's task before each run. ADGE starts the app with a LAUNCHER intent, which only brings the existing
+  # task to the front; a sub-activity left on top from the previous run (e.g. the camera opened via
+  # startActivityForResult, which lives in the app's own task) would otherwise trap every restart on a screen with no
+  # app widgets to tap. Dump coverage first so force-stop loses nothing (the receiver resets its counters on each dump).
+  dump_once
+  $ADB shell am force-stop "$PKG" >/dev/null 2>&1 || true
   # the three processes of one ADGE run, started as run.bat starts them
   ( cd "$ADGE_DIR/uiautomator2" && exec "$PY" -u run.py ) > "$OUT/adge/logs/$i-uiautomator2.log" 2>&1 &
   U2_PID=$!
