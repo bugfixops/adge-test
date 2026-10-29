@@ -26,9 +26,15 @@ DB="$OUT/db/$APP.db"
 LOG="$OUT/db/builddb.log"
 : > "$LOG"
 
+# target-directed build: the methods Monkey could not reach (ci/../monkey_targets/<App>.txt). ADGE marks the tainted
+# ICFG toward these so the explorer prioritises widgets whose handlers lead into Monkey's uncovered code. "-" = unguided.
+TARGETS="$ROOT/monkey_targets/$APP.txt"
+[ -f "$TARGETS" ] || TARGETS="-"
+
 if [ "$MODE" = analysis ]; then
   echo "platforms: $(ls "$PLATFORMS" 2>/dev/null | tr '\n' ' ')" | tee -a "$LOG"
-  (cd "$OUT/db" && timeout -k 30 1200 "$JAVA" -Xmx8g -Xss8m -cp "$CP" BuildDB "$ROOT/$APK" "$DB" "$PLATFORMS" "$OUT/db/stats.json" 900) >> "$LOG" 2>&1
+  echo "targets: $TARGETS ($( [ "$TARGETS" = - ] && echo none || grep -vc '^#' "$TARGETS") methods Monkey missed)" | tee -a "$LOG"
+  (cd "$OUT/db" && timeout -k 30 1200 "$JAVA" -Xmx8g -Xss8m -cp "$CP" BuildDB "$ROOT/$APK" "$DB" "$PLATFORMS" "$OUT/db/stats.json" 900 "$TARGETS") >> "$LOG" 2>&1
   rc=$?
   echo "BuildDB exit code $rc"
   if [ "$rc" -ne 0 ] || [ ! -s "$DB" ]; then

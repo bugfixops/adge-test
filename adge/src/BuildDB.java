@@ -2,6 +2,7 @@ import com.google.gson.GsonBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import soot.Body;
+import soot.Scene;
 import soot.SootClass;
 import soot.SootMethod;
 import soot.SootMethodRef;
@@ -13,6 +14,9 @@ import utils.InfoflowAnalyzer;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -29,9 +33,12 @@ import java.util.*;
  *    analysisGUIByFind (the analysis Main.java used before it switched to the database);
  *  - Methods.icc = 1 when a listener reaches an inter-component call (startActivity, startService, sendBroadcast, ...)
  *    within MAX_DEPTH calls of the app's own code;
- *  - Methods.tainted = 0: tainted marks methods on the path to a configured target, and no target is configured.
+ *  - Methods.tainted = 1 when the listener can reach a TARGET method through the app's call graph. Targets are passed
+ *    in a file (one "class#method#paramCount" per line); per the ADGE paper this is the tainted ICFG, where "the
+ *    target method [is] the sink" and "all nodes that can reach the sink [are] tainted". With no targets file, tainted
+ *    stays 0 (the unguided build).
  *
- * Usage: BuildDB <apk> <out.db> <android platforms dir> [stats.json] [deadline seconds]
+ * Usage: BuildDB <apk> <out.db> <android platforms dir> [stats.json] [deadline seconds] [targets file | -]
  *        BuildDB --empty <out.db> [stats.json]            schema only, for an unguided run
  */
 public class BuildDB {
@@ -51,19 +58,25 @@ public class BuildDB {
         long t0 = System.currentTimeMillis();
         if (args.length >= 2 && args[0].equals("--empty")) {
             stats.put("mode", "empty");
-            writeDb(args[1], new TreeMap<>(), new HashSet<>());
+            writeDb(args[1], new TreeMap<>(), new HashSet<>(), new HashSet<>());
             stats.put("mappings", 0);
             writeStats(args.length > 2 ? args[2] : null, stats);
             return;
         }
         if (args.length < 3) {
-            System.err.println("usage: BuildDB <apk> <out.db> <android platforms dir> [stats.json] [deadline seconds]");
+            System.err.println("usage: BuildDB <apk> <out.db> <android platforms dir> [stats.json] [deadline seconds] [targets file | -]");
             System.exit(2);
         }
         String apk = args[0], out = args[1], platforms = args[2];
         String statsPath = args.length > 3 ? args[3] : null;
         int deadline = args.length > 4 ? Integer.parseInt(args[4]) : 1200;
+        String targetsPath = args.length > 5 && !args[5].equals("-") ? args[5] : null;
         stats.put("mode", "analysis");
+
+        // targets: "fqcn#methodName#paramCount" per line (the methods Monkey could not reach)
+        Set<String> targetKeys = targetsPath == null ? Collections.emptySet() : loadTargets(targetsPath);
+        stats.put("targets_mode", targetsPath == null ? "none" : "monkey-missed");
+        stats.put("targets_total", targetKeys.size());
 
         InfoflowAnalyzer analyzer = InfoflowAnalyzer.getInstance();
         analyzer.setPlatformDir(platforms);
@@ -120,7 +133,7 @@ public class BuildDB {
         Set<String> icc = new HashSet<>();
         for (String m : methods) {
             try {
-                SootMethod sm = soot.Scene.v().grabMethod(m);
+                SootMethod sm = Scene.v().grabMethod(m);
                 if (sm != null && reachesIcc(sm)) {
                     icc.add(m);
                 }
@@ -128,15 +141,118 @@ public class BuildDB {
                 logger.debug("icc check failed for " + m + ": " + t);
             }
         }
-        writeDb(out, map, icc);
+
+        // tainted ICFG: signatures of app methods that can reach a target method through the app call graph
+        Set<String> canReachTarget = Collections.emptySet();
+        if (!targetKeys.isEmpty()) {
+            try {
+                canReachTarget = buildCanReachTarget(targetKeys, stats);
+            } catch (Throwable t) {
+                logger.error("tainted-ICFG construction failed", t);
+            }
+        }
+        int tainted = 0;
+        for (String m : methods) {
+            if (canReachTarget.contains(m)) {
+                tainted++;
+            }
+        }
+
+        writeDb(out, map, icc, canReachTarget);
         stats.put("resource_ids", map.size());
         stats.put("mappings", map.values().stream().mapToInt(Set::size).sum());
         stats.put("methods", methods.size());
         stats.put("icc_methods", icc.size());
+        stats.put("tainted_methods", tainted);
         stats.put("seconds", (System.currentTimeMillis() - t0) / 1000);
         writeStats(statsPath, stats);
         logger.info("database written: " + stats);
         System.exit(0);
+    }
+
+    private static Set<String> loadTargets(String path) {
+        Set<String> keys = new HashSet<>();
+        try {
+            for (String line : Files.readAllLines(Paths.get(path), StandardCharsets.UTF_8)) {
+                line = line.trim();
+                if (!line.isEmpty() && !line.startsWith("#")) {
+                    keys.add(line);
+                }
+            }
+        } catch (IOException e) {
+            logger.error("cannot read targets file " + path + ": " + e);
+        }
+        return keys;
+    }
+
+    private static String keyOf(SootMethod sm) {
+        return sm.getDeclaringClass().getName() + "#" + sm.getName() + "#" + sm.getParameterCount();
+    }
+
+    /**
+     * All app-method signatures that can reach a target method, by backward BFS over the app call graph
+     * (edge caller -> callee, reversed). The set includes the target methods themselves.
+     */
+    private static Set<String> buildCanReachTarget(Set<String> targetKeys, Map<String, Object> stats) {
+        Map<String, List<String>> callers = new HashMap<>();   // callee signature -> caller signatures
+        Set<String> targetSigs = new HashSet<>();
+        int appMethods = 0;
+        for (SootClass sc : new ArrayList<>(Scene.v().getClasses())) {
+            if (isLibrary(sc.getName())) {
+                continue;
+            }
+            for (SootMethod caller : new ArrayList<>(sc.getMethods())) {
+                if (keyOf(caller) != null && targetKeys.contains(keyOf(caller))) {
+                    targetSigs.add(caller.getSignature());
+                }
+                if (!caller.isConcrete()) {
+                    continue;
+                }
+                appMethods++;
+                Body body;
+                try {
+                    body = caller.retrieveActiveBody();
+                } catch (Throwable t) {
+                    continue;
+                }
+                for (Unit u : body.getUnits()) {
+                    if (!(u instanceof Stmt) || !((Stmt) u).containsInvokeExpr()) {
+                        continue;
+                    }
+                    SootMethodRef ref = ((Stmt) u).getInvokeExpr().getMethodRef();
+                    if (isLibrary(ref.getDeclaringClass().getName())) {
+                        continue;
+                    }
+                    SootMethod callee;
+                    try {
+                        callee = ref.tryResolve();
+                    } catch (Throwable t) {
+                        callee = null;
+                    }
+                    if (callee == null) {
+                        continue;
+                    }
+                    if (targetKeys.contains(keyOf(callee))) {
+                        targetSigs.add(callee.getSignature());
+                    }
+                    callers.computeIfAbsent(callee.getSignature(), k -> new ArrayList<>()).add(caller.getSignature());
+                }
+            }
+        }
+        // backward BFS from targets over caller edges -> everything that can reach a target
+        Set<String> reach = new HashSet<>(targetSigs);
+        Deque<String> queue = new ArrayDeque<>(targetSigs);
+        while (!queue.isEmpty()) {
+            for (String caller : callers.getOrDefault(queue.poll(), Collections.emptyList())) {
+                if (reach.add(caller)) {
+                    queue.add(caller);
+                }
+            }
+        }
+        stats.put("app_methods_scanned", appMethods);
+        stats.put("targets_matched", targetSigs.size());
+        stats.put("reach_nodes", reach.size());
+        return reach;
     }
 
     private static Map<String, HashSet<String>> snapshot(Map<String, HashSet<String>> live) {
@@ -221,7 +337,7 @@ public class BuildDB {
         return false;
     }
 
-    private static void writeDb(String path, Map<String, Set<String>> map, Set<String> icc) throws SQLException {
+    private static void writeDb(String path, Map<String, Set<String>> map, Set<String> icc, Set<String> tainted) throws SQLException {
         new File(path).delete();
         try (Connection c = DriverManager.getConnection("jdbc:sqlite:" + path)) {
             c.setAutoCommit(false);
@@ -245,10 +361,11 @@ public class BuildDB {
                 }
                 ps.executeBatch();
             }
-            try (PreparedStatement ps = c.prepareStatement("INSERT INTO Methods (name, tainted, icc) VALUES (?, 0, ?)")) {
+            try (PreparedStatement ps = c.prepareStatement("INSERT INTO Methods (name, tainted, icc) VALUES (?, ?, ?)")) {
                 for (String m : methods) {
                     ps.setString(1, m);
-                    ps.setInt(2, icc.contains(m) ? 1 : 0);
+                    ps.setInt(2, tainted.contains(m) ? 1 : 0);
+                    ps.setInt(3, icc.contains(m) ? 1 : 0);
                     ps.addBatch();
                 }
                 ps.executeBatch();

@@ -68,7 +68,8 @@ def main():
     if os.path.exists(stats):
         db = json.load(open(stats, encoding='utf-8'))
         meta['db_mode'] = db.get('mode')
-        for key in ('resource_ids', 'mappings', 'icc_methods', 'complete'):
+        for key in ('resource_ids', 'mappings', 'icc_methods', 'complete',
+                    'targets_mode', 'targets_total', 'targets_matched', 'tainted_methods', 'reach_nodes'):
             if key in db:
                 meta['db_' + key] = db[key]
 
