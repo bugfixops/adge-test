@@ -1,0 +1,19 @@
+{
+  "mode": "analysis",
+  "targets_mode": "monkey-missed",
+  "targets_total": 1982,
+  "resource_package": "com.beemdevelopment.aegis.debug",
+  "soot_seconds": 6,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "app_methods_scanned": 93742,
+  "targets_matched": 2310,
+  "reach_nodes": 3033,
+  "resource_ids": 43,
+  "mappings": 49,
+  "methods": 49,
+  "icc_methods": 8,
+  "tainted_methods": 37,
+  "seconds": 67
+}

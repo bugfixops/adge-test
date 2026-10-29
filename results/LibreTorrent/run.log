@@ -1,0 +1,56 @@
+[01:33:01] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[01:33:01] home screen: com.android.launcher3
+[01:33:09] install apks/LibreTorrent.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[01:33:46] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/LibreTorrent/db/LibreTorrent.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/LibreTorrent.apk", "PACKAGE_NAME": "org.proninyaroslav.libretorrent.debug", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[01:34:48] ADGE run 1: exit code 0 after 62 s (7138 s left)
+[01:37:05] ADGE run 2: exit code 0 after 137 s (7001 s left)
+[01:39:19] ADGE run 3: exit code 0 after 134 s (6867 s left)
+[01:39:19] running for 333 s, 15 coverage dumps so far
+[01:40:35] ADGE run 4: exit code 0 after 76 s (6791 s left)
+[01:44:15] ADGE run 5: exit code 0 after 220 s (6571 s left)
+[01:46:45] ADGE run 6: exit code 0 after 150 s (6421 s left)
+[01:46:45] running for 779 s, 32 coverage dumps so far
+[01:48:32] ADGE run 7: exit code 0 after 107 s (6314 s left)
+[01:49:46] ADGE run 8: exit code 0 after 74 s (6240 s left)
+[01:52:47] ADGE run 9: exit code 0 after 181 s (6059 s left)
+[01:52:47] running for 1141 s, 47 coverage dumps so far
+[01:54:45] ADGE run 10: exit code 0 after 118 s (5941 s left)
+[01:56:06] ADGE run 11: exit code 0 after 81 s (5860 s left)
+[01:58:10] ADGE run 12: exit code 0 after 124 s (5736 s left)
+[01:58:10] running for 1464 s, 61 coverage dumps so far
+[01:59:59] ADGE run 13: exit code 0 after 109 s (5627 s left)
+[02:00:47] ADGE run 14: exit code 0 after 48 s (5579 s left)
+[02:12:19] ADGE run 15: exit code 0 after 692 s (4887 s left)
+[02:12:19] running for 2313 s, 92 coverage dumps so far
+[02:13:07] ADGE run 16: exit code 0 after 48 s (4839 s left)
+[02:14:44] ADGE run 17: exit code 0 after 97 s (4742 s left)
+[02:25:01] ADGE run 18: exit code 0 after 617 s (4125 s left)
+[02:25:01] running for 3075 s, 120 coverage dumps so far
+[02:26:15] ADGE run 19: exit code 0 after 74 s (4051 s left)
+[02:27:36] ADGE run 20: exit code 0 after 81 s (3970 s left)
+[02:29:43] ADGE run 21: exit code 0 after 127 s (3843 s left)
+[02:46:17] ADGE run 22: exit code 0 after 994 s (2849 s left)
+[02:46:18] running for 4352 s, 167 coverage dumps so far
+[02:47:30] ADGE run 23: exit code 0 after 72 s (2776 s left)
+[02:49:10] ADGE run 24: exit code 0 after 100 s (2676 s left)
+[02:58:07] ADGE run 25: exit code 0 after 537 s (2139 s left)
+[02:58:07] running for 5061 s, 193 coverage dumps so far
+[02:59:46] ADGE run 26: exit code 0 after 99 s (2040 s left)
+[03:00:49] ADGE run 27: exit code 0 after 63 s (1977 s left)
+[03:06:13] ADGE run 28: exit code 0 after 324 s (1653 s left)
+[03:06:13] running for 5547 s, 212 coverage dumps so far
+[03:06:47] ADGE run 29: exit code 0 after 34 s (1619 s left)
+[03:08:09] ADGE run 30: exit code 0 after 82 s (1537 s left)
+[03:16:59] ADGE run 31: exit code 0 after 530 s (1007 s left)
+[03:16:59] running for 6193 s, 237 coverage dumps so far
+[03:19:01] ADGE run 32: exit code 0 after 122 s (885 s left)
+[03:25:24] ADGE run 33: exit code 0 after 383 s (502 s left)
+[03:25:24] running for 6698 s, 255 coverage dumps so far
+[03:25:39] ADGE run 34: exit code 0 after 15 s (487 s left)
+[03:25:59] ADGE run 35: exit code 0 after 15 s (467 s left)
+[03:33:48] ADGE run 36: exit code 124 after 464 s (-2 s left)
+[03:33:48] running for 7202 s, 275 coverage dumps so far
+[03:33:48] ADGE runs finished after 7202 s: 36 run(s), 35 ended by themselves
+[03:33:51] result: LibreTorrent status=ok "actions":"2997","activities_total":18,"activities_triggered":13,"iterations":"36","line_pct":39.79,"methods_hit":1987,"methods_total":4728,

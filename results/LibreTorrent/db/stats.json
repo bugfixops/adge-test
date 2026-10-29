@@ -1,0 +1,19 @@
+{
+  "mode": "analysis",
+  "targets_mode": "monkey-missed",
+  "targets_total": 3135,
+  "resource_package": "org.proninyaroslav.libretorrent.debug",
+  "soot_seconds": 5,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "app_methods_scanned": 50814,
+  "targets_matched": 3301,
+  "reach_nodes": 4124,
+  "resource_ids": 8,
+  "mappings": 14,
+  "methods": 14,
+  "icc_methods": 3,
+  "tainted_methods": 5,
+  "seconds": 41
+}

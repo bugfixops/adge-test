@@ -1,0 +1,19 @@
+{
+  "mode": "analysis",
+  "targets_mode": "monkey-missed",
+  "targets_total": 548,
+  "resource_package": "com.benny.openlauncher",
+  "soot_seconds": 3,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "app_methods_scanned": 6442,
+  "targets_matched": 573,
+  "reach_nodes": 638,
+  "resource_ids": 28,
+  "mappings": 31,
+  "methods": 28,
+  "icc_methods": 3,
+  "tainted_methods": 19,
+  "seconds": 7
+}

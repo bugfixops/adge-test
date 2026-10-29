@@ -1,0 +1,121 @@
+[01:32:36] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[01:32:36] home screen: com.android.launcher3
+[01:32:39] install apks/hash-checker.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[01:33:17] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/hash-checker/db/hash-checker.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/hash-checker.apk", "PACKAGE_NAME": "com.smlnskgmail.jaman.hashchecker.thirdparty", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[01:33:42] ADGE run 1: exit code 0 after 25 s (7175 s left)
+[01:34:12] ADGE run 2: exit code 0 after 25 s (7145 s left)
+[01:35:38] ADGE run 3: exit code 0 after 81 s (7059 s left)
+[01:36:08] ADGE run 4: exit code 0 after 30 s (7029 s left)
+[01:37:50] ADGE run 5: exit code 0 after 102 s (6927 s left)
+[01:40:32] ADGE run 6: exit code 0 after 162 s (6765 s left)
+[01:40:32] running for 435 s, 21 coverage dumps so far
+[01:41:16] ADGE run 7: exit code 0 after 44 s (6721 s left)
+[01:42:30] ADGE run 8: exit code 0 after 74 s (6647 s left)
+[01:43:04] ADGE run 9: exit code 0 after 34 s (6613 s left)
+[01:44:26] ADGE run 10: exit code 0 after 82 s (6531 s left)
+[01:46:52] ADGE run 11: exit code 0 after 146 s (6385 s left)
+[01:46:52] running for 815 s, 38 coverage dumps so far
+[01:47:42] ADGE run 12: exit code 0 after 50 s (6335 s left)
+[01:48:52] ADGE run 13: exit code 0 after 70 s (6265 s left)
+[01:50:12] ADGE run 14: exit code 0 after 80 s (6185 s left)
+[01:52:55] ADGE run 15: exit code 0 after 163 s (6022 s left)
+[01:52:55] running for 1178 s, 54 coverage dumps so far
+[01:53:16] ADGE run 16: exit code 0 after 21 s (6001 s left)
+[01:54:12] ADGE run 17: exit code 0 after 51 s (5945 s left)
+[01:55:29] ADGE run 18: exit code 0 after 77 s (5868 s left)
+[01:56:30] ADGE run 19: exit code 0 after 61 s (5807 s left)
+[01:56:51] ADGE run 20: exit code 0 after 21 s (5786 s left)
+[01:57:44] ADGE run 21: exit code 0 after 48 s (5733 s left)
+[01:58:52] ADGE run 22: exit code 0 after 68 s (5665 s left)
+[01:58:52] running for 1535 s, 73 coverage dumps so far
+[01:59:27] ADGE run 23: exit code 0 after 35 s (5630 s left)
+[01:59:56] ADGE run 24: exit code 0 after 29 s (5601 s left)
+[02:01:01] ADGE run 25: exit code 0 after 60 s (5536 s left)
+[02:02:12] ADGE run 26: exit code 0 after 71 s (5465 s left)
+[02:02:38] ADGE run 27: exit code 0 after 26 s (5439 s left)
+[02:05:31] ADGE run 28: exit code 0 after 168 s (5266 s left)
+[02:05:31] running for 1934 s, 92 coverage dumps so far
+[02:07:15] ADGE run 29: exit code 0 after 104 s (5162 s left)
+[02:09:37] ADGE run 30: exit code 0 after 142 s (5020 s left)
+[02:10:05] ADGE run 31: exit code 0 after 28 s (4992 s left)
+[02:12:11] ADGE run 32: exit code 0 after 121 s (4866 s left)
+[02:12:11] running for 2334 s, 110 coverage dumps so far
+[02:13:48] ADGE run 33: exit code 0 after 97 s (4769 s left)
+[02:15:13] ADGE run 34: exit code 0 after 85 s (4684 s left)
+[02:17:26] ADGE run 35: exit code 0 after 133 s (4551 s left)
+[02:17:26] running for 2649 s, 123 coverage dumps so far
+[02:18:28] ADGE run 36: exit code 0 after 62 s (4489 s left)
+[02:18:53] ADGE run 37: exit code 0 after 25 s (4464 s left)
+[02:20:30] ADGE run 38: exit code 0 after 92 s (4367 s left)
+[02:22:37] ADGE run 39: exit code 0 after 127 s (4240 s left)
+[02:22:37] running for 2960 s, 137 coverage dumps so far
+[02:23:48] ADGE run 40: exit code 0 after 71 s (4169 s left)
+[02:25:51] ADGE run 41: exit code 0 after 123 s (4046 s left)
+[02:27:31] ADGE run 42: exit code 0 after 100 s (3946 s left)
+[02:28:59] ADGE run 43: exit code 0 after 88 s (3858 s left)
+[02:28:59] running for 3342 s, 154 coverage dumps so far
+[02:30:12] ADGE run 44: exit code 0 after 73 s (3785 s left)
+[02:31:37] ADGE run 45: exit code 0 after 85 s (3700 s left)
+[02:32:55] ADGE run 46: exit code 0 after 78 s (3622 s left)
+[02:34:33] ADGE run 47: exit code 0 after 98 s (3524 s left)
+[02:34:33] running for 3676 s, 169 coverage dumps so far
+[02:34:56] ADGE run 48: exit code 0 after 23 s (3501 s left)
+[02:36:41] ADGE run 49: exit code 0 after 100 s (3396 s left)
+[02:37:26] ADGE run 50: exit code 0 after 45 s (3351 s left)
+[02:39:02] ADGE run 51: exit code 0 after 96 s (3255 s left)
+[02:39:31] ADGE run 52: exit code 0 after 29 s (3226 s left)
+[02:39:36] running for 3979 s, 184 coverage dumps so far
+[02:41:28] ADGE run 53: exit code 0 after 112 s (3109 s left)
+[02:42:49] ADGE run 54: exit code 0 after 81 s (3028 s left)
+[02:45:36] ADGE run 55: exit code 0 after 167 s (2861 s left)
+[02:45:36] running for 4339 s, 199 coverage dumps so far
+[02:47:25] ADGE run 56: exit code 0 after 109 s (2752 s left)
+[02:48:27] ADGE run 57: exit code 0 after 62 s (2690 s left)
+[02:50:57] ADGE run 58: exit code 0 after 150 s (2540 s left)
+[02:50:57] running for 4660 s, 212 coverage dumps so far
+[02:51:18] ADGE run 59: exit code 0 after 21 s (2519 s left)
+[02:52:10] ADGE run 60: exit code 0 after 47 s (2467 s left)
+[02:52:47] ADGE run 61: exit code 0 after 37 s (2430 s left)
+[02:53:17] ADGE run 62: exit code 0 after 30 s (2400 s left)
+[02:55:40] ADGE run 63: exit code 0 after 143 s (2257 s left)
+[02:57:34] ADGE run 64: exit code 0 after 114 s (2143 s left)
+[02:57:34] running for 5057 s, 231 coverage dumps so far
+[02:58:15] ADGE run 65: exit code 0 after 41 s (2102 s left)
+[03:00:05] ADGE run 66: exit code 0 after 110 s (1992 s left)
+[03:00:34] ADGE run 67: exit code 0 after 29 s (1963 s left)
+[03:02:12] ADGE run 68: exit code 0 after 93 s (1865 s left)
+[03:02:34] ADGE run 69: exit code 0 after 22 s (1843 s left)
+[03:02:39] running for 5362 s, 246 coverage dumps so far
+[03:04:34] ADGE run 70: exit code 0 after 115 s (1723 s left)
+[03:04:56] ADGE run 71: exit code 0 after 22 s (1701 s left)
+[03:05:24] ADGE run 72: exit code 0 after 23 s (1673 s left)
+[03:05:58] ADGE run 73: exit code 0 after 29 s (1639 s left)
+[03:08:03] ADGE run 74: exit code 0 after 120 s (1514 s left)
+[03:08:03] running for 5686 s, 262 coverage dumps so far
+[03:08:32] ADGE run 75: exit code 0 after 29 s (1485 s left)
+[03:10:40] ADGE run 76: exit code 0 after 123 s (1357 s left)
+[03:11:04] ADGE run 77: exit code 0 after 24 s (1333 s left)
+[03:13:41] ADGE run 78: exit code 0 after 152 s (1176 s left)
+[03:13:41] running for 6024 s, 277 coverage dumps so far
+[03:15:32] ADGE run 79: exit code 0 after 111 s (1065 s left)
+[03:16:01] ADGE run 80: exit code 0 after 29 s (1036 s left)
+[03:19:08] ADGE run 81: exit code 0 after 182 s (849 s left)
+[03:19:08] running for 6351 s, 291 coverage dumps so far
+[03:20:56] ADGE run 82: exit code 0 after 108 s (741 s left)
+[03:22:14] ADGE run 83: exit code 0 after 78 s (663 s left)
+[03:24:09] ADGE run 84: exit code 0 after 115 s (548 s left)
+[03:24:09] running for 6652 s, 304 coverage dumps so far
+[03:24:48] ADGE run 85: exit code 0 after 39 s (509 s left)
+[03:25:48] ADGE run 86: exit code 0 after 60 s (449 s left)
+[03:26:28] ADGE run 87: exit code 0 after 40 s (409 s left)
+[03:27:20] ADGE run 88: exit code 0 after 52 s (357 s left)
+[03:29:02] ADGE run 89: exit code 0 after 102 s (255 s left)
+[03:29:28] ADGE run 90: exit code 0 after 26 s (229 s left)
+[03:29:33] running for 6976 s, 321 coverage dumps so far
+[03:30:31] ADGE run 91: exit code 0 after 58 s (166 s left)
+[03:31:12] ADGE run 92: exit code 0 after 41 s (125 s left)
+[03:33:19] ADGE run 93: exit code 124 after 127 s (-2 s left)
+[03:33:19] ADGE runs finished after 7202 s: 93 run(s), 92 ended by themselves
+[03:33:21] result: hash-checker status=ok "actions":"2508","activities_total":1,"activities_triggered":1,"iterations":"93","line_pct":58.46,"methods_hit":371,"methods_total":525,

@@ -1,0 +1,19 @@
+{
+  "mode": "analysis",
+  "targets_mode": "monkey-missed",
+  "targets_total": 76,
+  "resource_package": "org.billthefarmer.currency",
+  "soot_seconds": 2,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "app_methods_scanned": 3672,
+  "targets_matched": 77,
+  "reach_nodes": 92,
+  "resource_ids": 10,
+  "mappings": 16,
+  "methods": 10,
+  "icc_methods": 1,
+  "tainted_methods": 6,
+  "seconds": 7
+}

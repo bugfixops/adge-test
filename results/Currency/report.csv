@@ -1,0 +1,25 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Coverage Report,org.billthefarmer.currency.JacocoInstrument,JacocoInstrumentation,72,112,12,6,16,28,11,6,2,6
+JaCoCo Coverage Report,org.billthefarmer.currency.JacocoInstrument,SMSInstrumentedReceiver,0,24,1,1,0,7,1,2,0,2
+JaCoCo Coverage Report,org.billthefarmer.currency,SettingsActivity,13,62,6,5,6,23,6,4,1,2
+JaCoCo Coverage Report,org.billthefarmer.currency,Parser,20,50,0,0,7,15,0,5,0,5
+JaCoCo Coverage Report,org.billthefarmer.currency,CurrencyWidgetProvider,510,27,45,1,119,7,25,2,2,2
+JaCoCo Coverage Report,org.billthefarmer.currency,ChartParser,71,0,0,0,22,0,5,0,5,0
+JaCoCo Coverage Report,org.billthefarmer.currency,CurrencyWidgetRefresh,86,0,16,0,23,0,10,0,2,0
+JaCoCo Coverage Report,org.billthefarmer.currency,Parser.Handler,3,57,1,7,2,13,1,6,0,2
+JaCoCo Coverage Report,org.billthefarmer.currency,CurrencyAdapter,2,132,5,9,1,33,6,6,1,4
+JaCoCo Coverage Report,org.billthefarmer.currency,ChoiceAdapter,2,93,3,7,1,23,4,6,1,4
+JaCoCo Coverage Report,org.billthefarmer.currency,Main.Currency,0,15,0,0,0,6,0,1,0,1
+JaCoCo Coverage Report,org.billthefarmer.currency,BuildConfig,7,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,org.billthefarmer.currency,ChoiceDialog,144,202,36,16,40,63,28,8,3,4
+JaCoCo Coverage Report,org.billthefarmer.currency,HelpActivity,16,102,7,8,7,32,7,6,1,3
+JaCoCo Coverage Report,org.billthefarmer.currency,SettingsFragment,10,115,2,8,3,38,2,9,0,6
+JaCoCo Coverage Report,org.billthefarmer.currency,ChartActivity.DateAxisValueFormatter,24,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,org.billthefarmer.currency,Data,21,67,5,5,8,22,5,9,1,8
+JaCoCo Coverage Report,org.billthefarmer.currency,Main,531,2410,96,132,149,496,83,70,3,29
+JaCoCo Coverage Report,org.billthefarmer.currency,CurrencyWidgetUpdate,416,0,26,0,109,0,22,0,9,0
+JaCoCo Coverage Report,org.billthefarmer.currency,ChartActivity,1503,0,134,0,387,0,101,0,25,0
+JaCoCo Coverage Report,org.billthefarmer.currency,AboutPreference,0,94,5,5,0,27,5,2,0,2
+JaCoCo Coverage Report,org.billthefarmer.currency,ChartParser.Handler,91,0,10,0,20,0,8,0,2,0
+JaCoCo Coverage Report,org.billthefarmer.currency,CurrencyWidgetConfigure,210,0,19,0,59,0,15,0,4,0
+JaCoCo Coverage Report,org.billthefarmer.currency,Singleton,75,0,8,0,29,0,13,0,9,0

@@ -1,0 +1,19 @@
+{
+  "mode": "analysis",
+  "targets_mode": "monkey-missed",
+  "targets_total": 3032,
+  "resource_package": "com.ichi2.anki",
+  "soot_seconds": 2,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "app_methods_scanned": 8717,
+  "targets_matched": 3125,
+  "reach_nodes": 3557,
+  "resource_ids": 27,
+  "mappings": 43,
+  "methods": 43,
+  "icc_methods": 9,
+  "tainted_methods": 40,
+  "seconds": 13
+}

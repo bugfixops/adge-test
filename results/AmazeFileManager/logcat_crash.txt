@@ -1,0 +1,27 @@
+10-29 02:45:43.276 E/AndroidRuntime(28063): FATAL EXCEPTION: main
+10-29 02:45:43.276 E/AndroidRuntime(28063): Process: com.amaze.filemanager.debug, PID: 28063
+10-29 02:45:43.276 E/AndroidRuntime(28063): java.lang.NullPointerException: Attempt to read from field 'boolean com.amaze.filemanager.adapters.data.LayoutElementParcelable.isBack' on a null object reference
+10-29 02:45:43.276 E/AndroidRuntime(28063): 	at com.amaze.filemanager.adapters.RecyclerAdapter.setItems(RecyclerAdapter.java:370)
+10-29 02:45:43.276 E/AndroidRuntime(28063): 	at com.amaze.filemanager.adapters.RecyclerAdapter.setItems(RecyclerAdapter.java:354)
+10-29 02:45:43.276 E/AndroidRuntime(28063): 	at com.amaze.filemanager.asynchronous.handlers.FileHandler.handleMessage(FileHandler.java:74)
+10-29 02:45:43.276 E/AndroidRuntime(28063): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-29 02:45:43.276 E/AndroidRuntime(28063): 	at android.os.Looper.loop(Looper.java:164)
+10-29 02:45:43.276 E/AndroidRuntime(28063): 	at android.app.ActivityThread.main(ActivityThread.java:6494)
+10-29 02:45:43.276 E/AndroidRuntime(28063): 	at java.lang.reflect.Method.invoke(Native Method)
+10-29 02:45:43.276 E/AndroidRuntime(28063): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+10-29 02:45:43.276 E/AndroidRuntime(28063): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+10-29 02:50:31.402 E/AndroidRuntime(32730): FATAL EXCEPTION: main
+10-29 02:50:31.402 E/AndroidRuntime(32730): Process: com.amaze.filemanager.debug, PID: 32730
+10-29 02:50:31.402 E/AndroidRuntime(32730): java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at java.util.ArrayList.get(ArrayList.java:437)
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at com.amaze.filemanager.asynchronous.asynctasks.DeleteTask.onPostExecute(DeleteTask.java:175)
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at com.amaze.filemanager.asynchronous.asynctasks.DeleteTask.onPostExecute(DeleteTask.java:51)
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at android.os.AsyncTask.finish(AsyncTask.java:695)
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at android.os.AsyncTask.-wrap1(Unknown Source:0)
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:712)
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at android.os.Looper.loop(Looper.java:164)
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at android.app.ActivityThread.main(ActivityThread.java:6494)
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at java.lang.reflect.Method.invoke(Native Method)
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+10-29 02:50:31.402 E/AndroidRuntime(32730): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)

@@ -1,0 +1,36 @@
+10-29 01:34:40.415 E/AndroidRuntime( 3163): FATAL EXCEPTION: main
+10-29 01:34:40.415 E/AndroidRuntime( 3163): Process: org.billthefarmer.currency, PID: 3163
+10-29 01:34:40.415 E/AndroidRuntime( 3163): java.lang.RuntimeException: Failure delivering result ResultInfo{who=null, request=0, result=-1, data=Intent { (has extras) }} to activity {org.billthefarmer.currency/org.billthefarmer.currency.ChartActivity}: java.lang.NullPointerException: Attempt to invoke interface method 'void java.util.List.clear()' on a null object reference
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at android.app.ActivityThread.deliverResults(ActivityThread.java:4268)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at android.app.ActivityThread.handleSendResult(ActivityThread.java:4312)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at android.app.ActivityThread.-wrap19(Unknown Source:0)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1644)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at android.os.Looper.loop(Looper.java:164)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at android.app.ActivityThread.main(ActivityThread.java:6494)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at java.lang.reflect.Method.invoke(Native Method)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'void java.util.List.clear()' on a null object reference
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at org.billthefarmer.currency.ChartActivity.onActivityResult(ChartActivity.java:836)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at android.app.Activity.dispatchActivityResult(Activity.java:7276)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	at android.app.ActivityThread.deliverResults(ActivityThread.java:4264)
+10-29 01:34:40.415 E/AndroidRuntime( 3163): 	... 9 more
+10-29 01:41:02.999 E/AndroidRuntime( 4899): FATAL EXCEPTION: main
+10-29 01:41:02.999 E/AndroidRuntime( 4899): Process: org.billthefarmer.currency, PID: 4899
+10-29 01:41:02.999 E/AndroidRuntime( 4899): java.lang.RuntimeException: Failure delivering result ResultInfo{who=null, request=0, result=-1, data=Intent { (has extras) }} to activity {org.billthefarmer.currency/org.billthefarmer.currency.ChartActivity}: java.lang.NullPointerException: Attempt to invoke interface method 'void java.util.List.clear()' on a null object reference
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at android.app.ActivityThread.deliverResults(ActivityThread.java:4268)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at android.app.ActivityThread.handleSendResult(ActivityThread.java:4312)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at android.app.ActivityThread.-wrap19(Unknown Source:0)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1644)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at android.os.Looper.loop(Looper.java:164)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at android.app.ActivityThread.main(ActivityThread.java:6494)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at java.lang.reflect.Method.invoke(Native Method)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'void java.util.List.clear()' on a null object reference
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at org.billthefarmer.currency.ChartActivity.onActivityResult(ChartActivity.java:836)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at android.app.Activity.dispatchActivityResult(Activity.java:7276)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	at android.app.ActivityThread.deliverResults(ActivityThread.java:4264)
+10-29 01:41:02.999 E/AndroidRuntime( 4899): 	... 9 more

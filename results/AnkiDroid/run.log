@@ -1,0 +1,60 @@
+[01:32:55] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[01:32:56] home screen: com.android.launcher3
+[01:32:57] install apks/AnkiDroid.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[01:33:33] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/AnkiDroid/db/AnkiDroid.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/AnkiDroid.apk", "PACKAGE_NAME": "com.ichi2.anki", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[01:35:39] ADGE run 1: exit code 0 after 126 s (7074 s left)
+[01:38:31] ADGE run 2: exit code 0 after 172 s (6902 s left)
+[01:40:33] ADGE run 3: exit code 0 after 122 s (6780 s left)
+[01:40:33] running for 420 s, 17 coverage dumps so far
+[01:41:52] ADGE run 4: exit code 0 after 79 s (6701 s left)
+[01:43:37] ADGE run 5: exit code 0 after 105 s (6596 s left)
+[01:48:48] ADGE run 6: exit code 0 after 311 s (6285 s left)
+[01:48:48] running for 915 s, 37 coverage dumps so far
+[01:50:00] ADGE run 7: exit code 0 after 72 s (6213 s left)
+[01:53:23] ADGE run 8: exit code 0 after 203 s (6010 s left)
+[01:58:27] ADGE run 9: exit code 0 after 304 s (5706 s left)
+[01:58:27] running for 1494 s, 59 coverage dumps so far
+[02:01:22] ADGE run 10: exit code 0 after 175 s (5531 s left)
+[02:06:08] ADGE run 11: exit code 0 after 286 s (5245 s left)
+[02:06:08] running for 1955 s, 76 coverage dumps so far
+[02:08:15] ADGE run 12: exit code 0 after 127 s (5118 s left)
+[02:13:21] ADGE run 13: exit code 0 after 306 s (4812 s left)
+[02:13:21] running for 2388 s, 93 coverage dumps so far
+[02:19:40] ADGE run 14: exit code 0 after 379 s (4433 s left)
+[02:19:40] running for 2767 s, 106 coverage dumps so far
+[02:20:40] ADGE run 15: exit code 0 after 60 s (4373 s left)
+[02:23:21] ADGE run 16: exit code 0 after 161 s (4212 s left)
+[02:25:36] ADGE run 17: exit code 0 after 135 s (4077 s left)
+[02:25:36] running for 3123 s, 121 coverage dumps so far
+[02:29:17] ADGE run 18: exit code 0 after 221 s (3856 s left)
+[02:33:00] ADGE run 19: exit code 0 after 223 s (3633 s left)
+[02:33:00] running for 3567 s, 138 coverage dumps so far
+[02:37:28] ADGE run 20: exit code 0 after 268 s (3365 s left)
+[02:41:10] ADGE run 21: exit code 0 after 222 s (3143 s left)
+[02:41:10] running for 4057 s, 156 coverage dumps so far
+[02:44:23] ADGE run 22: exit code 0 after 193 s (2950 s left)
+[02:45:46] ADGE run 23: exit code 0 after 83 s (2867 s left)
+[02:46:08] ADGE run 24: exit code 0 after 22 s (2845 s left)
+[02:46:13] running for 4360 s, 169 coverage dumps so far
+[02:47:54] ADGE run 25: exit code 0 after 101 s (2739 s left)
+[02:52:21] ADGE run 26: exit code 0 after 267 s (2472 s left)
+[02:52:21] running for 4728 s, 183 coverage dumps so far
+[02:54:50] ADGE run 27: exit code 0 after 149 s (2323 s left)
+[02:59:51] ADGE run 28: exit code 0 after 301 s (2022 s left)
+[02:59:51] running for 5178 s, 200 coverage dumps so far
+[03:01:46] ADGE run 29: exit code 0 after 115 s (1907 s left)
+[03:06:13] ADGE run 30: exit code 0 after 267 s (1640 s left)
+[03:06:13] running for 5560 s, 215 coverage dumps so far
+[03:11:03] ADGE run 31: exit code 0 after 290 s (1350 s left)
+[03:13:50] ADGE run 32: exit code 0 after 167 s (1183 s left)
+[03:13:50] running for 6017 s, 232 coverage dumps so far
+[03:21:47] ADGE run 33: exit code 0 after 477 s (706 s left)
+[03:21:47] running for 6494 s, 249 coverage dumps so far
+[03:25:31] ADGE run 34: exit code 0 after 224 s (482 s left)
+[03:30:31] ADGE run 35: exit code 0 after 300 s (182 s left)
+[03:30:31] running for 7018 s, 268 coverage dumps so far
+[03:33:35] ADGE run 36: exit code 124 after 184 s (-2 s left)
+[03:33:35] ADGE runs finished after 7202 s: 36 run(s), 35 ended by themselves
+[03:33:37] result: AnkiDroid status=ok "actions":"2812","activities_total":21,"activities_triggered":15,"iterations":"36","line_pct":39.2,"methods_hit":1951,"methods_total":4178,

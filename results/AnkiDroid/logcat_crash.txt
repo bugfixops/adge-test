@@ -1,0 +1,70 @@
+10-29 02:01:22.870 F/libc    (14612): Fatal signal 11 (SIGSEGV), code 1, fault addr 0x1 in tid 14612 (com.ichi2.anki), pid 14612 (com.ichi2.anki)
+10-29 02:01:22.888 F/DEBUG   (14637): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-29 02:01:22.888 F/DEBUG   (14637): Build fingerprint: 'Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys'
+10-29 02:01:22.888 F/DEBUG   (14637): Revision: '0'
+10-29 02:01:22.888 F/DEBUG   (14637): ABI: 'x86_64'
+10-29 02:01:22.888 F/DEBUG   (14637): pid: 14612, tid: 14612, name: com.ichi2.anki  >>> com.ichi2.anki <<<
+10-29 02:01:22.888 F/DEBUG   (14637): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x1
+10-29 02:01:22.888 F/DEBUG   (14637): Cause: null pointer dereference
+10-29 02:01:22.888 F/DEBUG   (14637):     rax 000077da7d263680  rbx 000077da7d4c3820  rcx 0000000000000001  rdx 00007ffedf74a958
+10-29 02:01:22.888 F/DEBUG   (14637):     rsi 000077da7d51a020  rdi 0000000000000000
+10-29 02:01:22.888 F/DEBUG   (14637):     r8  000077da7d4ce1f0  r9  fffffffffffffffe  r10 0000000000000008  r11 0000000000000206
+10-29 02:01:22.888 F/DEBUG   (14637):     r12 000077da7d51a020  r13 000077da7d9acf10  r14 000000000000000c  r15 0000000000000000
+10-29 02:01:22.888 F/DEBUG   (14637):     cs  0000000000000033  ss  000000000000002b
+10-29 02:01:22.888 F/DEBUG   (14637):     rip 0000000000000001  rbp 000077da7d51a010  rsp 00007ffedf74a948  eflags 0000000000010202
+10-29 02:01:22.888 F/DEBUG   (14637): 
+10-29 02:01:22.888 F/DEBUG   (14637): backtrace:
+10-29 02:01:22.888 F/DEBUG   (14637):     #00 pc 0000000000000001  <unknown>
+10-29 02:45:42.190 E/AndroidRuntime(32100): FATAL EXCEPTION: main
+10-29 02:45:42.190 E/AndroidRuntime(32100): Process: com.ichi2.anki, PID: 32100
+10-29 02:45:42.190 E/AndroidRuntime(32100): java.lang.NumberFormatException: For input string: "10012020120201202012020"
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at java.lang.Integer.parseInt(Integer.java:611)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at java.lang.Integer.parseInt(Integer.java:643)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at com.ichi2.anki.dialogs.CustomStudyDialog$2.onPositive(CustomStudyDialog.java:231)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at com.afollestad.materialdialogs.MaterialDialog.onClick(MaterialDialog.java:333)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at android.view.View.performClick(View.java:6294)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at android.view.View$PerformClick.run(View.java:24770)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at android.os.Handler.handleCallback(Handler.java:790)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at android.os.Looper.loop(Looper.java:164)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at android.app.ActivityThread.main(ActivityThread.java:6494)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at java.lang.reflect.Method.invoke(Native Method)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+10-29 02:45:42.190 E/AndroidRuntime(32100): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+10-29 02:45:49.558 F/libc    (32689): Fatal signal 11 (SIGSEGV), code 2, fault addr 0x77da00000052 in tid 32689 (com.ichi2.anki), pid 32689 (com.ichi2.anki)
+10-29 02:45:49.571 F/DEBUG   (32712): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-29 02:45:49.571 F/DEBUG   (32712): Build fingerprint: 'Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys'
+10-29 02:45:49.571 F/DEBUG   (32712): Revision: '0'
+10-29 02:45:49.571 F/DEBUG   (32712): ABI: 'x86_64'
+10-29 02:45:49.571 F/DEBUG   (32712): pid: 32689, tid: 32689, name: com.ichi2.anki  >>> com.ichi2.anki <<<
+10-29 02:45:49.571 F/DEBUG   (32712): signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x77da00000052
+10-29 02:45:49.571 F/DEBUG   (32712):     rax 000077da7d897740  rbx 000077da7d4c3820  rcx 000077da00000012  rdx 00007ffedf74a958
+10-29 02:45:49.571 F/DEBUG   (32712):     rsi 000077da7da059a0  rdi 000077da7d909c00
+10-29 02:45:49.571 F/DEBUG   (32712):     r8  000077da7c62b000  r9  fffffffffffffffe  r10 0000000000000008  r11 0000000000000206
+10-29 02:45:49.571 F/DEBUG   (32712):     r12 000077da7d51a020  r13 000077da7d9acf10  r14 0000000000000004  r15 0000000000000000
+10-29 02:45:49.571 F/DEBUG   (32712):     cs  0000000000000033  ss  000000000000002b
+10-29 02:45:49.571 F/DEBUG   (32712):     rip 000077d9e7401c90  rbp 000077da7d51a010  rsp 00007ffedf74a950  eflags 0000000000010202
+10-29 02:45:49.571 F/DEBUG   (32712): 
+10-29 02:45:49.571 F/DEBUG   (32712): backtrace:
+10-29 02:45:49.571 F/DEBUG   (32712):     #00 pc 000077d9e7401c90  <unknown>
+10-29 03:17:29.879 F/libc    (13542): Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 13542 (android:ui), pid 13542 (android:ui)
+10-29 03:17:29.900 F/DEBUG   (13566): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-29 03:17:29.900 F/DEBUG   (13566): Build fingerprint: 'Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys'
+10-29 03:17:29.900 F/DEBUG   (13566): Revision: '0'
+10-29 03:17:29.900 F/DEBUG   (13566): ABI: 'x86_64'
+10-29 03:17:29.900 F/DEBUG   (13566): pid: 13542, tid: 13542, name: android:ui  >>> android:ui <<<
+10-29 03:17:29.900 F/DEBUG   (13566): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+10-29 03:17:29.900 F/DEBUG   (13566): Cause: null pointer dereference
+10-29 03:17:29.901 F/DEBUG   (13566):     rax 0000000000000000  rbx 000077da8089ed70  rcx ffffffffffffffff  rdx 000000000000000b
+10-29 03:17:29.901 F/DEBUG   (13566):     rsi 00000000000034e6  rdi 00000000000034e6
+10-29 03:17:29.901 F/DEBUG   (13566):     r8  0000000000000000  r9  0000000000000000  r10 000077da8089ed70  r11 0000000000000246
+10-29 03:17:29.901 F/DEBUG   (13566):     r12 0000000000000000  r13 000077da8089ed70  r14 000077da809faab0  r15 000000000000000b
+10-29 03:17:29.901 F/DEBUG   (13566):     cs  0000000000000033  ss  000000000000002b
+10-29 03:17:29.901 F/DEBUG   (13566):     rip 000077da80963bb8  rbp 00000000000034e6  rsp 000077da8089ea38  eflags 0000000000000246
+10-29 03:17:29.901 F/DEBUG   (13566): 
+10-29 03:17:29.901 F/DEBUG   (13566): backtrace:
+10-29 03:17:29.901 F/DEBUG   (13566):     #00 pc 00000000000bfbb8  /system/bin/linker64 (__dl_syscall+24)
+10-29 03:17:29.901 F/DEBUG   (13566):     #01 pc 0000000000030a6c  /system/bin/linker64 (__dl__ZL13resend_signalP7siginfob+80)
+10-29 03:17:29.901 F/DEBUG   (13566):     #02 pc 0000000000030917  /system/bin/linker64 (__dl__ZL24debuggerd_signal_handleriP7siginfoPv+1359)
+10-29 03:17:29.901 F/DEBUG   (13566):     #03 pc 0000000000002da4  /system/bin/app_process64 (art::SignalChain::Handler(int, siginfo*, void*)+340)
+10-29 03:17:29.901 F/DEBUG   (13566):     #04 pc 000000000000053f  /system/lib64/libc.so (offset 0x27000)

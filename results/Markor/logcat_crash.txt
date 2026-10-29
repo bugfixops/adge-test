@@ -1,0 +1,20 @@
+10-29 03:08:21.753 F/libc    (13867): Fatal signal 11 (SIGSEGV), code 128, fault addr 0x0 in tid 13867 (ner.markor_test), pid 13867 (ner.markor_test)
+10-29 03:08:21.798 F/DEBUG   (13892): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-29 03:08:21.798 F/DEBUG   (13892): Build fingerprint: 'Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys'
+10-29 03:08:21.798 F/DEBUG   (13892): Revision: '0'
+10-29 03:08:21.798 F/DEBUG   (13892): ABI: 'x86_64'
+10-29 03:08:21.798 F/DEBUG   (13892): pid: 13867, tid: 13867, name: ner.markor_test  >>> net.gsantner.markor_test <<<
+10-29 03:08:21.798 F/DEBUG   (13892): signal 11 (SIGSEGV), code 128 (SI_KERNEL), fault addr 0x0
+10-29 03:08:21.798 F/DEBUG   (13892):     rax 0000000000000000  rbx 0000789ae72dbd70  rcx ffffffffffffffff  rdx 000000000000000b
+10-29 03:08:21.798 F/DEBUG   (13892):     rsi 000000000000362b  rdi 000000000000362b
+10-29 03:08:21.798 F/DEBUG   (13892):     r8  0000000000000000  r9  0000000000000000  r10 0000789ae72dbd70  r11 0000000000000246
+10-29 03:08:21.798 F/DEBUG   (13892):     r12 0000000000000000  r13 0000789ae72dbd70  r14 0000789ae7437ab0  r15 000000000000000b
+10-29 03:08:21.798 F/DEBUG   (13892):     cs  0000000000000033  ss  000000000000002b
+10-29 03:08:21.798 F/DEBUG   (13892):     rip 0000789ae73a0bb8  rbp 000000000000362b  rsp 0000789ae72dba38  eflags 0000000000000246
+10-29 03:08:21.799 F/DEBUG   (13892): 
+10-29 03:08:21.799 F/DEBUG   (13892): backtrace:
+10-29 03:08:21.799 F/DEBUG   (13892):     #00 pc 00000000000bfbb8  /system/bin/linker64 (__dl_syscall+24)
+10-29 03:08:21.799 F/DEBUG   (13892):     #01 pc 0000000000030a6c  /system/bin/linker64 (__dl__ZL13resend_signalP7siginfob+80)
+10-29 03:08:21.799 F/DEBUG   (13892):     #02 pc 0000000000030917  /system/bin/linker64 (__dl__ZL24debuggerd_signal_handleriP7siginfoPv+1359)
+10-29 03:08:21.799 F/DEBUG   (13892):     #03 pc 0000000000002da4  /system/bin/app_process64 (art::SignalChain::Handler(int, siginfo*, void*)+340)
+10-29 03:08:21.799 F/DEBUG   (13892):     #04 pc 000000000000053f  /system/lib64/libc.so (offset 0x27000)

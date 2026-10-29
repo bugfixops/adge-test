@@ -1,0 +1,19 @@
+{
+  "mode": "analysis",
+  "targets_mode": "monkey-missed",
+  "targets_total": 974,
+  "resource_package": "it.feio.android.omninotes",
+  "soot_seconds": 2,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "app_methods_scanned": 27254,
+  "targets_matched": 927,
+  "reach_nodes": 1261,
+  "resource_ids": 40,
+  "mappings": 55,
+  "methods": 37,
+  "icc_methods": 3,
+  "tainted_methods": 17,
+  "seconds": 12
+}

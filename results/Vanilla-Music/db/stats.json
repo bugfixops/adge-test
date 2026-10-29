@@ -1,0 +1,19 @@
+{
+  "mode": "analysis",
+  "targets_mode": "monkey-missed",
+  "targets_total": 560,
+  "resource_package": "ch.blinkenlights.android.vanilla",
+  "soot_seconds": 5,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "app_methods_scanned": 5258,
+  "targets_matched": 584,
+  "reach_nodes": 770,
+  "resource_ids": 26,
+  "mappings": 48,
+  "methods": 33,
+  "icc_methods": 11,
+  "tainted_methods": 21,
+  "seconds": 17
+}

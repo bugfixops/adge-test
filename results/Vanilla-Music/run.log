@@ -1,0 +1,45 @@
+[01:32:44] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[01:32:45] home screen: com.android.launcher3
+[01:32:47] install apks/Vanilla-Music.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[01:33:23] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/Vanilla-Music/db/Vanilla-Music.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/Vanilla-Music.apk", "PACKAGE_NAME": "ch.blinkenlights.android.vanilla", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[01:40:14] ADGE run 1: exit code 0 after 411 s (6789 s left)
+[01:40:14] running for 411 s, 15 coverage dumps so far
+[01:44:30] ADGE run 2: exit code 0 after 256 s (6533 s left)
+[01:46:09] ADGE run 3: exit code 0 after 99 s (6434 s left)
+[01:46:09] running for 766 s, 29 coverage dumps so far
+[01:48:32] ADGE run 4: exit code 0 after 143 s (6291 s left)
+[01:49:18] ADGE run 5: exit code 0 after 46 s (6245 s left)
+[01:52:23] ADGE run 6: exit code 0 after 185 s (6060 s left)
+[01:52:23] running for 1140 s, 44 coverage dumps so far
+[02:04:25] ADGE run 7: exit code 0 after 722 s (5338 s left)
+[02:04:25] running for 1862 s, 69 coverage dumps so far
+[02:06:01] ADGE run 8: exit code 0 after 96 s (5242 s left)
+[02:17:52] ADGE run 9: exit code 0 after 711 s (4531 s left)
+[02:17:52] running for 2669 s, 98 coverage dumps so far
+[02:21:54] ADGE run 10: exit code 0 after 242 s (4289 s left)
+[02:24:33] ADGE run 11: exit code 0 after 159 s (4130 s left)
+[02:24:33] running for 3070 s, 113 coverage dumps so far
+[02:25:03] ADGE run 12: exit code 0 after 30 s (4100 s left)
+[02:29:21] ADGE run 13: exit code 0 after 258 s (3842 s left)
+[02:32:49] ADGE run 14: exit code 0 after 208 s (3634 s left)
+[02:32:49] running for 3566 s, 133 coverage dumps so far
+[02:36:01] ADGE run 15: exit code 0 after 192 s (3442 s left)
+[02:38:50] ADGE run 16: exit code 0 after 169 s (3273 s left)
+[02:38:50] running for 3927 s, 147 coverage dumps so far
+[02:41:15] ADGE run 17: exit code 0 after 145 s (3128 s left)
+[02:45:54] ADGE run 18: exit code 0 after 279 s (2849 s left)
+[02:45:54] running for 4351 s, 163 coverage dumps so far
+[02:48:34] ADGE run 19: exit code 0 after 160 s (2689 s left)
+[02:59:51] ADGE run 20: exit code 0 after 677 s (2012 s left)
+[02:59:51] running for 5188 s, 193 coverage dumps so far
+[03:01:51] ADGE run 21: exit code 0 after 120 s (1892 s left)
+[03:02:51] ADGE run 22: exit code 0 after 60 s (1832 s left)
+[03:16:57] ADGE run 23: exit code 0 after 846 s (986 s left)
+[03:16:57] running for 6214 s, 230 coverage dumps so far
+[03:31:32] ADGE run 24: exit code 0 after 875 s (111 s left)
+[03:31:32] running for 7089 s, 260 coverage dumps so far
+[03:33:25] ADGE run 25: exit code 124 after 113 s (-2 s left)
+[03:33:25] ADGE runs finished after 7202 s: 25 run(s), 24 ended by themselves
+[03:33:27] result: Vanilla-Music status=ok "actions":"3163","activities_total":13,"activities_triggered":7,"iterations":"25","line_pct":63.93,"methods_hit":1047,"methods_total":1468,

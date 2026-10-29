@@ -1,0 +1,668 @@
+perform action: click on  index="2" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[365,383][715,829]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,383][355,829]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="2" text="CANCEL" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNegative" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[772,1043][974,1169]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNegative
+perform action: click on  index="7" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[565,1654][1080,1780]" drawing-order="8" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[646,703][715,772]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="2" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[565,1024][1080,1150]" drawing-order="3" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[646,703][715,772]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[646,703][715,772]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: long-click on  index="3" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[725,383][1075,829]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="3" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[725,383][1075,829]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,383][355,829]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="2" text="NO" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNegative" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[596,1027][785,1153]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNegative
+perform action: long-click on  index="0" text="# Shopping list
+
+- [ ] milk
+- [x] eggs
+- [ ] coffee
+
+## Ideas
+
+1. read a book
+2. **bold** and _italic_ text.zip
+
+```python
+print(&quot;hello&quot;)
+```
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1019]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="2" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[510,84][679,210]" drawing-order="3" hint=""-
+perform action: click on  index="1" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Select all" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[225,843][500,969]" drawing-order="2" hint=""-
+perform action: long-click on  index="0" text="# Shopping list
+
+- [ ] milk
+- [x] eggs
+- [ ] coffee
+
+## Ideas
+
+1. read a book
+2. **bold** and _italic_ text zip
+
+```python
+print(&quot;hello&quot;)
+```
+# Shopping list
+
+- [ ] milk
+- [x] eggs
+- [ ] coffee
+
+## Ideas
+
+1. read a book
+2. **bold** and _italic_ text.zip
+
+```python
+print(&quot;hello&quot;)
+```
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[42,671][225,797]" drawing-order="1" hint=""-
+perform action: long-click on  index="0" text="# Shopping list
+
+- [ ] milk
+- [x] eggs
+- [ ] coffee
+
+## Ideas
+
+1. read a book
+2. **bold** and _italic_ text zip
+
+```python
+print(&quot;hello&quot;)
+```
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: long-click on  index="0" text="# Shopping list
+
+- [ ] milk
+- [x] eggs
+- [ ] coffee
+
+## Ideas
+
+1. read a book
+2. **bold** and _italic_ text zip
+
+```python
+print(&quot;hello&quot;)
+```
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1019]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="0" text="text zip" resource-id="" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[269,657][702,783]" drawing-order="1" hint=""-
+perform action: click on  index="0" text="# Shopping list
+
+- [ ] milk
+- [x] eggs
+- [ ] coffee
+
+## Ideas
+
+1. read a book
+2. **bold** and _italic_ text.zip
+
+```python
+print(&quot;hello&quot;)
+```
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1019]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[42,345][239,471]" drawing-order="1" hint=""-
+perform action: long-click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1019]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Cut" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[213,942][355,1068]" drawing-order="1" hint=""-
+perform action: click on  index="1" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Select all" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[225,671][500,797]" drawing-order="2" hint=""-
+perform action: long-click on  index="0" text="# Shopping list
+
+- [ ] milk
+- [x] eggs
+- [ ] coffee
+
+## Ideas
+
+1. read a book
+2. **bold** and _italic_ text.zip
+
+```python
+print(&quot;hello&quot;)
+```
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,383][355,829]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.RelativeLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[74,838][1006,1001]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="7" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,1654][801,1780]" drawing-order="8" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,703][355,772]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="1" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,898][801,1024]" drawing-order="2" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,703][355,772]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="3" text="SAVE" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultPositive" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[785,1022][974,1148]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultPositive
+perform action: long-click on  index="0" text="notes.md" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,883][943,1001]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: long-click on  index="0" text="notes.md" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,495][943,613]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="notes.md" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,883][943,1001]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="4" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,1276][801,1402]" drawing-order="5" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,703][355,772]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="4" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,839][355,1285]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/second
+perform action: scroll on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/pager" class="androidx.viewpager.widget.ViewPager" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,399][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/pager
+perform action: long-click on  index="0" text=".zip.zip" resource-id="com.amaze.filemanager.debug:id/search_box" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][687,320]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/search_box
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[42,341][225,467]" drawing-order="1" hint=""-
+perform action: long-click on  index="0" text=".zip" resource-id="com.amaze.filemanager.debug:id/search_box" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][687,320]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/search_box
+perform action: click on  index="0" text="id,name,amount
+1,item1,3.5
+2,item2,7.0
+3,item3,10.5
+4,item4,14.0
+5,item5,17.5
+6,item6,21.0
+7,item7,24.5
+8,item8,28.0
+9,item9,31.5
+10,item10,35.0
+11,item11,38.5
+12,item12,42.0
+13,item13,45.5
+14,item14,49.0
+15,item15,52.5
+16,item16,56.0
+17,item17,59.5
+18,item18,63.0.zip
+19,item19,66.5
+20,item20,70.0
+21,item21,73.5
+22,item22,77.0
+23,item23,80.5
+24,item24,84.0
+25,item25,87.5
+26,item26,91.0
+27,item27,94.5
+28,item28,98.0
+29,item29,101.5
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,320][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: long-click on  index="0" text="id,name,amount
+1,item1,3.5
+2,item2,7.0
+3,item3,10.5
+4,item4,14.0
+5,item5,17.5
+6,item6,21.0
+7,item7,24.5
+8,item8,28.0
+9,item9,31.5
+10,item10,35.0
+11,item11,38.5
+12,item12,42.0
+13,item13,45.5
+14,item14,49.0
+15,item15,52.5
+16,item16,56.0
+17,item17,59.5
+18,item18,63.0.zip
+19,item19,66.5
+20,item20,70.0
+21,item21,73.5
+22,item22,77.0
+23,item23,80.5
+24,item24,84.0
+25,item25,87.5
+26,item26,91.0
+27,item27,94.5
+28,item28,98.0
+29,item29,101.5
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,320][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: long-click on  index="0" text="id,name,amount
+1,item1,3.5
+2,item2,7.0
+3,item3,10.5
+4,item4,14.0
+5,item5,17.5
+6,item6,21.0
+7,item7,24.5
+8,item8,28.0
+9,item9,31.5
+10,item10,35.0
+11,item11,38.5
+12,item12,42.0
+13,item13,45.5
+14,item14,49.0
+15,item15,52.5
+16,item16,56.0
+17,item17,59.5
+18,item18,63.0.zip
+19,item19,66.5
+20,item20,70.0
+21,item21,73.5
+22,item22,77.0
+23,item23,80.5
+24,item24,84.0
+25,item25,87.5
+26,item26,91.0
+27,item27,94.5
+28,item28,98.0
+29,item29,101.5
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,320][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="0" text=".zip" resource-id="com.amaze.filemanager.debug:id/search_box" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][687,320]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/search_box
+perform action: click on  index="0" text="id,name,amount
+1,item1,3.5
+2,item2,7.0
+3,item3,10.5
+4,item4,14.0
+5,item5,17.5
+6,item6,21.0
+7,item7,24.5
+8,item8,28.0
+9,item9,31.5
+10,item10,35.0
+11,item11,38.5
+12,item12,42.0
+13,item13,45.5
+14,item14,49.0
+15,item15,52.5
+16,item16,56.0
+17,item17,59.5
+18,item18,63.0.zip
+19,item19,66.5
+20,item20,70.0
+21,item21,73.5
+22,item22,77.0
+23,item23,80.5
+24,item24,84.0
+25,item25,87.5
+26,item26,91.0
+27,item27,94.5
+28,item28,98.0
+29,item29,101.5
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,320][1080,1019]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="1" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Select all" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[225,341][500,467]" drawing-order="2" hint=""-
+perform action: long-click on  index="0" text=".zip" resource-id="com.amaze.filemanager.debug:id/search_box" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][687,320]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/search_box
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[42,341][239,467]" drawing-order="1" hint=""-
+perform action: long-click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/search_box" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][687,320]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/search_box
+perform action: long-click on  index="0" text="id,name,amount
+1,item1,3.5
+2,item2,7.0
+3,item3,10.5
+4,item4,14.0
+5,item5,17.5
+6,item6,21.0
+7,item7,24.5
+8,item8,28.0
+9,item9,31.5
+10,item10,35.0
+11,item11,38.5
+12,item12,42.0
+13,item13,45.5
+14,item14,49.0
+15,item15,52.5
+16,item16,56.0
+17,item17,59.5
+18,item18,63.0.zip
+19,item19,66.5
+20,item20,70.0
+21,item21,73.5
+22,item22,77.0
+23,item23,80.5
+24,item24,84.0
+25,item25,87.5
+26,item26,91.0
+27,item27,94.5
+28,item28,98.0
+29,item29,101.5
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,320][1080,1019]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/find" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="Find in page" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[849,73][975,199]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/find
+perform action: long-click on  index="0" text="id,name,amount
+1,item1,3.5
+2,item2,7.0
+3,item3,10.5
+4,item4,14.0
+5,item5,17.5
+6,item6,21.0
+7,item7,24.5
+8,item8,28.0
+9,item9,31.5
+10,item10,35.0
+11,item11,38.5
+12,item12,42.0
+13,item13,45.5
+14,item14,49.0
+15,item15,52.5
+16,item16,56.0
+17,item17,59.5
+18,item18,63.0.zip
+19,item19,66.5
+20,item20,70.0
+21,item21,73.5
+22,item22,77.0
+23,item23,80.5
+24,item24,84.0
+25,item25,87.5
+26,item26,91.0
+27,item27,94.5
+28,item28,98.0
+29,item29,101.5
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1019]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="1" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Select all" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[225,440][500,566]" drawing-order="2" hint=""-
+perform action: click on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/save" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="Save" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[723,73][849,199]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/save
+perform action: long-click on  index="0" text="id,name,amount
+1,item1,3.5
+2,item2,7.0
+3,item3,10.5
+4,item4,14.0
+5,item5,17.5
+6,item6,21.0
+7,item7,24.5
+8,item8,28.0
+9,item9,31.5
+10,item10,35.0
+11,item11,38.5
+12,item12,42.0
+13,item13,45.5
+14,item14,49.0
+15,item15,52.5
+16,item16,56.0
+17,item17,59.5
+18,item18,63.0.zip
+19,item19,66.5
+20,item20,70.0
+21,item21,73.5
+22,item22,77.0
+23,item23,80.5
+24,item24,84.0
+25,item25,87.5
+26,item26,91.0
+27,item27,94.5
+28,item28,98.0
+29,item29,101.5
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1019]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/close" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[949,210][1080,320]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/close
+perform action: click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/find" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="Find in page" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[849,73][975,199]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/find
+perform action: click on  index="0" text="id,name,amount
+1,item1,3.5
+2,item2,7.0
+3,item3,10.5
+4,item4,14.0
+5,item5,17.5
+6,item6,21.0
+7,item7,24.5
+8,item8,28.0
+9,item9,31.5
+10,item10,35.0
+11,item11,38.5
+12,item12,42.0
+13,item13,45.5
+14,item14,49.0
+15,item15,52.5
+16,item16,56.0
+17,item17,59.5
+18,item18,63.0.zip
+19,item19,66.5
+20,item20,70.0
+21,item21,73.5
+22,item22,77.0
+23,item23,80.5
+24,item24,84.0
+25,item25,87.5
+26,item26,91.0
+27,item27,94.5
+28,item28,98.0
+29,item29,101.5
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1019]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: scroll on  index="2" text="" resource-id="com.amaze.filemanager.debug:id/editscroll" class="android.widget.ScrollView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="false" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1019]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/editscroll
+perform action: click on  index="0" text="id,name,amount
+1,item1,3.5
+2,item2,7.0
+3,item3,10.5
+4,item4,14.0
+5,item5,17.5
+6,item6,21.0
+7,item7,24.5
+8,item8,28.0
+9,item9,31.5
+10,item10,35.0
+11,item11,38.5
+12,item12,42.0
+13,item13,45.5
+14,item14,49.0
+15,item15,52.5
+16,item16,56.0
+17,item17,59.5
+18,item18,63.0.zip
+19,item19,66.5
+20,item20,70.0
+21,item21,73.5
+22,item22,77.0
+23,item23,80.5
+24,item24,84.0
+25,item25,87.5
+26,item26,91.0
+27,item27,94.5
+28,item28,98.0
+29,item29,101.5
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[42,843][225,969]" drawing-order="1" hint=""-
+perform action: long-click on  index="0" text="id,name,amount
+1,item1,3.5
+2,item2,7.0
+3,item3,10.5
+4,item4,14.0
+5,item5,17.5
+6,item6,21.0
+7,item7,24.5
+8,item8,28.0
+9,item9,31.5
+10,item10,35.0
+11,item11,38.5
+12,item12,42.0
+13,item13,45.5
+14,item14,49.0
+15,item15,52.5
+16,item16,56.0
+17,item17,59.5
+18,item18,63.0
+19,item19,66.5
+20,item20,70.0
+21,item21,73.5
+22,item22,77.0
+23,item23,80.5
+24,item24,84.0
+25,item25,87.5
+26,item26,91.0
+27,item27,94.5
+28,item28,98.0
+29,item29,101.5
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[555,73][1070,199]" drawing-order="1" hint=""-
+perform action: click on  index="1" text="" resource-id="" class="android.widget.ImageView" package="com.amaze.filemanager.debug" content-desc="More options" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[975,73][1080,199]" drawing-order="2" hint=""-
+perform action: click on  index="2" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[365,530][715,976]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="3" text="YES" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultPositive" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[785,1027][974,1153]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultPositive
+perform action: click on  index="0" text="" resource-id="" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="Navigate up" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,63][147,210]" drawing-order="2" hint=""-
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[200,456][383,582]" drawing-order="1" hint=""-
+perform action: long-click on  index="0" text="# Shopping list
+
+- [ ] milk
+- [x] eggs
+- [ ] coffee
+
+## Ideas
+
+1. read a book
+2. **bold** and _italic_ text
+
+```python
+print(&quot;hello&quot;)
+```
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1019]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: click on  index="0" text="# Shopping list
+
+- [ ] milk
+- [x] eggs
+- [ ] coffee
+
+## Ideas
+
+1. read a book
+2. **bold** and _italic_ text
+
+```python
+print(&quot;hello&quot;)
+```
+" resource-id="com.amaze.filemanager.debug:id/fname" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,210][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/fname
+perform action: long-click on  index="1" text="" resource-id="" class="android.widget.ImageView" package="com.amaze.filemanager.debug" content-desc="More options" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[975,73][1080,199]" drawing-order="2" hint=""-
+perform action: click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,530][355,976]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="4" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,986][355,1432]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="4" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,986][355,1432]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/cpy" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="Copy" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[597,73][723,199]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/cpy
+perform action: long-click on  index="4" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,986][355,1432]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="3" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[74,982][1006,1108]" drawing-order="4" hint=""-
+perform action: click on  index="3" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[725,530][1075,976]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="2" text="CANCEL" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNegative" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[577,661][779,787]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNegative
+perform action: click on  index="0" text="Enter Zip Name" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,468][943,586]" drawing-order="1" hint="Enter Zip Name"-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: long-click on  index="0" text="Enter Zip Name" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,468][943,586]" drawing-order="1" hint="Enter Zip Name"-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Cut" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[116,374][258,500]" drawing-order="1" hint=""-
+perform action: click on  index="1" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Select all" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[299,374][574,500]" drawing-order="2" hint=""-
+perform action: long-click on  index="0" text=".zip" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,495][943,613]" drawing-order="2" hint="Enter Zip Name"-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text=".zip" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,495][943,613]" drawing-order="2" hint="Enter Zip Name"-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text=".zip" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,883][943,1001]" drawing-order="2" hint="Enter Zip Name"-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: long-click on  index="0" text=".zip" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,883][943,1001]" drawing-order="2" hint="Enter Zip Name"-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="2" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[555,325][1070,451]" drawing-order="3" hint=""-
+perform action: click on  index="3" text="" resource-id="" class="android.widget.ImageView" package="com.amaze.filemanager.debug" content-desc="More options" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[975,73][1080,199]" drawing-order="4" hint=""-
+perform action: long-click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,530][355,976]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="4" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,986][355,1432]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="3" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[725,530][1075,976]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="2" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[365,530][715,976]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,530][355,976]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="2" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[365,530][715,976]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,530][355,976]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="4" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,986][355,1432]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,850][355,919]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="2" text="CANCEL" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNeutral" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[106,682][308,808]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNeutral
+perform action: click on  index="1" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Select all" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[299,735][574,861]" drawing-order="2" hint=""-
+perform action: long-click on  index="0" text="DCIM" resource-id="com.amaze.filemanager.debug:id/editText4" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,856][943,974]" drawing-order="2" hint="Name"-com.amaze.filemanager.debug:id/editText4
+perform action: click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/imageButton" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[693,662][756,788]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/imageButton
+perform action: click on  index="4" text="SAVE" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultPositive" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[785,682][974,808]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultPositive
+perform action: click on  index="0" text="DCIM" resource-id="com.amaze.filemanager.debug:id/editText4" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,856][943,974]" drawing-order="2" hint="Name"-com.amaze.filemanager.debug:id/editText4
+perform action: click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/imageButton" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[693,662][756,788]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/imageButton
+perform action: click on  index="4" text="SAVE" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultPositive" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[785,1070][974,1196]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultPositive
+perform action: click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/imageButton" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[693,662][756,788]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/imageButton
+perform action: click on  index="3" text="DELETE" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNegative" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[594,1070][785,1196]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNegative
+perform action: long-click on  index="0" text="Movies" resource-id="com.amaze.filemanager.debug:id/editText4" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,856][943,974]" drawing-order="2" hint="Name"-com.amaze.filemanager.debug:id/editText4
+perform action: click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/imageButton" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[693,788][756,914]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/imageButton
+perform action: click on  index="2" text="CANCEL" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNeutral" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[106,1070][308,1196]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNeutral
+perform action: click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/imageButton" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[693,788][756,914]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/imageButton
+perform action: click on  index="0" text="" resource-id="" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="Navigate up" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,63][147,210]" drawing-order="1" hint=""-
+perform action: click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,530][355,976]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="3" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[725,530][1075,976]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/action_mode_close_button" class="android.widget.ImageView" package="com.amaze.filemanager.debug" content-desc="Done" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,73][147,199]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/action_mode_close_button
+perform action: click on  index="6" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[725,986][1075,1432]" drawing-order="7" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="2" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[365,530][715,976]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="2" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[365,530][715,976]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="7" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,1442][355,1794]" drawing-order="8" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,530][355,976]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="2" text="CANCEL" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNegative" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[583,909][785,1035]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNegative
+perform action: click on  index="4" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[565,1416][1080,1542]" drawing-order="5" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1006,850][1075,919]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1006,850][1075,919]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="6" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[565,1668][1080,1794]" drawing-order="7" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1006,850][1075,919]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,912][801,1038]" drawing-order="1" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,850][355,919]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="3" text="DELETE" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultPositive" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[783,1127][974,1253]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultPositive
+perform action: click on  index="2" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[565,676][1080,802]" drawing-order="3" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[1006,1306][1075,1375]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,424][801,550]" drawing-order="1" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,1306][355,1375]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,1306][355,1375]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[646,1762][715,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="2" text="CANCEL" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNegative" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[583,689][785,815]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNegative
+perform action: long-click on  index="0" text="Documents//storage/emulated/0/emulated/0" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,828][943,1001]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="3" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Share" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[582,320][757,446]" drawing-order="4" hint=""-
+perform action: long-click on  index="0" text="Documents//storage/emulated/0/emulated/0" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,441][943,614]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="Documents//storage/emulated/0/emulated/0" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,441][943,614]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="2" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[413,347][582,473]" drawing-order="3" hint=""-
+perform action: long-click on  index="0" text="Documents/storage/emulated/0" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,468][943,586]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="Documents/storage/emulated/0" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,468][943,586]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[157,374][340,500]" drawing-order="1" hint=""-
+perform action: long-click on  index="0" text="Documents" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,495][943,613]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="Documents" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,495][943,613]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="Documents" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,883][943,1001]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="3" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,802][801,928]" drawing-order="4" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,1306][355,1375]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[565,880][1080,1006]" drawing-order="1" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[646,1762][715,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="2" text="CANCEL" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNegative" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[583,634][785,760]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNegative
+perform action: click on  index="0" text="Movies" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,495][943,613]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: long-click on  index="0" text="Movies" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,495][943,613]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="Movies" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,883][943,1001]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="3" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[565,802][1080,928]" drawing-order="4" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[646,1306][715,1375]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[646,1306][715,1375]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="6" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[565,1180][1080,1306]" drawing-order="7" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[646,1306][715,1375]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="4" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Select all" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[694,257][969,383]" drawing-order="5" hint=""-
+perform action: long-click on  index="1" text="October 29 | 2:October 29 | 2:53 AM AM" resource-id="com.amaze.filemanager.debug:id/search_edit_text" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[173,89][907,236]" drawing-order="2" hint="Type to search…"-com.amaze.filemanager.debug:id/search_edit_text
+perform action: click on  index="1" text="October 29 | 2:October 29 | 2:53 AM AM" resource-id="com.amaze.filemanager.debug:id/search_edit_text" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[173,89][907,236]" drawing-order="2" hint="Type to search…"-com.amaze.filemanager.debug:id/search_edit_text
+perform action: click on  index="2" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[350,257][519,383]" drawing-order="3" hint=""-
+perform action: long-click on  index="1" text="October 29 | 2:53 AM" resource-id="com.amaze.filemanager.debug:id/search_edit_text" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[173,89][907,236]" drawing-order="2" hint="Type to search…"-com.amaze.filemanager.debug:id/search_edit_text
+perform action: click on  index="1" text="October 29 | 2:53 AM" resource-id="com.amaze.filemanager.debug:id/search_edit_text" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[173,89][907,236]" drawing-order="2" hint="Type to search…"-com.amaze.filemanager.debug:id/search_edit_text
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[85,257][282,383]" drawing-order="1" hint=""-
+perform action: long-click on  index="1" text="Type to search…" resource-id="com.amaze.filemanager.debug:id/search_edit_text" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[173,89][907,236]" drawing-order="2" hint="Type to search…"-com.amaze.filemanager.debug:id/search_edit_text
+perform action: click on  index="2" text="CANCEL" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNeutral" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[106,693][308,819]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNeutral
+perform action: click on  index="0" text=".text" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,437][943,555]" drawing-order="2" hint="Enter Name"-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: long-click on  index="0" text=".text" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,437][943,555]" drawing-order="2" hint="Enter Name"-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="text" resource-id="" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[74,537][507,663]" drawing-order="1" hint=""-
+perform action: click on  index="0" text=".txt" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,824][943,942]" drawing-order="2" hint="Enter Name"-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/menu_new_file" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[720,497][1075,639]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/menu_new_file
+perform action: click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/sd_main_fab" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[853,781][1064,1014]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/sd_main_fab
+perform action: click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/search" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="Search" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[849,73][975,199]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/search
+perform action: check on  index="0" text="Documents" resource-id="com.amaze.filemanager.debug:id/design_menu_item_text" class="android.widget.CheckedTextView" package="com.amaze.filemanager.debug" content-desc="" checkable="true" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[42,1292][756,1418]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/design_menu_item_text
+perform action: check on  index="0" text="Hide from media browsers" resource-id="com.amaze.filemanager.debug:id/nomediacheckbox" class="android.widget.CheckBox" package="com.amaze.filemanager.debug" content-desc="" checkable="true" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[137,973][943,1057]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/nomediacheckbox
+perform action: click on  index="0" text="Hide from media browsers" resource-id="com.amaze.filemanager.debug:id/nomediacheckbox" class="android.widget.CheckBox" package="com.amaze.filemanager.debug" content-desc="" checkable="true" checked="true" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[137,973][943,1057]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/nomediacheckbox
+perform action: click on  index="0" text="Hide from media browsers" resource-id="com.amaze.filemanager.debug:id/nomediacheckbox" class="android.widget.CheckBox" package="com.amaze.filemanager.debug" content-desc="" checkable="true" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[137,973][943,1057]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/nomediacheckbox
+perform action: click on  index="0" text="Hide from media browsers" resource-id="com.amaze.filemanager.debug:id/nomediacheckbox" class="android.widget.CheckBox" package="com.amaze.filemanager.debug" content-desc="" checkable="true" checked="true" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[137,973][943,1057]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/nomediacheckbox
+perform action: click on  index="0" text="Hide from media browsers" resource-id="com.amaze.filemanager.debug:id/nomediacheckbox" class="android.widget.CheckBox" package="com.amaze.filemanager.debug" content-desc="" checkable="true" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[137,973][943,1057]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/nomediacheckbox
+perform action: check on  index="0" text="Hide from media browsers" resource-id="com.amaze.filemanager.debug:id/nomediacheckbox" class="android.widget.CheckBox" package="com.amaze.filemanager.debug" content-desc="" checkable="true" checked="true" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[137,973][943,1057]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/nomediacheckbox
+perform action: click on  index="0" text="Hide from media browsers" resource-id="com.amaze.filemanager.debug:id/nomediacheckbox" class="android.widget.CheckBox" package="com.amaze.filemanager.debug" content-desc="" checkable="true" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[137,973][943,1057]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/nomediacheckbox
+perform action: click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/imageButton" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[693,491][756,617]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/imageButton
+perform action: click on  index="2" text="OK" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultPositive" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[785,1427][974,1553]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultPositive
+perform action: click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/imageButton" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[693,491][756,617]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/imageButton
+perform action: long-click on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/drawer_header" class="android.view.View" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[0,0][798,449]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/drawer_header
+perform action: click on  index="0" text="" resource-id="" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="Navigate up" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,63][147,210]" drawing-order="1" hint=""-
+perform action: click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,530][355,976]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="2" text="" resource-id="" class="android.widget.ImageView" package="com.amaze.filemanager.debug" content-desc="More options" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[975,73][1080,199]" drawing-order="3" hint=""-
+perform action: click on  index="2" text="" resource-id="com.amaze.filemanager.debug:id/cut" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="Cut" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[849,73][975,199]" drawing-order="3" hint=""-com.amaze.filemanager.debug:id/cut
+perform action: long-click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,530][355,976]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  naf="true" index="3" text="" resource-id="com.amaze.filemanager.debug:id/sd_main_fab" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[798,1512][1075,1789]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/sd_main_fab
+perform action: click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/sd_main_fab" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[853,1556][1064,1789]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/sd_main_fab
+perform action: click on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/paste" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[723,73][849,199]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/paste
+perform action: click on  index="3" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[725,530][1075,976]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="2" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[555,325][1070,451]" drawing-order="3" hint=""-
+perform action: click on  index="2" text="" resource-id="" class="android.widget.ImageView" package="com.amaze.filemanager.debug" content-desc="More options" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[975,73][1080,199]" drawing-order="3" hint=""-
+perform action: scroll on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/listView" class="androidx.recyclerview.widget.RecyclerView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,252][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/listView
+perform action: scroll on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/listView" class="androidx.recyclerview.widget.RecyclerView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,399][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/listView
+perform action: long-click on  index="8" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[365,1442][715,1794]" drawing-order="9" hint=""-com.amaze.filemanager.debug:id/second
+perform action: scroll on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/listView" class="androidx.recyclerview.widget.RecyclerView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,399][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/listView
+perform action: scroll on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/listView" class="androidx.recyclerview.widget.RecyclerView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,252][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/listView
+perform action: click on  index="8" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[725,887][1075,1333]" drawing-order="9" hint=""-com.amaze.filemanager.debug:id/second
+perform action: long-click on  index="3" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,431][355,877]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  index="2" text="CANCEL" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNegative" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[581,1127][783,1253]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNegative
+perform action: click on  index="2" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,577][801,703]" drawing-order="3" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,1207][355,1276]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: scroll on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/listView" class="androidx.recyclerview.widget.RecyclerView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,399][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/listView
+perform action: click on  index="2" text="CANCEL" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultNegative" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[583,661][785,787]" drawing-order="4" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultNegative
+perform action: long-click on  index="0" text="AndroidOctober 29 | 2:49 AM" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,856][943,974]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="3" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Share" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[582,347][757,473]" drawing-order="4" hint=""-
+perform action: long-click on  index="0" text="AndroidOctober 29 | 2:49 AM" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,468][943,586]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="AndroidOctober 29 | 2:49 AM" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,468][943,586]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="Paste" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[116,374][299,500]" drawing-order="1" hint=""-
+perform action: long-click on  index="0" text="Android" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,495][943,613]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="Android" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,495][943,613]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="Android" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,883][943,1001]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="3" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[565,1290][1080,1416]" drawing-order="4" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[646,850][715,919]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: scroll on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/listView" class="androidx.recyclerview.widget.RecyclerView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,252][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/listView
+perform action: click on  index="3" text="SAVE" resource-id="com.amaze.filemanager.debug:id/md_buttonDefaultPositive" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[785,634][974,760]" drawing-order="5" hint=""-com.amaze.filemanager.debug:id/md_buttonDefaultPositive
+perform action: click on  index="0" text="Notifications" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,495][943,613]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: long-click on  index="0" text="Notifications" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,495][943,613]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="0" text="Notifications" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,883][943,1001]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: long-click on  index="0" text="Notifications" resource-id="com.amaze.filemanager.debug:id/singleedittext_input" class="android.widget.EditText" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="true" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[137,883][943,1001]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/singleedittext_input
+perform action: click on  index="3" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,703][801,829]" drawing-order="4" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,1207][355,1276]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: click on  index="0" text="" resource-id="" class="android.widget.LinearLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,325][801,451]" drawing-order="1" hint=""-
+perform action: click on  naf="true" index="2" text="" resource-id="com.amaze.filemanager.debug:id/properties" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[286,1207][355,1276]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/properties
+perform action: scroll on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/listView" class="androidx.recyclerview.widget.RecyclerView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,399][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/listView
+perform action: scroll on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/listView" class="androidx.recyclerview.widget.RecyclerView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,252][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/listView
+perform action: scroll on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/listView" class="androidx.recyclerview.widget.RecyclerView" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="true" focused="true" scrollable="true" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,399][1080,1794]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/listView
+perform action: click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/home" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="Home" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[849,73][975,199]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/home
+perform action: click on  index="1" text="" resource-id="com.amaze.filemanager.debug:id/second" class="android.widget.FrameLayout" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="true" password="false" selected="false" visible-to-user="true" bounds="[5,530][355,976]" drawing-order="2" hint=""-com.amaze.filemanager.debug:id/second
+perform action: click on  naf="true" index="0" text="" resource-id="com.amaze.filemanager.debug:id/img_view_back" class="android.widget.ImageButton" package="com.amaze.filemanager.debug" content-desc="" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[68,131][131,194]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/img_view_back
+perform action: click on  index="0" text="" resource-id="com.amaze.filemanager.debug:id/search" class="android.widget.TextView" package="com.amaze.filemanager.debug" content-desc="Search" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[723,73][849,199]" drawing-order="1" hint=""-com.amaze.filemanager.debug:id/search

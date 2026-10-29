@@ -1,0 +1,19 @@
+{
+  "mode": "analysis",
+  "targets_mode": "monkey-missed",
+  "targets_total": 2157,
+  "resource_package": "com.amaze.filemanager.debug",
+  "soot_seconds": 3,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "app_methods_scanned": 71596,
+  "targets_matched": 2359,
+  "reach_nodes": 2819,
+  "resource_ids": 46,
+  "mappings": 52,
+  "methods": 37,
+  "icc_methods": 5,
+  "tainted_methods": 24,
+  "seconds": 38
+}

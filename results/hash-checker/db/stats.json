@@ -1,0 +1,19 @@
+{
+  "mode": "analysis",
+  "targets_mode": "monkey-missed",
+  "targets_total": 168,
+  "resource_package": "com.smlnskgmail.jaman.hashchecker.thirdparty",
+  "soot_seconds": 4,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "app_methods_scanned": 5188,
+  "targets_matched": 165,
+  "reach_nodes": 208,
+  "resource_ids": 9,
+  "mappings": 9,
+  "methods": 9,
+  "icc_methods": 0,
+  "tainted_methods": 0,
+  "seconds": 18
+}

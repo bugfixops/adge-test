@@ -1,0 +1,19 @@
+{
+  "mode": "analysis",
+  "targets_mode": "monkey-missed",
+  "targets_total": 1497,
+  "resource_package": "org.liberty.android.fantastischmemopro",
+  "soot_seconds": 5,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "app_methods_scanned": 45869,
+  "targets_matched": 1640,
+  "reach_nodes": 1799,
+  "resource_ids": 45,
+  "mappings": 50,
+  "methods": 17,
+  "icc_methods": 5,
+  "tainted_methods": 15,
+  "seconds": 38
+}

@@ -1,0 +1,19 @@
+{
+  "mode": "analysis",
+  "targets_mode": "monkey-missed",
+  "targets_total": 1707,
+  "resource_package": "net.gsantner.markor_test",
+  "soot_seconds": 3,
+  "complete": true,
+  "binding_ok": true,
+  "find_ok": true,
+  "app_methods_scanned": 16288,
+  "targets_matched": 1742,
+  "reach_nodes": 2269,
+  "resource_ids": 50,
+  "mappings": 58,
+  "methods": 54,
+  "icc_methods": 1,
+  "tainted_methods": 43,
+  "seconds": 20
+}
