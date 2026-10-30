@@ -1,0 +1,18 @@
+[04:22:35] emulator command (for restarts): /usr/local/lib/android/sdk/emulator/emulator -port 5554 -avd test -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none -camera-front none
+[04:22:35] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[04:22:35] home screen: com.android.launcher3
+[04:22:41] install apks/MMEX.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[04:23:19] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/MMEX/db/MMEX.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/MMEX.apk", "PACKAGE_NAME": "com.money.manager.ex", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[04:23:41] first-run setup done: { "app": "MMEX", "script": "prep_scripts.prep_mmex", "ok": true, "timeout_seconds": 300, "attempts": [  {   "attempt": 1,   "ok": true,   "seconds": 21.3,   "error": "",   "log": []  } ], "time": "2026-10-30T04:23:41.302848+00:00", "log": []}
+[04:55:53] ADGE run 1: exit code 0 after 1932 s (5268 s left)
+[04:55:53] running for 1932 s, 66 coverage dumps so far
+[05:20:49] ADGE run 2: exit code 0 after 1496 s (3772 s left)
+[05:20:49] running for 3428 s, 116 coverage dumps so far
+[06:08:10] ADGE run 3: exit code 0 after 2841 s (931 s left)
+[06:08:10] running for 6269 s, 211 coverage dumps so far
+[06:23:44] ADGE run 4: exit code 124 after 934 s (-3 s left)
+[06:23:44] running for 7203 s, 243 coverage dumps so far
+[06:23:44] ADGE runs finished after 7203 s (7203 s exploring, 0 emulator restart(s) taking 0 s): 4 run(s), 3 ended by themselves
+[06:23:46] result: MMEX status=ok "actions":"2369","activities_total":48,"activities_triggered":12,"iterations":"4","line_pct":39.18,"methods_hit":1864,"methods_total":4269,

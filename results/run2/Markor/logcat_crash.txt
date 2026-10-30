@@ -1,0 +1,116 @@
+10-30 05:11:04.175 F/libc    (21412): Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 21412 (ner.markor_test), pid 21412 (ner.markor_test)
+10-30 05:11:04.204 F/DEBUG   (21436): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-30 05:11:04.204 F/DEBUG   (21436): Build fingerprint: 'Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys'
+10-30 05:11:04.204 F/DEBUG   (21436): Revision: '0'
+10-30 05:11:04.204 F/DEBUG   (21436): ABI: 'x86_64'
+10-30 05:11:04.204 F/DEBUG   (21436): pid: 21412, tid: 21412, name: ner.markor_test  >>> net.gsantner.markor_test <<<
+10-30 05:11:04.204 F/DEBUG   (21436): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+10-30 05:11:04.204 F/DEBUG   (21436): Cause: null pointer dereference
+10-30 05:11:04.204 F/DEBUG   (21436):     rax 0000000000000000  rbx 00007fc9ded49840  rcx ffffffffffffffff  rdx 0000000000000000
+10-30 05:11:04.204 F/DEBUG   (21436):     rsi 00007ffe313013e8  rdi 00007ffe313013f0
+10-30 05:11:04.204 F/DEBUG   (21436):     r8  0000000000000008  r9  0000000000000000  r10 0000000000000008  r11 00007fc9de4a4080
+10-30 05:11:04.204 F/DEBUG   (21436):     r12 00007ffe313013f0  r13 00007fc9de814500  r14 00007ffe313013f0  r15 0000000000000001
+10-30 05:11:04.204 F/DEBUG   (21436):     cs  0000000000000033  ss  000000000000002b
+10-30 05:11:04.204 F/DEBUG   (21436):     rip 00007fc9479d4eae  rbp 00007ffe313013e8  rsp 00007ffe313013c8  eflags 0000000000010246
+10-30 05:11:04.204 F/DEBUG   (21436): 
+10-30 05:11:04.204 F/DEBUG   (21436): backtrace:
+10-30 05:11:04.204 F/DEBUG   (21436):     #00 pc 000000000015feae  /memfd:frida-agent-64.so (deleted) (offset 0xc2e000)
+10-30 05:11:04.204 F/DEBUG   (21436):     #01 pc 0000000000000000  <unknown>
+10-30 05:11:30.904 F/libc    (21608): Fatal signal 11 (SIGSEGV), code 1, fault addr 0x7fc947a56b5e in tid 21608 (ner.markor_test), pid 21608 (ner.markor_test)
+10-30 05:11:30.932 F/DEBUG   (21632): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-30 05:11:30.932 F/DEBUG   (21632): Build fingerprint: 'Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys'
+10-30 05:11:30.932 F/DEBUG   (21632): Revision: '0'
+10-30 05:11:30.933 F/DEBUG   (21632): ABI: 'x86_64'
+10-30 05:11:30.933 F/DEBUG   (21632): pid: 21608, tid: 21608, name: ner.markor_test  >>> net.gsantner.markor_test <<<
+10-30 05:11:30.933 F/DEBUG   (21632): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x7fc947a56b5e
+10-30 05:11:30.933 F/DEBUG   (21632):     rax 0000000000000000  rbx 00007fc9e0eddd70  rcx ffffffffffffffff  rdx 000000000000000b
+10-30 05:11:30.933 F/DEBUG   (21632):     rsi 0000000000005468  rdi 0000000000005468
+10-30 05:11:30.933 F/DEBUG   (21632):     r8  0000000000000000  r9  0000000000000000  r10 00007fc9e0eddd70  r11 0000000000000246
+10-30 05:11:30.933 F/DEBUG   (21632):     r12 0000000000000000  r13 00007fc9e0eddd70  r14 00007fc9e1039ab0  r15 000000000000000b
+10-30 05:11:30.933 F/DEBUG   (21632):     cs  0000000000000033  ss  000000000000002b
+10-30 05:11:30.933 F/DEBUG   (21632):     rip 00007fc9e0fa2bb8  rbp 0000000000005468  rsp 00007fc9e0edda38  eflags 0000000000000246
+10-30 05:11:30.934 F/DEBUG   (21632): 
+10-30 05:11:30.934 F/DEBUG   (21632): backtrace:
+10-30 05:11:30.934 F/DEBUG   (21632):     #00 pc 00000000000bfbb8  /system/bin/linker64 (__dl_syscall+24)
+10-30 05:11:30.934 F/DEBUG   (21632):     #01 pc 0000000000030a6c  /system/bin/linker64 (__dl__ZL13resend_signalP7siginfob+80)
+10-30 05:11:30.934 F/DEBUG   (21632):     #02 pc 0000000000030917  /system/bin/linker64 (__dl__ZL24debuggerd_signal_handleriP7siginfoPv+1359)
+10-30 05:11:30.934 F/DEBUG   (21632):     #03 pc 0000000000002da4  /system/bin/app_process64 (art::SignalChain::Handler(int, siginfo*, void*)+340)
+10-30 05:11:30.934 F/DEBUG   (21632):     #04 pc 000000000000053f  /system/lib64/libc.so (offset 0x27000)
+10-30 05:11:41.125 F/libc    (21669): Fatal signal 6 (SIGABRT), code -6 in tid 21669 (ner.markor_test), pid 21669 (ner.markor_test)
+10-30 05:11:41.144 F/DEBUG   (21692): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+10-30 05:11:41.144 F/DEBUG   (21692): Build fingerprint: 'Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys'
+10-30 05:11:41.144 F/DEBUG   (21692): Revision: '0'
+10-30 05:11:41.144 F/DEBUG   (21692): ABI: 'x86_64'
+10-30 05:11:41.144 F/DEBUG   (21692): pid: 21669, tid: 21669, name: ner.markor_test  >>> net.gsantner.markor_test <<<
+10-30 05:11:41.144 F/DEBUG   (21692): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+10-30 05:11:41.144 F/DEBUG   (21692):     rax 0000000000000000  rbx 00000000000054a5  rcx ffffffffffffffff  rdx 0000000000000006
+10-30 05:11:41.144 F/DEBUG   (21692):     rsi 00000000000054a5  rdi 00000000000054a5
+10-30 05:11:41.144 F/DEBUG   (21692):     r8  00007fc9de23c0e0  r9  00007fc9de23c0e0  r10 00007fc9de23c0e0  r11 0000000000000246
+10-30 05:11:41.144 F/DEBUG   (21692):     r12 00007fc9dfa69710  r13 00007fc9de816f10  r14 00000000000054a5  r15 00007ffe313011c8
+10-30 05:11:41.144 F/DEBUG   (21692):     cs  0000000000000033  ss  000000000000002b
+10-30 05:11:41.144 F/DEBUG   (21692):     rip 00007fc9dfa696f8  rbp 00007fc9de260db0  rsp 00007ffe31301198  eflags 0000000000000246
+10-30 05:11:41.144 F/DEBUG   (21692): 
+10-30 05:11:41.144 F/DEBUG   (21692): backtrace:
+10-30 05:11:41.144 F/DEBUG   (21692):     #00 pc 00000000000006f8  /system/lib64/libc.so (offset 0x27000)
+10-30 05:24:15.911 E/AndroidRuntime(26703): FATAL EXCEPTION: main
+10-30 05:24:15.911 E/AndroidRuntime(26703): Process: com.android.messaging, PID: 26703
+10-30 05:24:15.911 E/AndroidRuntime(26703): java.lang.AssertionError: Assert.fail() called: Unsupported shared content type: */*
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at com.android.messaging.util.N.fT(SourceFile:202)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at com.android.messaging.util.N.fK(SourceFile:196)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at com.android.messaging.ui.conversationlist.ShareIntentActivity.onAttachFragment(SourceFile:123)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.Activity$HostCallbacks.onAttachFragment(Activity.java:7735)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1229)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1557)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1618)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.BackStackRecord.executeOps(BackStackRecord.java:807)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.FragmentManagerImpl.executeOps(FragmentManager.java:2386)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2181)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2136)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2043)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.FragmentManagerImpl.dispatchMoveToState(FragmentManager.java:3032)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:2979)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.FragmentController.dispatchActivityCreated(FragmentController.java:178)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.Activity.performCreate(Activity.java:7015)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.Activity.performCreate(Activity.java:7000)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1214)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2731)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2856)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1589)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.os.Looper.loop(Looper.java:164)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at android.app.ActivityThread.main(ActivityThread.java:6494)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at java.lang.reflect.Method.invoke(Native Method)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+10-30 05:24:15.911 E/AndroidRuntime(26703): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): FATAL EXCEPTION: main
+10-30 05:48:48.204 E/AndroidRuntime( 4922): Process: com.android.messaging, PID: 4922
+10-30 05:48:48.204 E/AndroidRuntime( 4922): java.lang.AssertionError: Assert.fail() called: Unsupported shared content type: */*
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at com.android.messaging.util.N.fT(SourceFile:202)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at com.android.messaging.util.N.fK(SourceFile:196)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at com.android.messaging.ui.conversationlist.ShareIntentActivity.onAttachFragment(SourceFile:123)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.Activity$HostCallbacks.onAttachFragment(Activity.java:7735)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1229)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1557)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.FragmentManagerImpl.moveToState(FragmentManager.java:1618)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.BackStackRecord.executeOps(BackStackRecord.java:807)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.FragmentManagerImpl.executeOps(FragmentManager.java:2386)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2181)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2136)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2043)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.FragmentManagerImpl.dispatchMoveToState(FragmentManager.java:3032)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:2979)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.FragmentController.dispatchActivityCreated(FragmentController.java:178)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.Activity.performCreate(Activity.java:7015)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.Activity.performCreate(Activity.java:7000)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1214)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2731)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2856)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1589)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.os.Looper.loop(Looper.java:164)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at android.app.ActivityThread.main(ActivityThread.java:6494)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at java.lang.reflect.Method.invoke(Native Method)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+10-30 05:48:48.204 E/AndroidRuntime( 4922): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)

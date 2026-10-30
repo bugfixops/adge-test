@@ -1,0 +1,790 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetAdapter_MembersInjector,21,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetAdapter,553,0,40,0,122,0,37,0,17,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetListFragment,329,0,16,0,90,0,27,0,18,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetsActivity,192,0,18,0,53,0,20,0,11,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetEditActivity_ViewBinding.new DebouncingOnClickListener() {...},14,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetEditActivity_ViewBinding.new DebouncingOnClickListener() {...},14,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetEditActivity.new DialogInterface.OnClickListener() {...},27,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetEditActivity.new DialogInterface.OnClickListener() {...},27,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetService,15,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetEditViewHolder,38,0,0,0,14,0,5,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetQuery,46,29,0,0,1,12,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetPeriods,313,0,44,0,70,0,29,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetListFragment.new DialogInterface.OnClickListener() {...},22,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetViewModel,107,0,6,0,32,0,12,0,9,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetEditViewHolder_ViewBinding,53,0,2,0,13,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetEditActivity,268,0,17,0,78,0,21,0,12,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetDetailFragment.new LoaderManager.LoaderCallbacks() {...},77,0,8,0,19,0,8,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetPeriodEnum,57,0,0,0,10,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetNameParser,80,0,10,0,20,0,11,0,6,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetDetailFragment,160,0,6,0,40,0,13,0,10,0
+JaCoCo Coverage Report,com.money.manager.ex.budget,BudgetEditActivity_ViewBinding,69,0,2,0,18,0,4,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.viewmodels,IncomeVsExpenseReportEntity,53,0,0,0,14,0,8,0,8,0
+JaCoCo Coverage Report,com.money.manager.ex.viewmodels,AccountTransactionDisplay,103,3,2,0,27,1,19,1,18,1
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,SplitRecurringCategory..Parcelable,24,94,6,4,5,25,6,6,1,6
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Info,9,25,0,0,2,9,2,4,2,4
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,EntityBase..Parcelable,94,0,6,0,26,0,10,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,RecurringTransaction..Parcelable.new Parcelable.Creator() {...},12,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Budget..Parcelable.new Parcelable.Creator() {...},15,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Budget..Parcelable,94,0,6,0,26,0,10,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,AccountTransaction,61,226,11,11,15,66,15,34,7,31
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,EntityBase..Parcelable.new Parcelable.Creator() {...},15,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,SplitCategory..Parcelable.new Parcelable.Creator() {...},3,12,0,0,1,2,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,AccountTransaction..Parcelable,56,38,5,1,15,11,6,4,3,4
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Currency,74,50,0,0,27,13,14,10,14,10
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,SplitRecurringCategory..Parcelable.new Parcelable.Creator() {...},3,12,0,0,1,2,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,StockHistory,31,0,0,0,10,0,5,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Attachment,43,0,0,0,16,0,10,0,10,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Stock..Parcelable.new Parcelable.Creator() {...},15,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,BudgetEntry,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Category,9,27,0,0,4,9,2,6,2,6
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,SplitCategory,43,109,7,5,9,34,9,16,5,14
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,RecurringTransaction,82,249,15,11,21,76,21,39,9,38
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Payee,46,0,4,0,14,0,11,0,9,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Budget,21,0,0,0,7,0,5,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Stock,209,0,0,0,62,0,26,0,26,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Stock..Parcelable,94,0,6,0,26,0,10,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,SplitRecurringCategory,49,100,8,4,11,31,11,14,6,13
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Account..Parcelable.new Parcelable.Creator() {...},12,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Account..Parcelable,53,41,5,1,14,12,5,5,2,5
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,AccountTransaction..Parcelable.new Parcelable.Creator() {...},12,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,SplitCategory..Parcelable,24,94,6,4,5,25,6,6,1,6
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,EntityBase,27,92,2,2,8,25,6,12,4,12
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Category..Parcelable,94,0,6,0,26,0,10,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Account,17,204,3,3,6,61,5,32,2,32
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,RecurringTransaction..Parcelable,56,38,5,1,15,11,6,4,3,4
+JaCoCo Coverage Report,com.money.manager.ex.domainmodel,Category..Parcelable.new Parcelable.Creator() {...},15,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.yql,YqlSecurityPriceUpdaterRetrofit.new Callback() {...},22,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.yql,YqlQueryGenerator,128,0,2,0,17,0,4,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.yql,YqlSecurityPriceUpdaterRetrofit,334,0,36,0,87,0,25,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex.utils,AlertDialogWrapper,79,0,0,0,22,0,11,0,11,0
+JaCoCo Coverage Report,com.money.manager.ex.utils,MmxDateTimeUtils_Factory,0,14,0,0,0,4,0,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.utils,ListUtils,34,0,2,0,9,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.utils,DialogUtils,18,6,0,0,8,4,2,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.utils,MmxDate,270,220,8,4,67,60,34,28,29,27
+JaCoCo Coverage Report,com.money.manager.ex.utils,SpinnerHelper,28,0,4,0,10,0,4,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.utils,MmxFileUtils,60,105,10,10,15,32,10,8,2,6
+JaCoCo Coverage Report,com.money.manager.ex.utils,NotificationUtils,144,0,2,0,27,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.utils,MathUtils,13,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.utils,DrawableUtils,69,0,8,0,15,0,7,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.utils,NetworkUtils,27,32,8,2,5,8,6,4,1,4
+JaCoCo Coverage Report,com.money.manager.ex.utils,MmxDatabaseUtils,402,121,43,11,101,34,38,9,12,8
+JaCoCo Coverage Report,com.money.manager.ex.utils,MmxDatabaseUtils_Factory,53,0,0,0,16,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.utils,MmxDatabaseUtils_MembersInjector,35,12,0,0,10,6,3,3,3,3
+JaCoCo Coverage Report,com.money.manager.ex.utils,MmxDateTimeUtils,214,155,22,10,50,33,21,9,6,8
+JaCoCo Coverage Report,com.money.manager.ex.utils,ActivityUtils,34,25,9,3,10,7,8,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.core.file,TextFileExport,27,170,4,8,9,45,4,12,0,10
+JaCoCo Coverage Report,com.money.manager.ex.currency.recycler,RecyclerItemClickListener.new GestureDetector.SimpleOnGestureListener() {...},8,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.currency.recycler,RecyclerItemClickListener,46,0,6,0,11,0,7,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.currency.recycler,CurrencyRecyclerListFragment.new RecyclerItemClickListener.OnItemClickListener() {...},26,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.currency.recycler,CurrencyRecyclerListFragment,494,0,24,0,126,0,40,0,26,0
+JaCoCo Coverage Report,com.money.manager.ex.currency.recycler,CurrencyRecyclerListActivity,35,0,2,0,10,0,4,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.currency.recycler,CurrencySection,74,0,2,0,22,0,8,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex.currency.recycler,CurrencyContentObserver,14,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.currency.recycler,CurrencyListItemViewHolder,0,22,0,0,0,5,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.log,ScreenTree,47,0,8,0,11,0,6,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.log,DebugTree,9,38,1,7,0,11,1,5,0,2
+JaCoCo Coverage Report,com.money.manager.ex.log,ExceptionHandler,415,0,6,0,99,0,16,0,13,0
+JaCoCo Coverage Report,com.money.manager.ex.log,ExceptionHandler.new Runnable() {...},38,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.log,ErrorRaisedEvent,0,6,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.log,SysLogTree,9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.log,FileLoggingTree,27,0,4,0,7,0,4,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.log,CrashReportingTree,36,0,10,0,10,0,7,0,2,0
+JaCoCo Coverage Report,androidx.databinding.library.baseAdapters,BR,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.account.events,RunningBalanceCalculatedEvent,0,6,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.settings,InvestmentSettingsActivity,12,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsFragment,318,0,30,0,75,0,21,0,6,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,BudgetSettingsFragment,17,0,0,0,9,0,5,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SyncPreferences,33,67,1,1,8,14,5,9,4,9
+JaCoCo Coverage Report,com.money.manager.ex.settings,DatabaseSettings,0,22,0,0,0,7,0,3,0,3
+JaCoCo Coverage Report,com.money.manager.ex.settings,DatabaseSettingsActivity,12,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsActivity,49,0,6,0,17,0,7,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,InvestmentSettingsFragment,192,0,12,0,57,0,17,0,11,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,DatabaseSettingsFragment,336,0,26,0,92,0,29,0,16,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SecuritySettingsActivity,12,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SecuritySettingsFragment,279,0,39,0,59,0,27,0,6,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,DatabaseSettingsFragment.new Preference.OnPreferenceClickListener() {...},42,0,2,0,11,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,DatabaseSettingsFragment.new Preference.OnPreferenceClickListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,DatabaseSettingsFragment.new Preference.OnPreferenceClickListener() {...},39,0,4,0,9,0,4,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,DatabaseSettingsFragment.new Preference.OnPreferenceClickListener() {...},38,0,2,0,8,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,DatabaseSettingsFragment.new Preference.OnPreferenceClickListener() {...},35,0,2,0,8,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SyncPreferencesActivity,29,0,4,0,9,0,5,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsFragment.new Preference.OnPreferenceClickListener() {...},21,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,GeneralSettingsFragment,20,150,7,9,6,33,8,7,2,5
+JaCoCo Coverage Report,com.money.manager.ex.settings,GeneralSettings,38,43,2,0,11,11,4,6,3,6
+JaCoCo Coverage Report,com.money.manager.ex.settings,SecuritySettingsFragment.new Preference.OnPreferenceClickListener() {...},21,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SecuritySettingsFragment.new Preference.OnPreferenceClickListener() {...},21,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SecuritySettingsFragment.new Preference.OnPreferenceClickListener() {...},21,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsFragment.new Preference.OnPreferenceClickListener() {...},18,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsFragment.new Preference.OnPreferenceClickListener() {...},18,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsFragment.new Preference.OnPreferenceClickListener() {...},18,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsFragment.new Preference.OnPreferenceClickListener() {...},18,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsFragment.new Preference.OnPreferenceClickListener() {...},18,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsFragment.new Preference.OnPreferenceClickListener() {...},18,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsFragment.new Preference.OnPreferenceClickListener() {...},18,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsFragment.new Preference.OnPreferenceClickListener() {...},18,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,GeneralSettingsActivity,0,18,0,0,0,7,0,3,0,3
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsFragment.new Preference.OnPreferenceClickListener() {...},26,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,InvestmentSettings,122,0,10,0,35,0,13,0,8,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,BehaviourSettingsActivity,34,0,4,0,11,0,5,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,InvestmentPreferencesViewHolder,26,0,0,0,5,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,BaseSettingsFragmentActivity,17,54,6,4,3,16,6,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.settings,DatabaseSettingsFragment_MembersInjector,34,0,0,0,12,0,5,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,BehaviourSettingsFragment,132,0,8,0,36,0,13,0,9,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,LookFeelSettingsActivity,12,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,AppSettings,26,72,6,6,6,17,6,9,2,7
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsBase,38,129,1,1,9,36,3,16,2,16
+JaCoCo Coverage Report,com.money.manager.ex.settings,BehaviourSettingsFragment.new Preference.OnPreferenceClickListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,BehaviourSettingsFragment.new Preference.OnPreferenceClickListener() {...},61,0,6,0,11,0,5,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,AppSettings_MembersInjector,17,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.settings,BehaviourSettings,34,43,0,0,10,10,6,8,6,8
+JaCoCo Coverage Report,com.money.manager.ex.settings,BudgetSettings,21,0,0,0,6,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,LookFeelPreferenceFragment.new Preference.OnPreferenceChangeListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,LookFeelPreferenceFragment.new Preference.OnPreferenceChangeListener() {...},30,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,LookFeelPreferenceFragment.new Preference.OnPreferenceChangeListener() {...},18,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,LookFeelPreferenceFragment.new Preference.OnPreferenceChangeListener() {...},18,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,LookFeelPreferenceFragment.new Preference.OnPreferenceChangeListener() {...},28,0,2,0,7,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,PerDatabaseFragment,504,0,42,0,102,0,31,0,10,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,LookFeelPreferenceFragment.new Preference.OnPreferenceChangeListener() {...},24,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,PerDatabaseFragment.new Preference.OnPreferenceChangeListener() {...},29,0,2,0,4,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,PerDatabaseFragment.new Preference.OnPreferenceChangeListener() {...},22,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,PerDatabaseFragment.new Preference.OnPreferenceChangeListener() {...},51,0,6,0,9,0,5,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,PerDatabaseFragment.new Preference.OnPreferenceChangeListener() {...},57,0,6,0,14,0,5,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,PerDatabaseFragment.new Preference.OnPreferenceChangeListener() {...},44,0,2,0,8,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,PerDatabaseFragment.new Preference.OnPreferenceClickListener() {...},25,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,PerDatabaseFragment.new DialogInterface.OnClickListener() {...},7,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,PerDatabaseFragment.new DialogInterface.OnClickListener() {...},23,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,InvestmentSettingsFragment.new Preference.OnPreferenceChangeListener() {...},25,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,InvestmentSettingsFragment.new Preference.OnPreferenceChangeListener() {...},25,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,InvestmentSettingsFragment.new Preference.OnPreferenceClickListener() {...},23,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,GeneralSettingsFragment.new Preference.OnPreferenceChangeListener() {...},15,6,0,0,4,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.settings,GeneralSettingsFragment.new Preference.OnPreferenceChangeListener() {...},14,6,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.settings,GeneralSettingsFragment.new Preference.OnPreferenceChangeListener() {...},11,9,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.settings,GeneralSettingsFragment.new Preference.OnPreferenceChangeListener() {...},11,9,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.settings,LookFeelPreferenceFragment,166,0,10,0,38,0,8,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,BudgetSettingsActivity,12,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,AppSettings_Factory,35,0,0,0,10,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,PreferenceConstants,3,76,0,0,1,25,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.settings,SettingsActivity_MembersInjector,34,0,0,0,12,0,5,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.settings,LookAndFeelSettings,57,89,4,2,16,24,5,8,2,8
+JaCoCo Coverage Report,com.money.manager.ex.notifications,RecurringTransactionNotifications,200,43,6,2,45,12,7,3,3,3
+JaCoCo Coverage Report,com.money.manager.ex.notifications,SmsReceiverTransactions,2732,0,209,0,458,0,124,0,18,0
+JaCoCo Coverage Report,com.money.manager.ex.notifications,RecurringTransactionIntentService,21,0,0,0,7,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.notifications,SyncNotificationModel,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.notifications,SmsReceiverTransactions_MembersInjector,22,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.notifications,RecurringTransactionReceiver,25,0,2,0,7,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.budget.events,BudgetSelectedEvent,9,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,ValuePieEntry,65,0,0,0,26,0,12,0,12,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,PayeeReportFragment.new Runnable() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,PayeesReportActivity,56,0,6,0,14,0,5,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,CategoriesReportFragment.new Runnable() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,BaseReportFragment_MembersInjector,21,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,BaseReportFragment.new DialogInterface.OnClickListener() {...},78,0,0,0,10,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,CategoriesReportActivity,86,0,12,0,22,0,8,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,CategoriesReportFragment,755,0,60,0,166,0,42,0,12,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,IncomeVsExpensesListFragment,389,635,61,41,80,131,45,23,1,15
+JaCoCo Coverage Report,com.money.manager.ex.reports,PieChartFragment,436,0,22,0,82,0,25,0,14,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,BaseReportFragment,460,0,42,0,118,0,38,0,14,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,IncomeVsExpensesAdapter,193,14,8,0,38,4,6,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.reports,CategoriesReportAdapter,134,0,6,0,24,0,6,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,PayeeReportFragment,616,0,48,0,139,0,36,0,12,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,PayeeReportAdapter,119,0,8,0,20,0,7,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,IncomeVsExpensesListFragment.new AdapterView.OnItemClickListener() {...},76,6,6,0,20,1,4,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.reports,IncomeVsExpensesListFragment.new Runnable() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,IncomeVsExpensesListFragment.new DialogInterface.OnMultiChoiceClickListener() {...},0,15,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.reports,IncomeVsExpensesListFragment.new DialogInterface.OnClickListener() {...},0,55,0,4,0,7,0,4,0,2
+JaCoCo Coverage Report,com.money.manager.ex.reports,ValuePieEntry.new Parcelable.Creator() {...},16,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,IncomeVsExpensesActivity,2,56,3,3,0,16,3,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.reports,PieChartFragment.new Comparator() {...},24,0,4,0,2,0,4,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.reports,IncomeVsExpensesChartFragment,333,0,32,0,75,0,29,0,13,0
+JaCoCo Coverage Report,com.money.manager.ex.home,MainActivity.3.new Runnable() {...},0,17,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.home,DrawerViewHolder,0,27,0,0,0,8,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.home,SelectDatabaseActivity,42,78,3,3,12,24,5,5,2,5
+JaCoCo Coverage Report,com.money.manager.ex.home,RecentDatabasesProvider,62,166,6,8,18,46,7,17,2,15
+JaCoCo Coverage Report,com.money.manager.ex.home,MainActivity,1002,1451,154,74,267,384,133,59,18,49
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeFragment.new View.OnClickListener() {...},11,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeFragment.new View.OnClickListener() {...},0,23,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeFragment.new SingleSubscriber() {...},6,16,0,0,2,4,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeFragment.new Callable() {...},0,17,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeFragment.new ExpandableListView.OnChildClickListener() {...},8,47,2,2,1,10,2,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeFragment.new ExpandableListView.OnGroupCollapseListener() {...},0,25,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeFragment.new ExpandableListView.OnGroupExpandListener() {...},0,25,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.home,RecentDatabasesProvider.new TypeToken() {...},0,6,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeFragment.new View.OnClickListener() {...},0,28,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.home,DrawerMenuItemRecyclerAdapter,23,0,0,0,9,0,5,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.home,DrawerMenuItem,21,40,0,0,8,15,5,10,5,10
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeFragment_MembersInjector,17,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.home,MainActivity_MembersInjector,17,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.home,MainActivity.4.new Runnable() {...},17,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeFragment,292,1205,60,62,65,288,53,41,3,29
+JaCoCo Coverage Report,com.money.manager.ex.home,DrawerMenuItemAdapter,94,0,20,0,23,0,13,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.home,DrawerMenuGroupAdapter,121,132,24,14,29,35,22,10,6,7
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeAccountsExpandableAdapter.ViewHolderAccountBills,0,6,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.home,DatabaseMetadataFactory,83,0,0,0,20,0,5,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.home,SelectDatabaseActivity_ViewBinding,38,44,2,0,11,10,3,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeAccountsExpandableAdapter,122,348,18,10,26,77,13,14,1,12
+JaCoCo Coverage Report,com.money.manager.ex.home,RecentDatabaseEntryComparator,47,0,12,0,8,0,8,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.home,SelectDatabaseActivity_ViewBinding.new DebouncingOnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.home,SelectDatabaseActivity_ViewBinding.new DebouncingOnClickListener() {...},4,9,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.home,MainActivity..Icepick,29,46,1,1,6,10,1,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.home,RecentDatabasesProvider_Factory,0,19,0,0,0,5,0,3,0,3
+JaCoCo Coverage Report,com.money.manager.ex.home,DatabaseMetadata,15,23,4,2,4,5,4,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.home,MainActivity.new ExpandableListView.OnGroupClickListener() {...},4,58,3,3,0,11,3,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.home,MainActivity.new ExpandableListView.OnChildClickListener() {...},41,9,4,0,8,1,3,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.home,MainActivity.new Callable() {...},15,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.home,MainActivity.new Callable() {...},15,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.home,HomeFragment..Icepick,14,25,2,0,4,6,2,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.home,SelectDatabaseActivity_MembersInjector,17,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.home,MyActionBarDrawerToggle,8,15,0,0,2,6,1,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.home,DashboardFragment,1588,0,58,0,207,0,48,0,16,0
+JaCoCo Coverage Report,com.money.manager.ex.view.behaviors,ScrollAwareFABBehavior,20,27,9,3,2,9,6,3,0,3
+JaCoCo Coverage Report,com.money.manager.ex.investment.prices,SecurityPriceUpdaterBase,5,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.prices,FixerService,289,0,22,0,67,0,17,0,6,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.prices,ExchangeRateUpdaterBase,4,0,0,0,2,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.prices,PriceUpdaterBase,68,0,4,0,22,0,7,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.prices,FixerService.new Callback() {...},22,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions_MembersInjector,26,8,0,0,8,4,3,2,3,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,CheckingTransactionEditActivity_MembersInjector,18,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.transactions,YesNoDialog,3,45,0,0,1,12,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionActivityConstants,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions,648,1732,137,136,139,390,111,99,8,62
+JaCoCo Coverage Report,com.money.manager.ex.transactions,IntentDataParameters,275,0,32,0,71,0,19,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitItemViewHolder_ViewBinding,26,38,2,0,8,7,2,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitCategoriesActivity,81,398,19,23,23,100,18,21,3,15
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionViewHolder_ViewBinding,95,222,2,0,31,30,2,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.transactions,CheckingTransactionEditActivity,1196,360,134,23,246,98,93,14,16,11
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitCategoriesActivity.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.transactions,AttachmentAdapter,24,14,1,1,5,4,3,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitCategoriesAdapter.new View.OnClickListener() {...},0,18,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitCategoriesAdapter.new View.OnClickListener() {...},0,43,0,2,0,9,0,3,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitCategoriesAdapter.new TextWatcher() {...},0,27,0,0,0,7,0,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitCategoriesAdapter.new View.OnClickListener() {...},4,28,1,1,1,6,1,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,YesNoDialog.new DialogInterface.OnClickListener() {...},0,12,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,YesNoDialog.new DialogInterface.OnClickListener() {...},0,12,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitItemTouchCallback,22,16,2,0,6,7,3,3,2,3
+JaCoCo Coverage Report,com.money.manager.ex.transactions,CheckingTransactionEditActivity..Icepick,11,28,1,1,3,7,1,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionViewHolder,0,18,0,0,0,5,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitCategoriesAdapter,43,198,6,6,10,50,7,14,2,13
+JaCoCo Coverage Report,com.money.manager.ex.transactions,AttachmentAdapter.ViewHolder,53,0,0,0,12,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitItemViewHolder,0,8,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitCategoriesActivity_ViewBinding.new DebouncingOnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitItemFactory,3,30,1,3,1,7,2,2,1,1
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new AdapterView.OnItemSelectedListener() {...},55,103,10,12,16,22,9,5,1,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new View.OnClickListener() {...},0,27,0,0,0,8,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new View.OnClickListener() {...},0,27,0,0,0,7,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new View.OnClickListener() {...},6,30,1,1,1,7,1,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new View.OnClickListener() {...},0,49,0,0,0,13,0,3,0,3
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new View.OnClickListener() {...},0,22,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new View.OnClickListener() {...},0,22,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new TextWatcher() {...},0,19,0,0,0,6,0,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new View.OnClickListener() {...},0,25,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,SplitCategoriesActivity_ViewBinding,31,29,2,0,9,7,3,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new DialogInterface.OnClickListener() {...},0,10,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new DialogInterface.OnClickListener() {...},0,9,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new View.OnClickListener() {...},21,23,5,2,7,5,4,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new View.OnClickListener() {...},0,24,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new TextWatcher() {...},0,19,0,0,0,6,0,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new AdapterView.OnItemSelectedListener() {...},1,37,2,4,1,7,3,3,1,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new View.OnClickListener() {...},0,19,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.transactions,EditTransactionCommonFunctions.new View.OnClickListener() {...},7,84,5,5,2,18,5,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.fragment,TipsDialogFragment,308,0,22,0,75,0,33,0,22,0
+JaCoCo Coverage Report,com.money.manager.ex.fragment,PayeeListFragment.new DialogInterface.OnClickListener() {...},29,51,8,2,7,10,6,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.fragment,PayeeListFragment.new DialogInterface.OnClickListener() {...},0,9,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.fragment,PayeeListFragment.new DialogInterface.OnClickListener() {...},34,0,2,0,7,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.fragment,PayeeListFragment.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.fragment,TipsDialogFragment.new DialogInterface.OnClickListener() {...},33,0,4,0,5,0,4,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.fragment,TipsDialogFragment.new CompoundButton.OnCheckedChangeListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.fragment,PayeeListFragment,305,403,30,23,73,99,29,20,7,13
+JaCoCo Coverage Report,com.money.manager.ex.about,AboutFragment,508,0,14,0,104,0,13,0,6,0
+JaCoCo Coverage Report,com.money.manager.ex.about,AboutCreditsFragment,42,0,2,0,11,0,5,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.about,AboutActivity,93,0,0,0,24,0,5,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.about,AboutFragment.new View.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.about,AboutFragment.new View.OnClickListener() {...},25,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.about,AboutFragment.new View.OnClickListener() {...},49,0,0,0,11,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.about,AboutChangelogFragment,17,0,2,0,5,0,4,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.about,AboutFragment.OnClickListenerUrl,43,0,2,0,13,0,5,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.about,AboutTabAdapter,31,0,5,0,11,0,8,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.about,WebChangelogFragment,64,0,6,0,21,0,8,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.transactions.events,DialogPositiveClickedEvent,0,3,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.transactions.events,CategoryRequestedEvent,0,6,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.transactions.events,SplitItemRemovedEvent,6,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.transactions.events,DialogNegativeClickedEvent,0,3,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.transactions.events,AmountEntryRequestedEvent,0,9,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.investment.yahoocsv,YahooCsvQuoteDownloaderRetrofit,146,0,14,0,42,0,12,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.yahoocsv,YahooCsvQuoteDownloaderRetrofit.new Callback() {...},22,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.sync.jobmanager,DownloadWorker,7,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync.jobmanager,SyncWorker,7,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync.jobmanager,UploadWorker,7,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PortfolioFragment,152,0,6,0,41,0,14,0,11,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,SecurityPriceUpdaterFactory,41,0,4,0,12,0,5,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,SecurityPriceModel,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PortfolioActivity,40,0,2,0,11,0,4,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PriceEditActivity_MembersInjector,21,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceViewHolder,13,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PriceEditActivity_ViewBinding,113,0,2,0,28,0,4,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionViewHolder,51,0,0,0,10,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PriceEditActivity,300,0,15,0,83,0,23,0,15,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PortfolioItemDataViewHolder,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PortfolioFragment.new LoaderManager.LoaderCallbacks() {...},84,0,4,0,17,0,6,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PortfolioFragment.new AdapterView.OnItemClickListener() {...},39,0,8,0,7,0,6,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionEditActivity.new View.OnClickListener() {...},22,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionEditActivity.new View.OnClickListener() {...},22,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionEditActivity.new AdapterView.OnItemSelectedListener() {...},44,0,2,0,9,0,4,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionEditActivity.new View.OnClickListener() {...},59,0,0,0,14,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,StocksCursorAdapter,126,0,4,0,26,0,5,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionEditActivity_ViewBinding.new DebouncingOnClickListener() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionEditActivity_ViewBinding.new DebouncingOnClickListener() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionEditActivity_ViewBinding.new DebouncingOnClickListener() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionEditActivity_ViewBinding.new DebouncingOnClickListener() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionEditActivity_MembersInjector,21,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionEditActivity,613,0,39,0,166,0,48,0,27,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,InvestmentTransactionEditActivity_ViewBinding,113,0,2,0,28,0,4,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PriceCsvExport,176,0,6,0,44,0,8,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PriceEditActivity_ViewBinding.new DebouncingOnClickListener() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,StocksDataViewHolder,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PriceEditActivity_ViewBinding.new DebouncingOnClickListener() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PriceEditActivity_ViewBinding.new DebouncingOnClickListener() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PriceEditActivity_ViewBinding.new DebouncingOnClickListener() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PriceCsvParser,82,0,6,0,22,0,6,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PriceEditModel_MembersInjector,21,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceDialog..Icepick,83,0,2,0,17,0,5,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceDialog_MembersInjector,21,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PriceEditModel,45,0,0,0,11,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,QuoteProviders,66,0,6,0,15,0,6,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceDialog.new DialogInterface.OnClickListener() {...},57,0,2,0,10,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceDialog.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceDialog.new Lazy() {...},13,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,ExchangeRateProviders,54,0,6,0,13,0,6,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceDialog.new View.OnClickListener() {...},24,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceDialog.new View.OnClickListener() {...},25,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceDialog.new View.OnClickListener() {...},49,0,0,0,13,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceDialog.new View.OnClickListener() {...},24,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,PortfolioCursorAdapter,126,0,4,0,26,0,5,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceViewHolder_ViewBinding,75,0,2,0,17,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment,EditPriceDialog,256,0,6,0,61,0,14,0,11,0
+JaCoCo Coverage Report,com.money.manager.ex.tutorial,TutorialFinancialOverviewFragment,29,0,2,0,10,0,5,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.tutorial,TutorialActivity_ViewBinding,26,21,2,0,7,6,3,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.tutorial,TutorialAccountsFragment,0,15,0,0,0,6,0,3,0,3
+JaCoCo Coverage Report,com.money.manager.ex.tutorial,TutorialTransactionsFragment,0,29,1,1,0,10,1,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.tutorial,TutorialActivity_ViewBinding.new DebouncingOnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.tutorial,TutorialPagerAdapter,24,18,4,2,8,9,5,4,1,3
+JaCoCo Coverage Report,com.money.manager.ex.tutorial,TutorialGlobalFragment,29,0,2,0,10,0,5,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.tutorial,TutorialSyncFragment,29,0,2,0,10,0,5,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.tutorial,TutorialActivity,19,87,3,1,6,25,4,5,2,5
+JaCoCo Coverage Report,com.money.manager.ex.core.database,DatabaseManager,178,77,40,10,38,22,29,4,4,4
+JaCoCo Coverage Report,com.money.manager.ex.view,RobotoEditText,14,14,0,0,5,5,2,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.view,RobotoButton,14,14,0,0,5,5,2,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.view,GestureWebView,28,0,0,0,7,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.view,RobotoTextView,15,17,1,1,5,6,3,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.view,GestureWebView.new GestureDetector.SimpleOnGestureListener() {...},13,0,0,0,4,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.view,RobotoCheckBox,14,14,0,0,5,5,2,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.view,DateDisplay,33,0,0,0,12,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.view,RobotoView,315,75,77,10,97,24,58,10,3,8
+JaCoCo Coverage Report,com.money.manager.ex.home.events,RequestPortfolioFragmentEvent,6,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.home.events,MessageEvent,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.home.events,RequestWatchlistFragmentEvent,6,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.home.events,RequestOpenDatabaseEvent,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.home.events,RequestAccountFragmentEvent,0,6,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.home.events,AccountsTotalLoadedEvent,0,6,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.home.events,UsernameLoadedEvent,0,3,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyService_Factory,0,36,0,0,0,9,0,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyService,546,319,67,29,114,86,53,19,10,14
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyChartActivity,21,60,5,3,6,17,6,3,2,3
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures,228,83,6,0,58,24,10,4,7,4
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures.new DialogInterface.OnClickListener() {...},3,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures.new DialogInterface.OnClickListener() {...},10,12,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures.new DialogInterface.OnClickListener() {...},3,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures.new DialogInterface.OnClickListener() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures.new DialogInterface.OnClickListener() {...},7,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures.new DialogInterface.OnClickListener() {...},7,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures.new DialogInterface.OnClickListener() {...},20,0,2,0,4,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.currency,ExchangeRateUpdaterFactory,28,0,2,0,7,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyService_MembersInjector,18,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyEditViewHolder,69,0,0,0,13,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyEditActivity,631,0,40,0,110,0,29,0,9,0
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures.new Callable() {...},12,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyUIFeatures.new Subscriber() {...},20,0,0,0,6,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyRepository,135,102,10,2,27,16,14,5,8,5
+JaCoCo Coverage Report,com.money.manager.ex.currency,CurrencyService.new Comparator() {...},6,6,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.core.docstorage,FileStorageHelper.new HashMap() {...},0,21,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.core.docstorage,FileStorageHelper.new Runnable() {...},74,0,2,0,12,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.core.docstorage,FileStorageHelper.new HashMap() {...},0,21,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.core.docstorage,DocFileMetadata,0,3,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.core.docstorage,FileStorageHelper,174,436,8,6,59,107,12,16,5,16
+JaCoCo Coverage Report,com.money.manager.ex.sync.events,DbFileDownloadedEvent,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.sync.events,SyncStartingEvent,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.sync.events,SyncStoppingEvent,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.core.bundlers,MoneyBundler,13,3,0,0,4,1,2,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.core.bundlers,PriceDownloadedEventBundler,17,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.servicelayer,CategoryService,94,141,8,10,22,31,10,9,3,7
+JaCoCo Coverage Report,com.money.manager.ex.servicelayer,InfoService,72,118,4,6,14,30,6,6,2,5
+JaCoCo Coverage Report,com.money.manager.ex.servicelayer,AccountService,475,281,27,15,94,67,24,17,7,12
+JaCoCo Coverage Report,com.money.manager.ex.servicelayer,ServiceBase,0,9,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.servicelayer,RecurringTransactionService,597,0,85,0,166,0,68,0,17,0
+JaCoCo Coverage Report,com.money.manager.ex.servicelayer,InfoService_MembersInjector,18,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.servicelayer,PayeeService,187,15,17,1,40,4,14,2,5,2
+JaCoCo Coverage Report,com.money.manager.ex.common,WebViewActivity,191,0,20,0,53,0,19,0,9,0
+JaCoCo Coverage Report,com.money.manager.ex.common,CalculatorActivity,45,565,14,28,7,129,14,26,0,19
+JaCoCo Coverage Report,com.money.manager.ex.common,BaseExpandableListFragment,137,244,34,15,37,65,30,16,5,16
+JaCoCo Coverage Report,com.money.manager.ex.common,AllDataListFragment,699,663,77,57,159,197,70,52,18,37
+JaCoCo Coverage Report,com.money.manager.ex.common,ExpandableListFragment,135,230,21,27,37,67,26,19,9,12
+JaCoCo Coverage Report,com.money.manager.ex.common,AllDataMultiChoiceModeListener,60,11,8,0,26,5,10,3,4,3
+JaCoCo Coverage Report,com.money.manager.ex.common,BaseListFragment,49,259,21,21,14,68,21,22,4,18
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment.new DialogInterface.OnClickListener() {...},16,97,4,5,3,15,4,3,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment.new ExpandableListView.OnChildClickListener() {...},0,47,2,2,0,8,2,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment.new DialogInterface.OnClickListener() {...},7,59,3,4,1,11,3,3,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment.new DialogInterface.OnClickListener() {...},0,9,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment.new DialogInterface.OnClickListener() {...},7,47,2,2,1,8,2,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment.new DialogInterface.OnClickListener() {...},0,9,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment.new DialogInterface.OnClickListener() {...},0,9,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment.new ExpandableListView.OnGroupClickListener() {...},0,48,2,4,0,10,2,3,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CalculatorActivity_MembersInjector,27,8,0,0,8,4,3,2,3,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CommonSplitCategoryLogic,51,47,13,9,12,13,10,6,2,3
+JaCoCo Coverage Report,com.money.manager.ex.common,MmxBaseFragmentActivity,135,147,17,7,40,45,19,15,10,12
+JaCoCo Coverage Report,com.money.manager.ex.common,WebViewActivity.new WebViewClient() {...},28,0,0,0,7,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.common,CalculatorActivity..Icepick,59,24,1,1,12,5,2,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment,107,1243,35,85,20,259,32,50,1,20
+JaCoCo Coverage Report,com.money.manager.ex.common,CalculatorActivity_ViewBinding.new DebouncingOnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CalculatorActivity_ViewBinding.new DebouncingOnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CalculatorActivity.new View.OnClickListener() {...},7,31,1,1,2,6,1,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CalculatorActivity.new View.OnClickListener() {...},0,21,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CalculatorActivity.new View.OnClickListener() {...},0,32,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,MmxCursorLoader,12,16,0,0,5,3,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListActivity,0,88,5,5,0,23,5,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.common,ExpandableListFragment.new Runnable() {...},0,14,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,ExpandableListFragment.new AdapterView.OnItemClickListener() {...},9,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.common,CalculatorActivity_ViewBinding,44,60,2,0,13,12,3,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.common,AllDataListFragment.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.common,AllDataListFragment.new DialogInterface.OnClickListener() {...},140,0,8,0,29,0,6,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.common,AllDataListFragment.new DialogInterface.OnClickListener() {...},46,0,4,0,9,0,4,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.common,BaseListFragment.new View.OnClickListener() {...},0,10,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,BaseListFragment.new SearchView.OnQueryTextListener() {...},2,11,0,0,1,2,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.common,AllDataListFragment.new AdapterView.OnItemClickListener() {...},37,6,8,0,5,1,5,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.common,BaseRecyclerListFragment,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.common,AmountInputDialog,202,575,33,25,40,121,33,21,8,17
+JaCoCo Coverage Report,com.money.manager.ex.common,BaseExpandableListFragment.new View.OnClickListener() {...},0,10,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,BaseExpandableListFragment.new SearchView.OnQueryTextListener() {...},2,11,0,0,1,2,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.common,MoneyParcelConverter,6,8,0,0,2,3,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.common,MmxBaseFragmentActivity.new View.OnClickListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.common,MmxBaseFragmentActivity.new View.OnClickListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.common,AmountInputDialog..Icepick,47,0,2,0,11,0,5,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.common,Calculator,12,78,2,4,2,21,3,8,1,7
+JaCoCo Coverage Report,com.money.manager.ex.common,AmountInputDialog.new DialogInterface.OnClickListener() {...},19,6,2,0,4,1,2,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.common,AmountInputDialog.new View.OnClickListener() {...},0,32,0,0,0,7,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,AmountInputDialog.new DialogInterface.OnClickListener() {...},0,9,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment.new DialogInterface.OnClickListener() {...},0,9,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,AmountInputDialog.new View.OnClickListener() {...},0,21,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,CategoryListFragment.new DialogInterface.OnClickListener() {...},0,25,0,2,0,6,0,3,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,AmountInputDialog.new View.OnClickListener() {...},0,14,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,AmountInputDialog.new View.OnClickListener() {...},7,31,1,1,2,6,1,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.common,AmountInputDialog.new View.OnClickListener() {...},0,32,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.currency.events,ExchangeRateUpdateConfirmedEvent,6,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.currency.events,CurrencyDeletionConfirmedEvent,9,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersFragment.new View.OnClickListener() {...},0,24,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersFragment.new DatePickerDialog.OnDateSetListener() {...},0,42,0,0,0,8,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersFragment.new View.OnClickListener() {...},0,24,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersFragment.new DatePickerDialog.OnDateSetListener() {...},0,42,0,0,0,8,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.search,CategorySub.new Parcelable.Creator() {...},3,8,0,0,1,2,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersFragment_MembersInjector,17,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParameters..Parcelable.new Parcelable.Creator() {...},3,12,0,0,1,2,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersFragment_ViewBinding.new DebouncingOnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersFragment_ViewBinding.new DebouncingOnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersFragment_ViewBinding.new DebouncingOnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersFragment_ViewBinding.new DebouncingOnClickListener() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParameters..Parcelable,46,265,11,19,10,67,11,11,1,6
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersViewHolder,0,7,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersFragment_ViewBinding,40,66,2,0,11,15,2,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersViewHolder_ViewBinding,38,70,2,0,12,11,2,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.search,ParameterizedWhereClause,13,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParameters,0,9,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.search,CategorySub,2,44,0,0,1,14,1,4,1,4
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchActivity,15,257,7,18,3,75,7,17,0,11
+JaCoCo Coverage Report,com.money.manager.ex.search,SearchParametersFragment,229,1165,51,82,39,262,42,51,1,24
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncService.new HashMap() {...},21,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncService.new HashMap() {...},0,21,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncManager_MembersInjector,26,8,0,0,8,4,3,2,3,2
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment,307,0,12,0,74,0,21,0,15,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncServiceMessageHandler_MembersInjector,17,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncCommon,21,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncServiceMessage,2,96,1,3,1,15,1,4,0,3
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncManager_Factory,44,0,0,0,12,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncManager,328,262,42,24,78,69,45,18,16,14
+JaCoCo Coverage Report,com.money.manager.ex.sync,CloudItemViewHolder,20,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncServiceMessageHandler,90,62,12,5,25,19,13,5,2,4
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncBroadcastReceiver,2,24,2,2,0,7,2,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.sync,CloudItemViewHolder.new View.OnClickListener() {...},19,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment_MembersInjector,21,0,0,0,8,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncService_MembersInjector,18,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncManager.new HashMap() {...},0,21,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferencesViewHolder,57,0,0,0,9,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment.new Action1() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment.new Func1() {...},8,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment.new Preference.OnPreferenceChangeListener() {...},48,0,2,0,12,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment.new Preference.OnPreferenceClickListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment.new Preference.OnPreferenceChangeListener() {...},29,0,2,0,7,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment.new Preference.OnPreferenceClickListener() {...},8,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment.new Action1() {...},10,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment.new Preference.OnPreferenceClickListener() {...},11,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment.new Preference.OnPreferenceClickListener() {...},12,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncConstants,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,CloudStorageProviderEnum,58,0,4,0,9,0,4,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncNotificationFactory,295,0,0,0,70,0,8,0,8,0
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncService,180,223,25,17,49,56,24,10,5,7
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncSchedulerBroadcastReceiver,10,105,5,5,3,23,5,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.sync,SyncPreferenceFragment.new Func1() {...},8,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.currency.list,CurrencyListFragment,170,436,27,16,50,109,29,21,8,18
+JaCoCo Coverage Report,com.money.manager.ex.currency.list,CurrencyListActivity,29,57,9,5,9,13,7,4,1,3
+JaCoCo Coverage Report,com.money.manager.ex.currency.list,CurrencyListFragment.new LoaderManager.LoaderCallbacks() {...},114,101,19,9,19,25,13,5,0,4
+JaCoCo Coverage Report,com.money.manager.ex.currency.list,CurrencyListAdapter,0,52,0,0,0,13,0,3,0,3
+JaCoCo Coverage Report,com.money.manager.ex.passcode,InsecureSHA1PRNGKeyDerivator,1091,0,72,0,179,0,44,0,8,0
+JaCoCo Coverage Report,com.money.manager.ex.passcode,Encryptor,163,0,4,0,41,0,12,0,10,0
+JaCoCo Coverage Report,com.money.manager.ex.passcode,SimpleCrypto,186,0,8,0,42,0,15,0,11,0
+JaCoCo Coverage Report,com.money.manager.ex.passcode,FingerprintHandler,81,0,2,0,19,0,7,0,6,0
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,DbModule.new SqlBrite.Logger() {...},0,13,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,MmxModule_ProvideAppContextFactory,3,18,0,0,1,6,1,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,RepositoryModule,10,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,MmxModule_ProvideAppSettingsFactory,4,26,0,0,1,7,1,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,MmxModule,0,21,0,0,0,7,0,5,0,5
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,DbModule,0,53,0,2,0,15,0,5,0,4
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,DaggerMmxComponent,133,439,0,0,58,162,23,51,23,51
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,RepositoryModule_ProvideStockHistoryRepositoryFactory,15,15,0,0,3,5,2,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,DaggerMmxComponent.Builder,27,32,3,3,5,8,5,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,DbModule_ProvideOpenHelperFactory,4,26,0,0,1,7,1,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,MmxModule_ProvideSharedPreferencesFactory,3,18,0,0,1,6,1,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,RepositoryModule_ProvideStockRepositoryFactory,15,15,0,0,3,5,2,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,MmxModule_ProvideApplicationFactory,3,18,0,0,1,6,1,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,DbModule_ProvideSqlBriteFactory,3,18,0,0,1,6,1,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.core.ioc,DbModule_ProvideDatabaseFactory,5,34,0,0,1,8,1,3,1,3
+JaCoCo Coverage Report,info.javaperformance.money,Money..Parcelable.new Parcelable.Creator() {...},12,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,info.javaperformance.money,Money..Parcelable,37,44,2,4,11,11,6,4,4,3
+JaCoCo Coverage Report,com.money.manager.ex.investment.dummy,DummyContent,41,0,0,0,10,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.dummy,DummyContent.DummyItem,12,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.servicelayer.qif,QifRecord,316,6,26,0,81,3,20,1,7,1
+JaCoCo Coverage Report,com.money.manager.ex.servicelayer.qif,QifExport,6,59,0,0,2,17,0,5,0,5
+JaCoCo Coverage Report,com.money.manager.ex.servicelayer.qif,QifGenerator,40,47,5,1,12,14,3,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.servicelayer.qif,QifHeader,168,6,4,0,42,3,7,1,5,1
+JaCoCo Coverage Report,com.money.manager.ex.core,Passcode,147,30,15,1,44,8,15,4,7,4
+JaCoCo Coverage Report,com.money.manager.ex.core,UIHelper.1.new DialogInterface.OnClickListener() {...},18,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.core,UIHelper.1.new Action0() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.core,UIHelper.1.new DialogInterface.OnClickListener() {...},18,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.core,DateRange..Parcelable.new Parcelable.Creator() {...},12,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.core,FormatUtilities_Factory,5,31,0,0,1,8,1,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.core,FormatUtilities_MembersInjector,18,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.core,Core_MembersInjector,26,8,0,0,8,4,3,2,3,2
+JaCoCo Coverage Report,com.money.manager.ex.core,ToolbarSpinnerAdapter,5,43,1,1,1,10,1,3,0,3
+JaCoCo Coverage Report,com.money.manager.ex.core,DefinedDateRange,49,8,0,0,14,3,5,2,5,2
+JaCoCo Coverage Report,com.money.manager.ex.core,FilterDatePeriods,85,0,8,0,17,0,9,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.core,UIHelper,71,141,12,6,17,37,14,14,5,14
+JaCoCo Coverage Report,com.money.manager.ex.core,RequestCodes,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.core,DefinedDateRanges,147,189,16,4,28,36,15,7,7,5
+JaCoCo Coverage Report,com.money.manager.ex.core,Core,177,252,14,16,45,68,18,15,7,11
+JaCoCo Coverage Report,com.money.manager.ex.core,NumericPatternGenerator,3,31,0,4,1,6,1,3,1,1
+JaCoCo Coverage Report,com.money.manager.ex.core,DefinedDateRangeName,0,63,0,0,0,11,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.core,Passcode_MembersInjector,17,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.core,Core.new DialogInterface.OnClickListener() {...},0,9,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.core,AbsListFragment,76,294,13,29,20,84,16,21,3,13
+JaCoCo Coverage Report,com.money.manager.ex.core,IntentFactory,29,45,0,2,7,11,3,3,3,2
+JaCoCo Coverage Report,com.money.manager.ex.core,DateRange,3,9,0,0,1,4,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.core,NumericHelper,52,73,8,2,17,22,9,7,4,7
+JaCoCo Coverage Report,com.money.manager.ex.core,Core.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.core,SearchViewFormatter,92,192,13,13,27,53,20,6,7,6
+JaCoCo Coverage Report,com.money.manager.ex.core,RecurringTransactionBootReceiver,11,114,2,2,3,26,2,3,0,3
+JaCoCo Coverage Report,com.money.manager.ex.core,DefinedDateRange.new Parcelable.Creator() {...},8,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.core,UIHelper_MembersInjector,17,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.core,FormatUtilities,154,232,19,13,35,62,18,15,4,13
+JaCoCo Coverage Report,com.money.manager.ex.core,InfoKeys,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.core,Core_Factory,25,19,0,0,5,6,2,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.core,ExportToCsvFile,293,0,28,0,64,0,21,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex.core,DateRange..Parcelable,74,26,5,1,21,7,8,2,5,2
+JaCoCo Coverage Report,com.money.manager.ex.core,TransactionStatuses,102,49,14,0,18,10,10,3,3,3
+JaCoCo Coverage Report,com.money.manager.ex.core,MenuHelper,94,40,7,0,17,11,12,2,6,2
+JaCoCo Coverage Report,com.money.manager.ex.core,ContextMenuIds,2,99,1,3,1,16,1,5,0,4
+JaCoCo Coverage Report,com.money.manager.ex.core,TransactionTypes,28,35,4,0,6,8,3,3,1,3
+JaCoCo Coverage Report,com.money.manager.ex.core,HttpMethods,15,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.core,UIHelper.new Runnable() {...},0,22,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.core,UIHelper.new Runnable() {...},0,22,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.core,UIHelper.new Observable.OnSubscribe() {...},65,0,0,0,11,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.core,AbsListFragment.new AdapterView.OnItemClickListener() {...},0,15,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.core,AbsListFragment.new Runnable() {...},0,14,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.core,MoneyManagerBackupAgentHelper,49,0,0,0,8,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.core,MyWebChromeClient,11,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.JacocoInstrument,SMSInstrumentedReceiver,0,24,1,1,0,7,1,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.JacocoInstrument,JacocoInstrumentation,72,112,12,6,16,28,11,6,2,6
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistViewHolder,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistItemsFragment,700,0,74,0,177,0,65,0,27,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistItemsFragment.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistItemsFragment.new DialogInterface.OnClickListener() {...},33,0,2,0,6,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistItemsFragment.new AdapterView.OnItemClickListener() {...},29,0,8,0,5,0,6,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistFragment,818,0,65,0,222,0,70,0,36,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistFragment.new DialogInterface.OnClickListener() {...},51,0,2,0,13,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistFragment.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistFragment.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistFragment.new Runnable() {...},18,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistFragment.new DialogInterface.OnClickListener() {...},25,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistFragment.new View.OnClickListener() {...},30,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistFragment.new View.OnClickListener() {...},51,0,4,0,10,0,4,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistFragment.new AdapterView.OnItemSelectedListener() {...},24,0,0,0,7,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistFragment.new DialogInterface.OnClickListener() {...},31,0,0,0,8,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.watchlist,WatchlistDataset,49,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.adapter,CategoryExpandableListAdapter.new View.OnClickListener() {...},0,23,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.adapter,CategoryExpandableListAdapter,15,321,7,17,3,80,8,21,1,16
+JaCoCo Coverage Report,com.money.manager.ex.adapter,AllDataViewHolder,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.adapter,AllDataAdapter,706,229,59,33,141,45,44,24,14,8
+JaCoCo Coverage Report,com.money.manager.ex.adapter,MoneySimpleCursorAdapter,37,22,4,0,10,6,4,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.adapter,CategoryListItemViewHolderGroup,0,21,0,0,0,5,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.adapter,AllDataAdapter.TypeCursor,0,15,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.adapter,CategoryListItemViewHolderChild,0,27,0,0,0,6,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.view.recycler,DividerItemDecoration,177,0,12,0,43,0,13,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex.view.recycler,CursorRecyclerViewAdapter.NotifyingDataSetObserver,28,0,0,0,9,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.view.recycler,ContextMenuRecyclerView,42,0,2,0,13,0,6,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.view.recycler,RecyclerViewContextMenuInfo,9,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.view.recycler,CursorRecyclerViewAdapter,179,0,32,0,46,0,26,0,10,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.events,PriceDownloadedEvent..Parcelable.new Parcelable.Creator() {...},15,0,0,0,3,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.events,AllPricesDownloadedEvent,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.events,PriceUpdateRequestEvent,6,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.events,PriceDownloadedEvent..Parcelable,112,0,6,0,31,0,10,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.events,PriceDownloadedEvent,12,0,0,0,5,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,SqlRepositoryBase,140,25,10,0,38,6,10,3,5,3
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,StockHistoryRepository.UpdateType,25,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,CurrencyRepositorySql_Factory,0,24,0,0,0,6,0,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,PayeeRepository,60,26,8,0,11,3,8,2,4,2
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,InfoRepositorySql,68,10,4,0,15,3,5,2,3,2
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,StockRepository_Factory,19,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,RepositoryBase,138,162,6,8,32,45,12,11,6,10
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,RecurringTransactionRepository,167,7,6,0,23,2,9,1,6,1
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,Select,17,84,0,0,6,22,1,7,1,7
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,StockHistoryRepositorySql_Factory,19,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,BudgetEntryRepository,159,7,14,0,31,2,11,1,4,1
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,CategoryRepository,59,42,5,1,7,8,5,3,2,3
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,SplitCategoriesRepository,131,7,8,0,22,2,10,1,6,1
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,InfoRepositorySql_Factory,8,11,0,0,1,4,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,BudgetRepository,89,7,10,0,17,2,9,1,4,1
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,StockRepository,315,7,26,0,56,2,24,1,11,1
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,StockRepositorySql_Factory,19,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,QueryAllDataRepository,124,16,0,0,2,3,2,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,StockRepositorySql,155,0,12,0,30,0,12,0,6,0
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,AccountRepository,178,170,23,7,40,26,18,10,5,8
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,CurrencyRepositorySql,25,5,0,0,4,2,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,SplitRecurringCategoriesRepository,139,7,8,0,23,2,11,1,7,1
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,AttachmentRepository,135,7,12,0,23,2,12,1,6,1
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,AccountTransactionRepository,124,7,2,0,16,2,5,1,4,1
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,StockHistoryRepositorySql,167,0,10,0,38,0,10,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.datalayer,StockHistoryRepository,292,7,14,0,54,2,18,1,11,1
+JaCoCo Coverage Report,com.money.manager.ex.sync.adapter,Authenticator,18,0,0,0,9,0,8,0,8,0
+JaCoCo Coverage Report,com.money.manager.ex.sync.adapter,SyncAdapterTrigger,62,0,2,0,15,0,5,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.sync.adapter,SyncAdapterService,30,0,2,0,9,0,5,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.sync.adapter,SyncAdapter,16,0,0,0,6,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.sync.adapter,AuthenticatorService,14,0,0,0,4,0,3,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.sync.adapter,StubSyncProvider,10,5,0,0,5,2,5,2,5,2
+JaCoCo Coverage Report,com.money.manager.ex.account,TransactionFilter,0,3,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity.new View.OnClickListener() {...},1,19,1,1,0,4,1,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity.new View.OnClickListener() {...},0,27,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity.new CompoundButton.OnCheckedChangeListener() {...},0,14,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.account,TransactionFilter..Parcelable.new Parcelable.Creator() {...},12,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity.new View.OnClickListener() {...},18,35,0,0,4,9,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity.new View.OnClickListener() {...},0,27,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity.new AdapterView.OnItemSelectedListener() {...},1,29,2,2,1,6,3,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity.new View.OnClickListener() {...},0,23,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity.new View.OnClickListener() {...},0,23,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity.new AdapterView.OnItemSelectedListener() {...},1,29,2,2,1,6,3,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountListActivity,75,0,10,0,18,0,9,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountListFragment,478,0,41,0,117,0,36,0,15,0
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditViewHolder,0,7,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.account,TransactionFilter..Parcelable,60,48,5,1,17,13,5,5,2,5
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditViewHolder_ViewBinding,71,158,2,0,23,22,2,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.account,CalculateRunningBalanceTask2,142,63,17,3,38,18,11,5,0,5
+JaCoCo Coverage Report,com.money.manager.ex.account,StatusFilter..Parcelable,96,41,10,4,27,10,11,3,5,2
+JaCoCo Coverage Report,com.money.manager.ex.account,FilterDialogFragment,1,203,2,4,0,46,2,8,0,7
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity..Icepick,17,34,1,1,4,8,1,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountTransactionsListViewHolder,0,3,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountTypes,7,120,1,5,2,19,2,7,1,5
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountListFragment.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountListFragment.new DialogInterface.OnClickListener() {...},38,0,2,0,6,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountListFragment.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountSpinnerAdapter,23,0,0,0,12,0,12,0,12,0
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountTransactionListFragment,211,1102,62,62,53,292,60,54,5,44
+JaCoCo Coverage Report,com.money.manager.ex.account,StatusFilter,39,170,6,18,11,31,6,13,3,4
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity,214,841,47,52,51,182,46,29,2,23
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountTransactionListFragment.new AdapterView.OnItemSelectedListener() {...},1,42,0,0,1,9,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountTransactionListFragment.new View.OnClickListener() {...},24,6,0,0,5,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountTransactionListFragment.new View.OnClickListener() {...},45,6,4,0,7,1,3,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountStatuses,12,46,2,2,3,8,4,3,2,3
+JaCoCo Coverage Report,com.money.manager.ex.account,StatusFilter..Parcelable.new Parcelable.Creator() {...},12,3,0,0,2,1,2,1,2,1
+JaCoCo Coverage Report,com.money.manager.ex.account,FilterDialogFragment.new DialogInterface.OnClickListener() {...},1,6,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.account,FilterDialogFragment.new DialogInterface.OnClickListener() {...},3,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.account,FilterDialogFragment.new View.OnClickListener() {...},9,40,2,2,1,8,2,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.account,FilterDialogFragment.new View.OnClickListener() {...},0,31,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.account,AccountEditActivity.new View.OnClickListener() {...},0,23,0,2,0,4,0,3,0,2
+JaCoCo Coverage Report,com.money.manager.ex.database,PasswordActivity.new View.OnClickListener() {...},0,10,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.database,SQLTypeTransaction,0,21,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.database,ViewMobileData,147,37,1,1,5,9,3,2,2,2
+JaCoCo Coverage Report,com.money.manager.ex.database,DatasetType,0,27,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.database,QueryCategorySubCategory,53,63,4,0,13,15,5,10,3,10
+JaCoCo Coverage Report,com.money.manager.ex.database,TableAssets,8,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.database,QueryReportIncomeVsExpenses,3,72,1,1,1,12,1,3,0,3
+JaCoCo Coverage Report,com.money.manager.ex.database,QueryAllData,0,131,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.database,QueryBillDeposits,0,162,0,0,0,27,0,3,0,3
+JaCoCo Coverage Report,com.money.manager.ex.database,SQLDataSet,2,6,0,0,1,2,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex.database,PasswordActivity,0,66,1,1,0,19,1,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.database,MmxOpenHelper,260,232,29,11,61,70,25,14,7,12
+JaCoCo Coverage Report,com.money.manager.ex.database,QueryAccountBills,36,202,8,2,7,45,8,21,3,21
+JaCoCo Coverage Report,com.money.manager.ex.database,Dataset,6,54,1,1,2,16,2,6,1,6
+JaCoCo Coverage Report,com.money.manager.ex.database,TransactionStatus,92,0,15,0,30,0,14,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex.database,WhereStatementGenerator,31,123,2,6,8,28,5,10,3,8
+JaCoCo Coverage Report,androidx.databinding,DataBinderMapperImpl,8,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.morningstar,SymbolConverter,113,0,4,0,25,0,6,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.morningstar,MorningstarPriceUpdater_MembersInjector,34,0,0,0,12,0,5,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.morningstar,MorningstarPriceUpdater,235,0,14,0,56,0,14,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.morningstar,MorningstarPriceUpdater.new Subscriber() {...},48,0,0,0,11,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.morningstar,MorningstarPriceUpdater.new Action1() {...},21,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.investment.morningstar,MorningstarPriceUpdater_Factory,44,0,0,0,13,0,4,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.widget,SingleAccountWidgetConfigureActivity,176,0,8,0,42,0,10,0,6,0
+JaCoCo Coverage Report,com.money.manager.ex.widget,SingleAccountWidget,363,0,16,0,88,0,24,0,16,0
+JaCoCo Coverage Report,com.money.manager.ex.widget,SummaryWidgetProvider,122,0,2,0,23,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.widget,SingleAccountWidgetConfigureActivity.new View.OnClickListener() {...},44,0,0,0,10,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.widget,AllAccountBillsViewFactory,140,0,8,0,39,0,16,0,12,0
+JaCoCo Coverage Report,com.money.manager.ex.widget,AccountBillsWidgetService,10,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.widget,AccountBillsWidgetProvider,141,0,2,0,25,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.widget,ButtonAddTransactionWidgetProvider,55,0,2,0,11,0,3,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.common.events,AmountEnteredEvent,9,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex.common.events,ListItemClickedEvent,12,0,0,0,5,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex,MmexApplication,135,248,17,13,38,73,17,25,5,22
+JaCoCo Coverage Report,com.money.manager.ex,MmxContentProvider,201,805,35,48,37,143,32,30,2,18
+JaCoCo Coverage Report,com.money.manager.ex,PasscodeActivity_ViewBinding.new DebouncingOnClickListener() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex,PasscodeActivity,451,0,44,0,106,0,30,0,8,0
+JaCoCo Coverage Report,com.money.manager.ex,Constants,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex,DataBinderMapperImpl.InnerLayoutIdLookup,6,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex,PasscodeActivity_ViewBinding,47,0,2,0,13,0,4,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex,BuildConfig,3,4,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,com.money.manager.ex,DataBinderMapperImpl.InnerBrLookup,22,0,0,0,6,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex,HelpActivity,101,0,10,0,24,0,8,0,3,0
+JaCoCo Coverage Report,com.money.manager.ex,PasscodeActivity.FingerprintException,7,0,0,0,3,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex,DataBinderMapperImpl,92,0,16,0,26,0,15,0,7,0
+JaCoCo Coverage Report,com.money.manager.ex,PayeeActivity,0,80,4,4,0,23,4,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex,BR,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex,MmxContentProvider_MembersInjector,17,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex,DataBindingTriggerClass,3,0,0,0,1,0,1,0,1,0
+JaCoCo Coverage Report,com.money.manager.ex,PasscodeActivity.new View.OnClickListener() {...},145,0,18,0,24,0,11,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionEditActivity.new View.OnClickListener() {...},0,21,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionEditActivity.new View.OnClickListener() {...},0,21,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionEditActivity.new AdapterView.OnItemSelectedListener() {...},10,21,0,0,3,5,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionEditActivity.new View.OnClickListener() {...},11,39,0,0,3,9,1,2,1,2
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionListFragment.new DialogInterface.OnClickListener() {...},30,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionListFragment.new CaldroidListener() {...},10,0,0,0,5,0,5,0,5,0
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionListFragment.new DialogInterface.OnClickListener() {...},31,0,0,0,5,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionListFragment.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionListFragment.new DialogInterface.OnClickListener() {...},9,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,Recurrence,12,161,3,5,3,27,3,5,0,4
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionEditActivity..Icepick,11,28,1,1,3,7,1,4,0,4
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionListFragment_MembersInjector,17,4,0,0,6,2,3,1,3,1
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionViewHolder,0,3,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionListActivity,141,0,24,0,34,0,16,0,4,0
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionListFragment,412,199,32,11,105,53,34,11,12,10
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionEditActivity,420,577,60,31,92,131,45,28,6,21
+JaCoCo Coverage Report,com.money.manager.ex.recurring.transactions,RecurringTransactionEditActivity_MembersInjector,28,8,0,0,8,4,3,2,3,2

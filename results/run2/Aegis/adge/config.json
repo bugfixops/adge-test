@@ -1,0 +1,9 @@
+{
+ "DB_PATH": "/home/runner/work/adge-test/adge-test/out/Aegis/db/Aegis.db",
+ "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/Aegis.apk",
+ "PACKAGE_NAME": "com.beemdevelopment.aegis.debug",
+ "SLEEP_TIME": 1000,
+ "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms",
+ "SKIP_INSTALL": true,
+ "HOME_PACKAGE": "com.android.launcher3"
+}

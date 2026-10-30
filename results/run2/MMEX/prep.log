@@ -1,0 +1,63 @@
+top: com.money.manager.ex/.home.MainActivity
+  action_bar_root                                                                                  com.money.manager.ex
+  content                                                                                          com.money.manager.ex
+  drawerLayout                                                                                     com.money.manager.ex
+  toolbar                                                                                          com.money.manager.ex
+                                                                    Open                           com.money.manager.ex
+                                 Money Manager Ex                                                  com.money.manager.ex
+                                 your_data                                                         com.money.manager.ex
+  menu_search                                                       Search                         com.money.manager.ex
+  fragmentMain                                                                                     com.money.manager.ex
+  linearLayoutHome                                                                                 com.money.manager.ex
+  listViewAccountBills                                                                             com.money.manager.ex
+  imageViewAccountType                                                                             com.money.manager.ex
+  textViewItemAccountName        Cash Accounts                                                     com.money.manager.ex
+  textViewItemAccountTotal       $ 0.00                                                            com.money.manager.ex
+  textViewItemAccountTotalReconciled $ 0.00                                                            com.money.manager.ex
+  textViewItemAccountName        Checking                                                          com.money.manager.ex
+  textViewItemAccountTotal       $ 0.00                                                            com.money.manager.ex
+  textViewItemAccountTotalReconciled $ 0.00                                                            com.money.manager.ex
+  textViewItemAccountName        Summary                                                           com.money.manager.ex
+  textViewItemAccountTotal       $ 0.00                                                            com.money.manager.ex
+  textViewItemAccountTotalReconciled $ 0.00                                                            com.money.manager.ex
+                                 INCOME VS EXPENSES: CURRENT MONTH                                 com.money.manager.ex
+                                 Income                                                            com.money.manager.ex
+  textViewIncome                 $ 0.00                                                            com.money.manager.ex
+  progressBarIncome              0.0                                                               com.money.manager.ex
+                                 Expenses                                                          com.money.manager.ex
+  textViewExpenses               $ 0.00                                                            com.money.manager.ex
+  progressBarExpenses            0.0                                                               com.money.manager.ex
+                                 Difference                                                        com.money.manager.ex
+  textViewDifference             $ 0.00                                                            com.money.manager.ex
+  fab                                                                                              com.money.manager.ex
+  navigation_bar_frame                                                                             com.android.systemui
+  navigation_inflater                                                                              com.android.systemui
+  rot0                                                                                             com.android.systemui
+  deadzone                                                                                         com.android.systemui
+  nav_buttons                                                                                      com.android.systemui
+  center_group                                                                                     com.android.systemui
+  home                                                              Home                           com.android.systemui
+  ends_group                                                                                       com.android.systemui
+  back                                                              Back                           com.android.systemui
+  recent_apps                                                       Overview                       com.android.systemui
+  status_bar_container                                                                             com.android.systemui
+  status_bar                                                                                       com.android.systemui
+  status_bar_contents                                                                              com.android.systemui
+  notification_icon_area                                                                           com.android.systemui
+  notification_icon_area_inner                                                                     com.android.systemui
+  notificationIcons                                                                                com.android.systemui
+                                                                    Android System notification: U com.android.systemui
+  system_icon_area                                                                                 com.android.systemui
+  system_icons                                                                                     com.android.systemui
+  signal_cluster                                                                                   com.android.systemui
+  wifi_combo                                                        Wifi signal full.              com.android.systemui
+  wifi_signal                                                                                      com.android.systemui
+  mobile_signal_group                                                                              com.android.systemui
+  mobile_combo                                                      LTE Phone two bars.            com.android.systemui
+  mobile_signal                                                                                    com.android.systemui
+  battery                                                           Battery charging, 100 percent. com.android.systemui
+  clock                          4:23                               4:23 AM                        com.android.systemui
+  scrim_behind                                                                                     com.android.systemui
+  scrim_in_front                                                                                   com.android.systemui
+attempt 1: OK after 21.3s 
+MMEX prep OK

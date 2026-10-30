@@ -1,0 +1,54 @@
+[04:22:27] emulator command (for restarts): /usr/local/lib/android/sdk/emulator/emulator -port 5554 -avd test -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none -camera-front none
+[04:22:28] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[04:22:28] home screen: com.android.launcher3
+[04:22:32] install apks/Markor.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[04:23:09] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/Markor/db/Markor.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/Markor.apk", "PACKAGE_NAME": "net.gsantner.markor_test", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[04:23:30] first-run setup done: { "app": "Markor", "script": "prep_scripts.prep_markor", "ok": true, "timeout_seconds": 180, "attempts": [  {   "attempt": 1,   "ok": true,   "seconds": 20.3,   "error": "",   "log": []  } ], "time": "2026-10-30T04:23:30.328206+00:00", "log": []}
+[04:38:00] ADGE run 1: exit code 0 after 870 s (6330 s left)
+[04:38:00] running for 870 s, 30 coverage dumps so far
+[04:40:41] ADGE run 2: exit code 0 after 161 s (6169 s left)
+[04:50:26] ADGE run 3: exit code 0 after 585 s (5584 s left)
+[04:50:26] running for 1616 s, 57 coverage dumps so far
+[04:57:27] ADGE run 4: exit code 0 after 421 s (5163 s left)
+[04:57:27] running for 2037 s, 72 coverage dumps so far
+[04:58:54] ADGE run 5: exit code 0 after 87 s (5076 s left)
+[05:11:01] ADGE run 6: exit code 0 after 727 s (4349 s left)
+[05:11:01] running for 2851 s, 101 coverage dumps so far
+[05:11:23] ADGE run 7: exit code 0 after 22 s (4327 s left)
+[05:12:00] ADGE run 8: exit code 0 after 32 s (4290 s left)
+[05:13:17] ADGE run 9: exit code 0 after 77 s (4213 s left)
+[05:15:35] ADGE run 10: exit code 0 after 138 s (4075 s left)
+[05:18:19] ADGE run 11: exit code 0 after 164 s (3911 s left)
+[05:18:19] running for 3289 s, 120 coverage dumps so far
+[05:19:59] ADGE run 12: exit code 0 after 100 s (3811 s left)
+[05:26:46] ADGE run 13: exit code 0 after 406 s (3404 s left)
+[05:26:46] running for 3796 s, 139 coverage dumps so far
+[05:29:14] ADGE run 14: exit code 0 after 148 s (3256 s left)
+[05:31:12] ADGE run 15: exit code 0 after 118 s (3138 s left)
+[05:33:20] ADGE run 16: exit code 0 after 128 s (3010 s left)
+[05:33:20] running for 4190 s, 155 coverage dumps so far
+[05:35:24] ADGE run 17: exit code 0 after 124 s (2886 s left)
+[05:36:24] ADGE run 18: exit code 0 after 60 s (2826 s left)
+[05:37:03] ADGE run 19: exit code 0 after 39 s (2787 s left)
+[05:39:34] ADGE run 20: exit code 0 after 151 s (2636 s left)
+[05:39:34] running for 4564 s, 172 coverage dumps so far
+[05:42:26] ADGE run 21: exit code 0 after 172 s (2464 s left)
+[05:43:29] ADGE run 22: exit code 0 after 63 s (2401 s left)
+[05:45:16] ADGE run 23: exit code 0 after 107 s (2294 s left)
+[05:45:16] running for 4906 s, 186 coverage dumps so far
+[05:55:53] ADGE run 24: exit code 0 after 637 s (1657 s left)
+[05:55:53] running for 5543 s, 208 coverage dumps so far
+[05:59:10] ADGE run 25: exit code 0 after 197 s (1460 s left)
+[06:01:11] ADGE run 26: exit code 0 after 121 s (1339 s left)
+[06:01:11] running for 5861 s, 221 coverage dumps so far
+[06:06:44] ADGE run 27: exit code 0 after 333 s (1006 s left)
+[06:06:44] running for 6194 s, 233 coverage dumps so far
+[06:13:42] ADGE run 28: exit code 0 after 418 s (588 s left)
+[06:13:42] running for 6612 s, 247 coverage dumps so far
+[06:20:40] ADGE run 29: exit code 0 after 418 s (170 s left)
+[06:20:40] running for 7030 s, 262 coverage dumps so far
+[06:23:32] ADGE run 30: exit code 124 after 172 s (-2 s left)
+[06:23:33] ADGE runs finished after 7203 s (7203 s exploring, 0 emulator restart(s) taking 0 s): 30 run(s), 29 ended by themselves
+[06:23:35] result: Markor status=ok "actions":"2981","activities_total":11,"activities_triggered":4,"iterations":"30","line_pct":51.86,"methods_hit":1596,"methods_total":2855,

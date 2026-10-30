@@ -1,0 +1,17 @@
+{
+ "app": "Markor",
+ "script": "prep_scripts.prep_markor",
+ "ok": true,
+ "timeout_seconds": 180,
+ "attempts": [
+  {
+   "attempt": 1,
+   "ok": true,
+   "seconds": 20.3,
+   "error": "",
+   "log": []
+  }
+ ],
+ "time": "2026-10-30T04:23:30.328206+00:00",
+ "log": []
+}

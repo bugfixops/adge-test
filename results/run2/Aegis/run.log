@@ -1,0 +1,18 @@
+[04:22:42] emulator command (for restarts): /usr/local/lib/android/sdk/emulator/emulator -port 5554 -avd test -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none -camera-front none
+[04:22:42] device: sdk=27 abi=x86_64 root=yes screen=[Physical size: 1080x1920 Physical density: 420] fingerprint=Android/sdk_phone_x86_64/generic_x86_64:8.1.0/OSM1.180201.023/4931629:userdebug/test-keys
+[04:22:43] home screen: com.android.launcher3
+[04:22:48] install apks/Aegis.apk: Success
+frida 16.7.19: 86 processes visible on Android Emulator 5554
+uiautomator2: {'currentPackageName': 'com.android.launcher3', 'displayHeight': 1920, 'displayRotation': 0, 'displaySizeDpX': 411, 'displaySizeDpY': 731, 'displayWidth': 1080, 'productName': 'sdk_phone_x86_64', 'screenOn': True, 'sdkInt': 27, 'naturalOrientation': True}
+[04:23:25] ADGE config: { "DB_PATH": "/home/runner/work/adge-test/adge-test/out/Aegis/db/Aegis.db", "APK_PATH": "/home/runner/work/adge-test/adge-test/apks/Aegis.apk", "PACKAGE_NAME": "com.beemdevelopment.aegis.debug", "SLEEP_TIME": 1000, "defaultPlatformDir": "/usr/local/lib/android/sdk/platforms", "SKIP_INSTALL": true, "HOME_PACKAGE": "com.android.launcher3"}
+[04:24:05] first-run setup done: { "app": "Aegis", "script": "prep_scripts.prep_aegis", "ok": true, "timeout_seconds": 480, "attempts": [  {   "attempt": 1,   "ok": true,   "seconds": 39.2,   "error": "",   "log": [    "intro done",    "entry alice attempt 1: fab=True, enter_manually=True, filled=True, added=True",    "entry bob attempt 1: fab=True, enter_manually=True, filled=True, added=True"   ]  } ], "time": "2026-10-30T04:24
+[05:27:55] ADGE run 1: exit code 0 after 3830 s (3370 s left)
+[05:27:55] running for 3830 s, 129 coverage dumps so far
+[05:28:37] ADGE run 2: exit code 0 after 42 s (3328 s left)
+[05:30:06] ADGE run 3: exit code 0 after 89 s (3239 s left)
+[05:31:03] ADGE run 4: exit code 0 after 57 s (3182 s left)
+[06:22:04] ADGE run 5: exit code 0 after 3061 s (121 s left)
+[06:22:04] running for 7079 s, 240 coverage dumps so far
+[06:24:07] ADGE run 6: exit code 124 after 123 s (-2 s left)
+[06:24:07] ADGE runs finished after 7202 s (7202 s exploring, 0 emulator restart(s) taking 0 s): 6 run(s), 5 ended by themselves
+[06:24:09] result: Aegis status=ok "actions":"2481","activities_total":15,"activities_triggered":6,"iterations":"6","line_pct":34.85,"methods_hit":1098,"methods_total":2957,
