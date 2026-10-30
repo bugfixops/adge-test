@@ -1,0 +1,89 @@
+ok=True seconds=21.3 error=
+
+top: com.money.manager.ex/.home.MainActivity
+  action_bar_root                                                                                  com.money.manager.ex
+  content                                                                                          com.money.manager.ex
+  drawerLayout                                                                                     com.money.manager.ex
+  toolbar                                                                                          com.money.manager.ex
+                                                                    Open                           com.money.manager.ex
+                                 Money Manager Ex                                                  com.money.manager.ex
+                                 your_data                                                         com.money.manager.ex
+  menu_search                                                       Search                         com.money.manager.ex
+  fragmentMain                                                                                     com.money.manager.ex
+  linearLayoutHome                                                                                 com.money.manager.ex
+  listViewAccountBills                                                                             com.money.manager.ex
+  imageViewAccountType                                                                             com.money.manager.ex
+  textViewItemAccountName        Cash Accounts                                                     com.money.manager.ex
+  textViewItemAccountTotal       $ 0.00                                                            com.money.manager.ex
+  textViewItemAccountTotalReconciled $ 0.00                                                            com.money.manager.ex
+  textViewItemAccountName        Checking                                                          com.money.manager.ex
+  textViewItemAccountTotal       $ 0.00                                                            com.money.manager.ex
+  textViewItemAccountTotalReconciled $ 0.00                                                            com.money.manager.ex
+  textViewItemAccountName        Summary                                                           com.money.manager.ex
+  textViewItemAccountTotal       $ 0.00                                                            com.money.manager.ex
+  textViewItemAccountTotalReconciled $ 0.00                                                            com.money.manager.ex
+                                 INCOME VS EXPENSES: CURRENT MONTH                                 com.money.manager.ex
+                                 Income                                                            com.money.manager.ex
+  textViewIncome                 $ 0.00                                                            com.money.manager.ex
+  progressBarIncome              0.0                                                               com.money.manager.ex
+                                 Expenses                                                          com.money.manager.ex
+  textViewExpenses               $ 0.00                                                            com.money.manager.ex
+  progressBarExpenses            0.0                                                               com.money.manager.ex
+                                 Difference                                                        com.money.manager.ex
+  textViewDifference             $ 0.00                                                            com.money.manager.ex
+  fab                                                                                              com.money.manager.ex
+  navigation_bar_frame                                                                             com.android.systemui
+  navigation_inflater                                                                              com.android.systemui
+  rot0                                                                                             com.android.systemui
+  deadzone                                                                                         com.android.systemui
+  nav_buttons                                                                                      com.android.systemui
+  center_group                                                                                     com.android.systemui
+  home                                                              Home                           com.android.systemui
+  ends_group                                                                                       com.android.systemui
+  back                                                              Back                           com.android.systemui
+  recent_apps                                                       Overview                       com.android.systemui
+  status_bar_container                                                                             com.android.systemui
+  status_bar                                                                                       com.android.systemui
+  status_bar_contents                                                                              com.android.systemui
+  notification_icon_area                                                                           com.android.systemui
+  notification_icon_area_inner                                                                     com.android.systemui
+  notificationIcons                                                                                com.android.systemui
+                                                                    Android System notification: U com.android.systemui
+  system_icon_area                                                                                 com.android.systemui
+  system_icons                                                                                     com.android.systemui
+  signal_cluster                                                                                   com.android.systemui
+  wifi_combo                                                        Wifi signal full.              com.android.systemui
+  wifi_signal                                                                                      com.android.systemui
+  mobile_signal_group                                                                              com.android.systemui
+  mobile_combo                                                      LTE Phone two bars.            com.android.systemui
+  mobile_signal                                                                                    com.android.systemui
+  battery                                                           Battery charging, 100 percent. com.android.systemui
+  clock                          4:23                               4:23 AM                        com.android.systemui
+  scrim_behind                                                                                     com.android.systemui
+  scrim_in_front                                                                                   com.android.systemui
+
+trace:
+    0.0  sh am force-stop com.money.manager.ex
+    0.0  sh rm -rf /sdcard/MoneyManagerEx /sdcard/Download/your_data.mmb
+    0.0  sh pm grant com.money.manager.ex android.permission.READ_EXTERNAL_STORAGE
+    0.2  sh pm grant com.money.manager.ex android.permission.WRITE_EXTERNAL_STORAGE
+    0.3  sh cmd package resolve-activity --brief -a android.intent.action.MAIN -c android.intent.category.LAUNCHER com.money.manager.ex
+    0.3  sh am start -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -n com.money.manager.ex/.home.MainActivity
+    0.4  top 
+    1.9  tap id=skipTextView at 956,1733 (TextView 'CLOSE')
+    4.1  top com.money.manager.ex/.settings.GeneralSettingsActivity
+    4.1  key BACK
+    6.3  top com.money.manager.ex/.home.SelectDatabaseActivity
+    6.6  tap id=createDatabaseButton at 540,555 (Button 'CREATE DATABASE')
+    8.8  top com.android.documentsui/.picker.PickActivity
+    8.9  tap text='SAVE' at 958,945 (TextView 'SAVE')
+   11.1  top com.money.manager.ex/.database.PasswordActivity
+   11.3  tap id=btnSubmit at 539,1026 (Button 'OK')
+   13.5  top com.money.manager.ex/.home.MainActivity
+   13.7  tap id=buttonAddAccount at 540,1077 (Button 'CREATE NEW ACCOUNT')
+   15.9  top com.money.manager.ex/.account.AccountEditActivity
+   16.3  tap id=editTextAccountName at 540,298 (EditText 'Account name')
+   17.5  type 'Checking'
+   19.0  tap text='Save' at 1016,136 (Button 'Save')
+   21.2  top com.money.manager.ex/.home.MainActivity
+   21.3  top com.money.manager.ex/.home.MainActivity

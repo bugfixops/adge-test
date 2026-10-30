@@ -1,0 +1,17 @@
+{
+ "app": "MMEX",
+ "script": "prep_scripts.prep_mmex",
+ "ok": true,
+ "timeout_seconds": 300,
+ "attempts": [
+  {
+   "attempt": 1,
+   "ok": true,
+   "seconds": 21.3,
+   "error": "",
+   "log": []
+  }
+ ],
+ "time": "2026-10-30T04:23:41.302848+00:00",
+ "log": []
+}

@@ -1,0 +1,65 @@
+top: com.beemdevelopment.aegis.debug/com.beemdevelopment.aegis.ui.MainActivity
+  navigation_bar_frame                                                                             com.android.systemui
+  navigation_inflater                                                                              com.android.systemui
+  rot0                                                                                             com.android.systemui
+  deadzone                                                                                         com.android.systemui
+  nav_buttons                                                                                      com.android.systemui
+  center_group                                                                                     com.android.systemui
+  home                                                              Home                           com.android.systemui
+  ends_group                                                                                       com.android.systemui
+  back                                                              Back                           com.android.systemui
+  recent_apps                                                       Overview                       com.android.systemui
+  status_bar_container                                                                             com.android.systemui
+  status_bar                                                                                       com.android.systemui
+  status_bar_contents                                                                              com.android.systemui
+  notification_icon_area                                                                           com.android.systemui
+  notification_icon_area_inner                                                                     com.android.systemui
+  notificationIcons                                                                                com.android.systemui
+                                                                    Android System notification: U com.android.systemui
+  system_icon_area                                                                                 com.android.systemui
+  system_icons                                                                                     com.android.systemui
+  signal_cluster                                                                                   com.android.systemui
+  wifi_combo                                                        Wifi signal full.              com.android.systemui
+  wifi_signal_dark                                                                                 com.android.systemui
+  mobile_signal_group                                                                              com.android.systemui
+  mobile_combo                                                      LTE Phone two bars.            com.android.systemui
+  mobile_signal_dark                                                                               com.android.systemui
+  battery                                                           Battery charging, 100 percent. com.android.systemui
+  clock                          4:24                               4:24 AM                        com.android.systemui
+  scrim_behind                                                                                     com.android.systemui
+  scrim_in_front                                                                                   com.android.systemui
+  action_bar_root                                                                                  com.beemdevelopment.aegis.debug
+  content                                                                                          com.beemdevelopment.aegis.debug
+  app_bar_layout                                                                                   com.beemdevelopment.aegis.debug
+  toolbar                                                                                          com.beemdevelopment.aegis.debug
+                                 AegisDev                                                          com.beemdevelopment.aegis.debug
+  mi_search                                                                                        com.beemdevelopment.aegis.debug
+  search_bar                                                                                       com.beemdevelopment.aegis.debug
+  search_button                                                     Search                         com.beemdevelopment.aegis.debug
+  action_sort                                                       Sort                           com.beemdevelopment.aegis.debug
+                                                                    More options                   com.beemdevelopment.aegis.debug
+  key_profiles                                                                                     com.beemdevelopment.aegis.debug
+  progressBar                    4333.0                                                            com.beemdevelopment.aegis.debug
+  rvKeyProfiles                                                                                    com.beemdevelopment.aegis.debug
+  card_error                                                                                       com.beemdevelopment.aegis.debug
+  text_error_bar                 Changes are not backed up                                         com.beemdevelopment.aegis.debug
+  rlCardEntry                                                                                      com.beemdevelopment.aegis.debug
+  ivTextDrawable                                                                                   com.beemdevelopment.aegis.debug
+  relativeLayout                                                                                   com.beemdevelopment.aegis.debug
+  description                                                                                      com.beemdevelopment.aegis.debug
+  profile_issuer                 GitHub                                                            com.beemdevelopment.aegis.debug
+  profile_account_name           (alice)                                                           com.beemdevelopment.aegis.debug
+  profile_codes_layout                                                                             com.beemdevelopment.aegis.debug
+  profile_code                   074 608                                                           com.beemdevelopment.aegis.debug
+  rlCardEntry                                                                                      com.beemdevelopment.aegis.debug
+  ivTextDrawable                                                                                   com.beemdevelopment.aegis.debug
+  relativeLayout                                                                                   com.beemdevelopment.aegis.debug
+  description                                                                                      com.beemdevelopment.aegis.debug
+  profile_issuer                 Dropbox                                                           com.beemdevelopment.aegis.debug
+  profile_account_name           (bob)                                                             com.beemdevelopment.aegis.debug
+  profile_codes_layout                                                                             com.beemdevelopment.aegis.debug
+  profile_code                   623 917                                                           com.beemdevelopment.aegis.debug
+  entries_shown_count            Showing 2 entries                                                 com.beemdevelopment.aegis.debug
+  fab                                                               Add new entry                  com.beemdevelopment.aegis.debug
+attempt 1: OK after 39.2s 
+Aegis prep OK

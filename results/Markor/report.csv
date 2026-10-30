@@ -1,54 +1,54 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase.ActionItem,28,0,0,0,11,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase,2299,0,239,0,435,0,199,0,64,0
-JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase.ReplacePattern,54,0,2,0,13,0,7,0,6,0
-JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase.ActionItem.DisplayMode,21,0,0,0,1,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase.HeadlineState,21,0,0,0,5,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase.new Runnable() {...},36,0,0,0,6,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.format,FormatRegistry,465,0,27,0,83,0,28,0,11,0
-JaCoCo Coverage Report,net.gsantner.markor.format,FormatRegistry.Format,15,0,0,0,6,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.format,TextConverterBase,422,0,50,0,54,0,30,0,5,0
+JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase.ActionItem,0,28,0,0,0,11,0,3,0,3
+JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase,683,1616,100,139,143,292,91,108,15,49
+JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase.ReplacePattern,13,41,1,1,2,11,2,5,1,5
+JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase.ActionItem.DisplayMode,0,21,0,0,0,1,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase.HeadlineState,0,21,0,0,0,5,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.markor.format,ActionButtonBase.new Runnable() {...},21,15,0,0,4,2,1,1,1,1
+JaCoCo Coverage Report,net.gsantner.markor.format,FormatRegistry,191,274,12,15,41,42,13,15,1,10
+JaCoCo Coverage Report,net.gsantner.markor.format,FormatRegistry.Format,0,15,0,0,0,6,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.markor.format,TextConverterBase,100,322,29,21,7,47,22,8,0,5
 JaCoCo Coverage Report,net.gsantner.markor,BuildConfig,238,0,0,0,3,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor,ApplicationObject,3,219,0,0,2,11,1,4,1,4
+JaCoCo Coverage Report,net.gsantner.markor,ApplicationObject,1,221,0,0,1,12,0,5,0,5
 JaCoCo Coverage Report,net.gsantner.markor.format.csv,CsvTextConverter.Csv2MdTable,282,0,40,0,64,0,31,0,11,0
-JaCoCo Coverage Report,net.gsantner.markor.format.csv,CsvTextConverter,40,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,net.gsantner.markor.format.csv,CsvTextConverter,11,29,0,0,2,3,1,2,1,2
 JaCoCo Coverage Report,net.gsantner.markor.format.csv,CsvConfig,90,0,2,0,14,0,7,0,6,0
 JaCoCo Coverage Report,net.gsantner.markor.format.csv,CsvSyntaxHighlighter,417,0,70,0,81,0,44,0,9,0
 JaCoCo Coverage Report,net.gsantner.opoc.frontend.settings,GsPermissionChecker,50,0,14,0,14,0,12,0,5,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.settings,GsLanguagePreferenceCompat,497,0,28,0,72,0,27,0,13,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.settings,GsFontPreferenceCompat,1022,0,50,0,95,0,41,0,16,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.settings,GsFontPreferenceCompat.TypefaceObjectSpan,55,0,6,0,16,0,7,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.format.binary,EmbedBinaryTextConverter,714,0,28,0,73,0,19,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.web,MarkorWebViewClient,150,0,16,0,27,0,10,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.web,DraggableScrollbarWebView,327,0,40,0,53,0,31,0,11,0
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.settings,GsLanguagePreferenceCompat,122,375,6,22,26,46,14,13,10,3
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.settings,GsFontPreferenceCompat,519,503,26,24,36,59,27,14,10,6
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.settings,GsFontPreferenceCompat.TypefaceObjectSpan,46,9,6,0,13,3,6,1,3,1
+JaCoCo Coverage Report,net.gsantner.markor.format.binary,EmbedBinaryTextConverter,554,160,28,0,63,10,16,3,2,3
+JaCoCo Coverage Report,net.gsantner.markor.web,MarkorWebViewClient,143,7,16,0,24,3,9,1,1,1
+JaCoCo Coverage Report,net.gsantner.markor.web,DraggableScrollbarWebView,234,93,28,12,32,21,26,5,7,4
 JaCoCo Coverage Report,net.gsantner.markor.util,BackupUtils.new GsFileBrowserOptions.SelectionListenerAdapter() {...},25,0,0,0,6,0,3,0,3,0
 JaCoCo Coverage Report,net.gsantner.markor.util,BackupUtils.new GsFileBrowserOptions.SelectionListenerAdapter() {...},21,0,0,0,6,0,3,0,3,0
 JaCoCo Coverage Report,net.gsantner.markor.util,BackupUtils,58,0,10,0,13,0,10,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.util,ShortcutUtils,210,0,8,0,48,0,7,0,3,0
+JaCoCo Coverage Report,net.gsantner.markor.util,ShortcutUtils,16,194,2,6,3,45,2,5,0,3
 JaCoCo Coverage Report,net.gsantner.markor.util,TextCasingUtils,175,0,26,0,36,0,18,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.util,MarkorContextUtils,120,63,18,6,29,17,18,4,6,4
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserFragment.new GsFileBrowserOptions.SelectionListenerAdapter() {...},51,0,2,0,13,0,5,0,4,0
+JaCoCo Coverage Report,net.gsantner.markor.util,MarkorContextUtils,108,75,14,10,25,21,13,9,5,5
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserFragment.new GsFileBrowserOptions.SelectionListenerAdapter() {...},32,19,2,0,7,6,3,2,2,2
 JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserFragment.new GsFileBrowserOptions.SelectionListenerAdapter() {...},95,0,6,0,18,0,8,0,5,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserDialog,814,0,78,0,168,0,65,0,24,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserListAdapter,2105,74,370,4,388,13,244,2,56,2
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserDialog.new Dialog() {...},19,0,4,0,4,0,4,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserFragment,1474,0,209,0,281,0,161,0,49,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserListAdapter.StringFilter,92,0,6,0,23,0,7,0,4,0
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserDialog,66,748,36,42,17,151,36,29,4,20
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserListAdapter,437,1742,129,245,74,327,112,134,8,50
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserDialog.new Dialog() {...},12,7,4,0,3,1,3,1,1,1
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserFragment,381,1093,74,135,72,209,73,88,13,36
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserListAdapter.StringFilter,22,70,5,1,4,19,3,4,0,4
 JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserOptions,3,0,0,0,1,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserListAdapter.FilesystemViewerViewHolder,28,0,0,0,6,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserOptions.Options,183,0,0,0,44,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserListAdapter.TagContainer,9,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserListAdapter.FilesystemViewerViewHolder,0,28,0,0,0,6,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserOptions.Options,0,183,0,0,0,44,0,3,0,3
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserListAdapter.TagContainer,0,9,0,0,0,4,0,1,0,1
 JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserListAdapter.new View.OnLayoutChangeListener() {...},18,0,0,0,4,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserOptions.SelectionListenerAdapter,11,0,0,0,9,0,9,0,9,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.textview,TextViewUndoRedo,571,0,46,0,93,0,37,0,14,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.textview,TextViewUndoRedo.EditItem,71,0,8,0,10,0,7,0,3,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.textview,TextViewUndoRedo.EditHistory,129,0,18,0,35,0,16,0,7,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.textview,TextViewUndoRedo.EditTextChangeListener,365,0,73,0,64,0,42,0,5,0
-JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsTextWatcherAdapter,21,0,0,0,7,0,7,0,7,0
-JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsAndroidSpinnerOnItemSelectedAdapter,18,0,0,0,7,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsMenuItemDummy.Menu,61,0,0,0,25,0,25,0,25,0
-JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsTextWatcherAdapter.new GsTextWatcherAdapter() {...},11,0,0,0,3,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsTextWatcherAdapter.new GsTextWatcherAdapter() {...},17,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.filebrowser,GsFileBrowserOptions.SelectionListenerAdapter,4,7,0,0,4,5,4,5,4,5
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.textview,TextViewUndoRedo,371,200,30,16,52,41,26,11,6,8
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.textview,TextViewUndoRedo.EditItem,2,69,1,7,0,10,1,6,0,3
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.textview,TextViewUndoRedo.EditHistory,44,85,9,9,15,20,9,7,3,4
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.textview,TextViewUndoRedo.EditTextChangeListener,134,231,33,40,18,46,22,20,1,4
+JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsTextWatcherAdapter,5,16,0,0,1,6,1,6,1,6
+JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsAndroidSpinnerOnItemSelectedAdapter,6,12,0,0,2,5,1,2,1,2
+JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsMenuItemDummy.Menu,56,5,0,0,23,2,23,2,23,2
+JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsTextWatcherAdapter.new GsTextWatcherAdapter() {...},0,11,0,0,0,3,0,2,0,2
+JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsTextWatcherAdapter.new GsTextWatcherAdapter() {...},0,17,0,0,0,3,0,2,0,2
 JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsTextWatcherAdapter.new GsTextWatcherAdapter() {...},17,0,0,0,3,0,2,0,2,0
 JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsCallback,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,net.gsantner.opoc.wrapper,GsMenuItemDummy,88,0,0,0,44,0,42,0,42,0
@@ -57,38 +57,38 @@ JaCoCo Coverage Report,net.gsantner.markor.JacocoInstrument,SMSInstrumentedRecei
 JaCoCo Coverage Report,net.gsantner.markor.JacocoInstrument,JacocoInstrumentation,72,112,12,6,16,28,11,6,2,6
 JaCoCo Coverage Report,other.so,AndroidBug5497Workaround,86,0,4,0,21,0,6,0,4,0
 JaCoCo Coverage Report,other.so,AndroidBug5497Workaround.new ViewTreeObserver.OnGlobalLayoutListener() {...},10,0,0,0,3,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtAutoTextFormatter,41,0,6,0,8,0,6,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtTask.SttTaskSimpleComparator,198,0,30,0,42,0,26,0,8,0
-JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtFilter.TYPE,27,0,0,0,2,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtBasicSyntaxHighlighter,163,0,4,0,17,0,4,0,2,0
+JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtAutoTextFormatter,22,19,2,4,4,4,3,3,1,2
+JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtTask.SttTaskSimpleComparator,188,10,30,0,38,4,25,1,7,1
+JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtFilter.TYPE,0,27,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtBasicSyntaxHighlighter,4,159,2,2,0,17,2,2,0,2
 JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtActionButtons.DateFragment,118,0,12,0,32,0,17,0,11,0
-JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtTextConverter,66,0,8,0,11,0,10,0,6,0
-JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtSyntaxHighlighter,44,0,2,0,10,0,4,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtActionButtons,1226,0,98,0,203,0,79,0,25,0
-JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtSyntaxHighlighter.ParagraphDividerSpan,135,0,12,0,29,0,9,0,3,0
+JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtTextConverter,4,62,3,5,0,11,2,8,0,6
+JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtSyntaxHighlighter,2,42,1,1,0,10,1,3,0,3
+JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtActionButtons,768,458,73,25,140,63,58,21,13,12
+JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtSyntaxHighlighter.ParagraphDividerSpan,0,135,3,9,0,29,3,6,0,3
 JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtFilter.SttFilterKey,12,0,0,0,5,0,1,0,1,0
 JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtTask.TodoDueState,27,0,0,0,2,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtTask,552,0,50,0,124,0,54,0,29,0
-JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtActionButtons.new Thread() {...},53,0,0,0,6,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtFilter,946,0,156,0,172,0,97,0,19,0
-JaCoCo Coverage Report,net.gsantner.markor.format.general,ColorUnderlineSpan,64,0,2,0,13,0,5,0,4,0
+JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtTask,265,287,36,14,59,65,35,19,15,14
+JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtActionButtons.new Thread() {...},0,53,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,net.gsantner.markor.format.todotxt,TodoTxtFilter,867,79,147,9,153,19,93,4,16,3
+JaCoCo Coverage Report,net.gsantner.markor.format.general,ColorUnderlineSpan,6,58,1,1,2,11,1,4,0,4
 JaCoCo Coverage Report,other.writeily.format.asciidoc,WrAsciidocHeaderSpanCreator,97,0,8,0,20,0,11,0,7,0
 JaCoCo Coverage Report,other.writeily.ui,WrRenameDialog,286,0,26,0,58,0,22,0,9,0
 JaCoCo Coverage Report,other.writeily.ui,WrRenameDialog.new TextWatcher() {...},33,0,2,0,8,0,5,0,4,0
-JaCoCo Coverage Report,net.gsantner.opoc.util,GsFileUtils,2277,55,333,7,459,8,227,5,57,4
-JaCoCo Coverage Report,net.gsantner.opoc.util,GsCoolExperimentalStuff.new Thread() {...},84,0,2,0,10,0,3,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.util,GsContextUtils,5845,271,820,31,1217,67,577,19,149,18
-JaCoCo Coverage Report,net.gsantner.opoc.util,GsFileUtils.FileInfo,9,0,0,0,3,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.opoc.util,GsContextUtils.DoTouchView,32,0,0,0,7,0,2,0,2,0
+JaCoCo Coverage Report,net.gsantner.opoc.util,GsFileUtils,1379,953,223,117,304,163,166,66,31,30
+JaCoCo Coverage Report,net.gsantner.opoc.util,GsCoolExperimentalStuff.new Thread() {...},1,83,0,2,1,9,0,3,0,2
+JaCoCo Coverage Report,net.gsantner.opoc.util,GsContextUtils,4162,1954,649,202,842,442,469,127,83,84
+JaCoCo Coverage Report,net.gsantner.opoc.util,GsFileUtils.FileInfo,0,9,0,0,0,3,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.opoc.util,GsContextUtils.DoTouchView,0,32,0,0,0,7,0,2,0,2
 JaCoCo Coverage Report,net.gsantner.opoc.util,GsNanoProfiler,201,0,12,0,37,0,14,0,8,0
 JaCoCo Coverage Report,net.gsantner.opoc.util,GsContextUtils.new BroadcastReceiver() {...},29,0,4,0,8,0,4,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.util,GsContextUtils.new AnimatorListenerAdapter() {...},16,0,0,0,4,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.util,GsCoolExperimentalStuff,315,0,12,0,70,0,13,0,7,0
+JaCoCo Coverage Report,net.gsantner.opoc.util,GsContextUtils.new AnimatorListenerAdapter() {...},0,16,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,net.gsantner.opoc.util,GsCoolExperimentalStuff,138,177,11,1,30,40,10,3,4,3
 JaCoCo Coverage Report,net.gsantner.opoc.util,GsBackupUtils,584,0,60,0,107,0,38,0,8,0
 JaCoCo Coverage Report,net.gsantner.opoc.util,GsFileUtils.new SimpleFileVisitor() {...},22,0,2,0,4,0,3,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.util,GsFileUtils.SortOrder,92,0,0,0,19,0,3,0,3,0
+JaCoCo Coverage Report,net.gsantner.opoc.util,GsFileUtils.SortOrder,0,92,0,0,0,19,0,3,0,3
 JaCoCo Coverage Report,net.gsantner.opoc.util,GsContextUtils.ResType,0,99,0,0,0,3,0,1,0,1
-JaCoCo Coverage Report,net.gsantner.opoc.util,GsCollectionUtils,501,0,78,0,112,0,71,0,32,0
+JaCoCo Coverage Report,net.gsantner.opoc.util,GsCollectionUtils,230,271,44,34,51,61,38,33,11,21
 JaCoCo Coverage Report,other.writeily.widget,WrMarkorWidgetProvider,247,38,7,1,50,11,5,2,1,2
 JaCoCo Coverage Report,other.writeily.widget,WrWidgetConfigure,117,0,8,0,25,0,10,0,6,0
 JaCoCo Coverage Report,other.writeily.widget,WrFilesWidgetFactory,180,0,20,0,39,0,21,0,11,0
@@ -97,190 +97,190 @@ JaCoCo Coverage Report,other.writeily.widget,WrFilesWidgetService,10,0,0,0,2,0,2
 JaCoCo Coverage Report,net.gsantner.markor.format.orgmode,OrgmodeReplacePatternGenerator,184,0,2,0,23,0,7,0,6,0
 JaCoCo Coverage Report,net.gsantner.markor.format.orgmode,OrgmodeActionButtons,237,0,12,0,33,0,16,0,5,0
 JaCoCo Coverage Report,net.gsantner.markor.format.orgmode,OrgmodeSyntaxHighlighter,164,0,0,0,32,0,4,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.format.orgmode,OrgmodeTextConverter,36,0,0,0,8,0,5,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchHandler.SearchResultChangedListener,6,0,0,0,2,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new View.OnClickListener() {...},24,0,0,0,5,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new View.OnClickListener() {...},27,0,0,0,6,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new View.OnClickListener() {...},27,0,0,0,6,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new View.OnClickListener() {...},27,0,0,0,6,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new View.OnClickListener() {...},35,0,0,0,7,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new ReplacementTransformationMethod() {...},20,0,0,0,3,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new TextWatcher() {...},63,0,4,0,16,0,6,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,Selection,46,0,4,0,15,0,11,0,9,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new TextWatcher() {...},13,0,0,0,5,0,4,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchHandler,1058,0,142,0,265,0,97,0,26,0
+JaCoCo Coverage Report,net.gsantner.markor.format.orgmode,OrgmodeTextConverter,25,11,0,0,5,3,2,3,2,3
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchHandler.SearchResultChangedListener,0,6,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new View.OnClickListener() {...},0,24,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new View.OnClickListener() {...},0,27,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new View.OnClickListener() {...},0,27,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new View.OnClickListener() {...},0,27,0,0,0,6,0,2,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new View.OnClickListener() {...},0,35,0,0,0,7,0,2,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new ReplacementTransformationMethod() {...},0,20,0,0,0,3,0,3,0,3
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new TextWatcher() {...},27,36,2,2,5,11,2,4,0,4
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,Selection,28,18,3,1,9,6,7,4,5,4
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment.new TextWatcher() {...},0,13,0,0,0,5,0,4,0,4
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchHandler,903,155,129,13,213,52,82,15,11,15
 JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,Match,98,0,6,0,26,0,14,0,11,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment,673,0,60,0,148,0,60,0,30,0
-JaCoCo Coverage Report,net.gsantner.markor.model,Document,871,0,124,0,170,0,91,0,29,0
-JaCoCo Coverage Report,net.gsantner.markor.model,AppSettings,2288,237,197,11,404,44,256,21,150,18
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textsearch,TextSearchFragment,142,531,27,33,30,118,25,35,4,26
+JaCoCo Coverage Report,net.gsantner.markor.model,Document,427,444,75,49,77,93,62,29,8,21
+JaCoCo Coverage Report,net.gsantner.markor.model,AppSettings,742,1783,108,100,128,320,124,153,45,123
 JaCoCo Coverage Report,other.writeily.format.wikitext,WrWikitextHeaderSpanCreator,63,0,4,0,15,0,7,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownTextConverter.LineNumberIdExtension,13,0,0,0,4,0,3,0,3,0
+JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownTextConverter.LineNumberIdExtension,0,13,0,0,0,4,0,3,0,3
 JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownActionButtons.Link,118,0,18,0,20,0,12,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownActionButtons,689,0,62,0,114,0,54,0,14,0
-JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownReplacePatternGenerator,197,0,2,0,25,0,8,0,7,0
-JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownTextConverter.LineNumberIdProvider,21,0,0,0,4,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownTextConverter,1088,0,114,0,163,0,65,0,8,0
-JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownTextConverter.LineNumberIdProviderFactory,11,0,0,0,4,0,4,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownSyntaxHighlighter,164,0,8,0,39,0,8,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,SearchAndReplaceTextDialog.new ArrayAdapter() {...},94,0,4,0,11,0,4,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,SearchAndReplaceTextDialog.new TextWatcher() {...},15,0,0,0,5,0,4,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,NewFileDialog.ReselectSpinner,62,0,8,0,16,0,9,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,AttachLinkOrFileDialog,872,0,133,0,209,0,99,0,28,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,NewFileDialog.new GsTextWatcherAdapter() {...},69,0,2,0,11,0,3,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,FileInfoDialog,363,0,8,0,58,0,15,0,11,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,DraggableScrollbarScrollView,228,0,34,0,48,0,26,0,9,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,MarkorDialogFactory.Heading,13,0,0,0,5,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,SearchAndReplaceTextDialog.ReplaceGroup,113,0,4,0,23,0,7,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,DatetimeFormatDialog,879,0,38,0,133,0,44,0,25,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,NewFileDialog,986,0,78,0,197,0,63,0,24,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,MarkorDialogFactory.new GsCallback.a1() {...},31,0,2,0,7,0,3,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,DatetimeFormatDialog.new TextWatcher() {...},96,0,10,0,13,0,9,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,AttachLinkOrFileDialog.InsertType,75,0,0,0,13,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,MarkorDialogFactory,3686,0,178,0,778,0,206,0,115,0
+JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownActionButtons,211,478,39,23,50,64,28,26,3,11
+JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownReplacePatternGenerator,9,188,0,2,2,23,2,6,2,5
+JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownTextConverter.LineNumberIdProvider,0,21,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownTextConverter,535,553,80,34,74,89,55,10,1,7
+JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownTextConverter.LineNumberIdProviderFactory,0,11,0,0,0,4,0,4,0,4
+JaCoCo Coverage Report,net.gsantner.markor.format.markdown,MarkdownSyntaxHighlighter,17,147,3,5,2,37,3,5,0,4
+JaCoCo Coverage Report,net.gsantner.markor.frontend,SearchAndReplaceTextDialog.new ArrayAdapter() {...},0,94,2,2,0,11,2,2,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend,SearchAndReplaceTextDialog.new TextWatcher() {...},0,15,0,0,0,5,0,4,0,4
+JaCoCo Coverage Report,net.gsantner.markor.frontend,NewFileDialog.ReselectSpinner,34,28,4,4,9,7,5,4,3,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend,AttachLinkOrFileDialog,594,278,119,14,148,61,88,11,21,7
+JaCoCo Coverage Report,net.gsantner.markor.frontend,NewFileDialog.new GsTextWatcherAdapter() {...},11,58,1,1,3,8,1,2,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend,FileInfoDialog,0,363,2,6,0,58,2,13,0,11
+JaCoCo Coverage Report,net.gsantner.markor.frontend,DraggableScrollbarScrollView,132,96,21,13,26,22,20,6,5,4
+JaCoCo Coverage Report,net.gsantner.markor.frontend,MarkorDialogFactory.Heading,0,13,0,0,0,5,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.markor.frontend,SearchAndReplaceTextDialog.ReplaceGroup,59,54,2,2,15,8,4,3,2,3
+JaCoCo Coverage Report,net.gsantner.markor.frontend,DatetimeFormatDialog,157,722,19,19,29,104,16,28,4,21
+JaCoCo Coverage Report,net.gsantner.markor.frontend,NewFileDialog,127,859,35,43,26,171,30,33,2,22
+JaCoCo Coverage Report,net.gsantner.markor.frontend,MarkorDialogFactory.new GsCallback.a1() {...},0,31,1,1,0,7,1,2,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend,DatetimeFormatDialog.new TextWatcher() {...},6,90,4,6,0,13,4,5,0,4
+JaCoCo Coverage Report,net.gsantner.markor.frontend,AttachLinkOrFileDialog.InsertType,0,75,0,0,0,13,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.markor.frontend,MarkorDialogFactory,1800,1886,115,63,354,424,143,63,65,50
 JaCoCo Coverage Report,net.gsantner.markor.frontend,AttachLinkOrFileDialog.new GsFileBrowserOptions.SelectionListenerAdapter() {...},51,0,4,0,14,0,6,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend,SearchAndReplaceTextDialog,793,0,52,0,145,0,43,0,17,0
-JaCoCo Coverage Report,net.gsantner.opoc.web,GsWebViewChromeClient,172,0,26,0,36,0,17,0,4,0
-JaCoCo Coverage Report,net.gsantner.opoc.web,GsWebViewClient,99,0,6,0,15,0,8,0,5,0
+JaCoCo Coverage Report,net.gsantner.markor.frontend,SearchAndReplaceTextDialog,309,484,31,21,58,87,29,14,7,10
+JaCoCo Coverage Report,net.gsantner.opoc.web,GsWebViewChromeClient,136,36,25,1,27,9,15,2,2,2
+JaCoCo Coverage Report,net.gsantner.opoc.web,GsWebViewClient,1,98,1,5,0,15,1,7,0,5
 JaCoCo Coverage Report,net.gsantner.opoc.web,GsNetworkUtils,385,0,39,0,108,0,36,0,16,0
-JaCoCo Coverage Report,net.gsantner.markor.format.asciidoc,AsciidocTextConverter,62,0,4,0,8,0,6,0,4,0
+JaCoCo Coverage Report,net.gsantner.markor.format.asciidoc,AsciidocTextConverter,35,27,4,0,5,3,3,3,1,3
 JaCoCo Coverage Report,net.gsantner.markor.format.asciidoc,AsciidocReplacePatternGenerator,262,0,2,0,37,0,9,0,8,0
 JaCoCo Coverage Report,net.gsantner.markor.format.asciidoc,AsciidocSyntaxHighlighter,653,0,58,0,116,0,33,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.format.asciidoc,AsciidocActionButtons,1075,0,92,0,168,0,67,0,8,0
+JaCoCo Coverage Report,net.gsantner.markor.format.asciidoc,AsciidocActionButtons,819,256,92,0,163,5,64,3,5,3
 JaCoCo Coverage Report,net.gsantner.markor.widget,TodoWidgetService,10,0,0,0,2,0,2,0,2,0
 JaCoCo Coverage Report,net.gsantner.markor.widget,TodoWidgetRemoteViewsFactory,102,0,2,0,29,0,11,0,10,0
 JaCoCo Coverage Report,net.gsantner.markor.widget,TodoWidgetProvider,107,38,7,1,19,11,5,2,1,2
 JaCoCo Coverage Report,net.gsantner.opoc.model,GsMapPropertyBackend,225,0,16,0,34,0,25,0,17,0
-JaCoCo Coverage Report,net.gsantner.opoc.model,GsSharedPreferencesPropertyBackend,1037,159,46,4,181,23,109,17,85,16
-JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchResultSelectorDialog,330,0,34,0,74,0,24,0,7,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchDialog,406,0,22,0,98,0,19,0,8,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchEngine.QueueSearchFilesTask.new Snackbar.Callback() {...},18,0,2,0,4,0,3,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchEngine.QueueSearchFilesTask,810,0,114,0,160,0,72,0,15,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchDialog.Options,12,0,0,0,4,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchEngine,85,0,6,0,17,0,8,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchEngine.SearchOptions,13,0,0,0,4,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchEngine.FitFile,47,0,4,0,7,0,4,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchResultSelectorDialog.ExpandableSearchResultsListAdapter,157,0,10,0,42,0,24,0,19,0
+JaCoCo Coverage Report,net.gsantner.opoc.model,GsSharedPreferencesPropertyBackend,681,515,26,24,122,82,72,54,56,45
+JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchResultSelectorDialog,117,213,25,9,22,52,19,5,2,5
+JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchDialog,53,353,11,11,15,83,11,8,2,6
+JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchEngine.QueueSearchFilesTask.new Snackbar.Callback() {...},5,13,1,1,1,3,1,2,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchEngine.QueueSearchFilesTask,222,588,49,65,49,111,44,28,2,13
+JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchDialog.Options,0,12,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchEngine,8,77,3,3,2,15,4,4,1,4
+JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchEngine.SearchOptions,0,13,0,0,0,4,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchEngine.FitFile,0,47,0,4,0,7,0,4,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchResultSelectorDialog.ExpandableSearchResultsListAdapter,4,153,1,9,3,39,4,20,3,16
 JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchDialog.new AdapterView.OnItemSelectedListener() {...},24,0,0,0,7,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchResultSelectorDialog.new GsTextWatcherAdapter() {...},43,0,2,0,6,0,3,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,LineNumbersView,107,0,16,0,40,0,19,0,11,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,AutoTextFormatter,479,0,84,0,90,0,48,0,6,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,LineNumbersView.LineNumbersDrawer.new ViewTreeObserver.OnScrollChangedListener() {...},23,0,2,0,6,0,3,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,LineNumbersView.LineNumbersDrawer.new TextWatcher() {...},45,0,4,0,8,0,6,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,HighlightingEditor.new GsTextWatcherAdapter() {...},49,0,10,0,9,0,8,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,HighlightingEditor.new ActionMode.Callback() {...},29,0,2,0,9,0,6,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,SyntaxHighlighterBase.HighlightSpan,166,0,20,0,46,0,21,0,11,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,AutoTextFormatter.OrderedListLine,222,0,32,0,37,0,22,0,6,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,HighlightingEditor,1006,0,132,0,238,0,121,0,55,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,ListHandler,186,0,36,0,38,0,23,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,TextViewUtils,1547,0,218,0,287,0,157,0,48,0
+JaCoCo Coverage Report,net.gsantner.markor.frontend.filesearch,FileSearchResultSelectorDialog.new GsTextWatcherAdapter() {...},28,15,2,0,5,1,2,1,1,1
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,LineNumbersView,16,91,3,13,6,34,5,14,2,9
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,AutoTextFormatter,194,285,44,40,33,57,29,19,1,5
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,LineNumbersView.LineNumbersDrawer.new ViewTreeObserver.OnScrollChangedListener() {...},0,23,0,2,0,6,0,3,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,LineNumbersView.LineNumbersDrawer.new TextWatcher() {...},0,45,0,4,0,8,0,6,0,4
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,HighlightingEditor.new GsTextWatcherAdapter() {...},0,49,5,5,0,9,5,3,0,3
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,HighlightingEditor.new ActionMode.Callback() {...},5,24,1,1,2,7,1,5,0,5
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,SyntaxHighlighterBase.HighlightSpan,13,153,2,18,2,44,2,19,0,11
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,AutoTextFormatter.OrderedListLine,0,222,6,26,0,37,6,16,0,6
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,HighlightingEditor,233,773,46,86,54,184,42,79,9,46
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,ListHandler,76,110,16,20,11,27,12,11,0,5
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,TextViewUtils,373,1174,96,122,72,215,88,69,9,39
 JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,SyntaxHighlighterBase.new ReplacementSpan() {...},13,0,0,0,3,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,SyntaxHighlighterBase,925,0,114,0,191,0,112,0,55,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,AutoTextFormatter.ListLine,165,0,32,0,18,0,21,0,5,0
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,SyntaxHighlighterBase,163,762,39,75,34,157,52,60,18,37
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,AutoTextFormatter.ListLine,27,138,16,16,1,17,13,8,1,4
 JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,AutoTextFormatter.UnOrderedOrCheckListLine,90,0,10,0,16,0,6,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,LineNumbersView.LineNumbersDrawer,533,0,58,0,124,0,42,0,13,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,SyntaxHighlighterBase.SpanGroup,36,0,4,0,9,0,4,0,2,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,AutoTextFormatter.FormatPatterns,15,0,0,0,6,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,ReplacePatternGeneratorHelper,50,0,4,0,10,0,5,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,TextViewUtils.ChunkedEditable,410,0,38,0,76,0,47,0,28,0
-JaCoCo Coverage Report,net.gsantner.markor.frontend.filebrowser,MarkorFileBrowserFactory,312,0,24,0,66,0,23,0,11,0
-JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser,200,0,12,0,46,0,19,0,13,0
-JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser.new GsSimpleMarkdownParser.SmpFilter() {...},5,0,0,0,2,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser.new GsSimpleMarkdownParser.SmpFilter() {...},40,0,0,0,14,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser.new GsSimpleMarkdownParser.SmpFilter() {...},25,0,0,0,9,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser.new GsSimpleMarkdownParser.SmpFilter() {...},66,0,2,0,21,0,3,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser.new GsSimpleMarkdownParser.SmpFilter() {...},68,0,2,0,22,0,3,0,2,0
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,LineNumbersView.LineNumbersDrawer,71,462,18,40,19,105,16,26,1,12
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,SyntaxHighlighterBase.SpanGroup,0,36,1,3,0,9,1,3,0,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,AutoTextFormatter.FormatPatterns,0,15,0,0,0,6,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,ReplacePatternGeneratorHelper,3,47,0,4,1,9,1,4,1,2
+JaCoCo Coverage Report,net.gsantner.markor.frontend.textview,TextViewUtils.ChunkedEditable,163,247,16,22,38,38,31,16,19,9
+JaCoCo Coverage Report,net.gsantner.markor.frontend.filebrowser,MarkorFileBrowserFactory,43,269,16,8,1,65,14,9,4,7
+JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser,62,138,3,9,13,33,8,11,5,8
+JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser.new GsSimpleMarkdownParser.SmpFilter() {...},2,3,0,0,1,1,1,1,1,1
+JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser.new GsSimpleMarkdownParser.SmpFilter() {...},37,3,0,0,13,1,1,1,1,1
+JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser.new GsSimpleMarkdownParser.SmpFilter() {...},22,3,0,0,8,1,1,1,1,1
+JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser.new GsSimpleMarkdownParser.SmpFilter() {...},0,66,0,2,0,21,0,3,0,2
+JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimpleMarkdownParser.new GsSimpleMarkdownParser.SmpFilter() {...},65,3,2,0,21,1,2,1,1,1
 JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimplePlaylistParser,490,0,64,0,95,0,38,0,6,0
-JaCoCo Coverage Report,net.gsantner.opoc.format,GsTextUtils,1068,0,160,0,209,0,120,0,40,0
+JaCoCo Coverage Report,net.gsantner.opoc.format,GsTextUtils,671,397,107,53,130,79,87,33,22,18
 JaCoCo Coverage Report,net.gsantner.opoc.format,GsSimplePlaylistParser.Item,113,0,14,0,18,0,11,0,4,0
-JaCoCo Coverage Report,other.writeily.model,WrMarkorSingleton,493,0,104,0,95,0,70,0,18,0
+JaCoCo Coverage Report,other.writeily.model,WrMarkorSingleton,418,75,95,9,79,16,62,8,13,5
 JaCoCo Coverage Report,other.writeily.model,WrMarkorSingleton.ConflictResolution,27,0,0,0,2,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.format.plaintext,PlaintextActionButtons,98,0,0,0,6,0,4,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.format.plaintext,PlaintextTextConverter,318,0,20,0,26,0,15,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.format.plaintext,PlaintextSyntaxHighlighter,93,0,12,0,26,0,10,0,4,0
+JaCoCo Coverage Report,net.gsantner.markor.format.plaintext,PlaintextActionButtons,6,92,0,0,2,4,1,3,1,3
+JaCoCo Coverage Report,net.gsantner.markor.format.plaintext,PlaintextTextConverter,114,204,18,2,16,10,12,3,2,3
+JaCoCo Coverage Report,net.gsantner.markor.format.plaintext,PlaintextSyntaxHighlighter,72,21,11,1,18,8,7,3,1,3
 JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.KatexDisplayMath,101,0,0,0,24,0,11,0,11,0
-JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexDisplayMathParser.Factory,16,0,0,0,6,0,6,0,6,0
-JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexDisplayMathParser,70,0,4,0,17,0,6,0,4,0
-JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexNodeRenderer.Factory,8,0,0,0,2,0,2,0,2,0
-JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexInlineMathParser,70,0,4,0,17,0,6,0,4,0
-JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexInlineMathParser.Factory,16,0,0,0,6,0,6,0,6,0
-JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexOptions,57,0,0,0,11,0,2,0,2,0
-JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexNodeRenderer.new CustomNodeRenderer() {...},13,0,0,0,3,0,2,0,2,0
-JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexNodeRenderer.new CustomNodeRenderer() {...},13,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexDisplayMathParser.Factory,0,16,0,0,0,6,0,6,0,6
+JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexDisplayMathParser,54,16,4,0,11,6,3,3,1,3
+JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexNodeRenderer.Factory,0,8,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexInlineMathParser,54,16,4,0,11,6,3,3,1,3
+JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexInlineMathParser.Factory,0,16,0,0,0,6,0,6,0,6
+JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexOptions,28,29,0,0,5,6,1,1,1,1
+JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexNodeRenderer.new CustomNodeRenderer() {...},7,6,0,0,2,1,1,1,1,1
+JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexNodeRenderer.new CustomNodeRenderer() {...},7,6,0,0,2,1,1,1,1,1
 JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.KatexInlineMath,101,0,0,0,24,0,11,0,11,0
-JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexNodeRenderer,94,0,0,0,17,0,4,0,4,0
+JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.FlexmarkKatexExtensionInternal.KatexNodeRenderer,44,50,0,0,8,9,2,2,2,2
 JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.KatexVisitorExt,28,0,0,0,2,0,2,0,2,0
 JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.KatexVisitorExt.new Visitor() {...},11,0,0,0,3,0,2,0,2,0
 JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.KatexVisitorExt.new Visitor() {...},11,0,0,0,3,0,2,0,2,0
-JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.KatexExtension,73,0,8,0,17,0,10,0,6,0
+JaCoCo Coverage Report,other.com.vladsch.flexmark.ext.katex,FlexmarkKatexExtension.KatexExtension,4,69,5,3,1,16,4,6,0,6
 JaCoCo Coverage Report,net.gsantner.markor.format.keyvalue,KeyValueSyntaxHighlighter,92,0,0,0,23,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.format.keyvalue,KeyValueTextConverter,44,0,0,0,3,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentShareIntoFragment.ShareIntoImportOptionsFragment,941,0,138,0,207,0,99,0,26,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentEditAndViewFragment.new GsFileBrowserOptions.SelectionListenerAdapter() {...},21,0,0,0,5,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentEditAndViewFragment.new SearchView.OnQueryTextListener() {...},60,0,6,0,14,0,8,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentEditAndViewFragment.new View.OnAttachStateChangeListener() {...},29,0,4,0,7,0,5,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,ActionButtonSettingsActivity.ReorderCallback,61,0,2,0,18,0,6,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,MarkorBaseFragment,11,0,0,0,3,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentActivity,767,0,116,0,165,0,83,0,25,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.SettingsFragmentMaster.new GsFileBrowserOptions.SelectionListenerAdapter() {...},36,0,0,0,9,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.SettingsFragmentMaster.new GsFileBrowserOptions.SelectionListenerAdapter() {...},36,0,0,0,9,0,3,0,3,0
+JaCoCo Coverage Report,net.gsantner.markor.format.keyvalue,KeyValueTextConverter,0,44,0,0,0,3,0,3,0,3
+JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentShareIntoFragment.ShareIntoImportOptionsFragment,489,452,98,40,108,99,79,20,9,17
+JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentEditAndViewFragment.new GsFileBrowserOptions.SelectionListenerAdapter() {...},11,10,0,0,2,3,1,2,1,2
+JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentEditAndViewFragment.new SearchView.OnQueryTextListener() {...},51,9,6,0,12,2,7,1,4,1
+JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentEditAndViewFragment.new View.OnAttachStateChangeListener() {...},5,24,1,3,1,6,1,4,0,3
+JaCoCo Coverage Report,net.gsantner.markor.activity,ActionButtonSettingsActivity.ReorderCallback,50,11,2,0,14,4,5,1,4,1
+JaCoCo Coverage Report,net.gsantner.markor.activity,MarkorBaseFragment,0,11,0,0,0,3,0,3,0,3
+JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentActivity,376,391,65,51,67,98,60,23,10,15
+JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.SettingsFragmentMaster.new GsFileBrowserOptions.SelectionListenerAdapter() {...},0,36,0,0,0,9,0,3,0,3
+JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.SettingsFragmentMaster.new GsFileBrowserOptions.SelectionListenerAdapter() {...},16,20,0,0,4,5,1,2,1,2
 JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.SettingsFragmentMaster.new GsFileBrowserOptions.SelectionListenerAdapter() {...},27,0,0,0,7,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.SettingsFragmentMaster.new GsFileBrowserOptions.SelectionListenerAdapter() {...},33,0,0,0,8,0,3,0,3,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity,138,0,8,0,35,0,11,0,7,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,MainActivity.new ViewPager2.OnPageChangeCallback() {...},8,6,0,0,3,1,1,1,1,1
+JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.SettingsFragmentMaster.new GsFileBrowserOptions.SelectionListenerAdapter() {...},16,17,0,0,4,4,1,2,1,2
+JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity,4,134,3,5,1,34,3,8,0,7
+JaCoCo Coverage Report,net.gsantner.markor.activity,MainActivity.new ViewPager2.OnPageChangeCallback() {...},0,14,0,0,0,4,0,2,0,2
 JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentShareIntoFragment.ShareIntoImportOptionsFragment.new GsFileBrowserOptions.SelectionListenerAdapter() {...},90,0,8,0,23,0,10,0,6,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,MainActivity.new GsFileBrowserOptions.SelectionListenerAdapter() {...},94,0,12,0,17,0,10,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,IntroActivity,21,139,2,2,7,24,4,7,2,7
-JaCoCo Coverage Report,net.gsantner.markor.activity,MarkorBaseActivity,28,61,5,3,5,13,6,6,2,6
-JaCoCo Coverage Report,net.gsantner.markor.activity,ActionButtonSettingsActivity,241,0,17,0,52,0,17,0,8,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentShareIntoFragment,305,0,32,0,72,0,25,0,9,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.MarkorSettingsFragment,30,0,4,0,10,0,6,0,4,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,StoragePermissionActivity,105,0,6,0,32,0,12,0,9,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.SettingsFragmentMaster,768,0,54,0,126,0,43,0,9,0
+JaCoCo Coverage Report,net.gsantner.markor.activity,MainActivity.new GsFileBrowserOptions.SelectionListenerAdapter() {...},0,94,4,8,0,17,4,6,0,4
+JaCoCo Coverage Report,net.gsantner.markor.activity,IntroActivity,6,154,0,4,3,28,1,10,1,8
+JaCoCo Coverage Report,net.gsantner.markor.activity,MarkorBaseActivity,11,78,4,4,2,16,4,8,0,8
+JaCoCo Coverage Report,net.gsantner.markor.activity,ActionButtonSettingsActivity,26,215,5,12,4,48,5,12,0,8
+JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentShareIntoFragment,102,203,22,10,21,51,18,7,2,7
+JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.MarkorSettingsFragment,0,30,2,2,0,10,2,4,0,4
+JaCoCo Coverage Report,net.gsantner.markor.activity,StoragePermissionActivity,100,5,5,1,30,2,11,1,8,1
+JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.SettingsFragmentMaster,298,470,28,26,58,68,26,17,1,8
 JaCoCo Coverage Report,net.gsantner.markor.activity,SettingsActivity.RESULT,3,0,0,0,1,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,ActionButtonSettingsActivity.OrderAdapter,111,0,2,0,22,0,6,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,ActionButtonSettingsActivity.Holder,102,0,12,0,22,0,11,0,5,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,MoreInfoFragment,631,0,49,0,86,0,39,0,9,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,MoreFragment,47,0,2,0,15,0,8,0,7,0
-JaCoCo Coverage Report,net.gsantner.markor.activity,MainActivity,761,319,102,10,146,89,77,16,21,16
-JaCoCo Coverage Report,net.gsantner.markor.activity,MainActivity.SectionsPagerAdapter,160,31,28,0,27,7,19,2,5,2
-JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentEditAndViewFragment,2965,0,442,0,570,0,294,0,61,0
+JaCoCo Coverage Report,net.gsantner.markor.activity,ActionButtonSettingsActivity.OrderAdapter,0,111,0,2,0,22,0,6,0,5
+JaCoCo Coverage Report,net.gsantner.markor.activity,ActionButtonSettingsActivity.Holder,10,92,0,12,4,18,2,9,2,3
+JaCoCo Coverage Report,net.gsantner.markor.activity,MoreInfoFragment,147,484,19,30,30,56,20,19,1,8
+JaCoCo Coverage Report,net.gsantner.markor.activity,MoreFragment,2,45,0,2,1,14,1,7,1,6
+JaCoCo Coverage Report,net.gsantner.markor.activity,MainActivity,122,958,43,69,23,212,40,53,3,34
+JaCoCo Coverage Report,net.gsantner.markor.activity,MainActivity.SectionsPagerAdapter,3,188,6,22,2,32,6,15,0,7
+JaCoCo Coverage Report,net.gsantner.markor.activity,DocumentEditAndViewFragment,763,2202,209,233,145,425,170,124,11,50
 JaCoCo Coverage Report,net.gsantner.markor.activity.openeditor,OpenEditorActivity,39,0,2,0,11,0,4,0,3,0
 JaCoCo Coverage Report,net.gsantner.markor.activity.openeditor,OpenShareIntoActivity,28,0,0,0,7,0,2,0,2,0
 JaCoCo Coverage Report,net.gsantner.markor.activity.openeditor,OpenFromShortcutOrWidgetActivity,13,0,0,0,5,0,2,0,2,0
 JaCoCo Coverage Report,net.gsantner.markor.activity.openeditor,OpenEditorTodoActivity,15,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,net.gsantner.markor.activity.openeditor,OpenEditorQuickNoteActivity,15,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,other.de.stanetz.jpencconverter,JavaPasswordbasedCryption.EncryptionFailedException,5,0,0,0,2,0,1,0,1,0
-JaCoCo Coverage Report,other.de.stanetz.jpencconverter,PasswordStore,372,0,18,0,82,0,17,0,8,0
+JaCoCo Coverage Report,other.de.stanetz.jpencconverter,PasswordStore,308,64,16,2,68,14,13,4,4,4
 JaCoCo Coverage Report,other.de.stanetz.jpencconverter,PasswordStore.SecurityMode,15,0,0,0,3,0,1,0,1,0
 JaCoCo Coverage Report,other.de.stanetz.jpencconverter,JavaPasswordbasedCryption.Version,55,0,0,0,12,0,2,0,2,0
 JaCoCo Coverage Report,other.de.stanetz.jpencconverter,JavaPasswordbasedCryption,349,0,10,0,61,0,17,0,12,0
 JaCoCo Coverage Report,other.writeily.format,WrProportionalHeaderSpanCreator,13,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,other.writeily.format,WrProportionalHeaderSpanCreator.LargerHeaderSpan,39,0,0,0,12,0,3,0,3,0
 JaCoCo Coverage Report,other.writeily.format.markdown,WrMarkdownHeaderSpanCreator,73,0,8,0,16,0,9,0,5,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog,1095,0,146,0,217,0,93,0,20,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog.Adapter,320,0,46,0,56,0,31,0,8,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog.DialogState,25,0,0,0,8,0,2,0,2,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog.DialogOptions.SelectionMode,21,0,0,0,2,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog.new GsCallback.a1() {...},48,0,2,0,10,0,4,0,3,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog.DialogOptions,116,0,0,0,38,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsHorizontalScrollView,48,0,2,0,15,0,7,0,6,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsLinearSplitLayout,165,0,22,0,42,0,21,0,10,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.base,GsFragmentBase,171,0,18,0,49,0,24,0,15,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.base,GsPreferenceFragmentBase,926,0,144,0,222,0,121,0,49,0
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.base,GsActivityBase,155,126,31,7,46,33,28,9,10,8
-JaCoCo Coverage Report,net.gsantner.opoc.frontend.base,GsPreferenceFragmentBase.DividerDecoration,126,0,12,0,28,0,11,0,5,0
+JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog,103,992,42,104,14,203,37,56,5,15
+JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog.Adapter,20,300,8,38,3,53,9,22,2,6
+JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog.DialogState,0,25,0,0,0,8,0,2,0,2
+JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog.DialogOptions.SelectionMode,0,21,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog.new GsCallback.a1() {...},0,48,0,2,0,10,0,4,0,3
+JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsSearchOrCustomTextDialog.DialogOptions,0,116,0,0,0,38,0,1,0,1
+JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsHorizontalScrollView,32,16,1,1,10,5,5,2,4,2
+JaCoCo Coverage Report,net.gsantner.opoc.frontend,GsLinearSplitLayout,89,76,13,9,23,19,16,5,6,4
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.base,GsFragmentBase,38,133,9,9,9,40,9,15,2,13
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.base,GsPreferenceFragmentBase,247,679,63,81,57,165,55,66,9,40
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.base,GsActivityBase,56,225,14,24,19,60,15,22,4,14
+JaCoCo Coverage Report,net.gsantner.opoc.frontend.base,GsPreferenceFragmentBase.DividerDecoration,13,113,3,9,4,24,4,7,1,4
 JaCoCo Coverage Report,net.gsantner.markor.format.wikitext,WikitextLinkResolver.Patterns,59,0,0,0,10,0,2,0,2,0
 JaCoCo Coverage Report,net.gsantner.markor.format.wikitext,WikitextLinkResolver,383,0,48,0,90,0,41,0,17,0
 JaCoCo Coverage Report,net.gsantner.markor.format.wikitext,WikitextActionButtons,678,0,48,0,119,0,47,0,14,0
-JaCoCo Coverage Report,net.gsantner.markor.format.wikitext,WikitextTextConverter,583,0,26,0,96,0,32,0,19,0
+JaCoCo Coverage Report,net.gsantner.markor.format.wikitext,WikitextTextConverter,566,17,25,1,93,3,30,2,17,2
 JaCoCo Coverage Report,net.gsantner.markor.format.wikitext,WikitextReplacePatternGenerator,288,0,8,0,40,0,18,0,14,0
 JaCoCo Coverage Report,net.gsantner.markor.format.wikitext,WikitextSyntaxHighlighter,278,0,6,0,67,0,9,0,6,0
 JaCoCo Coverage Report,net.gsantner.markor.format.wikitext,WikitextSyntaxHighlighter.Colors,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,net.gsantner.markor.format.plaintext.highlight,Syntax.Rule,14,0,2,0,4,0,3,0,2,0
 JaCoCo Coverage Report,net.gsantner.markor.format.plaintext.highlight,CodeTheme.ThemeValue,16,0,2,0,4,0,3,0,2,0
 JaCoCo Coverage Report,net.gsantner.markor.format.plaintext.highlight,CodeTheme,3,0,0,0,1,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.format.plaintext.highlight,HighlightConfigLoader.SyntaxCache,107,0,12,0,24,0,9,0,3,0
+JaCoCo Coverage Report,net.gsantner.markor.format.plaintext.highlight,HighlightConfigLoader.SyntaxCache,94,13,12,0,21,3,8,1,2,1
 JaCoCo Coverage Report,net.gsantner.markor.format.plaintext.highlight,Syntax,3,0,0,0,1,0,1,0,1,0
-JaCoCo Coverage Report,net.gsantner.markor.format.plaintext.highlight,HighlightConfigLoader,141,0,8,0,27,0,10,0,6,0
+JaCoCo Coverage Report,net.gsantner.markor.format.plaintext.highlight,HighlightConfigLoader,123,18,8,0,23,4,9,1,5,1

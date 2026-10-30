@@ -1,55 +1,55 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
 JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto.otp,MOTP,67,0,0,0,14,0,5,0,5,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto.otp,OTP,80,0,4,0,18,0,7,0,5,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto.otp,TOTP,23,0,0,0,3,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto.otp,OTP,40,40,2,2,9,9,4,3,3,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto.otp,TOTP,9,14,0,0,1,2,1,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto.otp,YAOTP,145,0,4,0,29,0,6,0,4,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto.otp,HOTP,80,0,0,0,12,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto.otp,HOTP,0,80,0,0,0,12,0,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.icons,IconPack.MatchType,15,0,0,0,3,0,1,0,1,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.icons,IconType,85,0,12,0,20,0,13,0,4,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.icons,IconType,58,27,12,0,15,5,12,1,3,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.icons,IconPackException,8,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.icons,IconPackExistsException,24,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.icons,IconPack.Icon,134,0,14,0,36,0,16,0,9,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.icons,IconPackManager,452,34,57,1,96,10,37,3,8,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.icons,IconPackManager,446,40,56,2,95,11,36,4,7,4
 JaCoCo Coverage Report,com.beemdevelopment.aegis.icons,IconPack,201,0,22,0,45,0,23,0,12,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto,MasterKey,40,13,1,1,10,5,4,2,3,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto,MasterKey,53,0,2,0,15,0,6,0,5,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto,MasterKeyException,4,0,0,0,2,0,1,0,1,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto,KeyStoreHandle,175,0,8,0,57,0,11,0,7,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto,CryptResult,15,0,0,0,6,0,3,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto,SCryptParameters,27,0,0,0,10,0,5,0,5,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto,KeyStoreHandleException,8,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto,CryptParameters,58,0,0,0,16,0,5,0,5,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto,CryptoUtils,178,9,2,0,40,3,14,1,13,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.database,AuditLogDao_Impl,120,63,19,1,31,16,20,4,4,4
-JaCoCo Coverage Report,com.beemdevelopment.aegis.database,AuditLogRepository,76,13,0,0,25,5,9,2,9,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto,CryptoUtils,187,0,2,0,43,0,15,0,14,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.database,AuditLogDao_Impl,52,131,15,5,15,32,15,9,0,8
+JaCoCo Coverage Report,com.beemdevelopment.aegis.database,AuditLogRepository,55,34,0,0,18,12,6,5,6,5
 JaCoCo Coverage Report,com.beemdevelopment.aegis.database,AppDatabase_Impl,13,80,2,2,3,18,3,7,1,7
 JaCoCo Coverage Report,com.beemdevelopment.aegis.database,AppDatabase_Impl.new RoomOpenDelegate() {...},114,25,2,0,17,8,5,4,4,4
-JaCoCo Coverage Report,com.beemdevelopment.aegis.database,AuditLogEntry,44,0,0,0,17,0,7,0,7,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.database,AuditLogEntry,0,44,0,0,0,17,0,7,0,7
 JaCoCo Coverage Report,com.beemdevelopment.aegis.database,AppDatabase,0,3,0,0,0,1,0,1,0,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.database,AuditLogDao_Impl.new EntityInsertAdapter() {...},33,6,2,0,8,1,3,1,2,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.database,AuditLogDao_Impl.new EntityInsertAdapter() {...},5,34,1,1,1,8,1,3,0,3
 JaCoCo Coverage Report,dagger.hilt.android.internal.earlyentrypoint.codegen,_com_beemdevelopment_aegis_HiltWrapper_AegisApplicationBase_EntryPoint,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,dagger.hilt.android.internal.earlyentrypoint.codegen,_com_beemdevelopment_aegis_ui_LicensesActivity_PrefEntryPoint,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,dagger.hilt.android.internal.earlyentrypoint.codegen,_com_beemdevelopment_aegis_AegisApplicationBase_EntryPoint,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,dagger.hilt.android.internal.earlyentrypoint.codegen,_com_beemdevelopment_aegis_ui_AegisActivity_PrefEntryPoint,3,0,0,0,1,0,1,0,1,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.encoding,EncodingException,8,0,0,0,4,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.encoding,Base32,24,0,0,0,6,0,3,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.encoding,Base64,21,0,0,0,5,0,3,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.encoding,Hex,17,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.encoding,EncodingException,4,4,0,0,2,2,1,1,1,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.encoding,Base32,7,17,0,0,2,4,1,2,1,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.encoding,Base64,17,4,0,0,4,1,2,1,2,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.encoding,Hex,11,6,0,0,3,1,1,1,1,1
 JaCoCo Coverage Report,info.guardianproject,GuardianProjectRSA4096,5844,0,0,0,4,0,1,0,1,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.receivers,Hilt_VaultLockReceiver,29,11,4,0,9,3,4,1,2,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.receivers,VaultLockReceiver,28,13,8,0,7,3,5,2,1,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.receivers,QsTileRefreshReceiver,35,0,8,0,9,0,6,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.components,DropdownCheckBoxes.CheckboxAdapter,88,0,4,0,19,0,9,0,7,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.components,DropdownCheckBoxes,185,0,8,0,40,0,12,0,8,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.components,DropdownCheckBoxes.CheckboxAdapter.new Filter() {...},58,0,4,0,13,0,6,0,4,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.components,NoAutofillEditText,23,0,2,0,9,0,5,0,4,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.components,DropdownCheckBoxes.CheckboxAdapter,72,16,4,0,16,3,6,3,4,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.components,DropdownCheckBoxes,117,68,6,2,22,18,9,3,5,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.components,DropdownCheckBoxes.CheckboxAdapter.new Filter() {...},26,32,3,1,4,9,3,3,1,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.components,NoAutofillEditText,13,10,1,1,5,4,3,2,2,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.JacocoInstrument,SMSInstrumentedReceiver,0,24,1,1,0,7,1,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.JacocoInstrument,JacocoInstrumentation,72,112,12,6,16,28,11,6,2,6
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,ProtonAuthenticatorImporter,31,0,0,0,8,0,3,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,FreeOtpPlusImporter,68,0,4,0,16,0,5,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,DatabaseImporter.Definition,27,0,0,0,10,0,5,0,5,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,DatabaseImporter.Definition,0,27,0,0,0,10,0,5,0,5
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,StratumImporter.LegacyEncryptedState,150,0,0,0,35,0,9,0,9,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,BitwardenImporter.State,51,0,2,0,16,0,4,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,BattleNetImporter,96,0,8,0,27,0,8,0,4,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,BattleNetImporter,87,9,8,0,22,5,6,2,2,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,TwoFASImporter.EncryptedState,103,0,0,0,26,0,6,0,6,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,GoogleAuthUriImporter,47,0,4,0,13,0,5,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,AegisImporter.DecryptedState,141,0,12,0,40,0,12,0,6,0
@@ -63,12 +63,12 @@ JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,AndOtpImporter.Encryp
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,StratumImporter.EncryptedState,159,0,0,0,40,0,9,0,9,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,FreeOtpImporter,186,0,16,0,43,0,15,0,7,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,AegisImporter,34,0,2,0,10,0,4,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,DatabaseImporter,284,0,2,0,41,0,10,0,9,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,DatabaseImporter,47,237,0,2,11,30,3,7,3,6
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,AuthyImporter.EncryptedState,130,0,4,0,32,0,7,0,5,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,FreeOtpImporter.EncryptedState,248,0,6,0,51,0,12,0,9,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,TwoFASImporter.DecryptedState,159,0,12,0,35,0,9,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,AuthenticatorPlusImporter.EncryptedState,82,0,4,0,22,0,7,0,5,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,SteamImporter,115,0,10,0,27,0,10,0,5,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,SteamImporter,108,7,10,0,23,4,8,2,3,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,DuoImporter.DecryptedState,96,0,6,0,24,0,6,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,GoogleAuthImporter,76,0,2,0,19,0,6,0,5,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.importers,DuoImporter,30,0,0,0,7,0,3,0,3,0
@@ -118,56 +118,56 @@ JaCoCo Coverage Report,hilt_aggregated_deps,_com_beemdevelopment_aegis_AegisModu
 JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto.pins,GuardianProjectFDroidRSA2048,3488,0,0,0,4,0,1,0,1,0
 JaCoCo Coverage Report,com.bumptech.glide,GeneratedRequestManagerFactory,0,11,0,0,0,2,0,2,0,2
 JaCoCo Coverage Report,com.bumptech.glide,GeneratedAppGlideModuleImpl,11,28,1,1,3,9,2,5,1,5
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.models,AuditLogEntryModel,15,0,0,0,6,0,3,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.models,ErrorCardInfo,39,0,4,0,13,0,7,0,5,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.models,AuditLogEntryModel,0,15,0,0,0,6,0,3,0,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.models,ErrorCardInfo,7,32,1,3,2,11,2,5,1,4
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.models,ImportEntry,31,0,2,0,12,0,6,0,5,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.models,VaultGroupModel,62,0,6,0,16,0,11,0,8,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.models,VaultGroupModel,32,30,4,2,8,8,7,4,4,4
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.models,AssignIconEntry,26,0,2,0,11,0,6,0,5,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,SecuritySetupSlide.PasswordDerivationListener,37,0,0,0,11,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,WelcomeSlide.new DatabaseImporter.DecryptListener() {...},32,0,0,0,8,0,4,0,4,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,SecurityPickerSlide,40,86,10,6,8,23,9,6,1,6
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,DoneSlide,9,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,SecurityPickerSlide,43,83,11,5,9,22,9,6,1,6
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,DoneSlide,0,9,0,0,0,2,0,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,SecuritySetupSlide.BiometricsListener,43,0,2,0,13,0,4,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,SecuritySetupSlide.new SimpleTextWatcher.Listener() {...},7,23,0,0,2,2,1,1,1,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,SecuritySetupSlide,142,109,15,5,32,22,15,5,4,5
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,WelcomeSlide,112,57,7,1,29,16,7,5,3,5
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,SecuritySetupSlide.new SimpleTextWatcher.Listener() {...},30,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,SecuritySetupSlide,251,0,20,0,54,0,20,0,9,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.slides,WelcomeSlide,132,37,8,0,36,9,9,3,5,3
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultBackupPermissionException,4,0,0,0,2,0,1,0,1,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultBackupManager.BackupFile,17,0,0,0,6,0,3,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,Vault,284,0,30,0,72,0,27,0,12,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultBackupManager.FileInfo,160,0,10,0,33,0,15,0,10,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,Vault,117,167,17,13,31,41,17,10,4,8
+JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultBackupManager.FileInfo,114,46,10,0,23,10,11,4,6,4
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultBackupManager.FileComparator,8,0,0,0,1,0,1,0,1,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultEntry,450,0,40,0,111,0,54,0,34,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultEntry,118,332,19,21,31,80,24,30,8,26
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultRepositoryException,8,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultBackupManager,409,37,40,0,81,9,27,2,7,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultException,8,0,0,0,4,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultFile.Header,97,0,12,0,20,0,12,0,6,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultFile.Header,43,54,6,6,9,11,8,4,2,4
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultEntryException,8,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultBackupManager.StrictDateFormat,32,8,8,0,8,3,5,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultEntryIconException,8,0,0,0,4,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultManager,327,81,46,4,95,22,42,8,17,8
+JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultManager,245,163,33,17,73,44,32,18,11,14
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultFileException,8,0,0,0,4,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultFile,226,0,8,0,55,0,17,0,13,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultFile,125,101,5,3,30,25,8,9,4,9
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultGroup,92,0,6,0,26,0,11,0,8,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultFileCredentials,39,11,0,0,10,4,7,1,7,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultRepository,561,19,43,1,145,3,62,2,40,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultFileCredentials,50,0,0,0,14,0,8,0,8,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultRepository,385,195,34,10,96,52,45,19,25,17
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultHtmlExporter,241,0,10,0,64,0,9,0,4,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultEntryIcon,162,0,14,0,40,0,17,0,10,0
-JaCoCo Coverage Report,com.amulyakhare.textdrawable.util,ColorGenerator,183,0,0,0,36,0,5,0,5,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,LicenseDialog,35,0,0,0,6,0,3,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,SimpleWebViewDialog,139,0,0,0,37,0,7,0,7,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.vault,VaultEntryIcon,142,20,11,3,34,6,15,2,8,2
+JaCoCo Coverage Report,com.amulyakhare.textdrawable.util,ColorGenerator,12,171,0,0,1,35,1,4,1,4
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,LicenseDialog,0,35,0,0,0,6,0,3,0,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,SimpleWebViewDialog,25,114,0,0,9,28,0,7,0,7
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,IconPickerDialog.new TextWatcher() {...},21,0,2,0,6,0,5,0,4,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,IconPickerDialog.new IconAdapter.Listener() {...},24,0,0,0,7,0,3,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,IconPickerDialog.new GridLayoutManager.SpanSizeLookup() {...},21,0,2,0,4,0,3,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,IconPickerDialog,208,0,6,0,46,0,7,0,4,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,IconPickerDialog.new ListPreloader.PreloadModelProvider() {...},30,0,0,0,6,0,3,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,Dialogs,1680,13,83,1,422,5,110,2,68,2
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,ChangelogDialog,27,0,0,0,5,0,3,0,3,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,Dialogs,1172,521,73,11,299,128,89,23,50,20
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.dialogs,ChangelogDialog,0,27,0,0,0,5,0,3,0,3
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,Argon2Task,54,0,0,0,14,0,4,0,4,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,ExportTask,62,0,2,0,17,0,4,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,ImportIconPackTask.Result,15,0,0,0,6,0,3,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,QrDecodeTask,121,0,6,0,24,0,6,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,ImportFileTask.Result,44,0,2,0,13,0,6,0,5,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,ProgressDialogTask,78,0,6,0,26,0,10,0,7,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,ProgressDialogTask,33,45,5,1,11,15,7,3,4,3
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,PBKDFTask.Params,33,0,0,0,12,0,6,0,6,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,ImportFileTask.Params,21,0,0,0,8,0,4,0,4,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,IconOptimizationTask,114,0,10,0,25,0,8,0,3,0
@@ -187,94 +187,94 @@ JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,QrDecodeTask.Result,27
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,ProgressDialogTask.Observer,20,0,4,0,7,0,4,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.tasks,PasswordSlotDecryptTask.Result,27,0,0,0,10,0,5,0,5,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView.TileSpaceItemDecoration,82,0,14,0,17,0,10,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView.IconPreloadProvider,45,6,6,0,11,1,5,1,2,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView.IconPreloadProvider,36,15,5,1,9,3,4,2,1,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,IconCategoryHolder,46,0,2,0,13,0,5,0,4,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,IconAdapter.DummyIcon,9,0,0,0,3,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,IconPackHolder,66,0,0,0,10,0,3,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,IconHolder,66,0,2,0,17,0,4,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,GroupAdapter,158,0,6,0,43,0,17,0,14,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.new View.OnTouchListener() {...},30,0,4,0,6,0,4,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.new View.OnLongClickListener() {...},65,0,6,0,9,0,5,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.new View.OnClickListener() {...},42,0,0,0,9,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.new View.OnClickListener() {...},182,0,27,0,30,0,17,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,TotpProgressBar,162,12,3,1,33,5,9,2,7,2
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,ErrorCardHolder,22,0,0,0,6,0,1,0,1,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.new View.OnTouchListener() {...},8,22,1,3,2,4,1,3,0,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.new View.OnLongClickListener() {...},0,65,2,4,0,9,2,3,0,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.new View.OnClickListener() {...},30,12,0,0,8,1,1,1,1,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.new View.OnClickListener() {...},129,53,21,6,21,9,15,2,1,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,TotpProgressBar,32,142,1,3,6,32,4,7,3,6
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,ErrorCardHolder,0,22,0,0,0,6,0,1,0,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,GroupHolder,38,0,0,0,11,0,4,0,4,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,IconPackAdapter,73,15,4,0,19,5,7,2,5,2
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryHolder.new UiRefresher.Listener() {...},28,0,0,0,6,0,5,0,5,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,ImportEntriesAdapter,148,0,18,0,39,0,19,0,10,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryHolder.new UiRefresher.Listener() {...},5,23,0,0,3,3,2,3,2,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,ImportEntriesAdapter,136,12,18,0,35,4,17,2,8,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,AssignIconAdapter,71,0,0,0,17,0,6,0,6,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView,406,357,56,6,119,99,61,30,31,29
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView.VerticalSpaceItemDecoration,175,57,33,1,36,13,19,2,2,2
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.DiffCallback,86,69,19,7,14,12,13,5,0,5
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,AuditLogAdapter,50,17,2,0,14,5,5,2,4,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView,180,583,35,27,48,170,34,57,12,48
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView.VerticalSpaceItemDecoration,54,178,18,16,8,41,11,10,0,4
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.DiffCallback,2,153,6,20,1,25,6,12,0,5
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,AuditLogAdapter,9,58,1,1,3,16,2,5,1,5
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,IconAdapter.CategoryHeader,37,0,0,0,14,0,7,0,7,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,AssignIconHolder,120,0,4,0,24,0,8,0,6,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,IconRecyclerView,99,0,4,0,25,0,9,0,7,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView.new RecyclerView.OnScrollListener() {...},16,6,2,0,4,1,2,1,1,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView.new UiRefresher.Listener() {...},36,6,0,0,7,1,4,1,4,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView.new RecyclerView.OnScrollListener() {...},0,22,1,1,0,5,1,2,0,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView.new UiRefresher.Listener() {...},0,42,0,0,0,8,0,5,0,5
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView.new GridLayoutManager.SpanSizeLookup() {...},14,13,5,1,3,3,3,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryListView.new RecyclerView.OnScrollListener() {...},42,0,6,0,11,0,7,0,4,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.FooterView,72,0,2,0,14,0,3,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.FooterView,0,72,1,1,0,14,1,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,ImportEntryHolder,93,0,6,0,15,0,8,0,5,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter,1220,278,204,16,246,85,149,30,41,28
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,AuditLogHolder,273,0,26,0,62,0,24,0,6,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.EntryList,30,61,14,4,11,16,11,9,2,9
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter,323,1175,85,135,64,267,72,107,11,58
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,AuditLogHolder,105,168,19,7,26,36,18,6,0,6
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryAdapter.EntryList,4,87,3,15,2,25,3,17,0,11
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,IconAdapter,487,0,54,0,116,0,47,0,20,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryHolder,1230,0,110,0,275,0,93,0,37,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,GoogleAuthInfo,780,0,94,0,168,0,61,0,10,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.views,EntryHolder,599,631,58,52,119,156,54,39,9,28
+JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,GoogleAuthInfo,747,33,94,0,158,10,56,5,5,5
 JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,YandexInfo,325,0,38,0,81,0,31,0,12,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,OtpInfoException,8,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,SteamInfo,59,0,0,0,12,0,5,0,5,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,TotpInfo,136,0,12,0,34,0,18,0,12,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,GoogleAuthInfo.Export,296,0,27,0,71,0,24,0,8,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,OtpInfo,316,0,44,0,70,0,39,0,15,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,TotpInfo,31,105,6,6,7,27,6,12,0,12
+JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,GoogleAuthInfo.Export,172,124,22,5,38,33,21,3,6,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,OtpInfo,151,165,31,13,25,45,23,16,0,15
 JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,MotpInfo,95,0,8,0,25,0,12,0,8,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,GoogleAuthInfoException,74,0,14,0,15,0,12,0,5,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.otp,HotpInfo,123,0,10,0,32,0,16,0,11,0
-JaCoCo Coverage Report,com.amulyakhare.textdrawable,TextDrawable,289,0,14,0,56,0,17,0,10,0
-JaCoCo Coverage Report,com.amulyakhare.textdrawable,TextDrawable.Builder,191,0,0,0,48,0,18,0,18,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.intro,IntroBaseActivity.BackPressHandler,0,11,0,0,0,5,0,2,0,2
+JaCoCo Coverage Report,com.amulyakhare.textdrawable,TextDrawable,74,215,9,5,13,43,10,7,3,7
+JaCoCo Coverage Report,com.amulyakhare.textdrawable,TextDrawable.Builder,111,80,0,0,22,26,10,8,10,8
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.intro,IntroBaseActivity.BackPressHandler,4,7,0,0,2,3,1,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.intro,IntroBaseActivity.ScreenSlidePagerAdapter,6,25,0,0,2,6,0,3,0,3
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.intro,IntroBaseActivity,60,289,10,16,14,67,13,17,4,13
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.intro,SlideFragment,25,42,3,3,10,12,8,6,5,6
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.intro,IntroBaseActivity,74,275,10,16,16,65,14,16,6,11
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.intro,SlideFragment,29,38,3,3,11,11,9,5,6,5
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.intro,IntroBaseActivity.SlideSkipBlocker,17,6,2,0,4,1,2,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.intro,SlideIndicator,66,192,10,12,6,36,9,7,0,5
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.preferences,SwitchPreference,49,0,4,0,19,0,9,0,7,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.preferences,SwitchPreference,22,27,2,2,8,11,6,3,4,3
 JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto.bc,SCrypt,477,0,44,0,92,0,32,0,10,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.crypto.bc,Salsa20Engine,480,0,8,0,72,0,5,0,1,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers.comparators,FavoriteComparator,8,3,0,0,1,1,1,1,1,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers.comparators,AccountNameComparator,9,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers.comparators,FavoriteComparator,0,11,0,0,0,2,0,2,0,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers.comparators,AccountNameComparator,6,3,0,0,1,1,1,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers.comparators,UsageCountComparator,9,0,0,0,2,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers.comparators,IssuerNameComparator,9,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers.comparators,IssuerNameComparator,6,3,0,0,1,1,1,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers.comparators,LastUsedComparator,6,3,0,0,1,1,1,1,1,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,SimpleItemTouchHelperCallback,117,23,20,0,37,10,17,3,7,3
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,SimpleTextWatcher,10,6,2,0,5,3,4,1,3,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,SimpleItemTouchHelperCallback,51,89,9,11,15,32,10,10,2,8
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,SimpleTextWatcher,0,16,1,1,0,8,1,4,0,4
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,UiThreadExecutor,15,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,SafHelper,72,0,18,0,17,0,11,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,SimpleAnimationEndListener,16,0,2,0,8,0,5,0,4,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,AnimationsHelper,29,18,0,0,6,4,3,1,3,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,TextDrawableHelper,157,0,10,0,36,0,8,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,VibrationHelper,47,9,10,0,16,3,7,1,2,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,SimpleAnimationEndListener,1,15,1,1,1,7,2,3,1,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,AnimationsHelper,0,47,0,0,0,10,0,4,0,4
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,TextDrawableHelper,2,155,3,7,1,35,3,5,0,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,VibrationHelper,19,37,6,4,7,12,5,3,0,3
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,BitmapHelper,120,0,16,0,24,0,11,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,FabScrollHelper,60,30,13,1,13,11,8,2,1,2
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,FabMenuHelper,15,351,7,13,7,103,9,22,3,18
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,FabScrollHelper,53,37,11,3,10,14,7,3,0,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,FabMenuHelper,8,358,6,14,3,107,8,23,2,19
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,AnimationsHelper.Scale,1,41,1,1,0,8,1,4,0,4
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,EditTextHelper,6,27,3,1,0,7,2,2,0,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,EditTextHelper,2,31,1,3,0,7,1,3,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,ViewHelper,0,21,0,0,0,5,0,2,0,2
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,UiRefresher,56,25,4,0,13,10,5,3,3,3
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,DropdownHelper,20,0,0,0,6,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,UiRefresher,0,81,0,4,0,23,0,8,0,6
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,DropdownHelper,11,9,0,0,3,3,1,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,FabScrollHelper.new AnimatorListenerAdapter() {...},0,14,0,0,0,4,0,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,FabScrollHelper.new AnimatorListenerAdapter() {...},19,0,0,0,5,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,ThemeHelper,39,47,11,3,7,14,7,3,0,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,ThemeHelper,36,50,8,6,7,14,5,5,0,3
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,CenterVerticalSpan,34,0,0,0,10,0,4,0,4,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,QrCodeAnalyzer,86,0,4,0,26,0,5,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,BiometricSlotInitializer,165,0,8,0,54,0,14,0,10,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,UiRefresher.new Runnable() {...},20,0,0,0,4,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,UiRefresher.new Runnable() {...},21,0,0,0,4,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,PasswordStrengthHelper,102,44,14,0,19,8,10,2,3,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,UiRefresher.new Runnable() {...},0,20,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,UiRefresher.new Runnable() {...},0,21,0,0,0,4,0,2,0,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,PasswordStrengthHelper,19,127,5,9,4,23,5,7,0,5
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,ContextHelper,26,0,6,0,7,0,5,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,QrCodeHelper,173,0,12,0,29,0,9,0,3,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,QrCodeHelper,110,63,6,6,19,10,5,4,2,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,PermissionHelper,79,0,14,0,14,0,10,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,QrCodeHelper.DecodeError,8,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.helpers,BiometricsHelper,17,14,8,2,2,4,6,2,1,2
@@ -286,7 +286,7 @@ JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.glide,VaultEntryIconLoader,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.glide,AegisGlideModule,29,3,0,0,5,1,1,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.glide,VaultEntryIconKey,21,0,0,0,7,0,4,0,4,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.glide,GlideHelper.ViewReadyListener,25,0,4,0,9,0,5,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.glide,GlideHelper,99,0,8,0,26,0,11,0,7,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.glide,GlideHelper,71,28,6,2,17,9,9,2,5,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.glide,SvgDecoder,41,0,6,0,10,0,6,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.glide,VaultEntryIconLoader.Factory,8,0,0,0,3,0,3,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.glide,VaultEntryIconLoader.Fetcher,23,0,0,0,11,0,6,0,6,0
@@ -300,17 +300,17 @@ JaCoCo Coverage Report,com.beemdevelopment.aegis.services,LaunchScannerTileServi
 JaCoCo Coverage Report,com.beemdevelopment.aegis.services,LaunchAppTileService,51,0,4,0,18,0,5,0,3,0
 JaCoCo Coverage Report,dagger.hilt.internal.processedrootsentinel.codegen,_com_beemdevelopment_aegis_AegisApplication,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AssignIconsActivity,397,0,24,0,94,0,23,0,11,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AboutActivity,340,0,8,0,82,0,24,0,20,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AboutActivity,49,291,5,3,12,70,7,17,3,17
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,MainActivity.ActionModeBackPressHandler,9,7,2,0,3,3,2,1,1,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,EditEntryActivity.BackPressHandler,11,0,0,0,5,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,MainActivity.new SearchView.OnQueryTextListener() {...},71,6,8,0,14,1,6,1,2,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,EditEntryActivity.BackPressHandler,4,7,0,0,2,3,1,1,1,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,MainActivity.new SearchView.OnQueryTextListener() {...},35,42,2,6,8,7,3,4,1,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,ScannerActivity,507,0,47,0,123,0,40,0,16,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,Hilt_AegisActivity,19,98,4,8,4,31,6,11,2,9
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AssignIconsActivity.BackPressHandler,11,0,0,0,5,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AuthActivity,604,0,52,0,162,0,45,0,19,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,GroupManagerActivity,433,0,34,0,113,0,33,0,16,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,ExitActivity,23,0,0,0,8,0,3,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,EditEntryActivity,2440,0,190,0,561,0,156,0,57,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,EditEntryActivity,1534,906,144,46,367,194,138,18,41,16
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AssignIconsActivity.SpacesItemDecoration,33,0,2,0,9,0,3,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,MainActivity.LockBackPressHandler,12,7,2,0,3,3,2,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,GroupManagerActivity.BackPressHandler,11,0,0,0,5,0,2,0,2,0
@@ -319,94 +319,94 @@ JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,EditEntryActivity.new Custom
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,GroupManagerActivity.new ItemTouchHelper.Callback() {...},25,0,0,0,7,0,4,0,4,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,MainActivity.FabMenuBackPressHandler,14,7,4,0,3,3,3,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,MainActivity.SearchViewBackPressHandler,35,7,4,0,8,3,3,1,1,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,PreferencesActivity,39,152,7,7,10,44,6,8,0,7
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,PreferencesActivity,11,180,4,10,4,50,4,10,0,7
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,PreferencesActivity.FragmentResumeListener,0,31,0,4,0,7,0,4,0,2
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,EditEntryActivity.IconBackPressHandler,12,0,0,0,5,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,LicensesActivity,40,0,0,0,11,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,EditEntryActivity.IconBackPressHandler,5,7,0,0,2,3,1,1,1,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,LicensesActivity,0,40,0,0,0,11,0,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,ImportEntriesActivity.new DatabaseImporter.DecryptListener() {...},29,0,0,0,8,0,5,0,5,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,ImportEntriesActivity.new Snackbar.Callback() {...},64,0,0,0,15,0,3,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,ImportEntriesActivity.new View.OnClickListener() {...},17,0,0,0,3,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,ImportEntriesActivity.new RecyclerView.OnScrollListener() {...},18,0,0,0,4,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,ImportEntriesActivity.new RecyclerView.OnScrollListener() {...},12,6,0,0,3,1,1,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,EditEntryActivity.CustomSvgIcon,16,0,0,0,5,0,3,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,TransferEntriesActivity,416,0,30,0,101,0,25,0,10,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,TransferEntriesActivity,144,272,20,10,40,61,17,8,3,7
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AuthActivity.BackPressHandler,15,0,0,0,6,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AegisActivity.ActionModeStatusGuardHack,81,29,18,0,24,7,10,1,1,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,MainActivity.ActionModeCallbacks,291,6,28,0,60,1,20,1,6,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AegisActivity.ActionModeStatusGuardHack,5,105,7,11,5,26,7,4,0,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,MainActivity.ActionModeCallbacks,167,130,19,9,32,29,13,8,1,6
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AssignIconsActivity.EntryIconPreloadProvider,35,0,2,0,8,0,4,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,Hilt_AegisActivity.new OnContextAvailableListener() {...},0,10,0,0,0,3,0,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AssignIconsActivity.new IconAdapter.Listener() {...},15,0,0,0,4,0,3,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,MainActivity,2614,642,307,27,650,150,255,19,90,16
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,IntroActivity,128,68,25,11,35,18,15,8,1,4
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,ImportEntriesActivity,854,0,76,0,207,0,64,0,26,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,MainActivity,1799,1457,234,100,432,368,204,70,55,51
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,IntroActivity,76,120,19,17,20,33,14,9,0,5
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,ImportEntriesActivity,653,201,69,7,158,49,56,8,19,7
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AuthActivity.BiometricPromptListener,67,0,2,0,20,0,5,0,4,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,TransferEntriesActivity.new ViewTreeObserver.OnGlobalLayoutListener() {...},50,0,2,0,11,0,3,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,TransferEntriesActivity.new ViewTreeObserver.OnGlobalLayoutListener() {...},23,27,1,1,5,6,1,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AssignIconsActivity.IconPreloadProvider,34,0,2,0,8,0,4,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AuthActivity.PasswordDerivationListener,48,0,6,0,11,0,5,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,PanicResponderActivity,64,0,8,0,23,0,7,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,EditEntryActivity.ParseException,4,0,0,0,2,0,1,0,1,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AegisActivity,84,120,6,8,25,32,11,9,5,8
-JaCoCo Coverage Report,com.beemdevelopment.aegis,BackupsVersioningStrategy,21,0,0,0,4,0,1,0,1,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,EditEntryActivity.ParseException,0,4,0,0,0,2,0,1,0,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui,AegisActivity,81,123,6,8,22,35,8,12,2,11
+JaCoCo Coverage Report,com.beemdevelopment.aegis,BackupsVersioningStrategy,0,21,0,0,0,4,0,1,0,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.FragmentCBuilder,0,35,0,0,0,9,0,3,0,3
-JaCoCo Coverage Report,com.beemdevelopment.aegis,ViewMode,33,48,9,4,11,14,9,5,2,4
-JaCoCo Coverage Report,com.beemdevelopment.aegis,GroupPlaceholderType,44,0,4,0,9,0,5,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis,ViewMode,10,71,5,8,5,20,5,9,0,6
+JaCoCo Coverage Report,com.beemdevelopment.aegis,GroupPlaceholderType,16,28,3,1,3,6,3,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplication_HiltComponents.ViewC,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ActivityCImpl,30,50,0,0,4,12,4,4,4,4
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplicationBase.AppLifecycleObserver,10,16,3,3,2,4,2,3,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis,CopyBehavior,0,27,0,0,0,7,0,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis,Preferences.BackupResult,119,0,6,0,28,0,14,0,11,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ViewModelCImpl,16,0,0,0,7,0,3,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis,EventType,72,0,8,0,20,0,10,0,3,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis,EventType,18,54,7,1,8,12,8,2,1,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplication_HiltComponents.FragmentC,0,3,0,0,0,1,0,1,0,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.OtpParameters.Builder,228,0,0,0,71,0,32,0,32,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.DigitCount.new Internal.EnumLiteMap() {...},6,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.OtpParameters.Builder,170,58,0,0,51,20,25,7,25,7
+JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.DigitCount.new Internal.EnumLiteMap() {...},3,3,0,0,1,1,1,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ViewWithFragmentCBuilder,40,0,0,0,10,0,3,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisModule,3,32,0,0,1,7,1,5,1,5
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.Builder,0,17,0,0,0,4,0,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplication_ComponentTreeDeps,3,0,0,0,1,0,1,0,1,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.Algorithm.new Internal.EnumLiteMap() {...},6,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.Algorithm.new Internal.EnumLiteMap() {...},3,3,0,0,1,1,1,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.OtpType.OtpTypeVerifier,12,0,2,0,2,0,3,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.SingletonCImpl.SwitchingProvider,6,42,1,4,1,9,1,5,0,2
-JaCoCo Coverage Report,com.beemdevelopment.aegis,PassReminderFreq,78,0,10,0,24,0,12,0,4,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis,PassReminderFreq,34,44,9,1,15,9,9,3,1,3
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ActivityRetainedCImpl.SwitchingProvider,6,17,1,1,1,7,1,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisBackupAgent,294,0,22,0,66,0,23,0,12,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ViewWithFragmentCImpl,18,0,0,0,7,0,1,0,1,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.Algorithm.AlgorithmVerifier,12,0,2,0,2,0,3,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplication_HiltComponents.ServiceC,3,0,0,0,1,0,1,0,1,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis,Preferences.CodeGrouping,3,46,0,0,1,9,1,2,1,2
+JaCoCo Coverage Report,com.beemdevelopment.aegis,Preferences.CodeGrouping,0,49,0,0,0,10,0,3,0,3
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ServiceCImpl,9,0,0,0,4,0,1,0,1,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.Algorithm,89,0,8,0,24,0,13,0,7,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.DigitCount,71,0,6,0,20,0,11,0,7,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.Algorithm,26,63,7,1,11,13,10,3,4,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.DigitCount,22,49,5,1,9,11,8,3,4,3
 JaCoCo Coverage Report,com.beemdevelopment.aegis,BuildConfig,12,0,0,0,3,0,2,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.OtpType,71,0,6,0,20,0,11,0,7,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.Builder,204,0,0,0,64,0,26,0,26,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.OtpType,22,49,5,1,9,11,8,3,4,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.Builder,155,49,0,0,47,17,20,6,20,6
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ViewCBuilder,35,0,0,0,9,0,3,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis,Hilt_AegisApplication,0,41,1,1,0,12,1,5,0,5
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ActivityCBuilder,0,30,0,0,0,8,0,3,0,3
-JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload,333,0,16,0,95,0,55,0,44,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload,215,118,11,5,62,33,42,13,34,10
 JaCoCo Coverage Report,com.beemdevelopment.aegis,Theme,0,39,0,0,0,9,0,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis,Hilt_AegisApplication.new ComponentSupplier() {...},0,15,0,0,0,4,0,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ServiceCBuilder,25,0,0,0,7,0,3,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.OtpParameters,344,0,18,0,102,0,62,0,50,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.OtpParameters,228,116,14,4,70,32,49,13,40,10
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplication_HiltComponents.SingletonC,0,3,0,0,0,1,0,1,0,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AccountNamePosition,0,27,0,0,0,7,0,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ActivityRetainedCBuilder,0,25,0,0,0,7,0,3,0,3
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.SingletonCImpl,19,68,0,0,5,15,3,7,3,7
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplication_HiltComponents.ActivityC,0,3,0,0,0,1,0,1,0,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplication_HiltComponents.ViewModelC,3,0,0,0,1,0,1,0,1,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis,Preferences,860,318,83,15,198,59,107,35,60,33
+JaCoCo Coverage Report,com.beemdevelopment.aegis,Preferences,411,767,51,47,97,160,65,77,27,66
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplicationBase,33,100,4,2,10,27,4,4,1,4
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplication,0,3,0,0,0,1,0,1,0,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.OtpType.new Internal.EnumLiteMap() {...},6,0,0,0,2,0,2,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.OtpType.new Internal.EnumLiteMap() {...},3,3,0,0,1,1,1,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis,ThemeMap,0,12,0,0,0,4,0,1,0,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos.MigrationPayload.DigitCount.DigitCountVerifier,12,0,2,0,2,0,3,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplication_HiltComponents.ViewWithFragmentC,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ActivityRetainedCImpl,0,37,0,0,0,9,0,4,0,4
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ViewModelCBuilder,43,0,0,0,11,0,4,0,4,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.ViewCImpl,15,0,0,0,6,0,1,0,1,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis,VibrationPatterns,74,0,0,0,4,0,3,0,3,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis,VibrationPatterns,3,71,0,0,1,3,1,2,1,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis,DaggerAegisApplication_HiltComponents_SingletonC.FragmentCImpl,16,83,0,0,2,22,2,7,2,7
 JaCoCo Coverage Report,com.beemdevelopment.aegis,AegisApplication_HiltComponents.ActivityRetainedC,0,3,0,0,0,1,0,1,0,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis,SortCategory,56,74,12,3,16,18,12,5,0,4
+JaCoCo Coverage Report,com.beemdevelopment.aegis,SortCategory,35,95,8,7,11,23,8,9,0,4
 JaCoCo Coverage Report,com.beemdevelopment.aegis,GoogleAuthProtos,2,0,0,0,2,0,2,0,2,0
 JaCoCo Coverage Report,dagger.hilt.internal.aggregatedroot.codegen,_com_beemdevelopment_aegis_AegisApplication,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault.slots,SlotException,8,0,0,0,4,0,2,0,2,0
@@ -415,36 +415,36 @@ JaCoCo Coverage Report,com.beemdevelopment.aegis.vault.slots,RawSlot,11,0,0,0,5,
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault.slots,SlotListException,8,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault.slots,BiometricSlot,11,0,0,0,5,0,3,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault.slots,PasswordSlot,109,0,0,0,30,0,11,0,11,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.vault.slots,SlotList,195,3,32,0,49,1,25,1,9,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.vault.slots,SlotList,198,0,32,0,50,0,26,0,10,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.vault.slots,SlotIntegrityException,7,0,0,0,4,0,2,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.util,JsonUtils,11,0,2,0,1,0,2,0,1,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.util,IOUtils,57,30,5,5,13,7,7,2,3,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.util,IOUtils,30,57,1,9,7,13,3,6,2,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.util,CollectionUtils,16,0,2,0,6,0,3,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.util,Cloner,33,0,0,0,8,0,1,0,1,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.util,Cloner,6,27,0,0,2,6,0,1,0,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.util,PreferenceParser.XmlEntry,3,0,0,0,1,0,1,0,1,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.util,PreferenceParser,98,0,15,0,33,0,12,0,4,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.util,UUIDMap.Value,34,0,4,0,13,0,7,0,5,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.util,ClipboardUtils,45,0,10,0,16,0,7,0,2,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.util,UUIDMap.Value,6,28,1,3,3,10,2,5,1,4
+JaCoCo Coverage Report,com.beemdevelopment.aegis.util,ClipboardUtils,31,14,8,2,10,6,6,1,1,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.util,TimeUtils,98,0,8,0,17,0,6,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.util,UUIDMap,196,8,16,0,39,2,18,1,10,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.util,UUIDMap,138,66,14,2,25,16,11,8,3,8
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,Hilt_AuditLogPreferencesFragment,27,114,8,8,4,34,8,12,2,10
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,SecurityPreferencesFragment.RegisterBiometricsListener,55,0,2,0,16,0,4,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,SecurityPreferencesFragment.SetPasswordListener,83,0,4,0,22,0,5,0,3,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,BehaviorPreferencesFragment,331,0,24,0,66,0,21,0,9,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,BehaviorPreferencesFragment,2,329,4,20,0,66,4,17,0,9
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,SecurityPreferencesFragment.SetBackupPasswordListener,74,0,2,0,21,0,4,0,3,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,ImportExportPreferencesFragment.ExportResultListener,36,0,2,0,8,0,3,0,2,0
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,IconPacksManagerFragment.new RecyclerView.OnScrollListener() {...},12,6,0,0,3,1,1,1,1,1
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,SecurityPreferencesFragment,856,0,48,0,197,0,49,0,25,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,SecurityPreferencesFragment,517,339,36,12,124,73,35,14,15,10
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,Hilt_PreferencesFragment,16,113,8,8,2,33,7,12,1,10
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,ImportExportPreferencesFragment.new Dialogs.PasswordSlotListener() {...},60,0,2,0,15,0,5,0,4,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,AppearancePreferencesFragment,235,360,7,5,51,67,16,7,10,7
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,ImportExportPreferencesFragment,1358,0,145,0,306,0,117,0,43,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,AuditLogPreferencesFragment,52,78,6,2,11,17,5,3,1,3
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,PreferencesFragment,55,43,3,3,14,14,5,5,2,5
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,ImportExportPreferencesFragment.new Dialogs.PasswordSlotListener() {...},48,12,2,0,14,1,4,1,3,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,AppearancePreferencesFragment,195,400,7,5,39,79,14,9,8,9
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,ImportExportPreferencesFragment,530,828,82,63,119,187,74,43,14,29
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,AuditLogPreferencesFragment,31,99,3,5,6,22,3,5,1,3
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,PreferencesFragment,49,49,2,4,12,16,4,6,2,5
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,Hilt_IconPacksManagerFragment,27,114,8,8,4,34,8,12,2,10
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,SecurityPreferencesFragment.EnableEncryptionListener,48,0,0,0,15,0,3,0,3,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,SecurityPreferencesFragment.EnableEncryptionListener,42,6,0,0,14,1,2,1,2,1
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,SecurityPreferencesFragment.PasswordConfirmationListener,40,0,2,0,12,0,3,0,2,0
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,AuditLogPreferencesFragment.SpacesItemDecoration,21,13,2,0,6,3,2,1,1,1
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,AuditLogPreferencesFragment.SpacesItemDecoration,0,34,1,1,0,9,1,2,0,2
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,IconPacksManagerFragment,201,146,14,4,52,34,16,7,7,7
 JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,MainPreferencesFragment,0,7,0,0,0,3,0,2,0,2
-JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,BackupsPreferencesFragment,726,0,76,0,185,0,65,0,27,0
+JaCoCo Coverage Report,com.beemdevelopment.aegis.ui.fragments.preferences,BackupsPreferencesFragment,441,285,62,14,113,72,54,11,18,9

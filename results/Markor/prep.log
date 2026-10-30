@@ -1,0 +1,73 @@
+top: net.gsantner.markor_test/net.gsantner.markor.activity.MainActivity
+  navigation_bar_frame                                                                             com.android.systemui
+  navigation_inflater                                                                              com.android.systemui
+  rot0                                                                                             com.android.systemui
+  deadzone                                                                                         com.android.systemui
+  nav_buttons                                                                                      com.android.systemui
+  center_group                                                                                     com.android.systemui
+  home                                                              Home                           com.android.systemui
+  ends_group                                                                                       com.android.systemui
+  back                                                              Back                           com.android.systemui
+  recent_apps                                                       Overview                       com.android.systemui
+  action_bar_root                                                                                  net.gsantner.markor_test
+  content                                                                                          net.gsantner.markor_test
+  main_content                                                                                     net.gsantner.markor_test
+  appbar                                                                                           net.gsantner.markor_test
+  toolbar                                                                                          net.gsantner.markor_test
+                                 Marder                                                            net.gsantner.markor_test
+  action_go_to                                                      Go to                          net.gsantner.markor_test
+  action_sort                                                       Sort by                        net.gsantner.markor_test
+  action_search                                                     Search                         net.gsantner.markor_test
+                                                                    More options                   net.gsantner.markor_test
+  main__view_pager_container                                                                       net.gsantner.markor_test
+  ui__filesystem_dialog__root                                                                      net.gsantner.markor_test
+  pull_to_refresh                                                                                  net.gsantner.markor_test
+  ui__filesystem_dialog__list                                                                      net.gsantner.markor_test
+  opoc_filesystem_item__root                                        Folder Documents /storage/emul net.gsantner.markor_test
+  opoc_filesystem_item__image                                                                      net.gsantner.markor_test
+  opoc_filesystem_item__title    ..                                                                net.gsantner.markor_test
+  opoc_filesystem_item__description /storage/emulated/0/Documents                                     net.gsantner.markor_test
+  empty_hint                     ¯\_(ツ)_/¯                                                         net.gsantner.markor_test
+  fab_add_new_item                                                  Create a new file or folder    net.gsantner.markor_test
+  bottom_navigation_bar                                                                            net.gsantner.markor_test
+  nav_notebook                                                      Files                          net.gsantner.markor_test
+  navigation_bar_item_icon_container                                                                   net.gsantner.markor_test
+  navigation_bar_item_icon_view                                                                    net.gsantner.markor_test
+  navigation_bar_item_labels_group                                                                   net.gsantner.markor_test
+  navigation_bar_item_large_label_view Files                                                             net.gsantner.markor_test
+  nav_todo                                                          To-Do                          net.gsantner.markor_test
+  navigation_bar_item_labels_group                                                                   net.gsantner.markor_test
+  navigation_bar_item_small_label_view To-Do                                                             net.gsantner.markor_test
+  navigation_bar_item_icon_container                                                                   net.gsantner.markor_test
+  navigation_bar_item_icon_view                                                                    net.gsantner.markor_test
+  nav_quicknote                                                     QuickNote                      net.gsantner.markor_test
+  navigation_bar_item_labels_group                                                                   net.gsantner.markor_test
+  navigation_bar_item_small_label_view QuickNote                                                         net.gsantner.markor_test
+  navigation_bar_item_icon_container                                                                   net.gsantner.markor_test
+  navigation_bar_item_icon_view                                                                    net.gsantner.markor_test
+  nav_more                                                          More                           net.gsantner.markor_test
+  navigation_bar_item_labels_group                                                                   net.gsantner.markor_test
+  navigation_bar_item_small_label_view More                                                              net.gsantner.markor_test
+  navigation_bar_item_icon_container                                                                   net.gsantner.markor_test
+  navigation_bar_item_icon_view                                                                    net.gsantner.markor_test
+  status_bar_container                                                                             com.android.systemui
+  status_bar                                                                                       com.android.systemui
+  status_bar_contents                                                                              com.android.systemui
+  notification_icon_area                                                                           com.android.systemui
+  notification_icon_area_inner                                                                     com.android.systemui
+  notificationIcons                                                                                com.android.systemui
+                                                                    Android System notification: U com.android.systemui
+  system_icon_area                                                                                 com.android.systemui
+  system_icons                                                                                     com.android.systemui
+  signal_cluster                                                                                   com.android.systemui
+  wifi_combo                                                        Wifi signal full.              com.android.systemui
+  wifi_signal                                                                                      com.android.systemui
+  mobile_signal_group                                                                              com.android.systemui
+  mobile_combo                                                      LTE Phone two bars.            com.android.systemui
+  mobile_signal                                                                                    com.android.systemui
+  battery                                                           Battery charging, 100 percent. com.android.systemui
+  clock                          4:23                               4:23 AM                        com.android.systemui
+  scrim_behind                                                                                     com.android.systemui
+  scrim_in_front                                                                                   com.android.systemui
+attempt 1: OK after 20.3s 
+Markor prep OK

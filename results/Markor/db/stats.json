@@ -3,7 +3,7 @@
   "targets_mode": "monkey-missed",
   "targets_total": 1707,
   "resource_package": "net.gsantner.markor_test",
-  "soot_seconds": 3,
+  "soot_seconds": 5,
   "complete": true,
   "binding_ok": true,
   "find_ok": true,
@@ -15,5 +15,5 @@
   "methods": 54,
   "icc_methods": 1,
   "tainted_methods": 43,
-  "seconds": 20
+  "seconds": 27
 }

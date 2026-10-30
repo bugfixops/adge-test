@@ -1,0 +1,25 @@
+{
+ "app": "Aegis",
+ "script": "prep_scripts.prep_aegis",
+ "ok": true,
+ "timeout_seconds": 480,
+ "attempts": [
+  {
+   "attempt": 1,
+   "ok": true,
+   "seconds": 39.2,
+   "error": "",
+   "log": [
+    "intro done",
+    "entry alice attempt 1: fab=True, enter_manually=True, filled=True, added=True",
+    "entry bob attempt 1: fab=True, enter_manually=True, filled=True, added=True"
+   ]
+  }
+ ],
+ "time": "2026-10-30T04:24:04.998501+00:00",
+ "log": [
+  "intro done",
+  "entry alice attempt 1: fab=True, enter_manually=True, filled=True, added=True",
+  "entry bob attempt 1: fab=True, enter_manually=True, filled=True, added=True"
+ ]
+}

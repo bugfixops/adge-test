@@ -3,7 +3,7 @@
   "targets_mode": "monkey-missed",
   "targets_total": 1982,
   "resource_package": "com.beemdevelopment.aegis.debug",
-  "soot_seconds": 6,
+  "soot_seconds": 5,
   "complete": true,
   "binding_ok": true,
   "find_ok": true,
@@ -15,5 +15,5 @@
   "methods": 49,
   "icc_methods": 8,
   "tainted_methods": 37,
-  "seconds": 67
+  "seconds": 51
 }
