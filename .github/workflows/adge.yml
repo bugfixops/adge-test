@@ -14,6 +14,14 @@ on:
         type: choice
         options: [analysis, empty]
         default: analysis
+      prep:
+        description: 'First-run setup from ci/prep_scripts.py before the run (Aegis, MMEX, Markor)'
+        type: choice
+        options: ['off', 'on']
+        default: 'off'
+      test_restart_after_runs:
+        description: 'Test only: force one emulator restart after this many ADGE runs (leave empty for real runs)'
+        default: ''
   push:
     branches: [main]
     paths: [ci/run.conf]
@@ -36,6 +44,8 @@ jobs:
       count: ${{ steps.plan.outputs.count }}
       minutes: ${{ steps.plan.outputs.minutes }}
       db: ${{ steps.plan.outputs.db }}
+      test_restart: ${{ steps.plan.outputs.test_restart }}
+      prep: ${{ steps.plan.outputs.prep }}
     steps:
       - uses: actions/checkout@v6
       - id: plan
@@ -44,6 +54,8 @@ jobs:
           IN_APPS: ${{ inputs.apps }}
           IN_MINUTES: ${{ inputs.minutes }}
           IN_DB: ${{ inputs.db }}
+          IN_TEST_RESTART: ${{ inputs.test_restart_after_runs }}
+          IN_PREP: ${{ inputs.prep }}
         run: python3 -I ci/plan.py
 
   run:
@@ -100,6 +112,10 @@ jobs:
         env:
           PY: ${{ runner.temp }}/venv/bin/python
           FRIDA_SERVER: ${{ runner.temp }}/frida-server
+          # for ci/run_app.sh's emulator restarts: the same options as emulator-options below
+          EMU_OPTIONS: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -camera-back none -camera-front none
+          TEST_RESTART_AFTER_RUNS: ${{ needs.plan.outputs.test_restart }}
+          PREP: ${{ needs.plan.outputs.prep }}
         with:
           api-level: 27
           target: default

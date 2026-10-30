@@ -82,6 +82,15 @@ def main():
         meta['activity_coverage'] = res.get('coverage')
         meta['triggers'] = res.get('triggerCnt')
 
+    # the first-run setup (ci/run_prep.py), if one ran; its coverage is in snapshot 0
+    setup = os.path.join(out, 'setup.json')
+    if os.path.exists(setup):
+        s = json.load(open(setup, encoding='utf-8'))
+        meta['setup_script'] = s.get('script')
+        meta['setup_ok'] = s.get('ok')
+        meta['setup_attempts'] = len(s.get('attempts', []))
+        meta['setup_seconds'] = round(sum(a.get('seconds', 0) for a in s.get('attempts', [])), 1)
+
     crash_log = os.path.join(out, 'logcat_crash.txt')
     if os.path.exists(crash_log) and meta.get('package'):
         text = open(crash_log, encoding='utf-8', errors='replace').read()
